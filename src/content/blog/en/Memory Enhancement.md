@@ -32,21 +32,21 @@ The Qveris tool integration has been significantly upgraded with smarter routing
 
 Key upstream changes included in this release:
 
-**Features**
+### Features
 
--  Context Engine plugin interface with full lifecycle hooks for alternative context management strategies
--  ACP persistent channel bindings for Discord and Telegram (survives restarts)
--  Telegram per-topic `agentId` overrides for forum groups and DM topics
--  Google Gemini 3.1 Flash-Lite first-class support
--  Mattermost interactive model picker
--  Gateway SecretRef support for `gateway.auth.token`
--  Docker multi-stage build with `slim` variant support
--  Compaction safeguard tuning and post-context configurability
--  iOS App Store Connect release preparation
--  Web search provider selection in onboarding wizard
+- Context Engine plugin interface with full lifecycle hooks for alternative context management strategies
+- ACP persistent channel bindings for Discord and Telegram (survives restarts)
+- Telegram per-topic `agentId` overrides for forum groups and DM topics
+- Google Gemini 3.1 Flash-Lite first-class support
+- Mattermost interactive model picker
+- Gateway SecretRef support for `gateway.auth.token`
+- Docker multi-stage build with `slim` variant support
+- Compaction safeguard tuning and post-context configurability
+- iOS App Store Connect release preparation
+- Web search provider selection in onboarding wizard
 
-**Fixes**
+### Fixes
 
--  60+ bug fixes across gateway auth, Telegram routing, Discord session keys, Slack typing/dedup, Feishu streaming, cron delivery, sandbox hardening, voice-call config, TUI session isolation, and more
--  Security hardening: cross-origin redirect header filtering, fs-bridge path safety, zip extraction writes, cron file permissions
--  Dependency security patches for Hono and tar
+- 60+ bug fixes across gateway auth, Telegram routing, Discord session keys, Slack typing/dedup, Feishu streaming, cron delivery, sandbox hardening, voice-call config, TUI session isolation, and more
+- Security hardening: cross-origin redirect header filtering, fs-bridge path safety, zip extraction writes, cron file permissions
+- Dependency security patches for Hono and tar
