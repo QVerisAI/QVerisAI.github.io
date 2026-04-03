@@ -1,0 +1,15 @@
+---
+description: China-region payment standards for Alipay and future CN-local providers.
+globs: backend/routers/payment_alipay.py, backend/routers/payment_backfill.py, app/**/recharge/**/*.{ts,tsx}, app/**/pricing/**/*.{ts,tsx}, src/lib/api/payments.ts
+alwaysApply: false
+---
+
+# China Payment Standards
+
+- Use this rule together with `payment.mdc` when editing China payment flows.
+- Keep CN provider behavior in CN-specific files. Do not keep adding Alipay or WeChat Pay branches to Stripe-oriented modules.
+- Treat provider callbacks, polling, and reconciliation as separate concerns. Notify handlers must be idempotent and backfill jobs must be safe to rerun.
+- Store amounts in fen as integers. Validate recharge product IDs, amount, and user binding on the server.
+- CN flows may be QR, native-app, or polling based. Do not force a redirect-only UX if the provider semantics differ.
+- Keep CN pricing, currency, and payment copy aligned with the China deployment. Do not reuse global USD or Stripe-specific wording.
+- Follow the credits-only model here too. CN can differ by provider availability, but not by introducing a separate subscription product model.

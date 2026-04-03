@@ -28,6 +28,10 @@ const pages = (await getCollection('doc'))
 	<head>
 		<BaseHead title={`${L.doc} — ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
 		<style>
+			.embed-main {
+				padding-top: 0.5rem;
+				max-width: 880px;
+			}
 			ul.docs {
 				list-style: none;
 				margin: 0;
@@ -54,21 +58,45 @@ const pages = (await getCollection('doc'))
 				border-color: var(--accent);
 				background: var(--surface-hover);
 			}
-			ul.docs .thumb {
+			/* Matches blog list `.post-thumb` */
+			.post-thumb {
 				flex-shrink: 0;
-				width: 120px;
+				width: 200px;
+				max-width: min(200px, 38vw);
+				aspect-ratio: 16 / 9;
+				max-height: 140px;
 				border-radius: 8px;
-				overflow: hidden;
+				background: linear-gradient(
+					180deg,
+					rgba(255, 255, 255, 0.05) 0%,
+					color-mix(in srgb, var(--qv-bg) 72%, transparent) 100%
+				);
 				border: 1px solid var(--border);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				overflow: hidden;
+				box-sizing: border-box;
 			}
-			ul.docs .thumb img {
-				display: block;
-				width: 100%;
+			.post-thumb :global(img) {
+				max-height: 85%;
+				max-width: 85%;
+				width: auto;
 				height: auto;
+				object-fit: contain;
+				border-radius: 4px;
+				display: block;
+			}
+			ul.docs .meta {
+				min-width: 0;
 			}
 			ul.docs .meta h2 {
 				margin: 0 0 0.35rem;
 				font-size: 1.15rem;
+				transition: color 0.15s ease;
+			}
+			ul.docs li a:hover .meta h2 {
+				color: var(--accent);
 			}
 			ul.docs .meta p {
 				margin: 0;
@@ -83,8 +111,9 @@ const pages = (await getCollection('doc'))
 				ul.docs li a {
 					flex-direction: column;
 				}
-				ul.docs .thumb {
+				.post-thumb {
 					width: 100%;
+					max-width: none;
 				}
 			}
 		</style>
@@ -100,8 +129,8 @@ const pages = (await getCollection('doc'))
 							<li>
 								<a href={localizedPath(lang, `/doc/${slug}`)}>
 									{page.data.heroImage && (
-										<div class="thumb">
-											<Image width={240} height={120} src={page.data.heroImage} alt="" />
+										<div class="post-thumb">
+											<Image width={480} height={270} src={page.data.heroImage} alt="" />
 										</div>
 									)}
 									<div class="meta">

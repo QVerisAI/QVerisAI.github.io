@@ -1,0 +1,49 @@
+---
+description: Core payment-domain standards shared by all payment providers and regions.
+globs: backend/routers/payment*.py, backend/services/payment/**/*.py, backend/crud/payment.py, app/**/payment/**/*.{ts,tsx}, app/**/recharge/**/*.{ts,tsx}, app/**/pricing/**/*.{ts,tsx}, src/lib/api/payments.ts, src/lib/pricing.ts, src/components/account/BillingPage.tsx, src/components/account/SettingsPage.tsx
+alwaysApply: false
+---
+
+# Payment Core Standards
+
+## Scope
+
+- This rule covers payment-domain behavior that should hold regardless of provider: Stripe, WeChat Pay, Alipay, or future gateways.
+- Provider-specific details belong in separate rules such as `payment-global-stripe.mdc` and `payment-cn.mdc`, or in a dedicated skill.
+- Current repo reality: payment code is split across `backend/routers/payment*.py` and `backend/services/payment/`. Keep shared behavior in shared files and provider-specific behavior in dedicated modules.
+
+## Product Model
+
+- Phase 6 default is **credits-only billing**. Do not reintroduce subscription, customer portal, or recurring-plan flows unless the user explicitly asks for that product change.
+- Keep backend, frontend, SEO, and pricing copy aligned with the same billing model. Do not leave stale monthly/subscription wording in one layer.
+
+## Idempotency & Event Processing
+
+- Payment callbacks, webhooks, or reconciliation jobs must be **idempotent**. Dedup by provider event ID or a stable business key before applying credits or state transitions.
+- Only mark an event as processed after the side effects succeed.
+- If downstream side effects fail, return a retry-friendly failure response when the provider supports retries. Do not acknowledge success prematurely.
+
+## Money
+
+- Store monetary amounts in the provider's smallest currency unit (for example cents/fen) as integers. Never use floats for money.
+- Validate product IDs against a server-side allow-list. Never let the client dictate the price.
+- Log every credit grant/deduction with user_id, amount, reason, and trace_id.
+- Credit deduction order and balance semantics must stay centralized in shared helpers rather than being reimplemented inside individual routers.
+
+## State Machine
+
+- Keep payment status transitions explicit and auditable.
+- Do not jump between states unless the provider's lifecycle genuinely permits it.
+- Use `flag_modified` when updating JSONB `payment_metadata`.
+
+## Frontend
+
+- Disable the checkout button after click to prevent double-charges.
+- Do not hardcode Stripe-only UX assumptions into shared payment pages.
+- Format displayed amounts through a currency helper tied to the active region.
+- When the provider requires native app / QR / redirect flows, model those explicitly instead of forcing a redirect-only checkout pattern.
+
+## Security
+
+- Never log provider secrets, raw callback signatures, or full payment credentials.
+- Never expose internal payment IDs or provider customer IDs to the frontend beyond what's needed.

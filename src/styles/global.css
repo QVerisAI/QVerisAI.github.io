@@ -1,45 +1,69 @@
 /*
-  QVeris-inspired embed theme: dark surfaces, high-contrast text, restrained accent.
-  Tuned for iframe embedding (no full-page chrome).
+  QVeris dark visual system (embed / blog / doc).
+  Canonical tokens: --qv-*. Legacy aliases (--bg, --text, …) map to the same palette.
  */
 
 :root {
-	--bg: #0a0c0f;
-	--surface: #0f1218;
-	--surface-hover: #151a22;
-	--border: #232a36;
-	--text: #e8eaed;
-	--muted: #8b95a5;
-	--accent: #34d399;
-	--accent-hover: #6ee7b7;
-	--black: 10, 12, 16;
-	--gray: 139, 149, 165;
-	--gray-light: 35, 42, 54;
-	--gray-dark: 200, 206, 214;
-	--gray-gradient: rgba(15, 18, 24, 0.92), #0a0c0f;
+	--qv-bg: #05070b;
+	--qv-bg-2: #08111c;
+	--qv-panel: rgba(10, 14, 22, 0.88);
+
+	--qv-text-1: rgba(255, 255, 255, 0.97);
+	--qv-text-2: rgba(255, 255, 255, 0.74);
+	--qv-text-3: rgba(255, 255, 255, 0.48);
+	--qv-text-4: rgba(255, 255, 255, 0.36);
+
+	--qv-line: rgba(255, 255, 255, 0.08);
+
+	--qv-brand-aqua: #34e3f4;
+	--qv-brand-sky: #25b8ff;
+	--qv-brand-blue: #1e6bff;
+	--qv-brand-indigo: #2f43ff;
+
+	--qv-font-sans:
+		'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+	--qv-font-mono: 'JetBrains Mono', ui-monospace, 'Cascadia Code', 'Segoe UI Mono', monospace;
+
+	/* Aliases used across layouts */
+	--bg: var(--qv-bg);
+	--surface: #0a0f18;
+	--surface-hover: #101624;
+	--border: var(--qv-line);
+	--text: var(--qv-text-1);
+	--muted: var(--qv-text-3);
+	--accent: var(--qv-brand-aqua);
+	--accent-hover: var(--qv-brand-sky);
+
 	--box-shadow:
 		0 2px 8px rgba(0, 0, 0, 0.35),
-		0 12px 32px rgba(0, 0, 0, 0.25);
+		0 12px 32px rgba(0, 0, 0, 0.25),
+		0 0 0 1px rgba(255, 255, 255, 0.04) inset;
 }
 
 html {
 	scroll-behavior: smooth;
+	min-height: 100%;
+	background:
+		radial-gradient(circle at 14% 0%, rgba(52, 227, 244, 0.06), transparent 28%),
+		radial-gradient(circle at 88% 8%, rgba(47, 67, 255, 0.1), transparent 32%),
+		linear-gradient(180deg, #05070b 0%, #08111a 45%, #05070b 100%);
+}
+
+::selection {
+	background: rgba(37, 184, 255, 0.24);
+	color: #fff;
 }
 
 body {
-	font-family:
-		'Inter',
-		system-ui,
-		-apple-system,
-		'Segoe UI',
-		sans-serif;
+	font-family: var(--qv-font-sans);
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	background: var(--bg);
+	background: transparent;
 	color: var(--text);
 	font-size: 17px;
 	line-height: 1.65;
+	font-weight: 400;
 	font-feature-settings: 'kern' 1, 'liga' 1;
 }
 
@@ -69,7 +93,7 @@ h4,
 h5,
 h6 {
 	margin: 0 0 0.5rem 0;
-	color: var(--text);
+	color: inherit;
 	line-height: 1.25;
 	font-weight: 600;
 }
@@ -104,6 +128,12 @@ a {
 a:hover {
 	color: var(--accent-hover);
 	text-decoration: underline;
+}
+
+a:focus-visible {
+	outline: 2px solid var(--qv-brand-aqua);
+	outline-offset: 3px;
+	border-radius: 2px;
 }
 
 p {
@@ -141,7 +171,7 @@ code {
 	background: var(--surface);
 	border: 1px solid var(--border);
 	border-radius: 6px;
-	font-family: ui-monospace, 'Cascadia Code', 'Segoe UI Mono', monospace;
+	font-family: var(--qv-font-mono);
 	font-size: 0.9em;
 }
 
@@ -150,18 +180,19 @@ pre {
 	border-radius: 10px;
 	background: var(--surface);
 	border: 1px solid var(--border);
+	box-shadow: var(--box-shadow);
 	overflow-x: auto;
 }
 
 pre > code {
 	all: unset;
-	font-family: ui-monospace, 'Cascadia Code', 'Segoe UI Mono', monospace;
+	font-family: var(--qv-font-mono);
 	font-size: 0.88em;
 	line-height: 1.5;
 }
 
 blockquote {
-	border-left: 3px solid var(--accent);
+	border-left: 3px solid var(--qv-brand-aqua);
 	padding: 0 0 0 1rem;
 	margin: 0 0 1em 0;
 	color: var(--muted);
@@ -176,6 +207,12 @@ hr {
 @media (max-width: 720px) {
 	body {
 		font-size: 16px;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
 	}
 }
 

@@ -1,0 +1,64 @@
+---
+description: API router design standards. Auto-applied when editing FastAPI routers.
+globs: backend/routers/**/*.py
+alwaysApply: false
+---
+
+# API Router Standards
+
+## Response Format
+
+For **new business endpoints**, use `APIResponse` from `schemas.py`:
+
+```python
+return APIResponse(
+    status="success",
+    message="Description of result",
+    status_code=StatusCode.SUCCESS,
+    data=result
+)
+```
+
+On error:
+```python
+return APIResponse(
+    status="failure",
+    message="What went wrong",
+    status_code=StatusCode.SPECIFIC_ERROR,
+    data=None
+)
+```
+
+Default rule: do not introduce new ad-hoc response shapes.
+
+Important compatibility note:
+
+- Some existing proxy-style endpoints in this repo, especially search/execute passthrough APIs, already return non-`APIResponse` payloads for backwards compatibility.
+- When modifying those endpoints, preserve the existing contract unless the task explicitly includes a coordinated migration of backend, frontend, and tests.
+- If you are creating a fresh application endpoint, prefer `APIResponse`.
+
+## Authentication
+
+- JWT-protected endpoints: use `get_current_user` or `get_current_user_api_response` dependency.
+- API-key-protected endpoints: use `get_current_user_from_api_key`.
+- Admin endpoints: use `get_current_admin`.
+- Always wrap `decode_token()` in try/except — it raises `ValueError` on expired/invalid tokens.
+
+## Input Validation
+
+- Define a Pydantic schema for every request body. Add `Field()` constraints (min_length, max_length, regex).
+- Validate path params and query params explicitly — do not trust client input.
+- Use `EmailStr` for email fields, not bare `str`.
+
+## Endpoint Design
+
+- Use standard HTTP methods: GET for reads, POST for creates, PUT/PATCH for updates, DELETE for deletes.
+- Pagination: accept `page` and `page_size` params. Return `{ items, total, page, page_size }` inside `data`.
+- Keep endpoint functions thin — delegate business logic to CRUD or service modules.
+- For proxy/passthrough endpoints, document why they intentionally diverge from `APIResponse`.
+
+## Error Handling
+
+- Catch specific exceptions. Log with `app_logger` including trace_id.
+- Map exceptions to appropriate `StatusCode` values.
+- Never expose internal stack traces or raw DB errors to the client.

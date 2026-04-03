@@ -73,7 +73,11 @@ const posts = (await getCollection('blog'))
 				width: 100%;
 				margin-bottom: 0.65rem;
 				border-radius: 8px;
-				background: rgba(0, 0, 0, 0.2);
+				background: linear-gradient(
+					180deg,
+					rgba(255, 255, 255, 0.05) 0%,
+					color-mix(in srgb, var(--qv-bg) 72%, transparent) 100%
+				);
 				border: 1px solid var(--border);
 				display: flex;
 				align-items: center;

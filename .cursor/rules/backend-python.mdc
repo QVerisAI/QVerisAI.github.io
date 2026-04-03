@@ -1,0 +1,41 @@
+---
+description: Python backend coding standards. Auto-applied when editing backend Python files.
+globs: backend/**/*.py
+alwaysApply: false
+---
+
+# Backend Python Standards
+
+## Async
+
+- All I/O must be `async`. Use `httpx.AsyncClient` (not `requests`), `aiofiles` (not `open`), `asyncio.sleep` (not `time.sleep`).
+- Never call `run_sync` or `asyncio.run` inside an async context — it blocks the event loop.
+- For CPU-heavy work, offload to `asyncio.to_thread()` or a process pool.
+
+## Error Handling
+
+- Catch **specific** exceptions. Never bare `except Exception` unless re-raising after logging.
+- For new business HTTP endpoints, prefer `APIResponse` from `schemas.py`. Preserve existing passthrough contracts unless the task includes a coordinated API migration.
+- Use `StatusCode` enum for all error codes. Do not invent ad-hoc status integers.
+- Wrap `decode_token()` calls in try/except ValueError — it raises on invalid/expired tokens.
+
+## Logging
+
+- Use `app_logger` (the project's `AppLogger`), not `print()`.
+- **Never** log tokens, passwords, API keys, or full Authorization headers.
+- Include `trace_id` in error logs for correlation.
+
+## Type Safety
+
+- Type-annotate all function signatures and return values.
+- Use Pydantic `BaseModel` for request/response bodies. Add validators (`Field`, `model_validator`) for constraints.
+- Avoid `dict` as a parameter type when a Pydantic model or TypedDict is feasible.
+
+## Imports
+
+- Group: stdlib → third-party → local. Separate with blank lines.
+- Follow the repository's established import style within the file you are editing. Do not churn imports just to switch between package-relative and top-level local imports.
+
+## Dependencies
+
+- New dependencies go in `backend/requirements.txt` with version pins.

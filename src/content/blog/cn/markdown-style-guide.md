@@ -2,7 +2,7 @@
 title: 'Markdown 样式指南'
 description: '在 Astro 中编写 Markdown 内容时可用的基础语法示例。'
 pubDate: 'Jun 19 2024'
-heroImage: '../../../assets/qveris-brand.png'
+heroImage: '../../../assets/blog-hero-markdown-style-guide.png'
 ---
 
 Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.

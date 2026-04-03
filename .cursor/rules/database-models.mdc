@@ -1,0 +1,52 @@
+---
+description: Database model and CRUD standards. Auto-applied when editing models, CRUD, or database files.
+globs: backend/models/**/*.py, backend/crud/**/*.py, backend/database.py
+alwaysApply: false
+---
+
+# Database Model & CRUD Standards
+
+## Models
+
+- All new tables use **UUID v7** primary keys (via `uuid_generate_v7()`).
+- Add `created_at` and `updated_at` columns with server-side defaults.
+- Add `index=True` on columns used in WHERE, JOIN, or ORDER BY.
+- JSONB columns must have a docstring or comment describing their expected schema.
+- Define `__tablename__` explicitly. Never rely on auto-generated names.
+
+## Relationships
+
+- For **new or fully-refactored** bidirectional relationships, prefer `back_populates` over `backref`.
+- Existing models still use `backref` in several places. Do not partially convert one side of an existing relationship without updating both sides together.
+- Set `cascade` explicitly: `"all, delete-orphan"` for owned children, no cascade for references.
+- **Never access relationships without eager loading in list queries.** Use `selectinload()` or `joinedload()` to avoid N+1.
+
+## CRUD Functions
+
+- Accept `db: AsyncSession` as the first parameter. **Never create sessions inside CRUD** — the caller (router) manages the session lifecycle.
+- Keep functions focused: one query per function. Compose in the router if needed.
+- Use `select()` + `where()` style (2.0 query API). Avoid legacy `session.query()`.
+- For JSONB updates, always call `flag_modified(instance, "column_name")` before commit.
+
+## Transactions
+
+- Current repo reality: many existing CRUD functions call `db.commit()` internally, while `get_db()` itself mainly manages session lifetime.
+- Preferred direction for new multi-step domain flows: keep transaction ownership explicit and avoid hidden commits across several helper calls.
+- When touching old CRUD code, preserve behavior unless you are intentionally refactoring the full call chain and tests together.
+- If the router needs multiple DB writes that must be atomic, use an explicit transaction boundary and keep it short.
+- Never hold a transaction open while making external API calls.
+
+## Migrations
+
+- This repo currently uses a hybrid migration style: SQL files in `backend/migrations/` plus some startup `ensure_*` compatibility checks in `database.py`.
+- For normal schema evolution, prefer adding a migration in `backend/migrations/`.
+- Only add a new startup `ensure_*` path when the project explicitly needs backward-compatible auto-repair across mixed environments.
+- Migrations must be **idempotent** — check `information_schema` before ALTER.
+- Never drop columns or tables without explicit approval.
+
+## Performance
+
+- Prefer single queries with JOINs over multiple round-trips.
+- `func.count().over()` window functions are preferred when they clearly improve hot-path pagination. For simple admin views or low-volume paths, readability can outweigh micro-optimization.
+- For bulk inserts, use `session.execute(insert(Model).values(rows))` instead of individual `session.add()` calls.
+- Add GIN indexes for JSONB columns queried with `->`, `->>`, or `@>` operators.
