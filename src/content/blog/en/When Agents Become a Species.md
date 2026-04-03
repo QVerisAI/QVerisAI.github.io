@@ -1,7 +1,7 @@
 ---
 title: 'When Agents Become a Species'
 description: 'When Agents Become a Species'
-pubDate: 'Jul 15 2022'
+pubDate: 'Jul 15 2026'
 heroImage: '../../../assets/blog-2.png'
 ---
 

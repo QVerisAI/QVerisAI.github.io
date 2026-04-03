@@ -1,7 +1,7 @@
 ---
 title: 'Memory Enhancement'
 description: 'introduces three major QVerisBot-specific enhancements.'
-pubDate: 'Jul 08 2022'
+pubDate: 'Jul 08 2026'
 heroImage: '../../../assets/7144b6a3-0547-4063-aeb2-1cee462007fa.png'
 ---
 
