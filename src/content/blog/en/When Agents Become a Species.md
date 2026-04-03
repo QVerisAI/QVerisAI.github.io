@@ -2,7 +2,7 @@
 title: 'When Agents Become a Species'
 description: 'When Agents Become a Species'
 pubDate: 'Jul 15 2022'
-heroImage: '../../../assets/title-2.png'
+heroImage: '../../../assets/blog-2.png'
 ---
 
 Early 2026. Something interesting happened.
@@ -43,7 +43,7 @@ An agent working with financial data knows Alpha Vantage. It doesn't know there'
 The Real Bottleneck Isn't Intelligence
 Let me share a concrete data point.
 We ran a before-and-after test connecting Kimi to the QVeris tool discovery layer. Same model, same tasks. After connecting: the perfect resolution rate on complex tasks rose from 33% to 68%. The failure rate dropped from 18% to zero.
-![](../../../assets/title-2-1.png)
+![](../../../assets/blog-2-1.png)
 
 The model didn't change. What changed was how many tools it could see, and how quickly it could find the right one.
 IBM's 2026 report Goals for AI and Technology Leaders put it plainly:
