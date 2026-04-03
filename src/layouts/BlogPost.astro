@@ -1,0 +1,232 @@
+---
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import EmbedLayout from './EmbedLayout.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+import type { Locale } from '../i18n/config';
+import { t } from '../i18n/labels';
+
+type NavLink = { href: string; title: string };
+
+type Props = CollectionEntry<'blog'>['data'] & {
+	lang: Locale;
+	prevPost: NavLink | null;
+	nextPost: NavLink | null;
+	blogIndexHref: string;
+};
+
+const {
+	title,
+	description,
+	pubDate,
+	updatedDate,
+	heroImage,
+	lang,
+	prevPost,
+	nextPost,
+	blogIndexHref,
+} = Astro.props;
+const L = t(lang);
+---
+
+<EmbedLayout title={title} description={description} lang={lang} section="blog">
+	<article>
+		<div class="hero-image">
+			{heroImage && <Image width={720} height={360} src={heroImage} alt="" />}
+		</div>
+		<div class="prose">
+			<div class="title">
+				<div class="date">
+					<FormattedDate date={pubDate} locale={lang} />
+					{
+						updatedDate && (
+							<div class="last-updated-on">
+								{L.lastUpdatedOn}{' '}
+								<FormattedDate date={updatedDate} locale={lang} />
+							</div>
+						)
+					}
+				</div>
+				<h1>{title}</h1>
+				<hr />
+			</div>
+			<slot />
+			<nav class="post-nav" aria-label={L.postNavigation}>
+				<div class="post-nav__row">
+					<div class="post-nav__cell post-nav__cell--prev">
+						{
+							prevPost ? (
+								<a href={prevPost.href} class="post-nav__link" rel="prev">
+									<span class="post-nav__label">{L.prevArticle}</span>
+									<span class="post-nav__title">{prevPost.title}</span>
+								</a>
+							) : (
+								<span class="post-nav__empty" />
+							)
+						}
+					</div>
+					<div class="post-nav__cell post-nav__cell--next">
+						{
+							nextPost ? (
+								<a href={nextPost.href} class="post-nav__link post-nav__link--next" rel="next">
+									<span class="post-nav__label">{L.nextArticle}</span>
+									<span class="post-nav__title">{nextPost.title}</span>
+								</a>
+							) : (
+								<span class="post-nav__empty" />
+							)
+						}
+					</div>
+				</div>
+				<p class="post-nav__back">
+					<a href={blogIndexHref}>{L.backToBlog}</a>
+				</p>
+			</nav>
+		</div>
+	</article>
+</EmbedLayout>
+
+<style>
+	article {
+		max-width: 720px;
+		margin: 0 auto;
+	}
+	.hero-image {
+		width: 100%;
+		max-width: 560px;
+		margin: 0 auto 1.25rem;
+		padding: 0.75rem 1rem;
+		background: var(--surface);
+		border: 1px solid var(--border);
+		border-radius: 12px;
+		box-sizing: border-box;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 0;
+	}
+	.hero-image :global(img) {
+		display: block;
+		margin: 0 auto;
+		max-height: 160px;
+		width: auto;
+		max-width: 100%;
+		height: auto;
+		object-fit: contain;
+		border-radius: 8px;
+	}
+	.prose {
+		width: 100%;
+		max-width: 680px;
+		margin: auto;
+		padding: 0.5em 0 1em;
+		color: var(--text);
+	}
+	.prose :global(img) {
+		max-width: min(100%, 520px);
+		margin: 0.75rem auto;
+		display: block;
+		height: auto;
+	}
+	.title {
+		margin-bottom: 1em;
+		padding: 0.5em 0 1em;
+		text-align: center;
+		line-height: 1.2;
+	}
+	.title h1 {
+		margin: 0 0 0.5em 0;
+	}
+	.date {
+		margin-bottom: 0.5em;
+		color: var(--muted);
+		font-size: 0.95rem;
+	}
+	.last-updated-on {
+		font-style: italic;
+		margin-top: 0.35em;
+	}
+	.post-nav {
+		margin-top: 2.5rem;
+		padding-top: 1.5rem;
+		border-top: 1px solid var(--border);
+	}
+	.post-nav__row {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem 1.25rem;
+		align-items: stretch;
+	}
+	.post-nav__cell {
+		min-width: 0;
+	}
+	.post-nav__cell--next {
+		text-align: right;
+	}
+	.post-nav__link {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+		padding: 0.75rem 0.85rem;
+		background: var(--surface);
+		border: 1px solid var(--border);
+		border-radius: 10px;
+		color: inherit;
+		text-decoration: none;
+		transition:
+			border-color 0.15s ease,
+			background 0.15s ease;
+		height: 100%;
+		box-sizing: border-box;
+	}
+	.post-nav__link:hover {
+		border-color: var(--accent);
+		background: var(--surface-hover);
+		text-decoration: none;
+	}
+	.post-nav__link--next {
+		align-items: flex-end;
+	}
+	.post-nav__label {
+		font-size: 0.8rem;
+		font-weight: 600;
+		color: var(--accent);
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+	}
+	.post-nav__title {
+		font-size: 0.95rem;
+		color: var(--text);
+		line-height: 1.35;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+	.post-nav__empty {
+		display: block;
+		min-height: 1px;
+	}
+	.post-nav__back {
+		margin: 1.25rem 0 0;
+		text-align: center;
+		font-size: 0.92rem;
+	}
+	.post-nav__back a {
+		color: var(--muted);
+	}
+	.post-nav__back a:hover {
+		color: var(--accent);
+	}
+	@media (max-width: 520px) {
+		.post-nav__row {
+			grid-template-columns: 1fr;
+		}
+		.post-nav__cell--next {
+			text-align: left;
+		}
+		.post-nav__link--next {
+			align-items: flex-start;
+		}
+	}
+</style>

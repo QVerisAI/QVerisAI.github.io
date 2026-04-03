@@ -1,0 +1,160 @@
+---
+import type { Locale } from '../i18n/config';
+import { localeNames } from '../i18n/config';
+import { localizedPath, switchLocaleInPath } from '../i18n/utils';
+import { t } from '../i18n/labels';
+
+interface Props {
+	lang: Locale;
+	section: 'blog' | 'doc';
+}
+
+const { lang, section } = Astro.props;
+const L = t(lang);
+const pathname = Astro.url.pathname;
+---
+
+<div class="embed-toolbar" role="navigation" aria-label={L.language}>
+	<div class="embed-toolbar__inner">
+		<div class="embed-toolbar__sections">
+			<a
+				href={localizedPath(lang, '/blog')}
+				class:list={['embed-toolbar__link', { active: section === 'blog' }]}
+			>
+				{L.blog}
+			</a>
+			<a
+				href={localizedPath(lang, '/doc')}
+				class:list={['embed-toolbar__link', { active: section === 'doc' }]}
+			>
+				{L.doc}
+			</a>
+		</div>
+		<div class="embed-toolbar__lang" role="group" aria-label={L.language}>
+			<a
+				href={switchLocaleInPath(pathname, 'en')}
+				class:list={['embed-toolbar__lang-link', { current: lang === 'en' }]}
+				hreflang="en"
+				lang="en"
+			>
+				{localeNames.en}
+			</a>
+			<span class="embed-toolbar__sep" aria-hidden="true">·</span>
+			<a
+				href={switchLocaleInPath(pathname, 'cn')}
+				class:list={['embed-toolbar__lang-link', { current: lang === 'cn' }]}
+				hreflang="zh-CN"
+				lang="zh-CN"
+			>
+				{localeNames.cn}
+			</a>
+		</div>
+	</div>
+</div>
+
+<script is:inline define:vars={{ pathname }}>
+	(function () {
+		var allowed = { en: 1, cn: 1 };
+		function go(loc) {
+			if (!allowed[loc]) return;
+			var p = pathname;
+			var parts = p.split('/').filter(Boolean);
+			if (
+				parts.length >= 2 &&
+				(parts[0] === 'blog' || parts[0] === 'doc') &&
+				allowed[parts[1]]
+			) {
+				parts[1] = loc;
+				var trailing = pathname.endsWith('/') ? '/' : '';
+				window.location.href = '/' + parts.join('/') + trailing + window.location.search;
+			} else {
+				window.location.href = '/blog/' + loc + '/';
+			}
+		}
+		window.addEventListener('message', function (e) {
+			var d = e.data;
+			if (!d || d.type !== 'qveris:set-locale') return;
+			go(d.locale);
+		});
+		window.__QVERIS_EMBED__ = { setLocale: go };
+	})();
+</script>
+
+<style>
+	.embed-toolbar {
+		position: sticky;
+		top: 0;
+		z-index: 50;
+		background: rgba(10, 12, 15, 0.92);
+		backdrop-filter: blur(10px);
+		border-bottom: 1px solid var(--border);
+	}
+
+	.embed-toolbar__inner {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+		max-width: 960px;
+		margin: 0 auto;
+		padding: 0.55rem 1rem;
+		box-sizing: border-box;
+	}
+
+	.embed-toolbar__sections {
+		display: flex;
+		align-items: center;
+		gap: 0.35rem;
+	}
+
+	.embed-toolbar__link {
+		padding: 0.35rem 0.65rem;
+		border-radius: 8px;
+		color: var(--muted);
+		font-size: 0.9rem;
+		font-weight: 500;
+		text-decoration: none;
+	}
+
+	.embed-toolbar__link:hover {
+		color: var(--text);
+		background: var(--surface-hover);
+		text-decoration: none;
+	}
+
+	.embed-toolbar__link.active {
+		color: var(--text);
+		background: var(--surface);
+		border: 1px solid var(--border);
+	}
+
+	.embed-toolbar__lang {
+		display: flex;
+		align-items: center;
+		gap: 0.25rem;
+		font-size: 0.85rem;
+	}
+
+	.embed-toolbar__sep {
+		color: var(--border);
+		user-select: none;
+	}
+
+	.embed-toolbar__lang-link {
+		color: var(--muted);
+		padding: 0.25rem 0.4rem;
+		border-radius: 6px;
+		text-decoration: none;
+	}
+
+	.embed-toolbar__lang-link:hover {
+		color: var(--text);
+		text-decoration: none;
+		background: var(--surface-hover);
+	}
+
+	.embed-toolbar__lang-link.current {
+		color: var(--accent);
+		font-weight: 600;
+	}
+</style>

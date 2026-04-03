@@ -1,0 +1,193 @@
+/*
+  QVeris-inspired embed theme: dark surfaces, high-contrast text, restrained accent.
+  Tuned for iframe embedding (no full-page chrome).
+ */
+
+:root {
+	--bg: #0a0c0f;
+	--surface: #0f1218;
+	--surface-hover: #151a22;
+	--border: #232a36;
+	--text: #e8eaed;
+	--muted: #8b95a5;
+	--accent: #34d399;
+	--accent-hover: #6ee7b7;
+	--black: 10, 12, 16;
+	--gray: 139, 149, 165;
+	--gray-light: 35, 42, 54;
+	--gray-dark: 200, 206, 214;
+	--gray-gradient: rgba(15, 18, 24, 0.92), #0a0c0f;
+	--box-shadow:
+		0 2px 8px rgba(0, 0, 0, 0.35),
+		0 12px 32px rgba(0, 0, 0, 0.25);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family:
+		'Inter',
+		system-ui,
+		-apple-system,
+		'Segoe UI',
+		sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	background: var(--bg);
+	color: var(--text);
+	font-size: 17px;
+	line-height: 1.65;
+	font-feature-settings: 'kern' 1, 'liga' 1;
+}
+
+body.embed-body {
+	min-height: 100vh;
+}
+
+main {
+	width: 720px;
+	max-width: calc(100% - 2em);
+	margin: 0 auto;
+	padding: 1.25rem 1rem 2.5rem;
+}
+
+.embed-main {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 1rem 2.5rem;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 0.5rem 0;
+	color: var(--text);
+	line-height: 1.25;
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 2.25rem;
+	letter-spacing: -0.02em;
+}
+
+h2 {
+	font-size: 1.65rem;
+}
+
+h3 {
+	font-size: 1.35rem;
+}
+
+h4 {
+	font-size: 1.15rem;
+}
+
+strong,
+b {
+	font-weight: 600;
+}
+
+a {
+	color: var(--accent);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--accent-hover);
+	text-decoration: underline;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+.prose p {
+	margin-bottom: 1.25em;
+}
+
+textarea,
+input {
+	font-size: 16px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	border: 1px solid var(--border);
+	padding: 0.5rem 0.75rem;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+
+code {
+	padding: 0.15em 0.4em;
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: 6px;
+	font-family: ui-monospace, 'Cascadia Code', 'Segoe UI Mono', monospace;
+	font-size: 0.9em;
+}
+
+pre {
+	padding: 1.25em;
+	border-radius: 10px;
+	background: var(--surface);
+	border: 1px solid var(--border);
+	overflow-x: auto;
+}
+
+pre > code {
+	all: unset;
+	font-family: ui-monospace, 'Cascadia Code', 'Segoe UI Mono', monospace;
+	font-size: 0.88em;
+	line-height: 1.5;
+}
+
+blockquote {
+	border-left: 3px solid var(--accent);
+	padding: 0 0 0 1rem;
+	margin: 0 0 1em 0;
+	color: var(--muted);
+	font-size: 1.05em;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid var(--border);
+}
+
+@media (max-width: 720px) {
+	body {
+		font-size: 16px;
+	}
+}
+
+.sr-only {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	white-space: nowrap;
+}
