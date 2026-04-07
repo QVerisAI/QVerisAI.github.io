@@ -1,13 +1,16 @@
 ---
-import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
-import BaseHead from '../../../components/BaseHead.astro';
-import EmbedToolbar from '../../../components/EmbedToolbar.astro';
-import FormattedDate from '../../../components/FormattedDate.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import BlogHero from '../../../components/BlogHero.astro';
+import Divider from '../../../components/Divider.astro';
+import PostCard from '../../../components/PostCard.astro';
+import ScrollReveal from '../../../components/ScrollReveal.astro';
+import Eyebrow from '../../../components/Eyebrow.astro';
 import { isLocale } from '../../../i18n/config';
 import { getStaticLocalePaths, localizedPath } from '../../../i18n/utils';
 import { t } from '../../../i18n/labels';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../../../consts';
+import { SITE_TITLE } from '../../../consts';
+import { getReadingTime } from '../../../utils/reading-time';
 
 export function getStaticPaths() {
 	return getStaticLocalePaths();
@@ -16,133 +19,139 @@ export function getStaticPaths() {
 const { lang: langParam } = Astro.params;
 const lang = isLocale(langParam ?? '') ? langParam : 'en';
 const L = t(lang);
-const htmlLang = lang === 'cn' ? 'zh-CN' : 'en';
 
-const posts = (await getCollection('blog'))
+const allPosts = (await getCollection('blog'))
 	.filter((p) => p.id.startsWith(`${lang}/`))
+	.filter((p) => !p.data.draft)
 	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+// Separate featured post
+const featuredPost = allPosts.find((p) => p.data.featured) ?? null;
+const posts = featuredPost
+	? allPosts.filter((p) => p.id !== featuredPost.id)
+	: allPosts;
+
+function postHref(post: (typeof allPosts)[0]) {
+	const slug = post.id.replace(`${lang}/`, '');
+	return localizedPath(lang, `/blog/${slug}`);
+}
 ---
 
-<!doctype html>
-<html lang={htmlLang}>
-	<head>
-		<BaseHead title={`${L.blog} — ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
-		<style>
-			.embed-main {
-				padding-top: 0.5rem;
-				max-width: 880px;
-			}
-			ul.posts {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 1.75rem 1.25rem;
-				list-style: none;
-				margin: 0;
-				padding: 0;
-			}
-			ul.posts > li {
-				flex: 1 1 240px;
-				min-width: min(100%, 240px);
-				max-width: 100%;
-				display: flex;
-				flex-direction: column;
-				box-sizing: border-box;
-			}
-			ul.posts li a {
-				display: flex;
-				flex-direction: column;
-				flex: 1 1 auto;
-				min-height: 0;
-				color: inherit;
-				text-decoration: none;
-				padding: 0.65rem 0.65rem 0.75rem;
-				background: var(--surface);
-				border: 1px solid var(--border);
-				border-radius: 12px;
-				transition:
-					border-color 0.15s ease,
-					background 0.15s ease;
-			}
-			ul.posts li a:hover {
-				border-color: var(--accent);
-				background: var(--surface-hover);
-			}
-			.post-thumb {
-				aspect-ratio: 16 / 9;
-				max-height: 140px;
-				width: 100%;
-				margin-bottom: 0.65rem;
-				border-radius: 8px;
-				background: linear-gradient(
-					180deg,
-					rgba(255, 255, 255, 0.05) 0%,
-					color-mix(in srgb, var(--qv-bg) 72%, transparent) 100%
-				);
-				border: 1px solid var(--border);
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				overflow: hidden;
-				box-sizing: border-box;
-			}
-			.post-thumb :global(img) {
-				max-height: 85%;
-				max-width: 85%;
-				width: auto;
-				height: auto;
-				object-fit: contain;
-				border-radius: 4px;
-			}
-			.title {
-				margin: 0;
-				color: var(--text);
-				line-height: 1.3;
-				font-size: 1.05rem;
-				font-weight: 600;
-			}
-			.date {
-				margin: 0.35rem 0 0;
-				color: var(--muted);
-				font-size: 0.85rem;
-			}
-			ul.posts li a:hover .title {
-				color: var(--accent);
-			}
-			@media (max-width: 520px) {
-				ul.posts > li {
-					flex-basis: 100%;
-					min-width: 0;
-				}
-			}
-		</style>
-	</head>
-	<body class="embed-body">
-		<EmbedToolbar lang={lang} section="blog" />
-		<main class="embed-main">
-			<section>
-				<ul class="posts">
-					{
-						posts.map((post) => {
-							const slug = post.id.replace(`${lang}/`, '');
-							return (
-								<li>
-									<a href={localizedPath(lang, `/blog/${slug}`)}>
-										{post.data.heroImage && (
-											<div class="post-thumb">
-												<Image width={480} height={270} src={post.data.heroImage} alt="" />
-											</div>
-										)}
-										<h2 class="title">{post.data.title}</h2>
-										<p class="date">
-											<FormattedDate date={post.data.pubDate} locale={lang} />
-										</p>
-									</a>
-								</li>
-							);
-						})
-					}
-				</ul>
-			</section>
-		</main>
-	</body>
-</html>
+<BaseLayout title={`${L.blog} — ${SITE_TITLE}`} description={L.blogDescription} lang={lang} section="blog">
+	<BlogHero
+		eyebrow={L.blogEyebrow}
+		title={L.blogTitle}
+		description={L.blogDescription}
+	/>
+
+	<Divider />
+
+	{featuredPost && (
+		<section class="featured-section">
+			<div class="container--blog">
+				<ScrollReveal delay={0.1}>
+					<Eyebrow text={L.featuredPost} />
+					<div class="featured-card">
+						<PostCard
+							post={featuredPost}
+							href={postHref(featuredPost)}
+							readingTime={getReadingTime(featuredPost.body ?? '')}
+							lang={lang}
+							featured={true}
+						/>
+					</div>
+				</ScrollReveal>
+			</div>
+		</section>
+	)}
+
+	<section class="posts-section">
+		<div class="container--blog">
+			{posts.length > 0 && (
+				<ScrollReveal delay={0.2}>
+					{posts.length > 0 && !featuredPost && (
+						<Eyebrow text={L.allPosts} class="posts-eyebrow" />
+					)}
+					<div class="post-grid">
+						{posts.map((post, i) => (
+							<div class="post-grid__item reveal" style={`--reveal-delay: ${0.25 + i * 0.09}s`}>
+								<PostCard
+									post={post}
+									href={postHref(post)}
+									readingTime={getReadingTime(post.body ?? '')}
+									lang={lang}
+								/>
+							</div>
+						))}
+					</div>
+				</ScrollReveal>
+			)}
+
+			{allPosts.length === 0 && (
+				<p class="empty-state">{L.noPosts}</p>
+			)}
+		</div>
+	</section>
+</BaseLayout>
+
+<style>
+	.container--blog {
+		max-width: var(--qv-container-blog);
+		margin: 0 auto;
+		padding: 0 24px;
+		box-sizing: border-box;
+	}
+
+	.featured-section {
+		padding: 48px 0;
+	}
+
+	.featured-card {
+		margin-top: 20px;
+	}
+
+	.posts-section {
+		padding: 32px 0 var(--qv-spacing-section);
+	}
+
+	.posts-eyebrow {
+		margin-bottom: 24px;
+	}
+
+	.post-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		gap: 24px;
+		margin-top: 24px;
+	}
+
+	.post-grid__item {
+		min-width: 0;
+	}
+
+	.empty-state {
+		text-align: center;
+		color: var(--qv-text-3);
+		padding: 64px 0;
+		font-size: 16px;
+	}
+
+	@media (max-width: 700px) {
+		.featured-section {
+			padding: 32px 0;
+		}
+
+		.posts-section {
+			padding: 24px 0 var(--qv-spacing-section);
+		}
+
+		.post-grid {
+			grid-template-columns: 1fr;
+			gap: 20px;
+		}
+
+		.container--blog {
+			padding: 0 18px;
+		}
+	}
+</style>

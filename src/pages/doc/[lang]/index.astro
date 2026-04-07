@@ -1,9 +1,10 @@
 ---
 import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
-import BaseHead from '../../../components/BaseHead.astro';
-import EmbedToolbar from '../../../components/EmbedToolbar.astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
 import FormattedDate from '../../../components/FormattedDate.astro';
+import ScrollReveal from '../../../components/ScrollReveal.astro';
+import Eyebrow from '../../../components/Eyebrow.astro';
 import { isLocale } from '../../../i18n/config';
 import { getStaticLocalePaths, localizedPath } from '../../../i18n/utils';
 import { t } from '../../../i18n/labels';
@@ -16,136 +17,169 @@ export function getStaticPaths() {
 const { lang: langParam } = Astro.params;
 const lang = isLocale(langParam ?? '') ? langParam : 'en';
 const L = t(lang);
-const htmlLang = lang === 'cn' ? 'zh-CN' : 'en';
 
 const pages = (await getCollection('doc'))
 	.filter((p) => p.id.startsWith(`${lang}/`))
+	.filter((p) => !p.data.draft)
 	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
-<!doctype html>
-<html lang={htmlLang}>
-	<head>
-		<BaseHead title={`${L.doc} — ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
-		<style>
-			.embed-main {
-				padding-top: 0.5rem;
-				max-width: 880px;
-			}
-			ul.docs {
-				list-style: none;
-				margin: 0;
-				padding: 0;
-				display: flex;
-				flex-direction: column;
-				gap: 1rem;
-			}
-			ul.docs li a {
-				display: flex;
-				gap: 1rem;
-				align-items: flex-start;
-				padding: 1rem 1.1rem;
-				background: var(--surface);
-				border: 1px solid var(--border);
-				border-radius: 12px;
-				color: inherit;
-				text-decoration: none;
-				transition:
-					border-color 0.15s ease,
-					background 0.15s ease;
-			}
-			ul.docs li a:hover {
-				border-color: var(--accent);
-				background: var(--surface-hover);
-			}
-			/* Matches blog list `.post-thumb` */
-			.post-thumb {
-				flex-shrink: 0;
-				width: 200px;
-				max-width: min(200px, 38vw);
-				aspect-ratio: 16 / 9;
-				max-height: 140px;
-				border-radius: 8px;
-				background: linear-gradient(
-					180deg,
-					rgba(255, 255, 255, 0.05) 0%,
-					color-mix(in srgb, var(--qv-bg) 72%, transparent) 100%
-				);
-				border: 1px solid var(--border);
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				overflow: hidden;
-				box-sizing: border-box;
-			}
-			.post-thumb :global(img) {
-				max-height: 85%;
-				max-width: 85%;
-				width: auto;
-				height: auto;
-				object-fit: contain;
-				border-radius: 4px;
-				display: block;
-			}
-			ul.docs .meta {
-				min-width: 0;
-			}
-			ul.docs .meta h2 {
-				margin: 0 0 0.35rem;
-				font-size: 1.15rem;
-				transition: color 0.15s ease;
-			}
-			ul.docs li a:hover .meta h2 {
-				color: var(--accent);
-			}
-			ul.docs .meta p {
-				margin: 0;
-				color: var(--muted);
-				font-size: 0.92rem;
-			}
-			ul.docs .meta .date {
-				margin-top: 0.5rem;
-				font-size: 0.85rem;
-			}
-			@media (max-width: 560px) {
-				ul.docs li a {
-					flex-direction: column;
-				}
-				.post-thumb {
-					width: 100%;
-					max-width: none;
-				}
-			}
-		</style>
-	</head>
-	<body class="embed-body">
-		<EmbedToolbar lang={lang} section="doc" />
-		<main class="embed-main">
-			<ul class="docs">
-				{
-					pages.map((page) => {
-						const slug = page.id.replace(`${lang}/`, '');
-						return (
-							<li>
-								<a href={localizedPath(lang, `/doc/${slug}`)}>
-									{page.data.heroImage && (
-										<div class="post-thumb">
-											<Image width={480} height={270} src={page.data.heroImage} alt="" />
-										</div>
-									)}
-									<div class="meta">
-										<h2>{page.data.title}</h2>
-										<p>{page.data.description}</p>
-										<p class="date">
-											<FormattedDate date={page.data.pubDate} locale={lang} />
-										</p>
+<BaseLayout title={`${L.doc} — ${SITE_TITLE}`} description={SITE_DESCRIPTION} lang={lang} section="doc">
+	<section class="doc-list-section">
+		<div class="container--docs">
+			<ScrollReveal>
+				<Eyebrow text={L.doc} />
+				<h1 class="doc-list__title">{L.doc}</h1>
+			</ScrollReveal>
+
+			<ul class="doc-list">
+				{pages.map((page, i) => {
+					const slug = page.id.replace(`${lang}/`, '');
+					return (
+						<li class="reveal" style={`--reveal-delay: ${0.15 + i * 0.09}s`}>
+							<a href={localizedPath(lang, `/doc/${slug}`)} class="doc-card surface">
+								{page.data.heroImage && (
+									<div class="doc-card__thumb">
+										<Image width={480} height={270} src={page.data.heroImage} alt="" />
 									</div>
-								</a>
-							</li>
-						);
-					})
-				}
+								)}
+								<div class="doc-card__body">
+									<h2 class="doc-card__title">{page.data.title}</h2>
+									<p class="doc-card__desc">{page.data.description}</p>
+									<p class="doc-card__date">
+										<FormattedDate date={page.data.pubDate} locale={lang} />
+									</p>
+								</div>
+							</a>
+						</li>
+					);
+				})}
 			</ul>
-		</main>
-	</body>
-</html>
+
+			{pages.length === 0 && (
+				<p class="empty-state">No documentation yet.</p>
+			)}
+		</div>
+	</section>
+</BaseLayout>
+
+<style>
+	.container--docs {
+		max-width: var(--qv-container-blog);
+		margin: 0 auto;
+		padding: 0 24px;
+		box-sizing: border-box;
+	}
+
+	.doc-list-section {
+		padding: 48px 0 var(--qv-spacing-section);
+	}
+
+	.doc-list__title {
+		font-size: clamp(26px, 3.5vw, 34px);
+		font-weight: 400;
+		letter-spacing: -0.035em;
+		margin: 14px 0 32px;
+	}
+
+	.doc-list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+	.doc-card {
+		display: flex;
+		gap: 20px;
+		align-items: flex-start;
+		padding: 0;
+		color: inherit;
+		text-decoration: none;
+		overflow: hidden;
+	}
+
+	.doc-card:hover {
+		text-decoration: none;
+	}
+
+	.doc-card__thumb {
+		flex-shrink: 0;
+		width: 200px;
+		aspect-ratio: 16 / 9;
+		overflow: hidden;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: linear-gradient(
+			180deg,
+			rgba(255, 255, 255, 0.03) 0%,
+			var(--surface) 100%
+		);
+	}
+
+	.doc-card__thumb :global(img) {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 0;
+		border: none;
+	}
+
+	.doc-card__body {
+		padding: 20px 24px 20px 0;
+		min-width: 0;
+	}
+
+	.doc-card__title {
+		margin: 0 0 6px;
+		font-size: 1.1rem;
+		font-weight: 550;
+		color: var(--qv-text-1);
+		transition: color 0.15s ease;
+	}
+
+	.doc-card:hover .doc-card__title {
+		color: var(--accent);
+	}
+
+	.doc-card__desc {
+		margin: 0;
+		color: var(--qv-text-3);
+		font-size: 14px;
+		line-height: 1.55;
+	}
+
+	.doc-card__date {
+		margin: 10px 0 0;
+		font-size: 13px;
+		color: var(--qv-text-4);
+	}
+
+	.empty-state {
+		text-align: center;
+		color: var(--qv-text-3);
+		padding: 64px 0;
+	}
+
+	@media (max-width: 560px) {
+		.doc-card {
+			flex-direction: column;
+			gap: 0;
+		}
+
+		.doc-card__thumb {
+			width: 100%;
+		}
+
+		.doc-card__body {
+			padding: 16px 20px 20px;
+		}
+
+		.container--docs {
+			padding: 0 18px;
+		}
+	}
+</style>

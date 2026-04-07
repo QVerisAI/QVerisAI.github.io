@@ -1,30 +1,82 @@
 /*
-  QVeris dark visual system (embed / blog / doc).
-  Canonical tokens: --qv-*. Legacy aliases (--bg, --text, …) map to the same palette.
- */
+  QVeris Visual System — Blog & Docs
+  Canonical tokens: --qv-*.  Aliases (--bg, --text, …) for convenience.
+  Dark-only palette. Aligned with qveris-website design specification.
+*/
 
+/* ------------------------------------------------------------------ */
+/*  1. Design Tokens                                                   */
+/* ------------------------------------------------------------------ */
 :root {
+	/* Backgrounds */
 	--qv-bg: #05070b;
 	--qv-bg-2: #08111c;
 	--qv-panel: rgba(10, 14, 22, 0.88);
 
+	/* Text hierarchy (white + opacity) */
 	--qv-text-1: rgba(255, 255, 255, 0.97);
 	--qv-text-2: rgba(255, 255, 255, 0.74);
 	--qv-text-3: rgba(255, 255, 255, 0.48);
 	--qv-text-4: rgba(255, 255, 255, 0.36);
 
+	/* Borders & lines */
 	--qv-line: rgba(255, 255, 255, 0.08);
+	--qv-line-active: rgba(52, 227, 244, 0.22);
 
+	/* Brand palette */
 	--qv-brand-aqua: #34e3f4;
 	--qv-brand-sky: #25b8ff;
 	--qv-brand-blue: #1e6bff;
 	--qv-brand-indigo: #2f43ff;
 
-	--qv-font-sans:
-		'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
-	--qv-font-mono: 'JetBrains Mono', ui-monospace, 'Cascadia Code', 'Segoe UI Mono', monospace;
+	/* Primary gradient (interactive surfaces only) */
+	--qv-primary-gradient: linear-gradient(
+		135deg,
+		#e8fdff 0%,
+		#bff8ff 12%,
+		#34e3f4 32%,
+		#25b8ff 58%,
+		#1e6bff 82%,
+		#2f43ff 100%
+	);
 
-	/* Aliases used across layouts */
+	/* Typography */
+	--qv-font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI',
+		sans-serif;
+	--qv-font-mono: 'JetBrains Mono', ui-monospace, 'Cascadia Code',
+		'Segoe UI Mono', monospace;
+
+	/* Radius scale */
+	--qv-radius-sm: 10px;
+	--qv-radius-md: 18px;
+	--qv-radius-lg: 22px;
+	--qv-radius-xl: 30px;
+	--qv-radius-full: 999px;
+
+	/* Shadow (3-layer pattern) */
+	--qv-shadow-depth: 0 2px 12px rgba(0, 0, 0, 0.25);
+	--qv-shadow-glow: 0 0 26px rgba(52, 227, 244, 0.07);
+	--qv-shadow-edge: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+	--qv-shadow-card: var(--qv-shadow-depth), var(--qv-shadow-glow),
+		var(--qv-shadow-edge);
+	--qv-shadow-card-hover: 0 14px 36px rgba(0, 0, 0, 0.3),
+		0 0 26px rgba(52, 227, 244, 0.1),
+		inset 0 1px 0 rgba(255, 255, 255, 0.1);
+
+	/* Motion */
+	--qv-ease: cubic-bezier(0.16, 1, 0.3, 1);
+	--qv-duration: 0.25s;
+
+	/* Layout */
+	--qv-container: 1180px;
+	--qv-container-blog: 1080px;
+	--qv-container-prose: 720px;
+	--qv-spacing-section: 92px;
+	--qv-spacing-section-mobile: 64px;
+	--qv-nav-height: 76px;
+	--qv-nav-height-mobile: 70px;
+
+	/* Aliases for convenience */
 	--bg: var(--qv-bg);
 	--surface: #0a0f18;
 	--surface-hover: #101624;
@@ -33,18 +85,19 @@
 	--muted: var(--qv-text-3);
 	--accent: var(--qv-brand-aqua);
 	--accent-hover: var(--qv-brand-sky);
-
-	--box-shadow:
-		0 2px 8px rgba(0, 0, 0, 0.35),
-		0 12px 32px rgba(0, 0, 0, 0.25),
-		0 0 0 1px rgba(255, 255, 255, 0.04) inset;
 }
 
+/* ------------------------------------------------------------------ */
+/*  2. Reset & Base                                                    */
+/* ------------------------------------------------------------------ */
 html {
 	scroll-behavior: smooth;
 	min-height: 100%;
-	background:
-		radial-gradient(circle at 14% 0%, rgba(52, 227, 244, 0.06), transparent 28%),
+	background: radial-gradient(
+			circle at 14% 0%,
+			rgba(52, 227, 244, 0.06),
+			transparent 28%
+		),
 		radial-gradient(circle at 88% 8%, rgba(47, 67, 255, 0.1), transparent 32%),
 		linear-gradient(180deg, #05070b 0%, #08111a 45%, #05070b 100%);
 }
@@ -61,9 +114,10 @@ body {
 	text-align: left;
 	background: transparent;
 	color: var(--text);
-	font-size: 17px;
-	line-height: 1.65;
-	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.72;
+	font-weight: 350;
+	letter-spacing: -0.015em;
 	font-feature-settings: 'kern' 1, 'liga' 1;
 }
 
@@ -71,21 +125,9 @@ body.embed-body {
 	min-height: 100vh;
 }
 
-main {
-	width: 720px;
-	max-width: calc(100% - 2em);
-	margin: 0 auto;
-	padding: 1.25rem 1rem 2.5rem;
-}
-
-.embed-main {
-	width: 100%;
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 0 1rem 2.5rem;
-	box-sizing: border-box;
-}
-
+/* ------------------------------------------------------------------ */
+/*  3. Typography                                                      */
+/* ------------------------------------------------------------------ */
 h1,
 h2,
 h3,
@@ -93,26 +135,32 @@ h4,
 h5,
 h6 {
 	margin: 0 0 0.5rem 0;
-	color: inherit;
-	line-height: 1.25;
-	font-weight: 600;
+	color: var(--qv-text-1);
+	font-weight: 400;
 }
 
 h1 {
-	font-size: 2.25rem;
-	letter-spacing: -0.02em;
+	font-size: clamp(30px, 4vw, 42px);
+	line-height: 1.12;
+	letter-spacing: -0.045em;
 }
 
 h2 {
-	font-size: 1.65rem;
+	font-size: clamp(22px, 3vw, 28px);
+	line-height: 1.2;
+	letter-spacing: -0.03em;
 }
 
 h3 {
-	font-size: 1.35rem;
+	font-size: 1.25rem;
+	line-height: 1.3;
+	letter-spacing: -0.02em;
+	font-weight: 550;
 }
 
 h4 {
-	font-size: 1.15rem;
+	font-size: 1.1rem;
+	font-weight: 550;
 }
 
 strong,
@@ -123,6 +171,7 @@ b {
 a {
 	color: var(--accent);
 	text-decoration: none;
+	transition: color var(--qv-duration) var(--qv-ease);
 }
 
 a:hover {
@@ -140,21 +189,27 @@ p {
 	margin-bottom: 1em;
 }
 
-.prose p {
-	margin-bottom: 1.25em;
-}
-
 textarea,
 input {
 	font-size: 16px;
 }
 
+/* ------------------------------------------------------------------ */
+/*  4. Base Element Styles                                             */
+/* ------------------------------------------------------------------ */
 table {
 	width: 100%;
 	border-collapse: collapse;
 }
 
-th,
+th {
+	border: 1px solid var(--border);
+	padding: 0.5rem 0.75rem;
+	background: var(--surface);
+	font-weight: 550;
+	text-align: left;
+}
+
 td {
 	border: 1px solid var(--border);
 	padding: 0.5rem 0.75rem;
@@ -172,50 +227,142 @@ code {
 	border: 1px solid var(--border);
 	border-radius: 6px;
 	font-family: var(--qv-font-mono);
-	font-size: 0.9em;
+	font-size: 0.88em;
 }
 
 pre {
 	padding: 1.25em;
-	border-radius: 10px;
+	border-radius: var(--qv-radius-sm);
 	background: var(--surface);
 	border: 1px solid var(--border);
-	box-shadow: var(--box-shadow);
+	box-shadow: var(--qv-shadow-depth);
 	overflow-x: auto;
+	position: relative;
 }
 
 pre > code {
 	all: unset;
 	font-family: var(--qv-font-mono);
-	font-size: 0.88em;
-	line-height: 1.5;
+	font-size: 0.85em;
+	line-height: 1.8;
 }
 
 blockquote {
 	border-left: 3px solid var(--qv-brand-aqua);
-	padding: 0 0 0 1rem;
+	padding: 0.5rem 0 0.5rem 1rem;
 	margin: 0 0 1em 0;
-	color: var(--muted);
-	font-size: 1.05em;
+	color: var(--qv-text-2);
+	font-size: 1.02em;
+	background: rgba(52, 227, 244, 0.03);
+	border-radius: 0 var(--qv-radius-sm) var(--qv-radius-sm) 0;
 }
 
 hr {
 	border: none;
 	border-top: 1px solid var(--border);
+	margin: 2rem 0;
 }
 
-@media (max-width: 720px) {
-	body {
-		font-size: 16px;
-	}
+/* ------------------------------------------------------------------ */
+/*  5. Layout Containers                                               */
+/* ------------------------------------------------------------------ */
+.container {
+	max-width: var(--qv-container);
+	margin: 0 auto;
+	padding: 0 24px;
+	box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: reduce) {
-	html {
-		scroll-behavior: auto;
-	}
+.container--blog {
+	max-width: var(--qv-container-blog);
 }
 
+.embed-main {
+	width: 100%;
+	max-width: var(--qv-container);
+	margin: 0 auto;
+	padding: 0 24px 2.5rem;
+	box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------ */
+/*  6. Utility Classes                                                 */
+/* ------------------------------------------------------------------ */
+
+/* QVeris Surface Card */
+.surface {
+	border-radius: 20px;
+	border: 1px solid var(--border);
+	background: linear-gradient(
+			180deg,
+			rgba(255, 255, 255, 0.02) 0%,
+			transparent 100%
+		),
+		var(--surface);
+	box-shadow: var(--qv-shadow-card);
+	transition: transform var(--qv-duration) var(--qv-ease),
+		border-color var(--qv-duration) var(--qv-ease),
+		box-shadow var(--qv-duration) var(--qv-ease);
+}
+
+.surface:hover {
+	transform: translateY(-3px);
+	border-color: var(--qv-line-active);
+	box-shadow: var(--qv-shadow-card-hover);
+}
+
+/* Eyebrow label */
+.eyebrow {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	font-family: var(--qv-font-mono);
+	font-size: 11px;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: var(--qv-text-3);
+}
+
+.eyebrow::before {
+	content: '';
+	display: inline-block;
+	width: 18px;
+	height: 2px;
+	background: linear-gradient(90deg, var(--qv-brand-aqua), transparent);
+	border-radius: 1px;
+}
+
+/* Gradient divider */
+.divider {
+	height: 1px;
+	background: linear-gradient(
+		90deg,
+		transparent 0%,
+		var(--qv-line) 50%,
+		transparent 100%
+	);
+	border: none;
+	margin: 0;
+}
+
+/* Badge (category / tag) */
+.badge {
+	display: inline-flex;
+	align-items: center;
+	font-family: var(--qv-font-mono);
+	font-size: 10.5px;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--qv-brand-aqua);
+	padding: 3px 8px;
+	border: 1px solid rgba(52, 227, 244, 0.15);
+	border-radius: var(--qv-radius-full);
+	background: rgba(52, 227, 244, 0.06);
+}
+
+/* Screen reader only */
 .sr-only {
 	border: 0;
 	padding: 0;
@@ -227,4 +374,89 @@ hr {
 	clip: rect(1px, 1px, 1px, 1px);
 	clip-path: inset(50%);
 	white-space: nowrap;
+}
+
+/* ------------------------------------------------------------------ */
+/*  7. Animation & Scroll Reveal                                       */
+/* ------------------------------------------------------------------ */
+@keyframes fadeSlideUp {
+	from {
+		opacity: 0;
+		transform: translateY(22px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.reveal {
+	opacity: 0;
+	transform: translateY(22px);
+	transition: opacity 0.65s var(--qv-ease),
+		transform 0.65s var(--qv-ease);
+	transition-delay: var(--reveal-delay, 0s);
+}
+
+.reveal.revealed {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* Hero stagger delays */
+.reveal-hero-eyebrow { --reveal-delay: 0.05s; }
+.reveal-hero-title { --reveal-delay: 0.18s; }
+.reveal-hero-desc { --reveal-delay: 0.30s; }
+.reveal-hero-content { --reveal-delay: 0.42s; }
+
+/* ------------------------------------------------------------------ */
+/*  8. Responsive Breakpoints                                          */
+/* ------------------------------------------------------------------ */
+@media (max-width: 960px) {
+	:root {
+		--qv-spacing-section: 76px;
+	}
+
+	.container {
+		padding: 0 18px;
+	}
+
+	.embed-main {
+		padding: 0 18px 2.5rem;
+	}
+}
+
+@media (max-width: 700px) {
+	:root {
+		--qv-spacing-section: 64px;
+	}
+}
+
+@media (max-width: 520px) {
+	body {
+		font-size: 15px;
+	}
+}
+
+/* ------------------------------------------------------------------ */
+/*  9. Reduced Motion                                                  */
+/* ------------------------------------------------------------------ */
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+
+	.reveal {
+		opacity: 1;
+		transform: none;
+	}
 }

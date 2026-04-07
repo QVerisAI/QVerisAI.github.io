@@ -1,0 +1,245 @@
+---
+import type { Locale, Region } from '../i18n/config';
+import { localeNames, regionLocales } from '../i18n/config';
+import { localizedPath, switchLocaleInPath, showLanguageSwitcher } from '../i18n/utils';
+import { t } from '../i18n/labels';
+
+interface Props {
+	lang: Locale;
+	section: 'blog' | 'doc';
+	region?: Region;
+	embed?: boolean;
+}
+
+const { lang, section, region = 'global', embed = false } = Astro.props;
+const L = t(lang);
+const pathname = Astro.url.pathname;
+const showLangSwitch = showLanguageSwitcher(region);
+const availableLocales = regionLocales[region];
+---
+
+<nav class:list={['qv-nav', { 'qv-nav--embed': embed }]} aria-label={L.language}>
+	<div class="qv-nav__inner">
+		<div class="qv-nav__sections">
+			<a
+				href={localizedPath(lang, '/blog')}
+				class:list={['qv-nav__link', { active: section === 'blog' }]}
+			>
+				{L.blog}
+			</a>
+			<a
+				href={localizedPath(lang, '/doc')}
+				class:list={['qv-nav__link', { active: section === 'doc' }]}
+			>
+				{L.doc}
+			</a>
+		</div>
+		{showLangSwitch && (
+			<div class="qv-nav__lang" role="group" aria-label={L.language}>
+				{availableLocales.map((loc, i) => (
+					<>
+						{i > 0 && <span class="qv-nav__sep" aria-hidden="true">&middot;</span>}
+						<a
+							href={switchLocaleInPath(pathname, loc)}
+							class:list={['qv-nav__lang-link', { current: lang === loc }]}
+							hreflang={loc === 'cn' ? 'zh-CN' : 'en'}
+							lang={loc === 'cn' ? 'zh-CN' : 'en'}
+						>
+							{localeNames[loc]}
+						</a>
+					</>
+				))}
+			</div>
+		)}
+	</div>
+</nav>
+
+<script is:inline define:vars={{ pathname }}>
+(function () {
+	var allowed = { en: 1, cn: 1 };
+
+	function goLocale(loc) {
+		if (!allowed[loc]) return;
+		var p = pathname;
+		var parts = p.split('/').filter(Boolean);
+		if (
+			parts.length >= 2 &&
+			(parts[0] === 'blog' || parts[0] === 'doc') &&
+			allowed[parts[1]]
+		) {
+			parts[1] = loc;
+			var trailing = pathname.endsWith('/') ? '/' : '';
+			window.location.href = '/' + parts.join('/') + trailing + window.location.search;
+		} else {
+			window.location.href = '/blog/' + loc + '/';
+		}
+	}
+
+	function goRegion(region) {
+		if (region !== 'cn' && region !== 'global') return;
+		var url = new URL(window.location.href);
+		url.searchParams.set('region', region);
+		if (region === 'cn') {
+			// Force cn locale when switching to CN region
+			goLocale('cn');
+			return;
+		}
+		window.location.href = url.toString();
+	}
+
+	window.addEventListener('message', function (e) {
+		var d = e.data;
+		if (!d) return;
+		if (d.type === 'qveris:set-locale') goLocale(d.locale);
+		if (d.type === 'qveris:set-region') goRegion(d.region);
+	});
+
+	window.__QVERIS_EMBED__ = {
+		setLocale: goLocale,
+		setRegion: goRegion,
+		getRegion: function () {
+			var url = new URL(window.location.href);
+			return url.searchParams.get('region') || 'global';
+		},
+	};
+})();
+</script>
+
+<style>
+	.qv-nav {
+		position: sticky;
+		top: 0;
+		z-index: 100;
+		height: var(--qv-nav-height);
+		display: flex;
+		align-items: center;
+		background: rgba(5, 7, 11, 0.68);
+		backdrop-filter: blur(18px) saturate(1.15);
+		-webkit-backdrop-filter: blur(18px) saturate(1.15);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+	}
+
+	.qv-nav--embed {
+		height: auto;
+		backdrop-filter: none;
+		-webkit-backdrop-filter: none;
+		background: #0a0e16;
+		border-bottom: 1px solid var(--border);
+	}
+
+	.qv-nav__inner {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+		width: 100%;
+		max-width: var(--qv-container);
+		margin: 0 auto;
+		padding: 0 24px;
+		box-sizing: border-box;
+	}
+
+	.qv-nav--embed .qv-nav__inner {
+		padding: 0.55rem 1rem;
+	}
+
+	.qv-nav__sections {
+		display: flex;
+		align-items: center;
+		gap: 4px;
+	}
+
+	.qv-nav__link {
+		padding: 6px 14px;
+		border-radius: 8px;
+		color: var(--qv-text-3);
+		font-size: 13.5px;
+		font-weight: 400;
+		text-decoration: none;
+		transition: color 0.15s ease, background 0.15s ease;
+	}
+
+	.qv-nav__link:hover {
+		color: var(--qv-text-1);
+		background: var(--surface-hover);
+		text-decoration: none;
+	}
+
+	.qv-nav__link:focus-visible {
+		outline: 2px solid var(--accent);
+		outline-offset: 2px;
+	}
+
+	.qv-nav__link.active {
+		color: var(--qv-text-1);
+		font-weight: 550;
+		position: relative;
+	}
+
+	.qv-nav__link.active::after {
+		content: '';
+		position: absolute;
+		bottom: -2px;
+		left: 14px;
+		right: 14px;
+		height: 2px;
+		background: var(--accent);
+		border-radius: 1px;
+	}
+
+	/* Embed: use background style instead of underline */
+	.qv-nav--embed .qv-nav__link.active::after {
+		display: none;
+	}
+
+	.qv-nav--embed .qv-nav__link.active {
+		background: var(--surface);
+		border: 1px solid var(--border);
+	}
+
+	.qv-nav__lang {
+		display: flex;
+		align-items: center;
+		gap: 4px;
+		font-size: 13px;
+	}
+
+	.qv-nav__sep {
+		color: var(--border);
+		user-select: none;
+	}
+
+	.qv-nav__lang-link {
+		color: var(--qv-text-3);
+		padding: 4px 8px;
+		border-radius: 6px;
+		text-decoration: none;
+		transition: color 0.15s ease, background 0.15s ease;
+	}
+
+	.qv-nav__lang-link:hover {
+		color: var(--qv-text-1);
+		text-decoration: none;
+		background: var(--surface-hover);
+	}
+
+	.qv-nav__lang-link:focus-visible {
+		outline: 2px solid var(--accent);
+		outline-offset: 2px;
+	}
+
+	.qv-nav__lang-link.current {
+		color: var(--accent);
+		font-weight: 600;
+	}
+
+	@media (max-width: 700px) {
+		.qv-nav {
+			height: var(--qv-nav-height-mobile);
+		}
+
+		.qv-nav__inner {
+			padding: 0 18px;
+		}
+	}
+</style>

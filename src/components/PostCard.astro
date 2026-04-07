@@ -1,0 +1,186 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import type { Locale } from '../i18n/config';
+import { Image } from 'astro:assets';
+import FormattedDate from './FormattedDate.astro';
+import ReadingTime from './ReadingTime.astro';
+
+interface Props {
+	post: CollectionEntry<'blog'>;
+	href: string;
+	readingTime?: number;
+	lang: Locale;
+	featured?: boolean;
+}
+
+const { post, href, readingTime, lang, featured = false } = Astro.props;
+const { title, description, pubDate, heroImage, category } = post.data;
+---
+
+<a href={href} class:list={['post-card surface', { 'post-card--featured': featured }]}>
+	{heroImage && (
+		<div class="post-card__thumb">
+			<Image
+				width={featured ? 560 : 400}
+				height={featured ? 315 : 225}
+				src={heroImage}
+				alt=""
+				loading="lazy"
+			/>
+		</div>
+	)}
+	<div class="post-card__body">
+		{category && <span class="badge">{category}</span>}
+		<h3 class="post-card__title">{title}</h3>
+		{(featured || description) && (
+			<p class="post-card__desc">{description}</p>
+		)}
+		<div class="post-card__footer">
+			<FormattedDate date={pubDate} locale={lang} />
+			{readingTime && (
+				<>
+					<span class="post-card__dot" aria-hidden="true">&middot;</span>
+					<ReadingTime minutes={readingTime} lang={lang} />
+				</>
+			)}
+		</div>
+	</div>
+</a>
+
+<style>
+	.post-card {
+		display: flex;
+		flex-direction: column;
+		text-decoration: none;
+		color: inherit;
+		overflow: hidden;
+		padding: 0;
+	}
+
+	.post-card:hover {
+		text-decoration: none;
+	}
+
+	.post-card__thumb {
+		width: 100%;
+		aspect-ratio: 16 / 9;
+		overflow: hidden;
+		background: linear-gradient(
+			180deg,
+			rgba(255, 255, 255, 0.03) 0%,
+			var(--surface) 100%
+		);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.post-card__thumb :global(img) {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 0;
+		border: none;
+		transition: transform 0.35s var(--qv-ease);
+	}
+
+	.post-card:hover .post-card__thumb :global(img) {
+		transform: scale(1.03);
+	}
+
+	.post-card__body {
+		padding: 18px 22px 22px;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		flex: 1;
+	}
+
+	.post-card__title {
+		font-size: 18px;
+		font-weight: 550;
+		line-height: 1.3;
+		margin: 0;
+		color: var(--qv-text-1);
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		transition: color 0.15s ease;
+	}
+
+	.post-card:hover .post-card__title {
+		color: var(--accent);
+	}
+
+	.post-card__desc {
+		font-size: 14px;
+		line-height: 1.6;
+		color: var(--qv-text-3);
+		margin: 0;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.post-card__footer {
+		display: flex;
+		align-items: center;
+		gap: 6px;
+		margin-top: auto;
+		padding-top: 6px;
+		font-size: 13px;
+		color: var(--qv-text-4);
+	}
+
+	.post-card__dot {
+		user-select: none;
+	}
+
+	/* ---- Featured variant ---- */
+	.post-card--featured {
+		flex-direction: row;
+	}
+
+	.post-card--featured .post-card__thumb {
+		width: 45%;
+		flex-shrink: 0;
+		aspect-ratio: auto;
+		min-height: 220px;
+	}
+
+	.post-card--featured .post-card__body {
+		padding: 28px 32px;
+	}
+
+	.post-card--featured .post-card__title {
+		font-size: 22px;
+		-webkit-line-clamp: 3;
+	}
+
+	.post-card--featured .post-card__desc {
+		-webkit-line-clamp: 3;
+	}
+
+	/* ---- Responsive ---- */
+	@media (max-width: 700px) {
+		.post-card--featured {
+			flex-direction: column;
+		}
+
+		.post-card--featured .post-card__thumb {
+			width: 100%;
+			aspect-ratio: 16 / 9;
+			min-height: 0;
+		}
+
+		.post-card--featured .post-card__body {
+			padding: 18px 22px 22px;
+		}
+
+		.post-card--featured .post-card__title {
+			font-size: 18px;
+		}
+	}
+</style>

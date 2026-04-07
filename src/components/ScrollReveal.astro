@@ -1,0 +1,19 @@
+---
+/**
+ * Wrapper that applies scroll-reveal animation.
+ * Uses the .reveal class (animated by scripts/scroll-reveal.ts).
+ * Use stagger prop to add incremental delay to children.
+ */
+
+interface Props {
+	delay?: number;
+	class?: string;
+}
+
+const { delay, class: className } = Astro.props;
+const style = delay ? `--reveal-delay: ${delay}s` : undefined;
+---
+
+<div class:list={['reveal', className]} style={style}>
+	<slot />
+</div>

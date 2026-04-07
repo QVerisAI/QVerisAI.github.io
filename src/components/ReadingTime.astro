@@ -1,0 +1,25 @@
+---
+import type { Locale } from '../i18n/config';
+import { t } from '../i18n/labels';
+
+interface Props {
+	minutes: number;
+	lang: Locale;
+}
+
+const { minutes, lang } = Astro.props;
+const L = t(lang);
+const text = L.readingTime.replace('{min}', String(minutes));
+---
+
+<span class="reading-time">{text}</span>
+
+<style>
+	.reading-time {
+		font-family: var(--qv-font-mono);
+		font-size: 12px;
+		font-weight: 500;
+		color: var(--qv-text-3);
+		letter-spacing: 0.02em;
+	}
+</style>
