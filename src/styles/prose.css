@@ -1,0 +1,306 @@
+/*
+  QVeris Prose — Rich article content styling.
+  Applied inside .prose containers (blog posts, doc pages).
+*/
+
+.prose {
+	max-width: var(--qv-container-prose, 720px);
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 1.75;
+	color: var(--qv-text-2);
+}
+
+/* ---- Paragraphs ---- */
+.prose p {
+	margin-bottom: 1.35em;
+}
+
+/* ---- Headings with anchor links ---- */
+.prose h2,
+.prose h3,
+.prose h4 {
+	color: var(--qv-text-1);
+	margin-top: 2.25em;
+	margin-bottom: 0.65em;
+	position: relative;
+}
+
+.prose h2 {
+	font-size: clamp(20px, 2.5vw, 24px);
+	padding-bottom: 0.4em;
+	border-bottom: 1px solid var(--border);
+}
+
+.prose h3 {
+	font-size: 1.15rem;
+}
+
+.prose h4 {
+	font-size: 1rem;
+}
+
+.prose .heading-anchor {
+	position: absolute;
+	left: -1.5em;
+	top: 0;
+	color: var(--qv-text-4);
+	text-decoration: none;
+	opacity: 0;
+	transition: opacity 0.15s ease;
+	font-weight: 400;
+}
+
+.prose h2:hover .heading-anchor,
+.prose h3:hover .heading-anchor,
+.prose h4:hover .heading-anchor {
+	opacity: 1;
+}
+
+.prose .heading-anchor:hover {
+	color: var(--accent);
+}
+
+/* ---- Links ---- */
+.prose a {
+	color: var(--accent);
+	text-decoration: underline;
+	text-underline-offset: 2px;
+	text-decoration-color: rgba(52, 227, 244, 0.3);
+	transition: text-decoration-color 0.15s ease;
+}
+
+.prose a:hover {
+	text-decoration-color: var(--accent);
+}
+
+/* ---- Lists ---- */
+.prose ul,
+.prose ol {
+	padding-left: 1.5em;
+	margin-bottom: 1.35em;
+}
+
+.prose li {
+	margin-bottom: 0.5em;
+}
+
+.prose li::marker {
+	color: var(--qv-text-3);
+}
+
+/* ---- Blockquote ---- */
+.prose blockquote {
+	border-left: 3px solid var(--qv-brand-aqua);
+	padding: 0.75rem 1rem;
+	margin: 1.5em 0;
+	background: rgba(52, 227, 244, 0.03);
+	border-radius: 0 var(--qv-radius-sm) var(--qv-radius-sm) 0;
+	color: var(--qv-text-2);
+	font-style: italic;
+}
+
+.prose blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+/* ---- Callout boxes ---- */
+.prose .callout {
+	padding: 1rem 1.25rem;
+	margin: 1.5em 0;
+	border-radius: var(--qv-radius-sm);
+	border-left: 3px solid;
+	background: rgba(255, 255, 255, 0.02);
+}
+
+.prose .callout-title {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	font-weight: 600;
+	font-size: 0.9rem;
+	margin-bottom: 0.5em;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+}
+
+.prose .callout p:last-child {
+	margin-bottom: 0;
+}
+
+.prose .callout-tip {
+	border-color: #38d39f;
+	background: rgba(56, 211, 159, 0.05);
+}
+
+.prose .callout-tip .callout-title {
+	color: #38d39f;
+}
+
+.prose .callout-warning {
+	border-color: #ffc24b;
+	background: rgba(255, 194, 75, 0.05);
+}
+
+.prose .callout-warning .callout-title {
+	color: #ffc24b;
+}
+
+.prose .callout-info {
+	border-color: var(--qv-brand-sky);
+	background: rgba(37, 184, 255, 0.05);
+}
+
+.prose .callout-info .callout-title {
+	color: var(--qv-brand-sky);
+}
+
+/* ---- Code blocks ---- */
+.prose pre {
+	margin: 1.5em 0;
+	padding: 1.25em 1.5em;
+	border-radius: var(--qv-radius-sm);
+	background: var(--surface);
+	border: 1px solid var(--border);
+	box-shadow: var(--qv-shadow-depth);
+	overflow-x: auto;
+	position: relative;
+}
+
+.prose pre > code {
+	all: unset;
+	font-family: var(--qv-font-mono);
+	font-size: 0.85em;
+	line-height: 1.8;
+	tab-size: 2;
+}
+
+.prose code {
+	padding: 0.15em 0.4em;
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: 5px;
+	font-family: var(--qv-font-mono);
+	font-size: 0.88em;
+	color: var(--qv-brand-aqua);
+}
+
+/* Code copy button (injected by client script) */
+.prose .code-copy-btn {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	padding: 4px 10px;
+	font-family: var(--qv-font-mono);
+	font-size: 10.5px;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: var(--qv-text-3);
+	background: rgba(255, 255, 255, 0.04);
+	border: 1px solid var(--border);
+	border-radius: 6px;
+	cursor: pointer;
+	transition: color 0.15s ease, background 0.15s ease;
+}
+
+.prose .code-copy-btn:hover {
+	color: var(--qv-text-1);
+	background: rgba(255, 255, 255, 0.08);
+}
+
+.prose .code-copy-btn.copied {
+	color: #38d39f;
+	border-color: rgba(56, 211, 159, 0.3);
+}
+
+/* ---- Tables ---- */
+.prose table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 1.5em 0;
+	font-size: 0.92em;
+}
+
+.prose th {
+	background: var(--surface);
+	border: 1px solid var(--border);
+	padding: 0.6rem 0.85rem;
+	font-weight: 550;
+	text-align: left;
+	color: var(--qv-text-1);
+}
+
+.prose td {
+	border: 1px solid var(--border);
+	padding: 0.6rem 0.85rem;
+}
+
+.prose tr:nth-child(even) td {
+	background: rgba(255, 255, 255, 0.015);
+}
+
+/* ---- Images & figures ---- */
+.prose img {
+	max-width: min(100%, 640px);
+	margin: 1.5em auto;
+	display: block;
+	height: auto;
+	border-radius: var(--qv-radius-sm);
+	border: 1px solid var(--border);
+}
+
+.prose figure {
+	margin: 1.5em 0;
+	text-align: center;
+}
+
+.prose figcaption {
+	margin-top: 0.5em;
+	font-size: 0.85em;
+	color: var(--qv-text-3);
+	font-style: italic;
+}
+
+/* ---- Horizontal rule ---- */
+.prose hr {
+	border: none;
+	height: 1px;
+	background: linear-gradient(
+		90deg,
+		transparent 0%,
+		var(--qv-line) 50%,
+		transparent 100%
+	);
+	margin: 2.5em 0;
+}
+
+/* ---- Strong & emphasis ---- */
+.prose strong {
+	color: var(--qv-text-1);
+	font-weight: 600;
+}
+
+.prose em {
+	font-style: italic;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 720px) {
+	.prose {
+		font-size: 15px;
+	}
+
+	.prose h2 {
+		font-size: 1.2rem;
+	}
+
+	.prose pre {
+		padding: 1em;
+		border-radius: 8px;
+	}
+
+	.prose img {
+		max-width: 100%;
+	}
+}

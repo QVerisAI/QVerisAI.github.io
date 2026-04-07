@@ -1,8 +1,13 @@
 ---
 title: 'When Agents Become a Species'
-description: 'When Agents Become a Species'
+description: 'A deep dive into the emerging agentic AI ecosystem and why agents need infrastructure, not just intelligence.'
 pubDate: 'Jul 15 2026'
 heroImage: '../../../assets/blog-2.png'
+category: 'Research'
+author: 'QVeris Team'
+tags: ['agents', 'ecosystem', 'infrastructure']
+featured: true
+translationKey: 'agents-become-species'
 ---
 
 Early 2026. Something interesting happened.
@@ -127,4 +132,4 @@ In 1998, that need gave birth to Google. In 2026, it's giving birth to the actio
 
 That's what QVeris is building.
 
-![img](../../../assets/2ed5c40e-b57e-4296-b636-ec30276827af.png)
+![img](../../../assets/blog-hero-agents-species.png)

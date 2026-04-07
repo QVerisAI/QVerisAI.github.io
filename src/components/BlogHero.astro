@@ -1,0 +1,65 @@
+---
+interface Props {
+	eyebrow: string;
+	title: string;
+	description: string;
+}
+
+const { eyebrow, title, description } = Astro.props;
+---
+
+<section class="blog-hero">
+	<div class="blog-hero__inner">
+		<span class="eyebrow reveal reveal-hero-eyebrow">{eyebrow}</span>
+		<h1 class="blog-hero__title reveal reveal-hero-title">{title}</h1>
+		<p class="blog-hero__desc reveal reveal-hero-desc">{description}</p>
+	</div>
+</section>
+
+<style>
+	.blog-hero {
+		padding: var(--qv-spacing-section) 0 calc(var(--qv-spacing-section) * 0.6);
+		text-align: center;
+	}
+
+	.blog-hero__inner {
+		max-width: 680px;
+		margin: 0 auto;
+	}
+
+	.blog-hero__title {
+		font-size: clamp(36px, 5.5vw, 56px);
+		font-weight: 350;
+		letter-spacing: -0.05em;
+		line-height: 1.05;
+		margin: 14px 0 0;
+		color: var(--qv-text-1);
+	}
+
+	.blog-hero__desc {
+		font-size: 17px;
+		font-weight: 350;
+		letter-spacing: -0.015em;
+		line-height: 1.72;
+		color: var(--qv-text-3);
+		margin: 20px 0 0;
+		max-width: 520px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	@media (max-width: 700px) {
+		.blog-hero {
+			padding: calc(var(--qv-spacing-section) * 0.7) 0
+				calc(var(--qv-spacing-section) * 0.45);
+		}
+
+		.blog-hero__title {
+			font-size: clamp(28px, 7vw, 42px);
+		}
+
+		.blog-hero__desc {
+			font-size: 15px;
+		}
+	}
+</style>

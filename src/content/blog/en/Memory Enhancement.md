@@ -2,7 +2,11 @@
 title: 'Memory Enhancement'
 description: 'introduces three major QVerisBot-specific enhancements.'
 pubDate: 'Jul 08 2026'
-heroImage: '../../../assets/7144b6a3-0547-4063-aeb2-1cee462007fa.png'
+heroImage: '../../../assets/blog-hero-memory-enhancement.png'
+category: 'Engineering'
+author: 'QVeris Team'
+tags: ['memory', 'agents', 'context-window']
+translationKey: 'memory-enhancement'
 ---
 
 QVerisBot now ships with an advanced memory management system built on two bundled hooks:

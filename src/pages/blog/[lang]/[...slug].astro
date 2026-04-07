@@ -3,20 +3,23 @@ import { type CollectionEntry, getCollection, render } from 'astro:content';
 import BlogPost from '../../../layouts/BlogPost.astro';
 import { type Locale, isLocale } from '../../../i18n/config';
 import { localizedPath } from '../../../i18n/utils';
+import { getReadingTime } from '../../../utils/reading-time';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('blog');
-	return posts.map((post) => {
-		const [lang, ...slugParts] = post.id.split('/');
-		if (!isLocale(lang)) {
-			throw new Error(`Invalid locale in content id: ${post.id}`);
-		}
-		const slug = slugParts.join('/');
-		return {
-			params: { lang, slug },
-			props: { post },
-		};
-	});
+	return posts
+		.filter((p) => !p.data.draft)
+		.map((post) => {
+			const [lang, ...slugParts] = post.id.split('/');
+			if (!isLocale(lang)) {
+				throw new Error(`Invalid locale in content id: ${post.id}`);
+			}
+			const slug = slugParts.join('/');
+			return {
+				params: { lang, slug },
+				props: { post },
+			};
+		});
 }
 
 type Props = {
@@ -27,8 +30,10 @@ const { post } = Astro.props;
 const { lang: langParam } = Astro.params;
 const lang = isLocale(langParam ?? '') ? (langParam as Locale) : 'en';
 
+// Get all posts in this language for prev/next navigation
 const allInLang = (await getCollection('blog'))
 	.filter((p) => p.id.startsWith(`${lang}/`))
+	.filter((p) => !p.data.draft)
 	.sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf());
 
 const idx = allInLang.findIndex((p) => p.id === post.id);
@@ -41,6 +46,7 @@ const prevPost =
 				title: allInLang[idx - 1].data.title,
 			}
 		: null;
+
 const nextPost =
 	idx >= 0 && idx < allInLang.length - 1
 		? {
@@ -50,7 +56,8 @@ const nextPost =
 		: null;
 
 const blogIndexHref = localizedPath(lang, '/blog');
-const { Content } = await render(post);
+const { Content, headings } = await render(post);
+const readingTime = getReadingTime(post.body ?? '');
 ---
 
 <BlogPost
@@ -59,6 +66,8 @@ const { Content } = await render(post);
 	prevPost={prevPost}
 	nextPost={nextPost}
 	blogIndexHref={blogIndexHref}
+	headings={headings}
+	readingTime={readingTime}
 >
 	<Content />
 </BlogPost>

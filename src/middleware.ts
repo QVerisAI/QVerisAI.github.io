@@ -1,19 +1,49 @@
 import type { MiddlewareHandler } from 'astro';
-import { isLocale } from './i18n/config';
+import { isLocale, regionLocales, regionDefaultLocale } from './i18n/config';
+import { isRegion } from './i18n/config';
+import { getLocaleFromPath, switchLocaleInPath } from './i18n/utils';
 
 /**
- * iframe 父页面可用 `?lang=en|cn`：
- * - `/` + `?lang=cn` → `/blog/cn/`
+ * Query parameters handled:
+ * - `?lang=en|cn`    — switch locale (iframe parent passes this)
+ * - `?region=cn|global` — set region context
+ * - `?embed=true`    — enable compact embed mode
+ *
+ * Examples:
+ * - `/` + `?lang=cn`          → `/blog/cn/`
  * - `/blog/en/...` + `?lang=cn` → `/blog/cn/...`
- * - `/doc/en/...` + `?lang=cn` → `/doc/cn/...`
+ * - `/blog/en/?region=cn`     → stores region, redirects to `/blog/cn/`
  */
 export const onRequest: MiddlewareHandler = async (context, next) => {
-	const langParam = context.url.searchParams.get('lang');
+	const url = new URL(context.url);
+
+	// ---- Region detection (store in locals for layouts) ----
+	const regionParam = url.searchParams.get('region');
+	if (regionParam && isRegion(regionParam)) {
+		context.locals.region = regionParam;
+
+		// Redirect to the region's default locale if current locale is unsupported
+		const currentLocale = getLocaleFromPath(url.pathname);
+		const availableLocales = regionLocales[regionParam];
+		if (!availableLocales.includes(currentLocale)) {
+			const newLocale = regionDefaultLocale[regionParam];
+			url.pathname = switchLocaleInPath(url.pathname, newLocale);
+			return context.redirect(url.toString());
+		}
+	}
+
+	// ---- Embed mode detection ----
+	const embedParam = url.searchParams.get('embed');
+	if (embedParam === 'true') {
+		context.locals.embed = true;
+	}
+
+	// ---- Locale redirect ----
+	const langParam = url.searchParams.get('lang');
 	if (!langParam || !isLocale(langParam)) {
 		return next();
 	}
 
-	const url = new URL(context.url);
 	const pathname = url.pathname;
 	const segments = pathname.split('/').filter(Boolean);
 

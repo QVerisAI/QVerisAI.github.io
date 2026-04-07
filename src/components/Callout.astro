@@ -1,0 +1,35 @@
+---
+/**
+ * Callout box for MDX content.
+ * Usage in MDX:
+ *   import Callout from '../../components/Callout.astro';
+ *   <Callout type="tip" title="Pro tip">Content here</Callout>
+ */
+
+interface Props {
+	type?: 'tip' | 'warning' | 'info';
+	title?: string;
+}
+
+const { type = 'info', title } = Astro.props;
+
+const icons: Record<string, string> = {
+	tip: '💡',
+	warning: '⚠️',
+	info: 'ℹ️',
+};
+
+const defaultTitles: Record<string, string> = {
+	tip: 'Tip',
+	warning: 'Warning',
+	info: 'Note',
+};
+---
+
+<div class:list={['callout', `callout-${type}`]}>
+	<div class="callout-title">
+		<span aria-hidden="true">{icons[type]}</span>
+		{title || defaultTitles[type]}
+	</div>
+	<slot />
+</div>

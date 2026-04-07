@@ -5,17 +5,19 @@ import { type Locale, isLocale } from '../../../i18n/config';
 
 export async function getStaticPaths() {
 	const pages = await getCollection('doc');
-	return pages.map((entry) => {
-		const [lang, ...slugParts] = entry.id.split('/');
-		if (!isLocale(lang)) {
-			throw new Error(`Invalid locale in content id: ${entry.id}`);
-		}
-		const slug = slugParts.join('/');
-		return {
-			params: { lang, slug },
-			props: { page: entry },
-		};
-	});
+	return pages
+		.filter((p) => !p.data.draft)
+		.map((entry) => {
+			const [lang, ...slugParts] = entry.id.split('/');
+			if (!isLocale(lang)) {
+				throw new Error(`Invalid locale in content id: ${entry.id}`);
+			}
+			const slug = slugParts.join('/');
+			return {
+				params: { lang, slug },
+				props: { page: entry },
+			};
+		});
 }
 
 type Props = {
@@ -25,9 +27,9 @@ type Props = {
 const { page } = Astro.props;
 const { lang: langParam } = Astro.params;
 const lang = isLocale(langParam ?? '') ? (langParam as Locale) : 'en';
-const { Content } = await render(page);
+const { Content, headings } = await render(page);
 ---
 
-<DocPage {...page.data} lang={lang}>
+<DocPage {...page.data} lang={lang} headings={headings}>
 	<Content />
 </DocPage>

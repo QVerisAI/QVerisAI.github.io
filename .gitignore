@@ -1,5 +1,6 @@
 # build output
 dist/
+
 # generated types
 .astro/
 
@@ -12,13 +13,24 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-
 # environment variables
 .env
-.env.production
+.env.*
+!.env.example
 
-# macOS-specific files
-.DS_Store
-
-# jetbrains setting folder
+# --- IDE & editor ---
+.vscode/
 .idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Claude Code ---
+.claude/
+
+# --- pnpm auto-generated ---
+pnpm-workspace.yaml

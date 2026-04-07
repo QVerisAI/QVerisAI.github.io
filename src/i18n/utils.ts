@@ -1,5 +1,5 @@
-import type { Locale } from './config';
-import { defaultLocale, isLocale, locales } from './config';
+import type { Locale, Region } from './config';
+import { defaultLocale, isLocale, locales, regionLocales } from './config';
 
 /**
  * Build a path: section first, then language, then optional slugs.
@@ -46,4 +46,29 @@ export function getLocaleFromPath(pathname: string): Locale {
 
 export function getStaticLocalePaths() {
 	return locales.map((lang) => ({ params: { lang } }));
+}
+
+/* ------------------------------------------------------------------ */
+/*  Multi-Region Utilities                                             */
+/* ------------------------------------------------------------------ */
+
+/** Get available locales for the current region */
+export function getAvailableLocales(region: Region): readonly Locale[] {
+	return regionLocales[region];
+}
+
+/** Check if language switcher should be shown */
+export function showLanguageSwitcher(region: Region): boolean {
+	return regionLocales[region].length > 1;
+}
+
+/** Get html lang attribute value from locale */
+export function getHtmlLang(locale: Locale): string {
+	switch (locale) {
+		case 'cn':
+			return 'zh-CN';
+		case 'en':
+		default:
+			return 'en';
+	}
 }
