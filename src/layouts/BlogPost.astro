@@ -9,9 +9,11 @@ import Eyebrow from '../components/Eyebrow.astro';
 import PostMeta from '../components/PostMeta.astro';
 import Divider from '../components/Divider.astro';
 import TableOfContents from '../components/TableOfContents.astro';
+import JsonLd from '../components/JsonLd.astro';
 import type { Locale, Region } from '../i18n/config';
 import { t } from '../i18n/labels';
 import { localizedPath } from '../i18n/utils';
+import { SITE_URL } from '../consts';
 
 type NavLink = { href: string; title: string };
 
@@ -24,6 +26,7 @@ type Props = CollectionEntry<'blog'>['data'] & {
 	blogIndexHref: string;
 	headings: MarkdownHeading[];
 	readingTime: number;
+	wordCount: number;
 };
 
 const {
@@ -33,6 +36,8 @@ const {
 	updatedDate,
 	heroImage,
 	category,
+	author,
+	tags,
 	lang,
 	region = 'global',
 	embed = false,
@@ -41,6 +46,7 @@ const {
 	blogIndexHref,
 	headings,
 	readingTime,
+	wordCount,
 } = Astro.props;
 
 const L = t(lang);
@@ -49,9 +55,44 @@ const breadcrumbItems = [
 	...(category ? [{ label: category, href: blogIndexHref }] : []),
 	{ label: title },
 ];
+const site = Astro.site?.toString().replace(/\/$/, '') ?? SITE_URL;
+const canonicalUrl = new URL(Astro.url.pathname, site).toString();
+const breadcrumbLd = breadcrumbItems.map((item) => ({
+	name: item.label,
+	...(item.href && { url: `${site}${item.href}` }),
+}));
 ---
 
-<BaseLayout title={title} description={description} lang={lang} section="blog" region={region} embed={embed}>
+<BaseLayout
+	title={title}
+	description={description}
+	lang={lang}
+	section="blog"
+	region={region}
+	embed={embed}
+	ogType="article"
+	image={heroImage}
+	pubDate={pubDate}
+	updatedDate={updatedDate}
+	author={author}
+	tags={tags}
+>
+	<!-- JSON-LD structured data -->
+	<JsonLd type="BlogPosting" data={{
+		title,
+		description,
+		url: canonicalUrl,
+		image: heroImage ? new URL(heroImage.src, Astro.url).toString() : undefined,
+		pubDate,
+		updatedDate,
+		author,
+		tags,
+		category,
+		lang,
+		wordCount,
+	}} />
+	<JsonLd type="BreadcrumbList" data={{ items: breadcrumbLd }} />
+
 	<div class="post-layout">
 		<article class="post-content">
 			<Breadcrumb items={breadcrumbItems} />
@@ -59,7 +100,7 @@ const breadcrumbItems = [
 			<header class="post-header">
 				{category && <Eyebrow text={category} class="post-header__eyebrow" />}
 				<h1 class="post-header__title">{title}</h1>
-				<PostMeta date={pubDate} readingTime={readingTime} lang={lang} />
+				<PostMeta date={pubDate} readingTime={readingTime} category={category} lang={lang} />
 				{updatedDate && (
 					<p class="post-header__updated">
 						{L.lastUpdatedOn}{' '}
@@ -80,9 +121,21 @@ const breadcrumbItems = [
 				</figure>
 			)}
 
+			{/* Visible summary for AEO — AI engines prefer a lead paragraph */}
+			{description && <p class="post-summary">{description}</p>}
+
 			<div class="prose">
 				<slot />
 			</div>
+
+			{/* Visible tags */}
+			{tags && tags.length > 0 && (
+				<div class="post-tags">
+					{tags.map((tag) => (
+						<span class="badge">{tag}</span>
+					))}
+				</div>
+			)}
 
 			<Divider class="post-divider" />
 
@@ -180,6 +233,27 @@ const breadcrumbItems = [
 		display: block;
 		border-radius: 0;
 		border: none;
+	}
+
+	/* ---- Summary (AEO lead paragraph) ---- */
+	.post-summary {
+		font-size: 17px;
+		line-height: 1.72;
+		color: var(--qv-text-2);
+		margin: 0 0 32px;
+		padding: 16px 20px;
+		border-left: 3px solid var(--qv-brand-aqua);
+		background: rgba(52, 227, 244, 0.03);
+		border-radius: 0 var(--qv-radius-sm) var(--qv-radius-sm) 0;
+		font-style: italic;
+	}
+
+	/* ---- Tags ---- */
+	.post-tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+		margin: 32px 0 0;
 	}
 
 	/* ---- Divider ---- */
