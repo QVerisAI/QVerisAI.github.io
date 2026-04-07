@@ -1,0 +1,142 @@
+---
+/**
+ * JSON-LD structured data for SEO and AEO.
+ *
+ * Usage:
+ *   <JsonLd type="BlogPosting" data={{ title, description, ... }} />
+ *   <JsonLd type="BreadcrumbList" data={{ items: [...] }} />
+ *   <JsonLd type="CollectionPage" data={{ title, description, posts: [...] }} />
+ */
+
+interface BreadcrumbItem {
+	name: string;
+	url?: string;
+}
+
+interface PostRef {
+	title: string;
+	url: string;
+}
+
+interface BlogPostingData {
+	title: string;
+	description: string;
+	url: string;
+	image?: string;
+	pubDate: Date;
+	updatedDate?: Date;
+	author?: string;
+	tags?: string[];
+	category?: string;
+	lang: string;
+	wordCount?: number;
+}
+
+interface BreadcrumbData {
+	items: BreadcrumbItem[];
+}
+
+interface CollectionPageData {
+	title: string;
+	description: string;
+	url: string;
+	posts: PostRef[];
+}
+
+type Props =
+	| { type: 'BlogPosting'; data: BlogPostingData }
+	| { type: 'BreadcrumbList'; data: BreadcrumbData }
+	| { type: 'CollectionPage'; data: CollectionPageData };
+
+const { type, data } = Astro.props;
+const site = Astro.site?.toString().replace(/\/$/, '') ?? 'https://qveris.ai';
+
+function buildBlogPosting(d: BlogPostingData) {
+	return {
+		'@context': 'https://schema.org',
+		'@type': 'BlogPosting',
+		headline: d.title,
+		description: d.description,
+		url: d.url,
+		...(d.image && { image: d.image }),
+		datePublished: d.pubDate.toISOString(),
+		...(d.updatedDate && { dateModified: d.updatedDate.toISOString() }),
+		...(d.wordCount && { wordCount: d.wordCount }),
+		...(d.category && { articleSection: d.category }),
+		...(d.tags?.length && { keywords: d.tags.join(', ') }),
+		inLanguage: d.lang === 'cn' ? 'zh-CN' : 'en',
+		author: {
+			'@type': 'Organization',
+			name: d.author ?? 'QVeris',
+			url: site,
+		},
+		publisher: {
+			'@type': 'Organization',
+			name: 'QVeris',
+			url: site,
+			logo: {
+				'@type': 'ImageObject',
+				url: `${site}/favicon.svg`,
+			},
+		},
+		mainEntityOfPage: {
+			'@type': 'WebPage',
+			'@id': d.url,
+		},
+	};
+}
+
+function buildBreadcrumbList(d: BreadcrumbData) {
+	return {
+		'@context': 'https://schema.org',
+		'@type': 'BreadcrumbList',
+		itemListElement: d.items.map((item, i) => ({
+			'@type': 'ListItem',
+			position: i + 1,
+			name: item.name,
+			...(item.url && { item: item.url }),
+		})),
+	};
+}
+
+function buildCollectionPage(d: CollectionPageData) {
+	return {
+		'@context': 'https://schema.org',
+		'@type': 'CollectionPage',
+		name: d.title,
+		description: d.description,
+		url: d.url,
+		mainEntity: {
+			'@type': 'ItemList',
+			numberOfItems: d.posts.length,
+			itemListElement: d.posts.map((post, i) => ({
+				'@type': 'ListItem',
+				position: i + 1,
+				name: post.title,
+				url: post.url,
+			})),
+		},
+		publisher: {
+			'@type': 'Organization',
+			name: 'QVeris',
+			url: site,
+		},
+	};
+}
+
+let jsonLd: Record<string, unknown>;
+
+switch (type) {
+	case 'BlogPosting':
+		jsonLd = buildBlogPosting(data as BlogPostingData);
+		break;
+	case 'BreadcrumbList':
+		jsonLd = buildBreadcrumbList(data as BreadcrumbData);
+		break;
+	case 'CollectionPage':
+		jsonLd = buildCollectionPage(data as CollectionPageData);
+		break;
+}
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />

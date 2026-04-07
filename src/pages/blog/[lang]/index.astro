@@ -5,7 +5,7 @@ import BlogHero from '../../../components/BlogHero.astro';
 import Divider from '../../../components/Divider.astro';
 import PostCard from '../../../components/PostCard.astro';
 import ScrollReveal from '../../../components/ScrollReveal.astro';
-import Eyebrow from '../../../components/Eyebrow.astro';
+import JsonLd from '../../../components/JsonLd.astro';
 import { isLocale } from '../../../i18n/config';
 import { getStaticLocalePaths, localizedPath } from '../../../i18n/utils';
 import { t } from '../../../i18n/labels';
@@ -35,9 +35,24 @@ function postHref(post: (typeof allPosts)[0]) {
 	const slug = post.id.replace(`${lang}/`, '');
 	return localizedPath(lang, `/blog/${slug}`);
 }
+
+const site = Astro.site?.toString().replace(/\/$/, '') ?? 'https://qveris.ai';
+const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const allPostRefs = allPosts.map((p) => ({
+	title: p.data.title,
+	url: `${site}${postHref(p)}`,
+}));
 ---
 
 <BaseLayout title={`${L.blog} — ${SITE_TITLE}`} description={L.blogDescription} lang={lang} section="blog">
+	{/* CollectionPage JSON-LD */}
+	<JsonLd type="CollectionPage" data={{
+		title: `${L.blog} — ${SITE_TITLE}`,
+		description: L.blogDescription,
+		url: pageUrl,
+		posts: allPostRefs,
+	}} />
+
 	<BlogHero
 		eyebrow={L.blogEyebrow}
 		title={L.blogTitle}
@@ -47,10 +62,10 @@ function postHref(post: (typeof allPosts)[0]) {
 	<Divider />
 
 	{featuredPost && (
-		<section class="featured-section">
+		<section class="featured-section" aria-labelledby="featured-heading">
 			<div class="container--blog">
 				<ScrollReveal delay={0.1}>
-					<Eyebrow text={L.featuredPost} />
+					<h2 id="featured-heading" class="section-heading">{L.featuredPost}</h2>
 					<div class="featured-card">
 						<PostCard
 							post={featuredPost}
@@ -65,13 +80,11 @@ function postHref(post: (typeof allPosts)[0]) {
 		</section>
 	)}
 
-	<section class="posts-section">
+	<section class="posts-section" aria-labelledby="posts-heading">
 		<div class="container--blog">
 			{posts.length > 0 && (
 				<ScrollReveal delay={0.2}>
-					{posts.length > 0 && !featuredPost && (
-						<Eyebrow text={L.allPosts} class="posts-eyebrow" />
-					)}
+					<h2 id="posts-heading" class="section-heading">{L.allPosts}</h2>
 					<div class="post-grid">
 						{posts.map((post, i) => (
 							<div class="post-grid__item reveal" style={`--reveal-delay: ${0.25 + i * 0.09}s`}>
@@ -102,6 +115,29 @@ function postHref(post: (typeof allPosts)[0]) {
 		box-sizing: border-box;
 	}
 
+	/* Section headings — semantic h2 with eyebrow styling */
+	.section-heading {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		font-family: var(--qv-font-mono);
+		font-size: 11px;
+		font-weight: 500;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: var(--qv-text-3);
+		margin: 0 0 4px;
+	}
+
+	.section-heading::before {
+		content: '';
+		display: inline-block;
+		width: 18px;
+		height: 2px;
+		background: linear-gradient(90deg, var(--qv-brand-aqua), transparent);
+		border-radius: 1px;
+	}
+
 	.featured-section {
 		padding: 48px 0;
 	}
@@ -112,10 +148,6 @@ function postHref(post: (typeof allPosts)[0]) {
 
 	.posts-section {
 		padding: 32px 0 var(--qv-spacing-section);
-	}
-
-	.posts-eyebrow {
-		margin-bottom: 24px;
 	}
 
 	.post-grid {

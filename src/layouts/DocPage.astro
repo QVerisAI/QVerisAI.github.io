@@ -7,6 +7,7 @@ import BaseLayout from './BaseLayout.astro';
 import Breadcrumb from '../components/Breadcrumb.astro';
 import PostMeta from '../components/PostMeta.astro';
 import TableOfContents from '../components/TableOfContents.astro';
+import JsonLd from '../components/JsonLd.astro';
 import type { Locale, Region } from '../i18n/config';
 import { t } from '../i18n/labels';
 import { localizedPath } from '../i18n/utils';
@@ -36,9 +37,37 @@ const breadcrumbItems = [
 	{ label: L.doc, href: docIndexHref },
 	{ label: title },
 ];
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const site = Astro.site?.toString().replace(/\/$/, '') ?? 'https://qveris.ai';
+const breadcrumbLd = breadcrumbItems.map((item) => ({
+	name: item.label,
+	...(item.href && { url: `${site}${item.href}` }),
+}));
 ---
 
-<BaseLayout title={title} description={description} lang={lang} section="doc" region={region} embed={embed}>
+<BaseLayout
+	title={title}
+	description={description}
+	lang={lang}
+	section="doc"
+	region={region}
+	embed={embed}
+	ogType="article"
+	image={heroImage}
+	pubDate={pubDate}
+	updatedDate={updatedDate}
+>
+	<JsonLd type="BlogPosting" data={{
+		title,
+		description,
+		url: canonicalUrl,
+		image: heroImage ? new URL(heroImage.src, Astro.url).toString() : undefined,
+		pubDate,
+		updatedDate,
+		lang,
+	}} />
+	<JsonLd type="BreadcrumbList" data={{ items: breadcrumbLd }} />
+
 	<div class="doc-layout">
 		<article class="doc-content">
 			<Breadcrumb items={breadcrumbItems} />

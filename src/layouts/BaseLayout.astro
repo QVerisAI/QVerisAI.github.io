@@ -1,6 +1,7 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
 import Nav from '../components/Nav.astro';
+import type { ImageMetadata } from 'astro';
 import type { Locale, Region } from '../i18n/config';
 import { getHtmlLang } from '../i18n/utils';
 
@@ -11,16 +12,47 @@ interface Props {
 	section: 'blog' | 'doc';
 	region?: Region;
 	embed?: boolean;
+	// SEO pass-through
+	ogType?: 'website' | 'article';
+	image?: ImageMetadata;
+	pubDate?: Date;
+	updatedDate?: Date;
+	author?: string;
+	tags?: string[];
 }
 
-const { title, description, lang, section, region = 'global', embed = false } = Astro.props;
+const {
+	title,
+	description,
+	lang,
+	section,
+	region = 'global',
+	embed = false,
+	ogType = 'website',
+	image,
+	pubDate,
+	updatedDate,
+	author,
+	tags,
+} = Astro.props;
 const htmlLang = getHtmlLang(lang);
 ---
 
 <!doctype html>
 <html lang={htmlLang}>
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead
+			title={title}
+			description={description}
+			lang={lang}
+			ogType={ogType}
+			image={image}
+			pubDate={pubDate}
+			updatedDate={updatedDate}
+			author={author}
+			tags={tags}
+		/>
+		<slot name="head" />
 	</head>
 	<body class="embed-body">
 		<Nav lang={lang} section={section} region={region} embed={embed} />
