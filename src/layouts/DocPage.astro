@@ -11,6 +11,7 @@ import JsonLd from '../components/JsonLd.astro';
 import type { Locale, Region } from '../i18n/config';
 import { t } from '../i18n/labels';
 import { localizedPath } from '../i18n/utils';
+import { SITE_URL } from '../consts';
 
 type Props = CollectionEntry<'doc'>['data'] & {
 	lang: Locale;
@@ -38,7 +39,7 @@ const breadcrumbItems = [
 	{ label: title },
 ];
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site).toString();
-const site = Astro.site?.toString().replace(/\/$/, '') ?? 'https://qveris.ai';
+const site = Astro.site?.toString().replace(/\/$/, '') ?? SITE_URL;
 const breadcrumbLd = breadcrumbItems.map((item) => ({
 	name: item.label,
 	...(item.href && { url: `${site}${item.href}` }),

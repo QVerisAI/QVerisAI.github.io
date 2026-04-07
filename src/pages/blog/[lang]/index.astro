@@ -9,7 +9,7 @@ import JsonLd from '../../../components/JsonLd.astro';
 import { isLocale } from '../../../i18n/config';
 import { getStaticLocalePaths, localizedPath } from '../../../i18n/utils';
 import { t } from '../../../i18n/labels';
-import { SITE_TITLE } from '../../../consts';
+import { SITE_TITLE, SITE_URL } from '../../../consts';
 import { getReadingTime } from '../../../utils/reading-time';
 
 export function getStaticPaths() {
@@ -36,7 +36,7 @@ function postHref(post: (typeof allPosts)[0]) {
 	return localizedPath(lang, `/blog/${slug}`);
 }
 
-const site = Astro.site?.toString().replace(/\/$/, '') ?? 'https://qveris.ai';
+const site = Astro.site?.toString().replace(/\/$/, '') ?? SITE_URL;
 const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
 const allPostRefs = allPosts.map((p) => ({
 	title: p.data.title,

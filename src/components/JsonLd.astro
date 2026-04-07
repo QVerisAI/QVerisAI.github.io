@@ -48,8 +48,10 @@ type Props =
 	| { type: 'BreadcrumbList'; data: BreadcrumbData }
 	| { type: 'CollectionPage'; data: CollectionPageData };
 
+import { SITE_URL } from '../consts';
+
 const { type, data } = Astro.props;
-const site = Astro.site?.toString().replace(/\/$/, '') ?? 'https://qveris.ai';
+const site = Astro.site?.toString().replace(/\/$/, '') ?? SITE_URL;
 
 function buildBlogPosting(d: BlogPostingData) {
 	return {
