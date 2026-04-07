@@ -2,7 +2,6 @@
 import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import BaseHead from '../../../components/BaseHead.astro';
-import EmbedToolbar from '../../../components/EmbedToolbar.astro';
 import FormattedDate from '../../../components/FormattedDate.astro';
 import { isLocale } from '../../../i18n/config';
 import { getStaticLocalePaths, localizedPath } from '../../../i18n/utils';
@@ -17,6 +16,7 @@ const { lang: langParam } = Astro.params;
 const lang = isLocale(langParam ?? '') ? langParam : 'en';
 const L = t(lang);
 const htmlLang = lang === 'cn' ? 'zh-CN' : 'en';
+const pathname = Astro.url.pathname;
 
 const posts = (await getCollection('blog'))
 	.filter((p) => p.id.startsWith(`${lang}/`))
@@ -29,113 +29,421 @@ const posts = (await getCollection('blog'))
 		<BaseHead title={`${L.blog} — ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
 		<style>
 			.embed-main {
-				padding-top: 0.5rem;
-				max-width: 880px;
+				padding-top: 1.25rem;
+				max-width: 1120px;
 			}
-			ul.posts {
+			.blog-index-header {
+				margin-bottom: 2rem;
+			}
+			.blog-index-toolbar {
 				display: flex;
 				flex-wrap: wrap;
-				gap: 1.75rem 1.25rem;
+				align-items: center;
+				justify-content: space-between;
+				gap: 1rem 1.25rem;
+			}
+			.blog-index-tabs {
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				gap: 0.35rem 0.75rem;
+			}
+			.blog-index-tabs a,
+			.blog-index-tabs span {
+				font-size: 0.92rem;
+				font-weight: 500;
+				color: var(--muted);
+				text-decoration: none;
+				padding: 0.2rem 0;
+				border-bottom: 2px solid transparent;
+				background: none;
+				border-left: 0;
+				border-right: 0;
+				border-top: 0;
+				cursor: default;
+			}
+			.blog-index-tabs a {
+				cursor: pointer;
+			}
+			.blog-index-tabs a:hover {
+				color: var(--text);
+			}
+			.blog-index-tabs span.is-active {
+				color: var(--text);
+				font-weight: 600;
+				border-bottom-color: var(--text);
+			}
+			.blog-index-controls {
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				gap: 1rem 1.25rem;
+			}
+			.blog-filter {
+				position: relative;
+			}
+			.blog-filter summary {
+				list-style: none;
+				display: inline-flex;
+				align-items: center;
+				gap: 0.35rem;
+				font-size: 0.88rem;
+				color: var(--muted);
+				cursor: pointer;
+				user-select: none;
+			}
+			.blog-filter summary::-webkit-details-marker {
+				display: none;
+			}
+			.blog-filter summary:hover {
+				color: var(--text);
+			}
+			.blog-filter-panel {
+				position: absolute;
+				top: calc(100% + 0.35rem);
+				right: 0;
+				min-width: 200px;
+				padding: 0.65rem 0.85rem;
+				background: var(--surface);
+				border: 1px solid var(--border);
+				border-radius: 10px;
+				box-shadow: var(--box-shadow);
+				font-size: 0.85rem;
+				color: var(--muted);
+				z-index: 20;
+			}
+			.blog-sort {
+				display: inline-flex;
+				align-items: center;
+				gap: 0.4rem;
+				font-size: 0.88rem;
+				color: var(--muted);
+			}
+			.blog-sort select {
+				appearance: none;
+				background: var(--surface);
+				border: 1px solid var(--border);
+				border-radius: 8px;
+				color: var(--text);
+				font: inherit;
+				font-size: 0.85rem;
+				padding: 0.35rem 1.75rem 0.35rem 0.55rem;
+				cursor: pointer;
+				background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2399a3b3' d='M3 4.5L6 7.5 9 4.5'/%3E%3C/svg%3E");
+				background-repeat: no-repeat;
+				background-position: right 0.45rem center;
+			}
+			.blog-sort select:focus-visible {
+				outline: 2px solid var(--accent);
+				outline-offset: 2px;
+			}
+			.view-toggle {
+				display: inline-flex;
+				border: 1px solid var(--border);
+				border-radius: 8px;
+				overflow: hidden;
+			}
+			.view-toggle button {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 2.25rem;
+				height: 2.1rem;
+				padding: 0;
+				border: none;
+				background: transparent;
+				color: var(--muted);
+				cursor: pointer;
+				transition:
+					background 0.12s ease,
+					color 0.12s ease;
+			}
+			.view-toggle button:hover {
+				color: var(--text);
+				background: var(--surface-hover);
+			}
+			.view-toggle button[aria-pressed='true'] {
+				color: var(--text);
+				background: var(--surface);
+			}
+			.view-toggle button:focus-visible {
+				outline: 2px solid var(--accent);
+				outline-offset: -2px;
+			}
+			ul.posts {
 				list-style: none;
 				margin: 0;
 				padding: 0;
 			}
-			ul.posts > li {
-				flex: 1 1 240px;
-				min-width: min(100%, 240px);
-				max-width: 100%;
-				display: flex;
-				flex-direction: column;
-				box-sizing: border-box;
+			ul.posts--grid {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				gap: 1.75rem 1.25rem;
 			}
-			ul.posts li a {
+			ul.posts--list {
 				display: flex;
 				flex-direction: column;
-				flex: 1 1 auto;
-				min-height: 0;
+				gap: 0;
+			}
+			ul.posts--grid > li {
+				min-width: 0;
+			}
+			ul.posts--list > li {
+				border-bottom: 1px solid var(--border);
+			}
+			ul.posts--list > li:last-child {
+				border-bottom: none;
+			}
+			.post-card {
+				display: flex;
 				color: inherit;
 				text-decoration: none;
-				padding: 0.65rem 0.65rem 0.75rem;
-				background: var(--surface);
-				border: 1px solid var(--border);
-				border-radius: 12px;
+				box-sizing: border-box;
 				transition:
 					border-color 0.15s ease,
 					background 0.15s ease;
 			}
-			ul.posts li a:hover {
-				border-color: var(--accent);
-				background: var(--surface-hover);
+			ul.posts--grid .post-card {
+				flex-direction: column;
+				gap: 0.75rem;
+				padding: 0;
+				background: transparent;
+				border: none;
+				border-radius: 0;
 			}
-			.post-thumb {
-				aspect-ratio: 16 / 9;
-				max-height: 140px;
-				width: 100%;
-				margin-bottom: 0.65rem;
+			ul.posts--grid .post-card:hover .post-card__title {
+				color: var(--accent);
+			}
+			ul.posts--list .post-card {
+				flex-direction: row;
+				align-items: flex-start;
+				gap: clamp(1rem, 4vw, 2.5rem);
+				padding: 2rem 0;
+				background: transparent;
+				border: none;
+				border-radius: 0;
+			}
+			ul.posts--list .post-card:hover .post-card__title {
+				color: var(--accent);
+			}
+			.post-card__visual {
+				flex-shrink: 0;
 				border-radius: 8px;
+				overflow: hidden;
+				box-sizing: border-box;
+			}
+			ul.posts--grid .post-card__visual {
+				aspect-ratio: 1;
+				width: 100%;
+				min-height: 0;
 				background: linear-gradient(
 					180deg,
-					rgba(255, 255, 255, 0.05) 0%,
-					color-mix(in srgb, var(--qv-bg) 72%, transparent) 100%
+					rgba(255, 255, 255, 0.06) 0%,
+					color-mix(in srgb, var(--qv-bg) 78%, transparent) 100%
 				);
 				border: 1px solid var(--border);
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				overflow: hidden;
-				box-sizing: border-box;
 			}
-			.post-thumb :global(img) {
-				max-height: 85%;
-				max-width: 85%;
+			ul.posts--grid .post-card__visual--empty {
+				min-height: 140px;
+			}
+			ul.posts--list .post-card__visual {
+				display: none;
+			}
+			.post-card__visual :global(img) {
+				max-height: 78%;
+				max-width: 78%;
 				width: auto;
 				height: auto;
 				object-fit: contain;
 				border-radius: 4px;
 			}
-			.title {
+			.post-card__body {
+				display: flex;
+				flex-direction: column;
+				gap: 0.45rem;
+				min-width: 0;
+			}
+			ul.posts--list .post-card__body {
+				flex: 1;
+			}
+			ul.posts--list .post-card__aside {
+				flex: 0 0 clamp(5.5rem, 18%, 8.5rem);
+				display: flex;
+				flex-direction: column;
+				gap: 0.35rem;
+				padding-top: 0.15rem;
+			}
+			ul.posts--grid .post-card__aside {
+				display: none;
+			}
+			.post-card__cat {
+				font-size: 0.82rem;
+				color: var(--muted);
+				font-weight: 500;
+			}
+			.post-card__date {
+				font-size: 0.82rem;
+				color: var(--muted);
+			}
+			ul.posts--grid .post-card__meta {
+				display: flex;
+				flex-wrap: wrap;
+				align-items: baseline;
+				gap: 0.35rem;
+				font-size: 0.85rem;
+				color: var(--muted);
+				order: 3;
+			}
+			ul.posts--grid .post-card__meta-sep {
+				opacity: 0.5;
+			}
+			ul.posts--list .post-card__meta {
+				display: none;
+			}
+			.post-card__title {
 				margin: 0;
 				color: var(--text);
 				line-height: 1.3;
 				font-size: 1.05rem;
 				font-weight: 600;
+				order: 1;
 			}
-			.date {
-				margin: 0.35rem 0 0;
+			ul.posts--list .post-card__title {
+				font-size: clamp(1.05rem, 2.5vw, 1.2rem);
+			}
+			.post-card__desc {
+				margin: 0;
+				font-size: 0.92rem;
+				line-height: 1.55;
 				color: var(--muted);
-				font-size: 0.85rem;
+				order: 2;
+				display: -webkit-box;
+				-webkit-line-clamp: 3;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
 			}
-			ul.posts li a:hover .title {
-				color: var(--accent);
+			ul.posts--grid .post-card__desc {
+				display: none;
+			}
+			@media (max-width: 900px) {
+				ul.posts--grid {
+					grid-template-columns: repeat(2, 1fr);
+				}
 			}
 			@media (max-width: 520px) {
-				ul.posts > li {
-					flex-basis: 100%;
-					min-width: 0;
+				ul.posts--grid {
+					grid-template-columns: 1fr;
+				}
+				ul.posts--list .post-card {
+					flex-direction: column;
+					gap: 0.65rem;
+				}
+				ul.posts--list .post-card__aside {
+					flex: none;
+					flex-direction: row;
+					align-items: baseline;
+					gap: 0.5rem;
 				}
 			}
 		</style>
 	</head>
 	<body class="embed-body">
-		<EmbedToolbar lang={lang} section="blog" />
 		<main class="embed-main">
+			<header class="blog-index-header">
+				<div class="blog-index-toolbar">
+					<nav class="blog-index-tabs" aria-label={L.blog}>
+						<span class="is-active">{L.allPosts}</span>
+					</nav>
+					<div class="blog-index-controls">
+						<details class="blog-filter">
+							<summary>
+								<svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true" fill="currentColor">
+									<path
+										d="M2 3h12v1.2H2V3zm2.5 4.4h7v1.2h-7V7.4zM5 11.8h6v1.2H5v-1.2z"
+										opacity="0.85"></path>
+								</svg>
+								{L.filter}
+							</summary>
+							<div class="blog-filter-panel">{L.filterHint}</div>
+						</details>
+						<label class="blog-sort">
+							<span>{L.sort}</span>
+							<select id="blog-sort" aria-label={L.sort}>
+								<option value="desc">{L.sortNewest}</option>
+								<option value="asc">{L.sortOldest}</option>
+							</select>
+						</label>
+						<div class="view-toggle" role="group" aria-label={`${L.viewGrid} / ${L.viewList}`}>
+							<button
+								type="button"
+								id="blog-view-grid"
+								aria-pressed="true"
+								aria-label={L.viewGrid}
+								title={L.viewGrid}
+							>
+								<svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true" fill="currentColor">
+									<path
+										d="M2 2h5.5v5.5H2V2zm6.5 0H14v5.5H8.5V2zM2 8.5h5.5V14H2V8.5zm6.5 0H14V14H8.5V8.5z"
+										opacity="0.9"></path>
+								</svg>
+							</button>
+							<button
+								type="button"
+								id="blog-view-list"
+								aria-pressed="false"
+								aria-label={L.viewList}
+								title={L.viewList}
+							>
+								<svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true" fill="currentColor">
+									<path d="M2 3h12v1.5H2V3zm0 4.25h12v1.5H2v-1.5zm0 4.25h12V13H2v-1.5z" opacity="0.9"></path>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</header>
 			<section>
-				<ul class="posts">
+				<ul id="blog-posts" class="posts posts--grid">
 					{
 						posts.map((post) => {
 							const slug = post.id.replace(`${lang}/`, '');
+							const ts = post.data.pubDate.valueOf();
 							return (
-								<li>
-									<a href={localizedPath(lang, `/blog/${slug}`)}>
-										{post.data.heroImage && (
-											<div class="post-thumb">
-												<Image width={480} height={270} src={post.data.heroImage} alt="" />
+								<li data-sort-key={ts}>
+									<a href={localizedPath(lang, `/blog/${slug}`)} class="post-card">
+										<div class="post-card__aside">
+											<span class="post-card__cat">{L.blog}</span>
+											<span class="post-card__date">
+												<FormattedDate date={post.data.pubDate} locale={lang} />
+											</span>
+										</div>
+										<div
+											class:list={[
+												'post-card__visual',
+												{ 'post-card__visual--empty': !post.data.heroImage },
+											]}
+											aria-hidden={post.data.heroImage ? undefined : 'true'}
+										>
+											{
+												post.data.heroImage && (
+													<Image width={480} height={480} src={post.data.heroImage} alt="" />
+												)
+											}
+										</div>
+										<div class="post-card__body">
+											<h2 class="post-card__title">{post.data.title}</h2>
+											<p class="post-card__desc">{post.data.description}</p>
+											<div class="post-card__meta">
+												<span>{L.blog}</span>
+												<span class="post-card__meta-sep" aria-hidden="true">
+													·
+												</span>
+												<FormattedDate date={post.data.pubDate} locale={lang} />
 											</div>
-										)}
-										<h2 class="title">{post.data.title}</h2>
-										<p class="date">
-											<FormattedDate date={post.data.pubDate} locale={lang} />
-										</p>
+										</div>
 									</a>
 								</li>
 							);
@@ -144,5 +452,74 @@ const posts = (await getCollection('blog'))
 				</ul>
 			</section>
 		</main>
+		<script is:inline define:vars={{ pathname }}>
+			(function () {
+				var allowed = { en: 1, cn: 1 };
+				function go(loc) {
+					if (!allowed[loc]) return;
+					var p = pathname;
+					var parts = p.split('/').filter(Boolean);
+					if (
+						parts.length >= 2 &&
+						(parts[0] === 'blog' || parts[0] === 'doc') &&
+						allowed[parts[1]]
+					) {
+						parts[1] = loc;
+						var trailing = pathname.endsWith('/') ? '/' : '';
+						window.location.href = '/' + parts.join('/') + trailing + window.location.search;
+					} else {
+						window.location.href = '/blog/' + loc + '/';
+					}
+				}
+				window.addEventListener('message', function (e) {
+					var d = e.data;
+					if (!d || d.type !== 'qveris:set-locale') return;
+					go(d.locale);
+				});
+				window.__QVERIS_EMBED__ = { setLocale: go };
+			})();
+		</script>
+		<script is:inline>
+			(function () {
+				var list = document.getElementById('blog-posts');
+				var sortEl = document.getElementById('blog-sort');
+				var btnGrid = document.getElementById('blog-view-grid');
+				var btnList = document.getElementById('blog-view-list');
+				if (!list || !sortEl || !btnGrid || !btnList) return;
+				if (sortEl.tagName !== 'SELECT') return;
+
+				function applySort() {
+					var dir = sortEl.value === 'asc' ? 1 : -1;
+					var items = Array.prototype.slice.call(list.querySelectorAll(':scope > li'));
+					items.sort(function (a, b) {
+						return dir * (Number(b.getAttribute('data-sort-key')) - Number(a.getAttribute('data-sort-key')));
+					});
+					for (var i = 0; i < items.length; i++) list.appendChild(items[i]);
+				}
+
+				function setView(mode) {
+					list.classList.toggle('posts--grid', mode === 'grid');
+					list.classList.toggle('posts--list', mode === 'list');
+					btnGrid.setAttribute('aria-pressed', mode === 'grid' ? 'true' : 'false');
+					btnList.setAttribute('aria-pressed', mode === 'list' ? 'true' : 'false');
+					try {
+						localStorage.setItem('qveris-blog-view', mode);
+					} catch (e) {}
+				}
+
+				sortEl.addEventListener('change', applySort);
+				btnGrid.addEventListener('click', function () {
+					setView('grid');
+				});
+				btnList.addEventListener('click', function () {
+					setView('list');
+				});
+
+				try {
+					var saved = localStorage.getItem('qveris-blog-view');
+					if (saved === 'list') setView('list');
+				} catch (e) {}
+			})();
+		</script>
 	</body>
 </html>
