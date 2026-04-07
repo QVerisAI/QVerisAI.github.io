@@ -1,6 +1,7 @@
 import type { MiddlewareHandler } from 'astro';
-import { isLocale } from './i18n/config';
+import { isLocale, regionLocales, regionDefaultLocale } from './i18n/config';
 import { isRegion } from './i18n/config';
+import { getLocaleFromPath, switchLocaleInPath } from './i18n/utils';
 
 /**
  * Query parameters handled:
@@ -20,6 +21,15 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
 	const regionParam = url.searchParams.get('region');
 	if (regionParam && isRegion(regionParam)) {
 		context.locals.region = regionParam;
+
+		// Redirect to the region's default locale if current locale is unsupported
+		const currentLocale = getLocaleFromPath(url.pathname);
+		const availableLocales = regionLocales[regionParam];
+		if (!availableLocales.includes(currentLocale)) {
+			const newLocale = regionDefaultLocale[regionParam];
+			url.pathname = switchLocaleInPath(url.pathname, newLocale);
+			return context.redirect(url.toString());
+		}
 	}
 
 	// ---- Embed mode detection ----
