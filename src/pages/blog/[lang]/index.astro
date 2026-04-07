@@ -37,7 +37,7 @@ function postHref(post: (typeof allPosts)[0]) {
 }
 
 const site = Astro.site?.toString().replace(/\/$/, '') ?? SITE_URL;
-const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const pageUrl = new URL(Astro.url.pathname, site).toString();
 const allPostRefs = allPosts.map((p) => ({
 	title: p.data.title,
 	url: `${site}${postHref(p)}`,

@@ -1,8 +1,16 @@
 /**
- * Estimate reading time from markdown/text content.
+ * Estimate reading time and word count from markdown/text content.
  * ~200 words per minute for English, ~300 characters per minute for Chinese.
  */
-export function getReadingTime(text: string): number {
+
+export interface ReadingStats {
+	/** Estimated reading time in minutes */
+	minutes: number;
+	/** Approximate word/character count (English words + Chinese characters) */
+	wordCount: number;
+}
+
+export function getReadingStats(text: string): ReadingStats {
 	// Strip markdown syntax
 	const stripped = text
 		.replace(/```[\s\S]*?```/g, '') // code blocks
@@ -21,5 +29,14 @@ export function getReadingTime(text: string): number {
 	const englishWords = withoutChinese.split(/\s+/).filter((w) => w.length > 0).length;
 
 	const minutes = englishWords / 200 + chineseChars / 300;
-	return Math.max(1, Math.ceil(minutes));
+
+	return {
+		minutes: Math.max(1, Math.ceil(minutes)),
+		wordCount: englishWords + chineseChars,
+	};
+}
+
+/** Convenience wrapper returning only minutes (backward compatible) */
+export function getReadingTime(text: string): number {
+	return getReadingStats(text).minutes;
 }

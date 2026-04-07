@@ -45,6 +45,7 @@ interface CollectionPageData {
 
 type Props =
 	| { type: 'BlogPosting'; data: BlogPostingData }
+	| { type: 'TechArticle'; data: BlogPostingData }
 	| { type: 'BreadcrumbList'; data: BreadcrumbData }
 	| { type: 'CollectionPage'; data: CollectionPageData };
 
@@ -53,10 +54,10 @@ import { SITE_URL } from '../consts';
 const { type, data } = Astro.props;
 const site = Astro.site?.toString().replace(/\/$/, '') ?? SITE_URL;
 
-function buildBlogPosting(d: BlogPostingData) {
+function buildArticle(d: BlogPostingData, schemaType: string = 'BlogPosting') {
 	return {
 		'@context': 'https://schema.org',
-		'@type': 'BlogPosting',
+		'@type': schemaType,
 		headline: d.title,
 		description: d.description,
 		url: d.url,
@@ -128,7 +129,10 @@ let jsonLd: Record<string, unknown>;
 
 switch (type) {
 	case 'BlogPosting':
-		jsonLd = buildBlogPosting(data as BlogPostingData);
+		jsonLd = buildArticle(data as BlogPostingData, 'BlogPosting');
+		break;
+	case 'TechArticle':
+		jsonLd = buildArticle(data as BlogPostingData, 'TechArticle');
 		break;
 	case 'BreadcrumbList':
 		jsonLd = buildBreadcrumbList(data as BreadcrumbData);
@@ -139,4 +143,4 @@ switch (type) {
 }
 ---
 
-<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')} />

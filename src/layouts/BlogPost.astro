@@ -26,6 +26,7 @@ type Props = CollectionEntry<'blog'>['data'] & {
 	blogIndexHref: string;
 	headings: MarkdownHeading[];
 	readingTime: number;
+	wordCount: number;
 };
 
 const {
@@ -45,6 +46,7 @@ const {
 	blogIndexHref,
 	headings,
 	readingTime,
+	wordCount,
 } = Astro.props;
 
 const L = t(lang);
@@ -53,8 +55,8 @@ const breadcrumbItems = [
 	...(category ? [{ label: category, href: blogIndexHref }] : []),
 	{ label: title },
 ];
-const canonicalUrl = new URL(Astro.url.pathname, Astro.site).toString();
 const site = Astro.site?.toString().replace(/\/$/, '') ?? SITE_URL;
+const canonicalUrl = new URL(Astro.url.pathname, site).toString();
 const breadcrumbLd = breadcrumbItems.map((item) => ({
 	name: item.label,
 	...(item.href && { url: `${site}${item.href}` }),
@@ -87,7 +89,7 @@ const breadcrumbLd = breadcrumbItems.map((item) => ({
 		tags,
 		category,
 		lang,
-		wordCount: lang === 'cn' ? readingTime * 300 : readingTime * 200,
+		wordCount,
 	}} />
 	<JsonLd type="BreadcrumbList" data={{ items: breadcrumbLd }} />
 

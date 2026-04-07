@@ -38,8 +38,8 @@ const breadcrumbItems = [
 	{ label: L.doc, href: docIndexHref },
 	{ label: title },
 ];
-const canonicalUrl = new URL(Astro.url.pathname, Astro.site).toString();
 const site = Astro.site?.toString().replace(/\/$/, '') ?? SITE_URL;
+const canonicalUrl = new URL(Astro.url.pathname, site).toString();
 const breadcrumbLd = breadcrumbItems.map((item) => ({
 	name: item.label,
 	...(item.href && { url: `${site}${item.href}` }),
@@ -58,7 +58,7 @@ const breadcrumbLd = breadcrumbItems.map((item) => ({
 	pubDate={pubDate}
 	updatedDate={updatedDate}
 >
-	<JsonLd type="BlogPosting" data={{
+	<JsonLd type="TechArticle" data={{
 		title,
 		description,
 		url: canonicalUrl,

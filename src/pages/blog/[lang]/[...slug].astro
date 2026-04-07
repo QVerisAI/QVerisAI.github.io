@@ -3,7 +3,7 @@ import { type CollectionEntry, getCollection, render } from 'astro:content';
 import BlogPost from '../../../layouts/BlogPost.astro';
 import { type Locale, isLocale } from '../../../i18n/config';
 import { localizedPath } from '../../../i18n/utils';
-import { getReadingTime } from '../../../utils/reading-time';
+import { getReadingStats } from '../../../utils/reading-time';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('blog');
@@ -57,7 +57,9 @@ const nextPost =
 
 const blogIndexHref = localizedPath(lang, '/blog');
 const { Content, headings } = await render(post);
-const readingTime = getReadingTime(post.body ?? '');
+const stats = getReadingStats(post.body ?? '');
+const readingTime = stats.minutes;
+const wordCount = stats.wordCount;
 ---
 
 <BlogPost
@@ -68,6 +70,7 @@ const readingTime = getReadingTime(post.body ?? '');
 	blogIndexHref={blogIndexHref}
 	headings={headings}
 	readingTime={readingTime}
+	wordCount={wordCount}
 >
 	<Content />
 </BlogPost>

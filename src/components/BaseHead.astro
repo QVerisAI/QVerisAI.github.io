@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import type { ImageMetadata } from 'astro';
 import FallbackImage from '../assets/qveris-brand.png';
-import { SITE_TITLE } from '../consts';
+import { SITE_TITLE, SITE_URL } from '../consts';
 import { locales, defaultLocale } from '../i18n/config';
 import type { Locale } from '../i18n/config';
 import { switchLocaleInPath, getHtmlLang } from '../i18n/utils';
@@ -20,8 +20,6 @@ interface Props {
 	tags?: string[];
 }
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-
 const {
 	title,
 	description,
@@ -34,6 +32,9 @@ const {
 	tags,
 } = Astro.props;
 
+// Use Astro.site with SITE_URL fallback for all URL construction
+const site = Astro.site ?? new URL(SITE_URL);
+const canonicalURL = new URL(Astro.url.pathname, site);
 const ogLocale = lang === 'cn' ? 'zh_CN' : 'en_US';
 const imageUrl = new URL(image.src, Astro.url);
 
@@ -41,9 +42,9 @@ const imageUrl = new URL(image.src, Astro.url);
 const pathname = Astro.url.pathname;
 const hreflangLinks = locales.map((loc) => ({
 	hreflang: getHtmlLang(loc),
-	href: new URL(switchLocaleInPath(pathname, loc), Astro.site),
+	href: new URL(switchLocaleInPath(pathname, loc), site),
 }));
-const defaultUrl = new URL(switchLocaleInPath(pathname, defaultLocale), Astro.site);
+const defaultUrl = new URL(switchLocaleInPath(pathname, defaultLocale), site);
 ---
 
 <meta charset="utf-8" />
@@ -51,7 +52,7 @@ const defaultUrl = new URL(switchLocaleInPath(pathname, defaultLocale), Astro.si
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="icon" href="/favicon.ico" />
 <link rel="sitemap" href="/sitemap-index.xml" />
-<link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href={new URL('rss.xml', Astro.site)} />
+<link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href={new URL('rss.xml', site)} />
 <meta name="generator" content={Astro.generator} />
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
