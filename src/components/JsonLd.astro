@@ -23,7 +23,7 @@ interface BlogPostingData {
 	description: string;
 	url: string;
 	image?: string;
-	pubDate: Date;
+	pubDate?: Date;
 	updatedDate?: Date;
 	author?: string;
 	tags?: string[];
@@ -61,17 +61,15 @@ function buildBlogPosting(d: BlogPostingData) {
 		description: d.description,
 		url: d.url,
 		...(d.image && { image: d.image }),
-		datePublished: d.pubDate.toISOString(),
+		...(d.pubDate && { datePublished: d.pubDate.toISOString() }),
 		...(d.updatedDate && { dateModified: d.updatedDate.toISOString() }),
 		...(d.wordCount && { wordCount: d.wordCount }),
 		...(d.category && { articleSection: d.category }),
 		...(d.tags?.length && { keywords: d.tags.join(', ') }),
 		inLanguage: d.lang === 'cn' ? 'zh-CN' : 'en',
-		author: {
-			'@type': 'Organization',
-			name: d.author ?? 'QVeris',
-			url: site,
-		},
+		author: d.author
+			? { '@type': 'Person', name: d.author }
+			: { '@type': 'Organization', name: 'QVeris', url: site },
 		publisher: {
 			'@type': 'Organization',
 			name: 'QVeris',
