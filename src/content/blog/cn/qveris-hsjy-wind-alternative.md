@@ -14,9 +14,6 @@ translationKey: 'qveris-hsjy-wind-alternative'
 ![qveris-hsjy-wind-alternative-2](../../../assets/blog-qveris-hsjy-wind-alternative-2.jpg)
 
 ![qveris-hsjy-wind-alternative-3](../../../assets/blog-qveris-hsjy-wind-alternative-3.jpg)
-
- {align="center"}
-
 > QVeris 新供应商速递 | 第 2 期
 
 三月的寒武纪让很多人心态崩了。月初 1200，月底跌到 1009，最大回撤 18.5%。
@@ -45,7 +42,7 @@ translationKey: 'qveris-hsjy-wind-alternative'
 
 "寒武纪一致预期"——返回的数据让我愣了一下。
 
-不是一个笼统的"分析师看好"，而是** 212 条具体预测**，来自华泰、浙商、东海、广发、国海等十余家券商，每条都有明确的营收预测、净利润预测、EPS 和目标价：
+不是一个笼统的"分析师看好"，而是**212 条具体预测**，来自华泰、浙商、东海、广发、国海等十余家券商，每条都有明确的营收预测、净利润预测、EPS 和目标价：
 
 ![qveris-hsjy-wind-alternative-5](../../../assets/blog-qveris-hsjy-wind-alternative-5.png)
 

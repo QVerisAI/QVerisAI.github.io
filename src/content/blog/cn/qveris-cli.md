@@ -19,7 +19,7 @@ translationKey: 'qveris-cli'
 
 ---
 
-## <text color="purple">01.</text>
+## 01.
 
 ## 30 秒安装，开箱即用
 
@@ -51,15 +51,11 @@ qveris login
 
 ![qveris-cli-2](../../../assets/blog-qveris-cli-2.png)
 
-<callout emoji="gift" background-color="light-green">
-
-**新用户福利**：注册即送 1,000 credits，搜索完全免费，无需绑卡。
-
-</callout>
+> 🎁 **新用户福利**：注册即送 1,000 credits，搜索完全免费，无需绑卡。
 
 ---
 
-## <text color="purple">02.</text>
+## 02.
 
 ## 核心工作流：Discover → Inspect → Call
 
@@ -141,7 +137,7 @@ qveris call 1 --params '{"symbol": "AAPL"}'
 
 ---
 
-## <text color="purple">03.</text>
+## 03.
 
 ## 交互式 REPL：像对话一样探索 API
 
@@ -186,15 +182,11 @@ curl -X POST https://qveris.ai/api/v1/execute \
 
 ![qveris-cli-7](../../../assets/blog-qveris-cli-7.png)
 
-<callout emoji="bulb" background-color="light-blue">
-
-**亮点**：`codegen` 命令可以自动生成 curl / Python / JavaScript 调用代码，直接复制到你的项目中使用。
-
-</callout>
+> 💡 **亮点**：`codegen` 命令可以自动生成 curl / Python / JavaScript 调用代码，直接复制到你的项目中使用。
 
 ---
 
-## <text color="purple">04.</text>
+## 04.
 
 ## 智能体最高效的工具调用方式
 
@@ -240,395 +232,45 @@ qveris discover "export table or spreadsheet Excel CSV API" --json --limit 3
 
 ---
 
-**说明（和真实工具对齐时）**：`discover` 返回的具体 `tool_id`、参数名以接口为准；智能体流程一般是 `**discover**`** → **`**inspect**`** 看 schema → **`**call**`**/**`**--dry-run**`，和你现在 CLI 的用法一致。
+**说明（和真实工具对齐时）**：`discover` 返回的具体 `tool_id`、参数名以接口为准；智能体流程一般是 `**discover**`**→**`**inspect**`**看 schema →**`**call**`**/**`**--dry-run**`，和你现在 CLI 的用法一致。
 
-<callout emoji="robot_face" background-color="light-purple">
-
-**为什么比 MCP 更省 token？**
-
-- MCP：需要将所有工具的完整 schema 注入 LLM 上下文，随工具数量线性增长
-- CLI：单条 shell 命令 + JSON 输出，固定开销约 50-100 token
-- 在 10+ 工具场景下，CLI 方式可节省 80%+ 的 token 消耗
-
-</callout>
+> 🤖 **为什么比 MCP 更省 token？**
+>
+> - MCP：需要将所有工具的完整 schema 注入 LLM 上下文，随工具数量线性增长
+> - CLI：单条 shell 命令 + JSON 输出，固定开销约 50-100 token
+> - 在 10+ 工具场景下，CLI 方式可节省 80%+ 的 token 消耗
 
 ### 智能体友好设计
 
-<lark-table rows="6" cols="2" header-row="true" column-widths="350,350">
-
-  <lark-tr>
-
-    <lark-td>
-
-      特性
-
-    </lark-td>
-
-    <lark-td>
-
-      说明
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `--json` 输出
-
-    </lark-td>
-
-    <lark-td>
-
-      所有命令支持结构化 JSON 输出，方便程序解析
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      stdin 管道
-
-    </lark-td>
-
-    <lark-td>
-
-      `--params -` 从标准输入读取参数，适配管道工作流
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      结构化退出码
-
-    </lark-td>
-
-    <lark-td>
-
-      0 成功 · 77 认证失败 · 69 服务不可用 · 75 网络超时
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      终端自动检测
-
-    </lark-td>
-
-    <lark-td>
-
-      管道模式自动禁用颜色和动画，响应体扩展至 20KB
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `--dry-run`
-
-    </lark-td>
-
-    <lark-td>
-
-      预验证参数，不消耗 credits
-
-    </lark-td>
-
-  </lark-tr>
-
-</lark-table>
+| 特性 | 说明 |
+|---|---|
+| `--json` 输出 | 所有命令支持结构化 JSON 输出，方便程序解析 |
+| stdin 管道 | `--params -` 从标准输入读取参数，适配管道工作流 |
+| 结构化退出码 | 0 成功 · 77 认证失败 · 69 服务不可用 · 75 网络超时 |
+| 终端自动检测 | 管道模式自动禁用颜色和动画，响应体扩展至 20KB |
+| `--dry-run` | 预验证参数，不消耗 credits |
 
 **适用场景**：Claude Code、OpenCode、Cursor、自定义 Agent 脚本——任何能执行 shell 命令的智能体平台。
 
 ---
 
-## <text color="purple">05.</text>
+## 05.
 
 ## 完整命令速查
 
-<lark-table rows="12" cols="3" header-row="true" column-widths="250,300,104">
-
-  <lark-tr>
-
-    <lark-td>
-
-      **命令**
-
-    </lark-td>
-
-    <lark-td>
-
-      **说明**
-
-    </lark-td>
-
-    <lark-td>
-
-      **费用**
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris discover <query>`
-
-    </lark-td>
-
-    <lark-td>
-
-      自然语言搜索 API 能力
-
-    </lark-td>
-
-    <lark-td>
-
-      免费
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris inspect <id>`
-
-    </lark-td>
-
-    <lark-td>
-
-      查看工具详情、参数、示例
-
-    </lark-td>
-
-    <lark-td>
-
-      免费
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris call <id>`
-
-    </lark-td>
-
-    <lark-td>
-
-      调用工具并获取结果
-
-    </lark-td>
-
-    <lark-td>
-
-      1-100 credits
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris interactive`
-
-    </lark-td>
-
-    <lark-td>
-
-      启动交互式 REPL 探索环境
-
-    </lark-td>
-
-    <lark-td>
-
-      —
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris login` / `logout`
-
-    </lark-td>
-
-    <lark-td>
-
-      交互式登录 / 清除凭证
-
-    </lark-td>
-
-    <lark-td>
-
-      —
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris whoami`
-
-    </lark-td>
-
-    <lark-td>
-
-      查看当前认证状态
-
-    </lark-td>
-
-    <lark-td>
-
-      —
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris credits`
-
-    </lark-td>
-
-    <lark-td>
-
-      查看剩余额度
-
-    </lark-td>
-
-    <lark-td>
-
-      —
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris config list|set|get|reset`
-
-    </lark-td>
-
-    <lark-td>
-
-      管理 CLI 配置
-
-    </lark-td>
-
-    <lark-td>
-
-      —
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris history`
-
-    </lark-td>
-
-    <lark-td>
-
-      查看 / 清除当前会话历史（30 分钟 TTL）
-
-    </lark-td>
-
-    <lark-td>
-
-      —
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris doctor`
-
-    </lark-td>
-
-    <lark-td>
-
-      一键检查 Node.js、API Key、网络连通性
-
-    </lark-td>
-
-    <lark-td>
-
-      —
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris completions <shell>`
-
-    </lark-td>
-
-    <lark-td>
-
-      生成 Shell 自动补全脚本
-
-    </lark-td>
-
-    <lark-td>
-
-      —
-
-    </lark-td>
-
-  </lark-tr>
-
-</lark-table>
+| **命令**|**说明**|**费用** |
+|---|---|---|
+| `qveris discover <query>` | 自然语言搜索 API 能力 | 免费 |
+| `qveris inspect <id>` | 查看工具详情、参数、示例 | 免费 |
+| `qveris call <id>` | 调用工具并获取结果 | 1-100 credits |
+| `qveris interactive` | 启动交互式 REPL 探索环境 | — |
+| `qveris login` / `logout` | 交互式登录 / 清除凭证 | — |
+| `qveris whoami` | 查看当前认证状态 | — |
+| `qveris credits` | 查看剩余额度 | — |
+| `qveris config list|set|get|reset` | 管理 CLI 配置 | — |
+| `qveris history` | 查看 / 清除当前会话历史（30 分钟 TTL） | — |
+| `qveris doctor` | 一键检查 Node.js、API Key、网络连通性 | — |
+| `qveris completions <shell>` | 生成 Shell 自动补全脚本 | — |
 
 所有命令支持 `--json` 输出 · `--api-key` 覆盖认证 · `--timeout` 超时设置
 
@@ -636,235 +278,54 @@ qveris discover "export table or spreadsheet Excel CSV API" --json --limit 3
 
 ---
 
-## <text color="purple">06.</text>
+## 06.
 
 ## 六大核心能力
 
-<grid cols="2">
+  
 
-  <column width="50">
+    > 🔍 **自然语言搜索**用普通语言描述需求，CLI 从 10,000+ 工具中语义匹配最佳结果。无需记忆任何 API 名称。
 
-    <callout emoji="mag" background-color="light-blue">
+    > 🔧 **代码生成**`--codegen` 一键生成 curl / Python / JS 调用代码，直接粘贴到项目中使用。
 
-    **自然语言搜索**用普通语言描述需求，CLI 从 10,000+ 工具中语义匹配最佳结果。无需记忆任何 API 名称。
+    > 🤖 **智能体兼容**`--json` 输出 + stdin 管道 + 结构化退出码，为自动化而生。
 
-    </callout>
+  
 
-    <callout emoji="wrench" background-color="light-blue">
+  
 
-    **代码生成**`--codegen` 一键生成 curl / Python / JS 调用代码，直接粘贴到项目中使用。
+    > ⚡ **零配置即用**curl 一键安装，`qveris login` 交互式认证。30 秒从零到可用。
 
-    </callout>
+    > 💬 **交互式 REPL**`qveris interactive` 启动探索环境，像对话一样发现和试用 API。
 
-    <callout emoji="robot_face" background-color="light-blue">
+    > 🎁 **内置诊断**`qveris doctor` 一键检查 Node.js 版本、API Key、网络连通性，快速排障。
 
-    **智能体兼容**`--json` 输出 + stdin 管道 + 结构化退出码，为自动化而生。
-
-    </callout>
-
-  </column>
-
-  <column width="50">
-
-    <callout emoji="zap" background-color="light-green">
-
-    **零配置即用**curl 一键安装，`qveris login` 交互式认证。30 秒从零到可用。
-
-    </callout>
-
-    <callout emoji="speech_balloon" background-color="light-green">
-
-    **交互式 REPL**`qveris interactive` 启动探索环境，像对话一样发现和试用 API。
-
-    </callout>
-
-    <callout emoji="gift" background-color="light-green">
-
-    **内置诊断**`qveris doctor` 一键检查 Node.js 版本、API Key、网络连通性，快速排障。
-
-    </callout>
-
-  </column>
-
-</grid>
+  
 
 ---
 
-## <text color="purple">07.</text>
+## 07.
 
 ## QVeris CLI vs MCP Server：如何选择？
 
-<lark-table rows="7" cols="3" header-row="true" column-widths="111,244,244">
-
-  <lark-tr>
-
-    <lark-td>
-
-      维度
-
-    </lark-td>
-
-    <lark-td>
-
-      QVeris CLI
-
-    </lark-td>
-
-    <lark-td>
-
-      MCP Server
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      **适用场景**
-
-    </lark-td>
-
-    <lark-td>
-
-      终端操作、脚本、Agent shell 调用
-
-    </lark-td>
-
-    <lark-td>
-
-      IDE 内 Agent（Cursor、Claude Code、VS Code）
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      **安装方式**
-
-    </lark-td>
-
-    <lark-td>
-
-      `curl` 一行安装
-
-    </lark-td>
-
-    <lark-td>
-
-      在 IDE 设置中配置
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      **Token 消耗**
-
-    </lark-td>
-
-    <lark-td>
-
-      极低（单命令 50-100 token）
-
-    </lark-td>
-
-    <lark-td>
-
-      较高（schema 注入上下文）
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      **输出格式**
-
-    </lark-td>
-
-    <lark-td>
-
-      人类友好 + `--json` 结构化
-
-    </lark-td>
-
-    <lark-td>
-
-      MCP 协议标准格式
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      **交互模式**
-
-    </lark-td>
-
-    <lark-td>
-
-      REPL、管道、脚本
-
-    </lark-td>
-
-    <lark-td>
-
-      IDE 内嵌对话
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      **最佳搭配**
-
-    </lark-td>
-
-    <lark-td>
-
-      Claude Code、OpenCode、自定义 Agent
-
-    </lark-td>
-
-    <lark-td>
-
-      Cursor、VS Code Copilot
-
-    </lark-td>
-
-  </lark-tr>
-
-</lark-table>
-
-<callout emoji="bulb" background-color="light-yellow">
-
-**建议**：两者并非互斥。CLI 适合终端和自动化场景，MCP 适合 IDE 内嵌场景。你可以同时使用！
-
-</callout>
+| 维度 | QVeris CLI | MCP Server |
+|---|---|---|
+| **适用场景** | 终端操作、脚本、Agent shell 调用 | IDE 内 Agent（Cursor、Claude Code、VS Code） |
+| **安装方式** | `curl` 一行安装 | 在 IDE 设置中配置 |
+| **Token 消耗** | 极低（单命令 50-100 token） | 较高（schema 注入上下文） |
+| **输出格式** | 人类友好 + `--json` 结构化 | MCP 协议标准格式 |
+| **交互模式** | REPL、管道、脚本 | IDE 内嵌对话 |
+| **最佳搭配** | Claude Code、OpenCode、自定义 Agent | Cursor、VS Code Copilot |
+
+> 💡 **建议**：两者并非互斥。CLI 适合终端和自动化场景，MCP 适合 IDE 内嵌场景。你可以同时使用！
 
 ---
 
-## <text color="purple">08.</text>
+## 08.
 
 ## 使用场景
 
-## <text color="purple">场景一：开发者日常调试</text>
+## 场景一：开发者日常调试
 
 写代码时需要快速验证一个 API 返回什么数据？不用离开终端：
 
@@ -878,7 +339,7 @@ qveris call 1 --params '{"address": "北京市朝阳区"}'
 
 拿到结果后，用 `codegen python` 直接生成 Python 调用代码，复制到项目里。
 
-## <text color="purple">场景二：智能体自动化工作流</text>
+## 场景二：智能体自动化工作流
 
 让你的 AI Agent 通过 shell 调用完成复杂任务：
 
@@ -894,7 +355,7 @@ qveris discover "weather forecast" --json --limit 1 | \
 
 ```
 
-## <text color="purple">场景三：数据采集与分析</text>
+## 场景三：数据采集与分析
 
 结合 shell 管道，批量获取数据：
 
@@ -912,7 +373,7 @@ done | jq -s "."
 
 ---
 
-## <text color="purple">09.</text>
+## 09.
 
 ## 现在就试试
 
@@ -926,19 +387,15 @@ qveris discover "你想要的任何 API"
 
 ```
 
-<callout emoji="rocket" background-color="light-green">
-
-**三条命令，解锁 10,000+ API 能力。**
-
-- 注册即送 1,000 credits，搜索免费
-- 无需绑卡，即装即用
-- 完全开源：[github.com/QVerisAI/QVerisAI](https://github.com/QVerisAI/QVerisAI/tree/main/packages/cli)
-
-</callout>
+> 🚀 **三条命令，解锁 10,000+ API 能力。**
+>
+> - 注册即送 1,000 credits，搜索免费
+> - 无需绑卡，即装即用
+> - 完全开源：[github.com/QVerisAI/QVerisAI](https://github.com/QVerisAI/QVerisAI/tree/main/packages/cli)
 
 ---
 
-## <text color="purple">10.</text>
+## 10.
 
 ## 关于 QVeris AI
 
@@ -959,4 +416,4 @@ QVeris AI 聚焦于 **Agent 时代的行动基础设施层**，致力于构建 A
 
 **GitHub：** [https://github.com/QVerisAI/QVerisAI](https://github.com/QVerisAI/QVerisAI)
 
-<text color="gray">*QVeris 原创首发，转载请注明出处*</text>
+*QVeris 原创首发，转载请注明出处*

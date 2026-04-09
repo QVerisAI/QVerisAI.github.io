@@ -9,20 +9,16 @@ tags: ['黑客松', 'qveris', '案例']
 translationKey: 'qveris-hackathon-projects'
 ---
 
-上周日，在 **Qveris Friends × 原点学堂** 举办的线下黑客松现场，近百位开发者、产品经理、创作者，在 **4 个小时内** 大放异彩，完成了10 个 AI Agent 项目，
+上周日，在 **Qveris Friends × 原点学堂**举办的线下黑客松现场，近百位开发者、产品经理、创作者，在**4 个小时内** 大放异彩，完成了10 个 AI Agent 项目，
 
 于是我们看到了——会自己抓数据、分析市场的金融 Agent；只靠手势就能完成创作的多模态 Agent；把十几种真实 API 串成一个产品的仪表盘 Agent……
 
 下面，我们将重点**带来这4个获奖  Agent 项目的详细介绍，并附上github链接。**
 
-## 🏆  {align="center"}
-
-## Qveris 特别奖 {align="center"}
-
-## {align="center"}
-
-### LOF 基金套利数据分析系统（funds_advice） {align="center"}
-
+## 🏆
+## Qveris 特别奖
+##
+### LOF 基金套利数据分析系统（funds_advice）
 这是一个**把真实金融分析流程交给 Agent 自动执行**的项目，
 
 项目围绕 LOF 基金套利场景，尝试解决一个现实问题：**基金数据、新闻、政策信息分散，人工分析成本高。**
@@ -39,7 +35,7 @@ Agent 按既定提示词完成分析，将结果整理为 **结构化 JSON** 交
 
 在真实金融数据与政策信息的基础上，跑通了一个可执行的投资分析 Agent 闭环，它体现了 Agent 在**复杂数据整合与决策辅助场景**中的潜力。
 
-<text underline="true">***👉https://github.com/QverisFriends/funds_advice***</text>
+***👉https://github.com/QverisFriends/funds_advice***
 
 ![qveris-hackathon-projects-1](../../../assets/blog-qveris-hackathon-projects-1.jpg)
 
@@ -57,8 +53,7 @@ Agent 按既定提示词完成分析，将结果整理为 **结构化 JSON** 交
 
 ---
 
-### Qveris 智能生活仪表盘（qveris-dashboard） {align="center"}
-
+### Qveris 智能生活仪表盘（qveris-dashboard）
 这是一个**为“探索 Qveris 能力边界”而生的超级 Demo,**
 
 项目以现代化玻璃拟态仪表盘为载体，通过 **Qveris 统一工具调用接口**，在一个页面内跑通了十多类真实能力，包括：
@@ -75,20 +70,16 @@ Agent 按既定提示词完成分析，将结果整理为 **结构化 JSON** 交
 
 通过高密度、多模态的 API 调用，把 Qveris 的行动能力可视化为一个即时可感知的系统级 Demo，它直观展示了 Agent 能“**同时动起来**”的广度。
 
-<text underline="true">***👉https://github.com/QverisFriends/qveris-dashboard***</text>
+***👉https://github.com/QverisFriends/qveris-dashboard***
 
 ![qveris-hackathon-projects-7](../../../assets/blog-qveris-hackathon-projects-7.jpg)
 
 ![qveris-hackathon-projects-8](../../../assets/blog-qveris-hackathon-projects-8.jpg)
 
-## 🎨 {align="center"}
-
-## Just For Fun：最有趣的奖 {align="center"}
-
-## {align="center"}
-
-## 手势魔法工坊（Magic Art） {align="center"}
-
+## 🎨
+## Just For Fun：最有趣的奖
+##
+## 手势魔法工坊（Magic Art）
 这是一个**多模态创作型 Agent 项目**，目标非常直接：**不靠键盘和鼠标，只用手势和语音完成 AI 创作。**
 
 项目基于“前端感知 + 云端 Agent”架构：
@@ -116,14 +107,11 @@ Agent 按既定提示词完成分析，将结果整理为 **结构化 JSON** 交
 
 它证明了一件事：Agent 不一定要“很重”，**轻巧、有趣、可感知，同样重要。**
 
-<text underline="true">***👉https://github.com/QverisFriends/MagicArt***</text>
+***👉https://github.com/QverisFriends/MagicArt***
 
-## **🏆** {align="center"}
-
-## ** The Best PMF：最具商业潜力的奖** {align="center"}
-
-**SkiCoach AI ** {align="center"}
-
+## **🏆**
+## **The Best PMF：最具商业潜力的奖**
+**SkiCoach AI**
 这是一个为 “探索 AI 赋能滑雪教学的能力边界” 而生的超级 Demo，项目以轻量化的网页端交互为载体，通过**多模态大模型 + 专业滑雪知识库 + 实时雪场数据接口**，在一个系统内跑通了全场景的滑雪辅助能力，包括：
 
 - ❄️ 雪场实时天气、雪质分析、行前装备建议
@@ -152,11 +140,6 @@ Agent 按既定提示词完成分析，将结果整理为 **结构化 JSON** 交
 如果说这次黑客松想留下一个共同结论，那就是：
 
 > **Agent 的时代，不缺想法，开始缺“行动完成度”。**
-
- {align="center"}
-
-想继续亲眼见证 Qveris AI 如何落地真实案例？下次黑客松，邀你一同解锁更多 Agent 垂直场景新可能！ {align="center"}
-
-长期招募Qveris AI共创营伙伴，期待你的加入👇 {align="center"}
-
+想继续亲眼见证 Qveris AI 如何落地真实案例？下次黑客松，邀你一同解锁更多 Agent 垂直场景新可能！
+长期招募Qveris AI共创营伙伴，期待你的加入👇
 ![qveris-hackathon-projects-17](../../../assets/blog-qveris-hackathon-projects-17.jpg)

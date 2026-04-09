@@ -45,7 +45,7 @@ Click the small arrow in the top-left corner to expand the menu,then open **Exte
 
 ![qveris-in-cursor-2](../../../assets/blog-qveris-in-cursor-2.png)
 
-Search for **QVeris AI,then c**lick **Install**
+Search for **QVeris AI,then c**lick**Install**
 
 ![qveris-in-cursor-3](../../../assets/blog-qveris-in-cursor-3.png)
 
@@ -102,10 +102,10 @@ You can expand the response to see **which tools were actually called** behind t
 When using QVeris inside Cursor, make sure to:
 
 - Explicitly mention
-- [<text underline="true">@qveris</text>](https%3A%2F%2Fx.com%2F%40qveris)
+- [@qveris](https%3A%2F%2Fx.com%2F%40qveris)
 - .mdc
-- Leave **a space before **
-- [<text underline="true">@qveris</text>](https%3A%2F%2Fx.com%2F%40qveris)
+- Leave **a space before**
+- [@qveris](https%3A%2F%2Fx.com%2F%40qveris)
 - .mdc
 - Include your **QVeris API Key**
 

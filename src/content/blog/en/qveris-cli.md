@@ -49,11 +49,7 @@ That's it. From zero to your first API call in **30 seconds**.
 
 ![qveris-cli-2](../../../assets/blog-qveris-cli-2.png)
 
-<callout emoji="gift" background-color="light-green">
-
-**New users get 1,000 free credits.** Search is always free. No credit card required.
-
-</callout>
+> 🎁 **New users get 1,000 free credits.** Search is always free. No credit card required.
 
 ---
 
@@ -135,53 +131,25 @@ qveris call 1 --params '{"symbol": "AAPL"}'
 
 ## Key Features
 
-<grid cols="2">
+  
 
-  <column width="50">
+    > 🔍 **Natural Language Search** — Describe what you need. QVeris semantic-matches across 10,000+ tools. No API names to memorize.
 
-    <callout emoji="mag" background-color="light-blue">
+    > 🔧 **Code Generation** — `codegen curl|python|javascript` generates ready-to-use API call code for your project.
 
-    **Natural Language Search** — Describe what you need. QVeris semantic-matches across 10,000+ tools. No API names to memorize.
+    > 🤖 **Agent-Optimized** — `--json` output + stdin pipes + structured exit codes. Built for automation from day one.
 
-    </callout>
+  
 
-    <callout emoji="wrench" background-color="light-blue">
+  
 
-    **Code Generation** — `codegen curl|python|javascript` generates ready-to-use API call code for your project.
+    > ⚡ **Zero-Config Setup** — One-line `curl` install. Interactive `qveris login`. From zero to productive in 30 seconds.
 
-    </callout>
+    > 💬 **Interactive REPL** — `qveris interactive` opens an exploratory shell to discover and test APIs conversationally.
 
-    <callout emoji="robot_face" background-color="light-blue">
+    > 🎁 **Built-in Diagnostics** — `qveris doctor` checks Node.js version, API key, and network connectivity in one command.
 
-    **Agent-Optimized** — `--json` output + stdin pipes + structured exit codes. Built for automation from day one.
-
-    </callout>
-
-  </column>
-
-  <column width="50">
-
-    <callout emoji="zap" background-color="light-green">
-
-    **Zero-Config Setup** — One-line `curl` install. Interactive `qveris login`. From zero to productive in 30 seconds.
-
-    </callout>
-
-    <callout emoji="speech_balloon" background-color="light-green">
-
-    **Interactive REPL** — `qveris interactive` opens an exploratory shell to discover and test APIs conversationally.
-
-    </callout>
-
-    <callout emoji="gift" background-color="light-green">
-
-    **Built-in Diagnostics** — `qveris doctor` checks Node.js version, API key, and network connectivity in one command.
-
-    </callout>
-
-  </column>
-
-</grid>
+  
 
 ---
 
@@ -191,141 +159,13 @@ If you're building AI agents, QVeris CLI is the lowest-overhead way to give them
 
 Compared to MCP Server (which injects full tool schemas into LLM context — often thousands of tokens), CLI keeps it simple: **one shell command in, JSON result out.**
 
-<lark-table rows="6" cols="3" header-row="true" column-widths="244,244,244">
-
-  <lark-tr>
-
-    <lark-td>
-
-      Dimension
-
-    </lark-td>
-
-    <lark-td>
-
-      QVeris CLI
-
-    </lark-td>
-
-    <lark-td>
-
-      MCP Server
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      **Best for**
-
-    </lark-td>
-
-    <lark-td>
-
-      Terminal, scripts, agent shell calls
-
-    </lark-td>
-
-    <lark-td>
-
-      IDE agents (Cursor, Claude Code, VS Code)
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      **Install**
-
-    </lark-td>
-
-    <lark-td>
-
-      One-line `curl`
-
-    </lark-td>
-
-    <lark-td>
-
-      IDE configuration
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      **Token cost**
-
-    </lark-td>
-
-    <lark-td>
-
-      ~50–100 tokens per command
-
-    </lark-td>
-
-    <lark-td>
-
-      Schema injection scales with tool count
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      **Output**
-
-    </lark-td>
-
-    <lark-td>
-
-      Human-friendly + `--json`
-
-    </lark-td>
-
-    <lark-td>
-
-      MCP protocol format
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      **Interaction**
-
-    </lark-td>
-
-    <lark-td>
-
-      REPL, pipes, scripts
-
-    </lark-td>
-
-    <lark-td>
-
-      IDE-embedded chat
-
-    </lark-td>
-
-  </lark-tr>
-
-</lark-table>
+| Dimension | QVeris CLI | MCP Server |
+|---|---|---|
+| **Best for** | Terminal, scripts, agent shell calls | IDE agents (Cursor, Claude Code, VS Code) |
+| **Install** | One-line `curl` | IDE configuration |
+| **Token cost** | ~50–100 tokens per command | Schema injection scales with tool count |
+| **Output** | Human-friendly + `--json` | MCP protocol format |
+| **Interaction** | REPL, pipes, scripts | IDE-embedded chat |
 
 ```shell
 
@@ -345,19 +185,11 @@ qveris call 1 --params '{"tickers":["AAPL","MSFT"],"interval":"1d"}' --dry-run -
 
 ```
 
-<callout emoji="bulb" background-color="light-yellow">
-
-**Why 80%+ token savings?** MCP injects all tool schemas into LLM context (scales linearly with tool count). CLI sends one shell command (~50–100 tokens) and returns structured JSON. At 10+ tools, the difference is massive.
-
-</callout>
+> 💡 **Why 80%+ token savings?** MCP injects all tool schemas into LLM context (scales linearly with tool count). CLI sends one shell command (~50–100 tokens) and returns structured JSON. At 10+ tools, the difference is massive.
 
 Works with **Claude Code, OpenCode, Cursor, custom agent scripts** — anything that can execute a shell command.
 
-<callout emoji="bulb" background-color="light-blue">
-
-**Pro tip:** CLI and MCP Server aren't mutually exclusive. Use CLI for terminal and automation, MCP for IDE workflows. You can run both.
-
-</callout>
+> 💡 **Pro tip:** CLI and MCP Server aren't mutually exclusive. Use CLI for terminal and automation, MCP for IDE workflows. You can run both.
 
 ---
 
@@ -413,273 +245,19 @@ done | jq -s "."
 
 ## Command Reference
 
-<lark-table rows="12" cols="3" header-row="true" column-widths="244,244,244">
-
-  <lark-tr>
-
-    <lark-td>
-
-      Command
-
-    </lark-td>
-
-    <lark-td>
-
-      Description
-
-    </lark-td>
-
-    <lark-td>
-
-      Cost
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris discover <query>`
-
-    </lark-td>
-
-    <lark-td>
-
-      Natural language API search
-
-    </lark-td>
-
-    <lark-td>
-
-      Free
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris inspect <id>`
-
-    </lark-td>
-
-    <lark-td>
-
-      View tool details, params, examples
-
-    </lark-td>
-
-    <lark-td>
-
-      Free
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris call <id>`
-
-    </lark-td>
-
-    <lark-td>
-
-      Execute a tool and get results
-
-    </lark-td>
-
-    <lark-td>
-
-      1–100 credits
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris interactive`
-
-    </lark-td>
-
-    <lark-td>
-
-      Start interactive REPL
-
-    </lark-td>
-
-    <lark-td>
-
-      —
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris login` / `logout`
-
-    </lark-td>
-
-    <lark-td>
-
-      Authentication management
-
-    </lark-td>
-
-    <lark-td>
-
-      —
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris whoami`
-
-    </lark-td>
-
-    <lark-td>
-
-      Check current auth status
-
-    </lark-td>
-
-    <lark-td>
-
-      —
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris credits`
-
-    </lark-td>
-
-    <lark-td>
-
-      Check remaining balance
-
-    </lark-td>
-
-    <lark-td>
-
-      —
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris config list|set|get|reset`
-
-    </lark-td>
-
-    <lark-td>
-
-      Manage CLI configuration
-
-    </lark-td>
-
-    <lark-td>
-
-      —
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris history`
-
-    </lark-td>
-
-    <lark-td>
-
-      View/clear session history (30min TTL)
-
-    </lark-td>
-
-    <lark-td>
-
-      —
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris doctor`
-
-    </lark-td>
-
-    <lark-td>
-
-      Check Node.js, API key, connectivity
-
-    </lark-td>
-
-    <lark-td>
-
-      —
-
-    </lark-td>
-
-  </lark-tr>
-
-  <lark-tr>
-
-    <lark-td>
-
-      `qveris completions <shell>`
-
-    </lark-td>
-
-    <lark-td>
-
-      Generate shell auto-completion script
-
-    </lark-td>
-
-    <lark-td>
-
-      —
-
-    </lark-td>
-
-  </lark-tr>
-
-</lark-table>
+| Command | Description | Cost |
+|---|---|---|
+| `qveris discover <query>` | Natural language API search | Free |
+| `qveris inspect <id>` | View tool details, params, examples | Free |
+| `qveris call <id>` | Execute a tool and get results | 1–100 credits |
+| `qveris interactive` | Start interactive REPL | — |
+| `qveris login` / `logout` | Authentication management | — |
+| `qveris whoami` | Check current auth status | — |
+| `qveris credits` | Check remaining balance | — |
+| `qveris config list|set|get|reset` | Manage CLI configuration | — |
+| `qveris history` | View/clear session history (30min TTL) | — |
+| `qveris doctor` | Check Node.js, API key, connectivity | — |
+| `qveris completions <shell>` | Generate shell auto-completion script | — |
 
 All commands support `--json` output · `--api-key` override · `--timeout` configuration.
 
@@ -699,15 +277,11 @@ qveris discover "any API you need"
 
 ```
 
-<callout emoji="rocket" background-color="light-green">
-
-**Three commands. 10,000+ APIs. Free to start.**
-
-- 1,000 free credits on signup — no credit card required
-- Search is always free
-- Fully open source: [github.com/QVerisAI/QVerisAI](https://github.com/QVerisAI/QVerisAI/tree/main/packages/cli)
-
-</callout>
+> 🚀 **Three commands. 10,000+ APIs. Free to start.**
+>
+> - 1,000 free credits on signup — no credit card required
+> - Search is always free
+> - Fully open source: [github.com/QVerisAI/QVerisAI](https://github.com/QVerisAI/QVerisAI/tree/main/packages/cli)
 
 ---
 
@@ -722,7 +296,7 @@ QVeris AI builds **action infrastructure for the agent era** — a semantic sear
 - **QVerisBot** — Production-grade AI assistant built on OpenClaw
 - **QVeris REST API** — Standard HTTP interface for any language and platform
 
-**Website:** [https://qveris.ai](https://qveris.ai)**CLI Docs:** [https://qveris.ai/docs/cli](https://qveris.ai/docs/cli)**GitHub:** [https://github.com/QVerisAI/QVerisAI](https://github.com/QVerisAI/QVerisAI)**X (Twitter):** [@QVerisAI](https://x.com/QVerisAI)
+**Website:**[https://qveris.ai](https://qveris.ai)**CLI Docs:**[https://qveris.ai/docs/cli](https://qveris.ai/docs/cli)**GitHub:**[https://github.com/QVerisAI/QVerisAI](https://github.com/QVerisAI/QVerisAI)**X (Twitter):** [@QVerisAI](https://x.com/QVerisAI)
 
 ---
 

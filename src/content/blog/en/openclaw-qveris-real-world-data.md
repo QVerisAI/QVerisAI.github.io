@@ -130,7 +130,7 @@ If you're building with OpenClaw and need real-world data, this is how you do it
 
 Get started:
 
-[<text underline="true">https://qveris.ai</text>](https%3A%2F%2Fqveris.ai%2F)
+[https://qveris.ai](https%3A%2F%2Fqveris.ai%2F)
 
 ![openclaw-qveris-real-world-data-6](../../../assets/blog-openclaw-qveris-real-world-data-6.png)
 

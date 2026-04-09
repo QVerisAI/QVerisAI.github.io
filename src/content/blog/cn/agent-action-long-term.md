@@ -17,11 +17,11 @@ translationKey: 'agent-action-long-term'
 
 ![agent-action-long-term-2](../../../assets/blog-agent-action-long-term-2.jpg)
 
-一群对 AI Agent 真正能不能**“动起来” **这件事有执念的人，聚在了一起。
+一群对 AI Agent 真正能不能**“动起来”**这件事有执念的人，聚在了一起。
 
-这就是** Qveris Friends × 原点学堂 × Naughty Labs** 的第一场线下活动：
+这就是**Qveris Friends × 原点学堂 × Naughty Labs** 的第一场线下活动：
 
-<text underline="true">**Agent, Action！QverisAI 黑客松**</text>
+**Agent, Action！QverisAI 黑客松**
 
 ![agent-action-long-term-3](../../../assets/blog-agent-action-long-term-3.jpg)
 
@@ -37,25 +37,25 @@ translationKey: 'agent-action-long-term'
 
 也就是说：
 
-- <text underline="true">不只是“分析”</text>
-- <text underline="true">不只是“生成建议”</text>
-- <text underline="true">而是</text><text underline="true">**真的能调用工具、真的执行动作、真的有结果**</text>
+- 不只是“分析”
+- 不只是“生成建议”
+- 而是**真的能调用工具、真的执行动作、真的有结果**
 
 ![agent-action-long-term-4](../../../assets/blog-agent-action-long-term-4.png)
 
-这恰好也是** Qveris 一直在做的事。**
+这恰好也是**Qveris 一直在做的事。**
 
-现场来了** 近百位开发者 / 产品 / 创业者**，如果你来过现场，你大概会记得这样一些画面：
+现场来了**近百位开发者 / 产品 / 创业者**，如果你来过现场，你大概会记得这样一些画面：
 
-- <text underline="true">有人盯着屏幕，等一次 API 的返回</text>
-- <text underline="true">有人在不断调整 Agent 的执行流程</text>
-- <text underline="true">也有团队不间断地火热讨论</text>
+- 有人盯着屏幕，等一次 API 的返回
+- 有人在不断调整 Agent 的执行流程
+- 也有团队不间断地火热讨论
 
 ![agent-action-long-term-5](../../../assets/blog-agent-action-long-term-5.jpg)
 
 它们都指向同一件事：
 
-Agent** 是否真的完成了一次行动**。
+Agent**是否真的完成了一次行动**。
 
 模型越来越强、Demo 越来越漂亮，
 
@@ -97,11 +97,11 @@ Agent 跑不动，
 
 4 个小时结束时，现场一共完成了：
 
-<text underline="true">**10 个 AI Agent 项目**</text>
+**10 个 AI Agent 项目**
 
-<text underline="true">** GitHub 提交**</text>
+**GitHub 提交**
 
-<text underline="true">**跑通至少一个完整行动链路**</text>
+**跑通至少一个完整行动链路**
 
 ![agent-action-long-term-8](../../../assets/blog-agent-action-long-term-8.jpg)
 
@@ -115,7 +115,7 @@ Agent 跑不动，
 
 👇
 
-<text underline="true">***https://github.com/orgs/QverisFriends/repositories***</text>
+***https://github.com/orgs/QverisFriends/repositories***
 
 ![agent-action-long-term-9](../../../assets/blog-agent-action-long-term-9.jpg)
 
@@ -125,9 +125,9 @@ Agent 跑不动，
 
 现场评选出了 3 个奖项：
 
-- <text underline="true">**The Best PMF：最具商业潜力的奖**</text>
-- <text underline="true">**Just For Fun：最有趣的奖**</text>
-- <text underline="true">**Qveris 特别奖**</text>
+- **The Best PMF：最具商业潜力的奖**
+- **Just For Fun：最有趣的奖**
+- **Qveris 特别奖**
 
 ![agent-action-long-term-10](../../../assets/blog-agent-action-long-term-10.png)
 
@@ -141,9 +141,9 @@ Qveris Friends，想和大家把这件事持续做下去
 
 它不仅是一个供大家交流AI Agent的社区，更像一个创造营：
 
-- <text underline="true">允许失败</text>
-- <text underline="true">允许跑不通</text>
-- <text underline="true">但要</text><text underline="true">**“行动”**</text><text underline="true">起来，不仅是agent，更是</text><text underline="true">**人**</text>
+- 允许失败
+- 允许跑不通
+- 但要**“行动”**起来，不仅是agent，更是**人**
 
 如果 AI Agent 真的会成为下一代生产力工具，
 
@@ -165,18 +165,16 @@ Qveris Friends，想和大家把这件事持续做下去
 
 接下来，我们会：
 
-- <text underline="true">**拆解这 10 个 Agent 项目的真实实现**</text>
-- <text underline="true">**分享它们卡在哪、怎么跑通的**</text>
-- <text underline="true">**继续做小规模、重实操的共创**</text>
+- **拆解这 10 个 Agent 项目的真实实现**
+- **分享它们卡在哪、怎么跑通的**
+- **继续做小规模、重实操的共创**
 
 如果你也在关心 Agent 如何真正落地，
 
 那就
 
-## **赶快加入我们，** {align="center"}
-
-## **我们下期再会！** {align="center"}
-
+## **赶快加入我们，**
+## **我们下期再会！**
 ![agent-action-long-term-12](../../../assets/blog-agent-action-long-term-12.jpg)
 
 ![agent-action-long-term-13](../../../assets/blog-agent-action-long-term-13.png)
