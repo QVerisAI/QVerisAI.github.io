@@ -9,7 +9,7 @@ tags: ['openclaw', '金融', 'a股', '教程']
 translationKey: 'openclaw-a-shares-data'
 ---
 
-前几天我们将Clawdbot（现：OpenClaw）接入QVeris，放进了飞书，实现了7×24小时的A股分析师。内侧群1天内涌入了1000多位朋友**（文末附体验）**
+前几天我们将Clawdbot（现：OpenClaw）接入QVeris，放进了飞书，实现了7×24小时的A股分析师。内侧群1天内涌入了1000多位朋友（**文末附体验**）
 
 ![openclaw-a-shares-data-1](../../../assets/blog-openclaw-a-shares-data-1.jpg)
 

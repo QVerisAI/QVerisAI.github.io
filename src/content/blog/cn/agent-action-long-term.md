@@ -17,7 +17,7 @@ translationKey: 'agent-action-long-term'
 
 ![agent-action-long-term-2](../../../assets/blog-agent-action-long-term-2.jpg)
 
-一群对 AI Agent 真正能不能**“动起来”**这件事有执念的人，聚在了一起。
+一群对 AI Agent 真正能不能“**动起来**”这件事有执念的人，聚在了一起。
 
 这就是**Qveris Friends × 原点学堂 × Naughty Labs** 的第一场线下活动：
 
@@ -61,7 +61,7 @@ Agent**是否真的完成了一次行动**。
 
 但真正能在日常工作中 替人完成一段完整行动 的 Agent，依然很少。
 
-问题不在**“会不会想”**，
+问题不在“**会不会想**”，
 
 而在 **“能不能动”**。
 
@@ -143,7 +143,7 @@ Qveris Friends，想和大家把这件事持续做下去
 
 - 允许失败
 - 允许跑不通
-- 但要**“行动”**起来，不仅是agent，更是**人**
+- 但要“**行动**”起来，不仅是agent，更是**人**
 
 如果 AI Agent 真的会成为下一代生产力工具，
 

@@ -95,10 +95,10 @@ Step 3：创建一个项目
 
 展开也可以看具体调用了哪些工具。
 
-这里需要特别注意，在通过QVeris调用工具的时候，需要特地**@qveris.mdc**，@号前与文字内容相隔一格，再附上注册QVeris时的API KEY。
+这里需要特别注意，在通过QVeris调用工具的时候，需要特地@**qveris.mdc**，@号前与文字内容相隔一格，再附上注册QVeris时的API KEY。
 
 ![qveris-in-cursor-15](../../../assets/blog-qveris-in-cursor-15.jpg)
 
-Cursor 解决的是：**AI 怎么更好地“写”**QVeris 解决的是：**AI 怎么真正“做”**
+Cursor 解决的是：**AI 怎么更好地“写**”QVeris 解决的是：**AI 怎么真正“做”**
 
 当两者连在一起，你写的不再只是代码，而是**能行动的 Agent**。

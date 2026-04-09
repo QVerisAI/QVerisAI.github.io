@@ -14,7 +14,7 @@ translationKey: 'qveris-friends-hackathon'
 转发👆海报到朋友圈 = 现场获得1杯酒水兑换券（限前50位）
 ![qveris-friends-hackathon-2](../../../assets/blog-qveris-friends-hackathon-2.png)
 活动详情
-**主题：**Agent, Action！
+**主题**：Agent, Action！
 
 ## **开始行动吧，Agent!**
 **目标**：在 4 个小时内，跑通一个真正可执行的 Agent 行动闭环。
@@ -25,9 +25,9 @@ translationKey: 'qveris-friends-hackathon'
 
 **时间**：周日 13:30 – 20:00
 
-**地点：**北京海淀区五道口东升大厦A座9楼（原点学堂）
+**地点**：北京海淀区五道口东升大厦A座9楼（原点学堂）
 
-**签到：**13:30
+**签到**：13:30
 
 **形式**：线下共创黑客松（自由组队 / 单人）
 
@@ -69,7 +69,7 @@ https://github.com/QverisFriends
 
  https://github.com/QverisAI/QverisAI
 
-**3.**3个奖项各2000元（500元现金+1500元等值QverisAI Credits）
+**3**.3个奖项各2000元（500元现金+1500元等值QverisAI Credits）
 
 1. **现场提供披萨和饮料**
 活动完整流程

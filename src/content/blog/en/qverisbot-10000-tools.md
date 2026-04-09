@@ -34,7 +34,7 @@ Users consistently say things like: ***"It's running my company"*****,*****"This
 
 ## So What Is QVerisBot?
 
-**QVerisBot is a production-focused distribution built by the QVeris AI team on top of OpenClaw.**It keeps OpenClaw's entire local-first architecture and adds a QVeris-first product layer designed for professional and enterprise use cases:
+**QVerisBot is a production-focused distribution built by the QVeris AI team on top of OpenClaw**.It keeps OpenClaw's entire local-first architecture and adds a QVeris-first product layer designed for professional and enterprise use cases:
 
 ![qverisbot-10000-tools-2](../../../assets/blog-qverisbot-10000-tools-2.png)
 
@@ -100,7 +100,7 @@ qverisbot migrate doctor # Diagnose migration compatibility
 
 **Key features:**
 
-- **Secure stripping:**Automatically removes all sensitive credentials and API keys during export
+- **Secure stripping**:Automatically removes all sensitive credentials and API keys during export
 - **Complete preservation**: Knowledge base, skill configurations, memory, and scheduled tasks are all retained
 - **Cross-platform**: Seamless switching between Mac → Linux → Windows
 - **Enterprise-grade**: Supports backup strategies and version management
