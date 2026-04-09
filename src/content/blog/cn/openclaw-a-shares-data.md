@@ -15,8 +15,7 @@ translationKey: 'openclaw-a-shares-data'
 
 **现在只需下面2步，你自己的openclaw也可以直接接入qveris轻松做到了。**
 
-*Step 1* {align="center"}
-
+*Step 1*
 复制下面这句话粘贴给你的openclaw🦞 (最好选聪明点点模型)
 
 ```plaintext
@@ -33,10 +32,8 @@ translationKey: 'openclaw-a-shares-data'
 
 （现在免费送1000额度，邀请好友还能得双倍！）
 
-## *Step 2* {align="center"}
-
-## {align="center"}
-
+## *Step 2*
+##
 ## 登陆QVeris官网获取API Key: https://qveris.ai/
 
 ![openclaw-a-shares-data-3](../../../assets/blog-openclaw-a-shares-data-3.png)
@@ -51,8 +48,7 @@ translationKey: 'openclaw-a-shares-data'
 
 恭喜你已经让你的openclaw接通qveris实现
 
-## **全球金融市场分析自由了！** {align="center"}
-
+## **全球金融市场分析自由了！**
 另外，除了金融方面，接入QVeris 后也可以帮你完成X、加密货币等数据的整合，多种领域功能等你来发掘体验~
 
 QVeris.ai是为Agent打造的原生数据+工具接口，让你的agent可以通过一个接口实现现实上万种动态数据的获取。

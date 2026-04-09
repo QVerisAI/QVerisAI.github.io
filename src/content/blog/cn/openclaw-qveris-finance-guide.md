@@ -13,11 +13,11 @@ translationKey: 'openclaw-qveris-finance-guide'
 
 ![openclaw-qveris-finance-guide-2](../../../assets/blog-openclaw-qveris-finance-guide-2.webp)
 
-<text bgcolor="light-green">一、架构概览</text>
+一、架构概览
 
 ![openclaw-qveris-finance-guide-3](../../../assets/blog-openclaw-qveris-finance-guide-3.webp)
 
-<text bgcolor="light-green">二、核心配置文件详解</text>
+二、核心配置文件详解
 
 ```plaintext
 
@@ -32,7 +32,7 @@ translationKey: 'openclaw-qveris-finance-guide'
 - tools.web.search.provider: 网页搜索提供商，推荐值 qveris
 - plugins.load.paths: Skill 加载路径，必须包含 /root/.openclaw/skills
 
-<text bgcolor="light-green">三、QVeris Skill 部署</text>
+三、QVeris Skill 部署
 
 3.1 安装位置
 
@@ -68,7 +68,7 @@ translationKey: 'openclaw-qveris-finance-guide'
 
 ```
 
-<text bgcolor="light-green">四、QVeris 工具使用详解</text>
+四、QVeris 工具使用详解
 
 4.1 核心命令
 
@@ -165,7 +165,7 @@ A股历史行情
 
 持续更新中。。。
 
-<text bgcolor="light-green">五、Agent 行为规范配置</text>
+五、Agent 行为规范配置
 
 5.1 行为规范文件 ~/workspace/行为规范.md
 
@@ -175,7 +175,7 @@ A股历史行情
 
 ```
 
-<text bgcolor="light-green">六、实战示例</text>
+六、实战示例
 
 6.1 A股实时行情查询
 
@@ -201,7 +201,7 @@ A股历史行情
 
 ```
 
-<text bgcolor="light-green">七、故障排查</text>
+七、故障排查
 
 7.1 常见问题
 
@@ -227,7 +227,7 @@ Request timed out原因：网络或工具响应慢解决方案：增加 --timeou
 
 ```
 
-<text bgcolor="light-green">八、高级配置</text>
+八、高级配置
 
 8.1 自定义工具缓存
 
@@ -247,7 +247,7 @@ Request timed out原因：网络或工具响应慢解决方案：增加 --timeou
 
 ```
 
-<text bgcolor="light-green">九、安全与合规</text>
+九、安全与合规
 
 9.1 API Key 保护
 
@@ -263,7 +263,7 @@ Request timed out原因：网络或工具响应慢解决方案：增加 --timeou
 - 不传输用户敏感信息
 - 所有请求通过 HTTPS 加密
 
-<text bgcolor="light-green">十、总结</text>
+十、总结
 
 OpenClaw + QVeris 的配置核心要点：
 

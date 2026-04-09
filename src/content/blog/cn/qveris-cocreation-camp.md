@@ -109,8 +109,6 @@ Agent 的执行与编排流程
 
 ![qveris-cocreation-camp-2](../../../assets/blog-qveris-cocreation-camp-2.png)
 
-**Qveris 希望和开发者一起，** {align="center"}
-
-**让你的 AI Agent“行动起来”！** {align="center"}
-
-**欢迎加入 Qveris AI 共创营！** {align="center"}
+**Qveris 希望和开发者一起，**
+**让你的 AI Agent“行动起来”！**
+**欢迎加入 Qveris AI 共创营！**

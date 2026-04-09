@@ -81,8 +81,7 @@ Clawdbot接入QVeris意味着：
 
 ![clawdbot-qveris-anything-3](../../../assets/blog-clawdbot-qveris-anything-3.png)
 
-（以上仅为实验场景，不作为投资建议） {align="center"}
-
+（以上仅为实验场景，不作为投资建议）
 Clawdbot 解决了“在哪里用AI”。QVeris 解决了**“用AI解决生产问题的准确度、深度及广度”**。
 
 **Clawdbot＋QVeris 相结合，让你的 Agent 成为一个稳定可以被托付任务的系统。**

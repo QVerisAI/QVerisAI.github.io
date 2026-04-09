@@ -25,7 +25,7 @@ GitHub: QVerisAI/open-qveris-skills
 
 ClawHub:
 
-[<text underline="true">clawhub.ai/linfangw/qveris-official</text>](https%3A%2F%2Fclawhub.ai%2Flinfangw%2Fqveris-official)
+[clawhub.ai/linfangw/qveris-official](https%3A%2F%2Fclawhub.ai%2Flinfangw%2Fqveris-official)
 
 We've seen several community-built QVeris skills appear on ClawHub and GitHub — which is awesome. It tells us developers genuinely want QVeris integrated into their agents, and we appreciate every community contribution that helped validate this demand.
 
@@ -130,8 +130,8 @@ We'll continue evolving the official skill as QVeris grows:
 ## Links
 
 - GitHub: QVerisAI/open-qveris-skills
-- ClawHub: [<text underline="true">clawhub.ai/linfangw/qveris-official</text>](https%3A%2F%2Fclawhub.ai%2Flinfangw%2Fqveris-official)
-- Get your API key: [<text underline="true">qveris.ai</text>](https%3A%2F%2Fqveris.ai%2F)
-- QVeris docs: [<text underline="true">qveris.ai/docs</text>](https%3A%2F%2Fqveris.ai%2Fdocs)
+- ClawHub: [clawhub.ai/linfangw/qveris-official](https%3A%2F%2Fclawhub.ai%2Flinfangw%2Fqveris-official)
+- Get your API key: [qveris.ai](https%3A%2F%2Fqveris.ai%2F)
+- QVeris docs: [qveris.ai/docs](https%3A%2F%2Fqveris.ai%2Fdocs)
 
 *Built with 🦞 by the QVeris team*

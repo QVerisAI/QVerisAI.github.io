@@ -33,7 +33,7 @@ Belief 1: Workflows Won't Be Hardcoded — They'll Be Dynamic Loops
 
 **LangChain's assumption:** Agent workflows can be predefined and hardcoded. Developers wire up steps A→B→C using Chains, and the agent executes accordingly.
 
-**Our belief:** Useful agent workflows **can never be fully determined before runtime.**
+**Our belief:**Useful agent workflows**can never be fully determined before runtime.**
 
 Real-world agent execution looks more like this:
 
@@ -56,7 +56,7 @@ Belief 2: No Single Model Can Do 100% of the Work
 
 **The current illusion:** Many believe that GPT-5 or Claude Opus is powerful enough to handle everything on its own.
 
-**Our belief:** **No model, however powerful, can complete complex work independently.**
+**Our belief:****No model, however powerful, can complete complex work independently.**
 
 Why?
 
@@ -113,7 +113,7 @@ chain = LLMChain(
 
 result =
 
-[<text underline="true">chain.run</text>](https%3A%2F%2Fchain.run%2F)
+[chain.run](https%3A%2F%2Fchain.run%2F)
 
 (input)
 
@@ -177,7 +177,7 @@ import qveris
 
 results =
 
-[<text underline="true">qveris.search</text>](https%3A%2F%2Fqveris.search%2F)
+[qveris.search](https%3A%2F%2Fqveris.search%2F)
 
 ("real-time stock price for AAPL")
 
@@ -206,10 +206,10 @@ The agent didn't need to know which financial API to use, how to authenticate wi
 **In a real agent workflow**, this plays out naturally:
 
 - Agent is preparing an investor meeting → needs financial data →
-- [<text underline="true">qveris.search</text>](https%3A%2F%2Fqveris.search%2F)
+- [qveris.search](https%3A%2F%2Fqveris.search%2F)
 - ("company financials") → gets results → qveris.execute(...) → data retrieved
 - Discovers it also needs competitor info →
-- [<text underline="true">qveris.search</text>](https%3A%2F%2Fqveris.search%2F)
+- [qveris.search](https%3A%2F%2Fqveris.search%2F)
 - ("competitor analysis tool") → finds one → executes it
 - Each new need is resolved dynamically, without any prior configuration
 
@@ -364,7 +364,7 @@ The heart of that infrastructure isn't "how to assemble tools." It's "how to ena
 
 **Further Reading:**
 
-- [<text underline="true">QVeris Documentation</text>](https%3A%2F%2Fqveris.ai%2Fdocs)
+- [QVeris Documentation](https%3A%2F%2Fqveris.ai%2Fdocs)
 
 **Discussion:** What are your beliefs about how agents will work in the future? I'd love to hear your thoughts.
 

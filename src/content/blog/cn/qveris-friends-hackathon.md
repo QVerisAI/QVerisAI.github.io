@@ -11,18 +11,12 @@ translationKey: 'qveris-friends-hackathon'
 
 ![qveris-friends-hackathon-1](../../../assets/blog-qveris-friends-hackathon-1.png)
 
-转发👆海报到朋友圈 = 现场获得1杯酒水兑换券（限前50位） {align="center"}
-
+转发👆海报到朋友圈 = 现场获得1杯酒水兑换券（限前50位）
 ![qveris-friends-hackathon-2](../../../assets/blog-qveris-friends-hackathon-2.png)
-
- {align="center"}
-
-活动详情 {align="center"}
-
+活动详情
 **主题：**Agent, Action！
 
-## **开始行动吧，Agent!** {align="center"}
-
+## **开始行动吧，Agent!**
 **目标**：在 4 个小时内，跑通一个真正可执行的 Agent 行动闭环。
 
 （通过 Qveris 成功调用 ≥1 个真实工具 API）
@@ -39,8 +33,7 @@ translationKey: 'qveris-friends-hackathon'
 
 **规模**：30–50 人（场地有限，敬请谅解）
 
-**玩法规则说明 & Demo 标准** {align="center"}
-
+**玩法规则说明 & Demo 标准**
 不限制方向，不限制行业和产品形态
 
 只关注一件事：
@@ -49,8 +42,7 @@ translationKey: 'qveris-friends-hackathon'
 
 最终产品形态可以在本地电脑预览展示
 
-**最终评选 3 个项目** {align="center"}
-
+**最终评选 3 个项目**
 **（每个奖项各一队：¥2000，现金500+1500元等值Qveris积分）**
 
 1.The Best PMF ：最具商业潜力的项目 （1队，现场投票）
@@ -71,21 +63,16 @@ https://github.com/QverisFriends
 
 每人3票，前两个奖项现场互投，最后一个奖项Qveris官方评选
 
-**福利部分！** {align="center"}
-
+**福利部分！**
 1. **注册 Qveris.ai：即赠送 5000 点 Credits：**
 1. **Star Qveris Github：现场兑换饮品一杯👇**
 
  https://github.com/QverisAI/QverisAI
 
-**3. **3个奖项各2000元（500元现金+1500元等值QverisAI Credits）
+**3.**3个奖项各2000元（500元现金+1500元等值QverisAI Credits）
 
 1. **现场提供披萨和饮料**
-
- {align="center"}
-
-活动完整流程 {align="center"}
-
+活动完整流程
 **13:30–14:00｜签到 & 自由交流**
 
 扫码签到
