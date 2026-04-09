@@ -11,7 +11,7 @@ translationKey: 'qverisbot-2026-3-8-release'
 
 ![qverisbot-2026-3-8-release-1](../../../assets/blog-qverisbot-2026-3-8-release-1.png)
 
-**Previous version:**2026.3.3 |**Release date:**March 8, 2026
+**Previous version**:2026.3.3 |**Release date**:March 8, 2026
 
 This release merges the latest OpenClaw upstream (through v2026.3.7 stable) and introduces three major QVerisBot-specific enhancements.
 

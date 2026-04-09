@@ -33,7 +33,7 @@ Belief 1: Workflows Won't Be Hardcoded — They'll Be Dynamic Loops
 
 **LangChain's assumption:** Agent workflows can be predefined and hardcoded. Developers wire up steps A→B→C using Chains, and the agent executes accordingly.
 
-**Our belief:**Useful agent workflows**can never be fully determined before runtime.**
+**Our belief**:Useful agent workflows**can never be fully determined before runtime.**
 
 Real-world agent execution looks more like this:
 
