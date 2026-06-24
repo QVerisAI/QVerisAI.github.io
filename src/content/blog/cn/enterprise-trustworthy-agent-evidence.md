@@ -1,0 +1,233 @@
+---
+title: '企业可信Agent，缺的不是回答，而是证据'
+description: '企业可信Agent，缺的不是回答，而是证据'
+pubDate: 'Jun 19 2026'
+heroImage: '../../../assets/blog-enterprise-trustworthy-agent-evidence-hero.jpg'
+category: 'Product'
+author: 'QVeris Team'
+tags: ['QVeris', 'Agent']
+translationKey: 'enterprise-trustworthy-agent-evidence'
+---
+QVeris · 技术解读
+
+>
+> **一句话摘要**
+>
+> 企业不是不想用 Agent，而是不敢把黑箱 Agent 放进关键流程。QVeris 的价值，是让 Agent 在调用真实世界能力时做到可发现、可检查、可执行、可追溯。 
+>
+## AI 要进业务流程，最缺的不是回答，而是证据
+
+很多企业第一次试 AI Agent，都会被 demo 打动。
+
+一句话下去，系统开始规划任务、搜索资料、调用工具、生成报告，看起来像一个不知疲倦的数字员工。
+
+但真正要放进业务流程时，问题也会立刻出现：它查了什么？用了哪个工具？结果从哪里来？花了多少钱？失败时有没有记录？半年后要复盘，能不能还原当时的判断依据？
+
+企业不是不想用 AI。企业是不敢把黑箱 AI 放进关键流程。
+
+这就是 QVeris 适合讲清楚的一件事：当 AI 从"会聊天"走向"能办事"，最关键的能力不只是更强的模型，而是一套能管理工具、数据、成本、来源和审计的 Data & Tool Harness。
+
+>
+> 核心观点
+>
+> 大模型负责理解和表达，Agent 负责拆任务和执行，QVeris 负责让执行连接真实世界能力，并把过程变得可控、可信、可复盘。 
+>
+![](../../../assets/blog-enterprise-trustworthy-agent-evidence-1.jpg)
+
+图 1｜企业可信 Agent 的四层结构
+## 为什么普通 Agent 很难直接进入企业流程
+
+普通 Agent 最大的问题，不是不会写漂亮答案，而是执行过程不可管理。
+
+在真实业务里，Agent 往往要接行情、财报、新闻、公告、工商、招采、社媒、内部系统等工具。每个工具的字段、权限、价格和失败方式都不同。如果没有统一的发现、检查和留痕机制，Agent 很容易从"自动化助手"变成"自动化风险"。
+
+- 工具选择不透明：Agent 不知道该优先用哪个数据源，也不知道某个工具是否适合当前任务。
+
+- 成本不可控：批量任务一跑，调用次数、credits 和重试成本会迅速放大。
+
+- 来源不可追：报告写得很像样，但关键事实无法回到原始公告、原文片段或调用记录。
+
+- 失败不可复盘：出错后难以判断是参数错误、权限不足、数据源不可用，还是任务本身不适合这个工具。
+
+- 风险不可交接：金融、风控、销售、供应链等场景都需要人工复核节点，而不是把最终判断完全交给模型。
+## QVeris 补的是 Harness，而不是又一个聊天窗口
+
+QVeris 把 Agent 调用真实能力这件事拆成三步：Discover、Inspect、Call。
+
+<table style="width:100%;border-collapse:collapse;font-size:14px;border:1px solid #e0e0e0;">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr style="background:#0051A8;">
+<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
+步骤
+</section></th>
+<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
+Agent 在这一步做什么
+</section></th>
+<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
+对企业的价值
+</section></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+Discover
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+根据任务搜索候选工具、数据源和能力
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+不用一开始就知道该接哪个 API，降低试错和集成成本
+</section></td>
+</tr>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+Inspect
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+调用前检查参数、字段、provider、成功率、延迟、成本和限制
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+避免盲调，先判断能不能做、怎么做、贵不贵、稳不稳
+</section></td>
+</tr>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+Call
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+执行真实工具，返回结构化结果和执行记录
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+让关键事实来自真实数据，并保留来源、成本和 execution_id
+</section></td>
+</tr>
+</tbody>
+</table>
+
+这三步看起来朴素，但它们决定了 Agent 能不能从演示走向生产。因为企业要的不是"AI 说得像"，而是"AI 做过什么、依据是什么、出了问题能不能查"。
+
+![](../../../assets/blog-enterprise-trustworthy-agent-evidence-2.jpg)
+
+图 2｜企业敢用 Agent 前，需要先回答六个检查点
+## 场景：三个高痛点行业场景
+
+![](../../../assets/blog-enterprise-trustworthy-agent-evidence-3.jpg)
+
+图 3｜不同行业的问题不同，但可信 Agent 的底层要求相同
+## 这些行业看似不同，底层问题其实一样
+
+<table style="width:100%;border-collapse:collapse;font-size:14px;border:1px solid #e0e0e0;">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr style="background:#0051A8;">
+<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
+行业 / 场景
+</section></th>
+<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
+Agent 要完成的事
+</section></th>
+<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
+最怕的问题
+</section></th>
+<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
+QVeris 可以补的层
+</section></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+金融投研
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+整理行情、财报、电话会、新闻与风险线索
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+结论没有数据来源，容易滑向投资建议
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+工具发现、调用留痕、证据台账、人工复核
+</section></td>
+</tr>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+招采 / 供应商
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+发现项目、采购单位、供应商、金额与联系人线索
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+线索主体混杂，来源 URL 缺失，联系方式合规边界不清
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+企业维度查询、来源证据、字段标准化、脱敏展示
+</section></td>
+</tr>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+销售情报
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+跟踪客户、竞品、公众号、社媒和行业事件
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+热点很多但噪声大，难变成可行动线索
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+多平台内容工具、发布时间、原文链接、线索分派
+</section></td>
+</tr>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+风控 / 合规
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+核验主体背景、异常信号、公开事件和风险变化
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+无法复盘依据，误报漏报难解释
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+可审计调用链、失败记录、证据分级
+</section></td>
+</tr>
+</tbody>
+</table>
+## 企业可信 Agent 的真正门槛
+
+未来企业不会缺 AI 工具。真正稀缺的是能进入流程、能被管理、能被复盘的 AI。
+
+一个可信 Agent 至少要满足六个条件：能发现工具，看得懂工具，算得清成本，调得稳数据，有证据输出，可审计复盘。
+
+这也是 QVeris 的位置。它不是替代大模型，也不是替业务专家做最终判断。它更像 Agent 背后的工具库、操作说明、费用账本和证据留痕系统。
+
+当企业问"AI 能不能进入真实业务流程"时，答案不应该只是一段 demo 视频。更好的答案应该是一条可复现的执行链路：从任务到工具，从工具到数据，从数据到证据，从证据到人工复核。
+## 结尾：AI 从会回答到能办事，中间差一层 Harness
+
+过去两年，我们已经见过太多会回答的 AI。接下来真正重要的，是能办事、可管理、可复盘的 AI。
+
+QVeris 的逻辑，不是"我们也有很多工具"，而是"我们让 Agent 知道该用什么工具、怎么用、花多少钱、结果从哪来、出了问题怎么追"。
+
+企业可信 Agent 的终点，不是让 AI 看起来更聪明，而是让每一次执行都站得住。
+
+因为在真实业务里，信任从来不是一句话建立的。信任来自证据，来自边界，来自可以被复盘的过程。
+
+>
+> AI 不再只是会回答。它开始能办事，而且办事过程可以被看见。 
+>
+
+
+---
+
+原文链接：[微信公众号原文](https://mp.weixin.qq.com/s?src=11&timestamp=1782306755&ver=6802&signature=ZTARrA9sslALul3HMSjo7l29ljsjB2I3UGwY3bGIaypiLN7RUoDkqYCb7xmywCFM5ezxu9kFups7mBidn1olbpXkz5j3diSt75VTsXjUCs-Q7sl0IkNXP8mkL7B28cOX&new=1)

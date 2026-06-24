@@ -1,0 +1,318 @@
+---
+title: 'QVeris：从信息过载到可解释的研究流程'
+description: 'QVeris：从信息过载到可解释的研究流程'
+pubDate: 'Jun 20 2026'
+heroImage: '../../../assets/blog-qveris-explainable-research-workflow-hero.jpg'
+category: 'Product'
+author: 'QVeris Team'
+tags: ['QVeris', 'Agent']
+translationKey: 'qveris-explainable-research-workflow'
+---
+QVeris · 产品介绍 
+## 开场：信息不缺，缺的是可解释的研究流程
+
+打开行情工具时，用户面对的通常不是信息不足，而是信息过载：行情波动、新闻摘要、技术指标、模型信号和观点讨论同时涌来。真正困难的地方在于，如何把这些信息整理成一条可以检查的研究链条：依据是什么，边界在哪里，后续如何复盘。
+
+QStock 的产品思路，正是把"信号"降级为"观察对象"，把"结论"拆成"条件、依据和边界"。QVeris 延续这一方向，希望帮助用户把投研过程从零散判断，整理成更容易追踪、解释和复盘的工作流。
+## 一、从结论导向，到观察导向
+
+很多投研工具会把复杂信息压缩成一个醒目的结果标签。这种方式降低了阅读成本，但也容易遮住更关键的问题：数据是否可靠、条件是否仍然成立、风险边界是否清楚、事后能否复盘。
+
+QStock 更接近一个研究流程框架：先确认数据口径，再看策略是否经过历史样本检验，再判断是否存在值得持续观察的对象，最后用问股助手和模拟盘补足解释与复盘。
+
+<table style="width:100%;border-collapse:collapse;font-size:14px;border:1px solid #e0e0e0;">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr style="background:#0051A8;">
+<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
+常见问题
+</section></th>
+<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
+更稳妥的处理方式
+</section></th>
+<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
+QVeris 的产品方向
+</section></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+直接给出单一结果
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+保留观察条件和触发依据
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+围绕数据、条件、风险线和目标观察线组织信息。
+</section></td>
+</tr>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+只看单一结果指标
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+明确历史样本口径
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+说明历史样本表现、最大回撤和统计口径。
+</section></td>
+</tr>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+助手直接给结论
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+解释数据结构和边界
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+围绕系统信号、模拟记录和失效条件回答。
+</section></td>
+</tr>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+复盘依赖人工记忆
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+让过程持续沉淀
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+记录观察、执行、跳过、关闭和盘后复盘。
+</section></td>
+</tr>
+</tbody>
+</table>
+## 二、把投研拆成五个连续动作
+
+QVeris 的重点不只是单个页面，而是页面之间的连贯性。一个更完整的投研流程，应该从数据检查开始，经过策略验证、机会观察和问股解释，最后回到模拟记录与复盘。
+
+![](../../../assets/blog-qveris-explainable-research-workflow-1.png)
+
+<table style="width:100%;border-collapse:collapse;font-size:14px;border:1px solid #e0e0e0;">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr style="background:#0051A8;">
+<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
+环节
+</section></th>
+<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
+用户实际会问的问题
+</section></th>
+<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
+QVeris 希望帮助梳理
+</section></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+看数据
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+今天的数据是不是新的？行情有没有延迟？
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+数据源、缓存状态、快照时间和数据新鲜度。
+</section></td>
+</tr>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+看策略
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+这个策略只是想法，还是经过历史样本检验？
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+样本区间、成本假设、回撤和稳定性。
+</section></td>
+</tr>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+看观察对象
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+今天哪些标的值得放进观察清单？为什么？
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+触发条件、多策略共振和观察优先级。
+</section></td>
+</tr>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+问助手
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+这只股票现在应该重点观察什么？
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+结合信号、风险线、模拟记录和样本限制做解释。
+</section></td>
+</tr>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+做复盘
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+观察后的表现如何？为什么没有进入模拟记录？
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+模拟执行记录、盘后复盘、未执行原因和关闭状态。
+</section></td>
+</tr>
+</tbody>
+</table>
+## 三、核心不是回答更像人，而是过程更可验证
+
+投研产品很容易把重点放在回答是否流畅、界面是否热闹上。但在真实研究里，流畅不等于可信。可信更多来自数据口径、样本范围、假设条件、风险边界和复盘记录。
+
+### 策略验证：先让想法接受样本检验
+
+在策略验证环节，QVeris 更适合呈现的是历史样本表现、最大回撤、交易成本、样本区间等信息，而不是把复杂策略压缩成单一分数。
+
+这样，策略讨论就不再停留在"这个逻辑看起来有效"，而是进入"这个逻辑在什么样本、什么成本、什么风险边界下表现如何"的层面。
+
+### 机会雷达：把候选标的变成观察清单
+
+机会雷达不应只是排行榜。它更像一个经过筛选的观察池：哪些标的满足了多条件，风险线在哪里，目标观察线在哪里，是否存在多策略共振。
+
+理想状态下，用户不需要在几十个指标之间来回切换，而是先拿到一组结构化观察对象，再决定是否继续深入。
+## 四、问股助手：回答应回到已知数据和边界
+
+问股助手不应被包装成股评人式角色。更合适的定位是研究助手：当用户询问一只股票时，系统不凭空补充新闻、资金流或具体操作建议，而是基于已有数据解释观察条件。
+
+例如，用户问"这只股票今天还能不能继续观察"，更稳妥的回答方式，是回到几个结构化问题：是否仍在开放信号中，是否接近风险线，模拟记录中是否已有仓位，近期是否触达目标观察线，样本表现是否稳定。
+
+<table style="width:100%;border-collapse:collapse;font-size:14px;border:1px solid #e0e0e0;">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr style="background:#0051A8;">
+<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
+泛化回答
+</section></th>
+<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
+基于数据的回答示例
+</section></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+"短期还有机会，可以关注。"
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+"仍在观察计划内，当前未跌破风险线；但距离目标观察线已经缩小，后续重点看量能和失效条件。"
+</section></td>
+</tr>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+"如果下跌就处理。"
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+"若跌破系统风险线，原观察计划失效；如果只是接近风险线，需要查看是否有新的共振信号。"
+</section></td>
+</tr>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+"这个策略历史表现不错。"
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+"历史样本表现来自指定区间，不代表未来表现；还需要结合交易成本、回撤和持仓周期。"
+</section></td>
+</tr>
+</tbody>
+</table>
+## 五、模拟盘：把观察变成可复盘资产
+
+很多工具在"发现观察对象"之后就结束了。QVeris 的设计更重视后半段：观察对象是否进入模拟记录？为什么跳过？后续表现如何？盘后复盘能不能说明问题？
+
+这部分能力的价值，在于把一次临时判断变成可回看的研究记录。团队可以比较不同市场状态下的策略表现，个人用户也可以知道自己关注过的对象是否形成了持续反馈。
+
+- **执行记录**
+
+记录写入、调出、跳过和未执行原因。
+
+- **持仓状态**
+
+展示模拟记录、持仓状态、风险线和目标观察线。
+
+- **盘后复盘**
+
+整理当天执行、重点变化、集中度和下一步研究问题。
+## 六、QVeris 适合的三类使用场景
+
+<table style="width:100%;border-collapse:collapse;font-size:14px;border:1px solid #e0e0e0;">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr style="background:#0051A8;">
+<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
+场景
+</section></th>
+<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
+常见需求
+</section></th>
+<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
+适合承载的能力
+</section></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+个人研究者
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+更高效地整理观察清单，并理解背后的原因。
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+今日机会、机会雷达、问股助手、自选股票。
+</section></td>
+</tr>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+Pro 用户
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+维护关注股票，并验证自己的策略想法。
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+自定义策略、策略回测、深度问股、关注股票维护。
+</section></td>
+</tr>
+<tr>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+团队和平台方
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+统一管理数据口径、策略流程和权限边界。
+</section></td>
+<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
+管理员后台、数据诊断、策略目录和模拟盘复盘。
+</section></td>
+</tr>
+</tbody>
+</table>
+## 结尾：让研究过程留下依据
+
+QVeris 的价值，不在于替用户完成判断，而在于帮助用户把判断过程讲清楚。一个好的观察计划，应该能回答：为什么是它，风险在哪里，数据是否可信，历史样本如何，最后结果怎样。
+
+当研究过程能够被追踪、解释和复盘，投研工具才不只是信息入口，而是更稳定的研究工作流。
+
+
+---
+
+原文链接：[微信公众号原文](https://mp.weixin.qq.com/s?src=11&timestamp=1782306738&ver=6802&signature=ZTARrA9sslALul3HMSjo7l29ljsjB2I3UGwY3bGIayq7AoYYp*ywqwHbf7l0IFF3wvbdnjebecHsSUUREXZb99yDbvLEewKjIs-QkIgFbvk-2sy1akiPtxEYNL9OI8*0&new=1)
