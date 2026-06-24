@@ -1,0 +1,114 @@
+---
+title: '炒不了美股了，咋办？'
+description: '炒不了美股了，咋办？'
+pubDate: 'May 22 2026'
+heroImage: '../../../assets/blog-qveris-wechat-2247484869-hero.jpg'
+category: 'Product'
+author: 'QVeris Team'
+tags: ['QVeris', 'Agent']
+translationKey: 'qveris-wechat-2247484869'
+---
+QVeris · 热点解读 
+## 如果你现在开始看 A 股
+
+  
+
+最近很多人的自选股列表，突然少了一整页。 
+
+这不是你一个人的事。一夜之间，一个巨大的投资者群体需要面对一个新问题：**A 股 5000 多只票，怎么看？从哪下手？靠什么判断买还是卖？**
+
+如果你已经在看 A 股但总觉得"不顺手"，这篇文章是给你的。 
+## 你在美股练的那套手艺，拿到 A 股大概覆盖了 40%
+
+  
+
+不是 A 股更难。是**信息结构不一样**。 
+
+美股投资者习惯的看盘信息维度：PE、市值、营收增速、现金流、分析师评级、期权链、盘前盘后价格变动。 
+
+**A 股的有效信息维度，多了好几样东西**：
+
+**涨跌停机制**意味着你不能用美股的"跌 20% 抄底"逻辑。跌停板封死了，你跑不掉，明天可能接着跌停。 
+
+**没有盘前盘后**意味着消息消化全部在 9:15-9:25 的集合竞价里完成。你没有四个小时的缓冲窗口慢慢挂单。 
+
+**资金面是定价核心**意味着你不能只看基本面——龙虎榜、北向资金、两融余额、主力净流入，这四个数据在 A 股是价格发现的**第一性原理**，不是选配。 
+
+说白了：你带过来的美股那套，大概覆盖了 A 股定价因子的 40%。剩下 60%，全在另一套数据管道里。 
+## A 股科学买股的三个数据支柱
+
+  
+
+我们把 A 股数据做了全量摸底（快照 2026-05-15），接入 4 家本土头部供应商，覆盖 **18 类 107 项能力**。不是为了炫数字——是真的拆完后发现，A 股"科学买股"需要三条数据腿，缺一条就瘸。 
+
+![](../../../assets/blog-qveris-wechat-2247484869-1.jpg)
+
+### 第一条腿：行情 + 榜 —— 知道今天发生了什么 
+
+每天开盘第一件事：今天谁在涨？钱在哪？ 
+
+你需要的是**实时行情 + 涨跌榜 + 市场宽度**。批量轮询自选股拿最新价、涨跌幅、换手率、量比，配合涨跌榜和市场宽度数据，早盘前 30 分钟抓出"今天谁先冲"。 
+
+>
+>  调 \`cn_financial_pro.real_time_quotation.v1\`，传 600519.SH,300750.SZ 等代码，拿回最新价、涨跌幅、换手率、量比、PE/PB、涨跌停价——一屏看完一只票的即时状态。 
+>
+比美股 Stock Screener 更狠的是：A 股还有**概念板块**和**申万行业日线**。涨的不是一只票，是一个题材。你能看到今天"光纤通信"涨了 5%，里面哪只领涨——这才是 A 股真正的题材节奏感。 
+
+### 第二条腿：资金 —— 知道钱在往哪走 
+
+A 股有一句俗话："看对方向不如跟对资金。" 
+
+你需要的是四件套：**龙虎榜 + 主力资金流 + 北向资金 + 两融余额**。 
+
+收盘后拉龙虎榜，查买方席位是机构还是营业部——这决定了这笔买盘有没有持续性。 
+
+盘中拉主力资金流，看超大单净流入/流出方向——钱是机构体量的，还是散户体量的，两个方向的信号含金量完全不一样。 
+
+每天盯北向资金的板块持仓变化——北向连续 5 天加仓某个板块，这个方向的胜率就上去了。 
+
+每周看两融余额——融资余额突破历史新高，散户杠杆情绪过热，你就该考虑减仓了。 
+
+>
+>  主力资金流调 \`caidazi.get_stock_moneyflow.execute.v1\`，龙虎榜调 \`cn_financial_pro.dragon_tiger.v1\`，两融调 \`caidazi.get_stock_margin_detail.execute.v1\`。三个接口跑一遍，10 分钟内看清一只票的"钱属性"。 
+>
+### 第三条腿：基本面 —— 知道买的值不值 
+
+A 股也有 PE、PB、ROE、净利率、资产负债率——但你需要的不只是单期数据，是**多季度纵向对比 + 同行业横向对比**。 
+
+财搭子接口可以直接拉茅台的资产负债表过去 6 个季度：从 20241231 到 20260331，资产负债率在 12% 到 19% 之间波动——你能看到趋势，而不是盯着一个静态数字做决策。 
+
+利润表也是一样：营收、毛利、净利、EPS，多季度一拉，一眼看出增速是在加速还是减速。 
+
+>
+>  资产负债表调 \`caidazi.get_sec_balance.execute.v1\`，利润表用 \`financialmodelingprep.stable.incomestatement.retrieve.v1\`（A 股用 .SS/.SZ 后缀）。两个接口覆盖 A 股三表核心查询。 
+>
+## 不是"跌了才看 A 股"，是"A 股有 A 股的玩法"
+
+  
+
+很多人开始看 A 股是因为被动选择。但这不重要。 
+
+重要的是：**A 股有它自己的逻辑，有它专属的数据武器库。** 涨跌停、龙虎榜、资金流、北向、两融——这些不是锦上添花的指标，是价格发现的核心因子。 
+
+你把这些融进你的系统里，你是在打一场信息完整的仗。 
+
+你不融进去，就是在用半张牌桌出牌。 
+## 怎么开始
+
+  
+
+QVeris 已经把 A 股的 107 项能力打通了，4 家本土供应商统一成一个调用入口。61 个 tool 用 `600519.SH` 标准参数直接调通，剩下的按 schema 填专用参数也能通。 
+
+装 QVeris CLI 三行命令，在 Claude Code / Cursor / Codex 里就能让 AI 自动 discover → inspect → call。或者直接走 REST API 写定时任务跑策略。 
+
+**相关阅读：**  
+
+<a href="https://mp.weixin.qq.com/s?__biz=MzY4NDAxMTE3NQ==&amp;mid=2247484820&amp;idx=1&amp;sn=c66b18010fe60f30042058e8c6929f9d&amp;scene=21#wechat_redirect" class="normal_text_link mp_article_text_link" target="_blank" style="" data-textvalue="3小时变30秒：接入QVeris后，Codex秒变金融数据分析师" data-itemshowtype="0" data-linktype="2">3小时变30秒：接入QVeris后，Codex秒变金融数据分析师</a>
+
+<a href="https://mp.weixin.qq.com/s?__biz=MzY4NDAxMTE3NQ==&amp;mid=2247484687&amp;idx=1&amp;sn=b46b9f54a00de228180656cac86a5d4d&amp;scene=21#wechat_redirect" class="normal_text_link mp_article_text_link" target="_blank" style="" data-textvalue="一个API接入全面金融数据" data-itemshowtype="8" data-linktype="2">一个API接入全面金融数据</a>
+
+<a href="https://mp.weixin.qq.com/s?__biz=MzY4NDAxMTE3NQ==&amp;mid=2247484280&amp;idx=1&amp;sn=863d0397a39bb31e8fd18b6adc0b02da&amp;scene=21#wechat_redirect" class="normal_text_link mp_article_text_link" target="_blank" style="" data-textvalue="QVeris发布智能体能力地图" data-itemshowtype="0" data-linktype="2">QVeris发布智能体能力地图</a>
+
+---
+
+原文链接：[微信公众号原文](https://mp.weixin.qq.com/s/GXaQaNubMeu80IFK8Q9GXg)

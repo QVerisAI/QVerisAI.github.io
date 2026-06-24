@@ -113,7 +113,6 @@ tool 精确规则 > provider 规则 > 全局规则
 
 Prompt 不再随着工具数量线性膨胀，规则之间的冲突也更容易被隔离和管理。对于一个长期演进的工具调用系统来说，这比单纯写一份更长的 Prompt 更可持续。
 
-
 ---
 
 原文链接：[微信公众号原文](https://mp.weixin.qq.com/s/u3SKrVxvyvtSHzC2A7oS4A)
