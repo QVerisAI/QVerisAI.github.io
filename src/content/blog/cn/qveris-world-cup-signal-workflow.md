@@ -63,116 +63,15 @@ QVeris 官网强调的核心能力是 capability routing network：让 AI Agent 
 
 在这个案例里，Agent 不直接问"谁最强"，而是建立一个多信号评分模型。每个信号都可以由 QVeris 路由到不同能力，再统一汇总。一个简化版本如下：
 
-<table style="width:100%;border-collapse:collapse;font-size:14px;border:1px solid #e0e0e0;">
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr style="background:#0051A8;">
-<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
-维度
-</section></th>
-<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
-权重
-</section></th>
-<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
-可调用信号
-</section></th>
-<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
-作用
-</section></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-球队硬实力
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-30%
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-FIFA/Elo 排名、阵容身价、核心球员状态、攻防效率
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-决定上限
-</section></td>
-</tr>
-<tr>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-近期状态
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-20%
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-近 10 场战绩、进球/失球、首场表现、关键球员出场时间
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-决定当下热度是否真实
-</section></td>
-</tr>
-<tr>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-赛程路径
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-15%
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-小组强度、潜在淘汰赛对手、旅行距离、休息天数
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-决定夺冠难度
-</section></td>
-</tr>
-<tr>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-伤病与阵容稳定性
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-15%
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-伤病名单、停赛风险、主力轮换、教练调整
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-决定下限
-</section></td>
-</tr>
-<tr>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-市场预期
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-10%
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-赔率、预测模型、专家调查、资金流向
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-反映外部共识
-</section></td>
-</tr>
-<tr>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-舆情与心理信号
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-10%
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-新闻情绪、社媒热度、争议事件、压力管理
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-捕捉非结构化变量
-</section></td>
-</tr>
-</tbody>
-</table>
+| 维度 | 权重 | 可调用信号 | 作用 |
+| --- | --- | --- | --- |
+| 球队硬实力 | 30% | FIFA/Elo 排名、阵容身价、核心球员状态、攻防效率 | 决定上限 |
+| 近期状态 | 20% | 近 10 场战绩、进球/失球、首场表现、关键球员出场时间 | 决定当下热度是否真实 |
+| 赛程路径 | 15% | 小组强度、潜在淘汰赛对手、旅行距离、休息天数 | 决定夺冠难度 |
+| 伤病与阵容稳定性 | 15% | 伤病名单、停赛风险、主力轮换、教练调整 | 决定下限 |
+| 市场预期 | 10% | 赔率、预测模型、专家调查、资金流向 | 反映外部共识 |
+| 舆情与心理信号 | 10% | 新闻情绪、社媒热度、争议事件、压力管理 | 捕捉非结构化变量 |
+
 ## 如果今天让 QVeris Agent 猜冠军
 
 基于赛前公开预测、市场赔率、超级计算机模型和开赛初期表现，一个合理的样例结论可以这样写：
@@ -253,7 +152,6 @@ FIFA/Elo 排名、阵容身价、核心球员状态、攻防效率
 **免责声明**
 
 本文为 QVeris 产品能力演示案例，不构成体育投注、投资或商业决策建议。文中的冠军判断为样例推演，实际结果会随比赛、伤病、赛程和突发事件持续变化。
-
 
 ---
 

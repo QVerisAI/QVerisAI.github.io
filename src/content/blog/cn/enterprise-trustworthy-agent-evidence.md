@@ -54,61 +54,11 @@ QVeris · 技术解读
 
 QVeris 把 Agent 调用真实能力这件事拆成三步：Discover、Inspect、Call。
 
-<table style="width:100%;border-collapse:collapse;font-size:14px;border:1px solid #e0e0e0;">
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr style="background:#0051A8;">
-<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
-步骤
-</section></th>
-<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
-Agent 在这一步做什么
-</section></th>
-<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
-对企业的价值
-</section></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-Discover
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-根据任务搜索候选工具、数据源和能力
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-不用一开始就知道该接哪个 API，降低试错和集成成本
-</section></td>
-</tr>
-<tr>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-Inspect
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-调用前检查参数、字段、provider、成功率、延迟、成本和限制
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-避免盲调，先判断能不能做、怎么做、贵不贵、稳不稳
-</section></td>
-</tr>
-<tr>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-Call
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-执行真实工具，返回结构化结果和执行记录
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-让关键事实来自真实数据，并保留来源、成本和 execution_id
-</section></td>
-</tr>
-</tbody>
-</table>
+| 步骤 | Agent 在这一步做什么 | 对企业的价值 |
+| --- | --- | --- |
+| Discover | 根据任务搜索候选工具、数据源和能力 | 不用一开始就知道该接哪个 API，降低试错和集成成本 |
+| Inspect | 调用前检查参数、字段、provider、成功率、延迟、成本和限制 | 避免盲调，先判断能不能做、怎么做、贵不贵、稳不稳 |
+| Call | 执行真实工具，返回结构化结果和执行记录 | 让关键事实来自真实数据，并保留来源、成本和 execution_id |
 
 这三步看起来朴素，但它们决定了 Agent 能不能从演示走向生产。因为企业要的不是"AI 说得像"，而是"AI 做过什么、依据是什么、出了问题能不能查"。
 
@@ -122,88 +72,13 @@ Call
 图 3｜不同行业的问题不同，但可信 Agent 的底层要求相同
 ## 这些行业看似不同，底层问题其实一样
 
-<table style="width:100%;border-collapse:collapse;font-size:14px;border:1px solid #e0e0e0;">
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr style="background:#0051A8;">
-<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
-行业 / 场景
-</section></th>
-<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
-Agent 要完成的事
-</section></th>
-<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
-最怕的问题
-</section></th>
-<th style="text-align: left; padding: 6px 8px; color: #fff; font-weight: 600; border: 1px solid #e0e0e0; font-size: 14px;"><section>
-QVeris 可以补的层
-</section></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-金融投研
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-整理行情、财报、电话会、新闻与风险线索
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-结论没有数据来源，容易滑向投资建议
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-工具发现、调用留痕、证据台账、人工复核
-</section></td>
-</tr>
-<tr>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-招采 / 供应商
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-发现项目、采购单位、供应商、金额与联系人线索
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-线索主体混杂，来源 URL 缺失，联系方式合规边界不清
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-企业维度查询、来源证据、字段标准化、脱敏展示
-</section></td>
-</tr>
-<tr>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-销售情报
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-跟踪客户、竞品、公众号、社媒和行业事件
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-热点很多但噪声大，难变成可行动线索
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-多平台内容工具、发布时间、原文链接、线索分派
-</section></td>
-</tr>
-<tr>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-风控 / 合规
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-核验主体背景、异常信号、公开事件和风险变化
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-无法复盘依据，误报漏报难解释
-</section></td>
-<td style="padding: 6px 8px; border: 1px solid #e0e0e0; color: #333333; font-size: 14px"><section>
-可审计调用链、失败记录、证据分级
-</section></td>
-</tr>
-</tbody>
-</table>
+| 行业 / 场景 | Agent 要完成的事 | 最怕的问题 | QVeris 可以补的层 |
+| --- | --- | --- | --- |
+| 金融投研 | 整理行情、财报、电话会、新闻与风险线索 | 结论没有数据来源，容易滑向投资建议 | 工具发现、调用留痕、证据台账、人工复核 |
+| 招采 / 供应商 | 发现项目、采购单位、供应商、金额与联系人线索 | 线索主体混杂，来源 URL 缺失，联系方式合规边界不清 | 企业维度查询、来源证据、字段标准化、脱敏展示 |
+| 销售情报 | 跟踪客户、竞品、公众号、社媒和行业事件 | 热点很多但噪声大，难变成可行动线索 | 多平台内容工具、发布时间、原文链接、线索分派 |
+| 风控 / 合规 | 核验主体背景、异常信号、公开事件和风险变化 | 无法复盘依据，误报漏报难解释 | 可审计调用链、失败记录、证据分级 |
+
 ## 企业可信 Agent 的真正门槛
 
 未来企业不会缺 AI 工具。真正稀缺的是能进入流程、能被管理、能被复盘的 AI。
@@ -226,7 +101,6 @@ QVeris 的逻辑，不是"我们也有很多工具"，而是"我们让 Agent 知
 >
 > AI 不再只是会回答。它开始能办事，而且办事过程可以被看见。 
 >
-
 
 ---
 
