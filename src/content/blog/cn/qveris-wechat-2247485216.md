@@ -393,7 +393,3 @@ QFB 还没做出来。
 但最近这些坑至少说明了：如果一个金融 Agent 真要做出来，它不能只会聊天。
 
 它必须学会取证。
-
----
-
-原文链接：[微信公众号原文](https://mp.weixin.qq.com/s/KeGaOK48lko4FIZBihYHiQ)

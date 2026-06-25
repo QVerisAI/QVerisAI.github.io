@@ -136,7 +136,3 @@ Anthropic 把金融 Agent 的样板间打开了。
 如果你正在做一个行业 Agent，第一步不一定是再调一个 prompt。
 
 更现实的第一步，是去 qveris.ai 看看：你的 Agent 到底缺哪一种真实能力。
-
----
-
-原文链接：[微信公众号原文](https://mp.weixin.qq.com/s?src=11&timestamp=1782307131&ver=6802&signature=ZTARrA9sslALul3HMSjo7l29ljsjB2I3UGwY3bGIaypr8Jccraj6*GTCDtTYvDTPFyDp8EiIGhAB-Xm-3b7Ox2jpaHxDF6ZdVCbnObRe9AeqqFKb*dRWFy40nMOxxOAl&new=1)

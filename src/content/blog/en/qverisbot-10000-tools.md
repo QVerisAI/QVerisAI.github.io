@@ -266,22 +266,3 @@ Then send a message to your bot in Feishu/Telegram/Discord — and you're live.
 ## Why QVerisBot?
 
 ![qverisbot-10000-tools-9](../../../assets/blog-qverisbot-10000-tools-9.png)
-
-## About QVeris AI
-
-QVeris AI focuses on the **action infrastructure layer for the Agent era**— building the "capability internet" that AI can understand and invoke.
-
-**QVeris Current Positioning:** A unified interface for capability search and execute, enabling AI to discover and one-click invoke 10,000+ tools through semantic search.
-
-**QVerisFlow (Next-Gen Product, In Development):** Responsible for complete autonomous workflow orchestration, achieving full automation from requirement understanding to task execution.
-
-- **Website**:
-- [https://qveris.ai](https%3A%2F%2Fqveris.ai%2F)
-- **QVerisBot GitHub**:
-- [https://github.com/QVerisAI/QVerisBot](https%3A%2F%2Fgithub.com%2FQVerisAI%2FQVerisBot)
-- **OpenClaw GitHub**:
-- [https://github.com/openclaw/openclaw](https%3A%2F%2Fgithub.com%2Fopenclaw%2Fopenclaw)
-
- "We want to be the Google of the Model Agent ecosystem. Google doesn't produce web pages but indexes all of the internet's information. QVeris doesn't produce tools but indexes and distributes all of the digital world's capabilities." — Linfang Wang, Founder & CEO, QVeris AI
-
-***Powered by QVeris | This article is based on the OpenClaw website, QVerisBot GitHub, QVeris official site, and public reporting.***

@@ -152,7 +152,3 @@ QVeris 官网强调的核心能力是 capability routing network：让 AI Agent 
 **免责声明**
 
 本文为 QVeris 产品能力演示案例，不构成体育投注、投资或商业决策建议。文中的冠军判断为样例推演，实际结果会随比赛、伤病、赛程和突发事件持续变化。
-
----
-
-原文链接：[微信公众号原文](https://mp.weixin.qq.com/s?src=11&timestamp=1782306755&ver=6802&signature=ZTARrA9sslALul3HMSjo7l29ljsjB2I3UGwY3bGIayo1tLsq10JKERf7oQWn1DpUPc*Edaag9D2Y8IXF*yb2OimadVBPwKq0yAN7BqQh3NVQTD7lMEinq3q0ghX-yCiG&new=1)

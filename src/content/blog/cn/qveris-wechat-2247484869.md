@@ -103,12 +103,8 @@ QVeris 已经把 A 股的 107 项能力打通了，4 家本土供应商统一成
 
 **相关阅读：**  
 
-<a href="https://mp.weixin.qq.com/s?__biz=MzY4NDAxMTE3NQ==&amp;mid=2247484820&amp;idx=1&amp;sn=c66b18010fe60f30042058e8c6929f9d&amp;scene=21#wechat_redirect" class="normal_text_link mp_article_text_link" target="_blank" style="" data-textvalue="3小时变30秒：接入QVeris后，Codex秒变金融数据分析师" data-itemshowtype="0" data-linktype="2">3小时变30秒：接入QVeris后，Codex秒变金融数据分析师</a>
+3小时变30秒：接入QVeris后，Codex秒变金融数据分析师
 
-<a href="https://mp.weixin.qq.com/s?__biz=MzY4NDAxMTE3NQ==&amp;mid=2247484687&amp;idx=1&amp;sn=b46b9f54a00de228180656cac86a5d4d&amp;scene=21#wechat_redirect" class="normal_text_link mp_article_text_link" target="_blank" style="" data-textvalue="一个API接入全面金融数据" data-itemshowtype="8" data-linktype="2">一个API接入全面金融数据</a>
+一个API接入全面金融数据
 
-<a href="https://mp.weixin.qq.com/s?__biz=MzY4NDAxMTE3NQ==&amp;mid=2247484280&amp;idx=1&amp;sn=863d0397a39bb31e8fd18b6adc0b02da&amp;scene=21#wechat_redirect" class="normal_text_link mp_article_text_link" target="_blank" style="" data-textvalue="QVeris发布智能体能力地图" data-itemshowtype="0" data-linktype="2">QVeris发布智能体能力地图</a>
-
----
-
-原文链接：[微信公众号原文](https://mp.weixin.qq.com/s/GXaQaNubMeu80IFK8Q9GXg)
+QVeris发布智能体能力地图

@@ -139,7 +139,3 @@ QVeris · 技术解读
 > QVeris 的体育工具目前最适合从足球切入，做赛前简报、比赛日情报台和伤病/积分/射手榜监控。等这些流程跑稳后，再把同一套模式复制到篮球、MMA、橄榄球和其他运动上。 
 >
 本文基于 2026-06-19 对 QVeris 线上工具搜索和部分工具执行结果的整理。赔率相关内容仅用于数据产品分析，不构成投注建议；具体赛事覆盖和实时性受当前订阅权限影响，后续可根据产品需要放开更高权限。
-
----
-
-原文链接：[微信公众号原文](https://mp.weixin.qq.com/s?src=11&timestamp=1782306738&ver=6802&signature=ZTARrA9sslALul3HMSjo7l29ljsjB2I3UGwY3bGIayqPgyHxqGLgf1GmkCOf5qbuNmo75AMmxQqs3u30kUxjLUKSE-Q8iAVVHZdQB4A2nLq*o4rxWn1y-KgOChZHPJJp&new=1)

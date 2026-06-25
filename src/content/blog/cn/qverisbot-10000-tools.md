@@ -242,27 +242,3 @@ bashqverisbot gateway --port 18789
 ![qverisbot-10000-tools-9](../../../assets/blog-qverisbot-10000-tools-9.png)
 
 ## 09.
-
-## 关于 QVeris AI
-
-QVeris AI 聚焦于 **Agent 时代的行动基础设施层**，致力于构建 AI 可理解、可调用的"能力互联网"。
-
-**QVeris 当前定位： 面向智能体的搜索和行动引擎，让智能体能够通过语义搜索发现并一键调用 10,000+ 工具。**
-
-**QVerisFlow（下一代产品，开发中）：** 负责完整的自主工作流编排，实现从需求理解到任务执行的全链路自动化。
-
-**官网：**
-
-https://qveris.ai
-
-**QVerisBot GitHub：**
-
-https://github.com/QVerisAI/QVerisBot
-
-**OpenClaw GitHub：**
-
-https://github.com/openclaw/openclaw
-
-"我们希望成为 Model Agent 体系中的 Google。Google 不生产网页但索引全网信息，QVeris 不生产工具但索引和分发全网能力。" —— 王林芳，QVeris AI 创始人兼 CEO
-
-***QVeris原创首发，转载请注明出处***

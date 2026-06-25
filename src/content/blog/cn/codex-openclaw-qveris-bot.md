@@ -200,7 +200,3 @@ Skill 路径也能用：
 - 本文不构成投资建议，不提供任何买卖点、收益承诺或自动交易建议。
 
 - 公开资料参考：QVeris OpenClaw Setup 文档、QVeris 官方 Skill for OpenClaw 博客、QVeris Skill Hub、QVerisBot 页面。
-
----
-
-原文链接：[微信公众号原文](https://mp.weixin.qq.com/s/Q0MfKd2iLkQTyr4sSgEDbg)

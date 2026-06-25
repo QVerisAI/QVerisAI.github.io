@@ -122,7 +122,3 @@ QVeris · 数据实测
 想接进自己的 Agent 工作流？QVeris 也提供 MCP Server、CLI 和 REST API，丢给 Claude、Cursor 30 秒接入。
 
 **风险提示：** 本文仅用于展示 AI 投研工作流，不构成任何投资建议。文中涉及的板块与数据仅作方法演示，未推荐任何个股。Serenity 相关收益、身份和市场影响力在公开讨论中存在争议。市场有风险，投资决策需独立判断。
-
----
-
-原文链接：[微信公众号原文](https://mp.weixin.qq.com/s/_oNeRHiAige4-E2-gngfsw)

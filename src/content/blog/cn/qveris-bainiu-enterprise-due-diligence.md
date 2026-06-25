@@ -119,7 +119,3 @@ QVeris 接入白牛的意义，不是让 Agent 多背一批企业字段，而是
 它可以先确认"这家公司是谁"，再追问"谁控制它""它有什么风险""它是否真实活跃""它有没有商业信号"。这才是企业数据真正进入 Agent workflow 后的价值：不再只是查数，而是帮助用户更快做判断。
 
 ![](../../../assets/blog-qveris-bainiu-enterprise-due-diligence-9.png)
-
----
-
-原文链接：[微信公众号原文](https://mp.weixin.qq.com/s?src=11&timestamp=1782306755&ver=6802&signature=ZTARrA9sslALul3HMSjo7l29ljsjB2I3UGwY3bGIayp*qeqDmQrUmQV1VPyXI*e62M31j1ALSDAyO-c6W2rlvQ0XNrP0Z3MGIEBCC4-a7OEVmnRvV*N8iU9qy50IC2XS&new=1)
