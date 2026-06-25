@@ -5,7 +5,7 @@ pubDate: 'Mar 13 2026'
 heroImage: '../../../assets/blog-openclaw-a-shares-data-1.jpg'
 category: 'Engineering'
 author: 'QVeris Team'
-tags: ['openclaw', '金融', 'a股', '教程']
+tags: ['openclaw', 'Finance', 'A-shares', 'Guide']
 translationKey: 'openclaw-a-shares-data'
 ---
 
@@ -19,9 +19,7 @@ A few days ago, we connected Clawdbot, now OpenClaw, to QVeris and brought it in
 Copy the sentence below and paste it to your openclaw 🦞. It is best to choose a smarter model.
 
 ```plaintext
-
-通过 clawhub.ai 安装 qveris skill，并将环境变量QVERIS_API_KEY=your-qveris-api-key-here 加到配置文件里
-
+Install the qveris skill through clawhub.ai, then add QVERIS_API_KEY=your-qveris-api-key-here to the configuration file.
 ```
 
 For example, here is how I use it in Telegram:

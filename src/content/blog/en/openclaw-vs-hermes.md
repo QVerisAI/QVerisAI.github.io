@@ -1,6 +1,6 @@
 ---
 title: 'OpenClaw vs Hermes: Which Is Stronger for Financial Analysis?'
-description: 'OpenClaw vs Hermes: Which Is Stronger for Financial Analysis?'
+description: 'A comparison of OpenClaw and Hermes for financial analysis workflows, including setup paths and practical trade-offs.'
 pubDate: 'May 06 2026'
 heroImage: '../../../assets/blog-openclaw-vs-hermes-hero.jpg'
 category: 'Product'

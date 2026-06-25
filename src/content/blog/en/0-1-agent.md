@@ -1,6 +1,6 @@
 ---
 title: 'From 0 to 1: Building a Financial Research Agent and the Pitfalls I Hit'
-description: 'From 0 to 1: Building a Financial Research Agent and the Pitfalls I Hit'
+description: 'A practical walkthrough of building a financial research agent from scratch, including data access, tool selection, and workflow pitfalls.'
 pubDate: 'May 22 2026'
 heroImage: '../../../assets/blog-0-1-agent-hero.jpg'
 category: 'Product'

@@ -5,7 +5,7 @@ pubDate: 'Mar 13 2026'
 heroImage: '../../../assets/blog-qverisbot-feishu-deploy-1.jpg'
 category: 'Engineering'
 author: 'QVeris Team'
-tags: ['qverisbot', 'clawdbot', '飞书', '部署', '教程']
+tags: ['qverisbot', 'clawdbot', 'Feishu', 'Deployment', 'Guide']
 translationKey: 'qverisbot-feishu-deploy'
 ---
 
@@ -39,7 +39,7 @@ https://qveris.ai/
 
 **GitHub repository**:
 
-**https://github.com/QVerisAI/QVerisBot（欢迎star⭐）**
+**https://github.com/QVerisAI/QVerisBot**. Stars are welcome.
 
 ### 1.2 QVeris Universal Toolbox
 
@@ -367,7 +367,27 @@ Supported model format: `provider/model-name`, for example:
 
 ```plaintext
 
-{  "channels": {    "feishu": {      "enabled": true,      "appId": "cli_xxx",      "appSecret": "xxx",      "eventMode": "websocket",      "startupChatId": "oc_xxx",      "allowOnlyStartupChats": false,      "dmPolicy": "open",      "groupPolicy": "open",      "requireMention": true,      "groups": {        "oc_xxx": {          "requireMention": false,          "systemPrompt": "你是这个群组的专属助手"        }      }    }  }}
+{
+  "channels": {
+    "feishu": {
+      "enabled": true,
+      "appId": "cli_xxx",
+      "appSecret": "xxx",
+      "eventMode": "websocket",
+      "startupChatId": "oc_xxx",
+      "allowOnlyStartupChats": false,
+      "dmPolicy": "open",
+      "groupPolicy": "open",
+      "requireMention": true,
+      "groups": {
+        "oc_xxx": {
+          "requireMention": false,
+          "systemPrompt": "You are the dedicated assistant for this group."
+        }
+      }
+    }
+  }
+}
 
 ```
 
@@ -554,18 +574,32 @@ Help me check today's weather in BeijingSearch for the latest AI technology news
 
 ### 8.4 CLI Commands
 
-```plaintext
+```bash
+# Send a message
+pnpm moltbot message send --to oc_xxx --message "Hello from QVerisBot"
 
-## Send a messagepnpm moltbot message send --to oc_xxx --message "Hello from QVerisBot"# Chat with the assistantpnpm moltbot agent --message "帮我写一个 Python 脚本" --thinking high# View helppnpm moltbot --helppnpm moltbot gateway --helppnpm moltbot channels --help
+# Chat with the assistant
+pnpm moltbot agent --message "Write a Python script for me" --thinking high
 
+# View help
+pnpm moltbot --help
+pnpm moltbot gateway --help
+pnpm moltbot channels --help
 ```
 
 ### 8.5 View Logs
 
-```plaintext
+```bash
+# Send a message
+pnpm moltbot message send --to oc_xxx --message "Hello from QVerisBot"
 
-## Send a messagepnpm moltbot message send --to oc_xxx --message "Hello from QVerisBot"# Chat with the assistantpnpm moltbot agent --message "帮我写一个 Python 脚本" --thinking high# View helppnpm moltbot --helppnpm moltbot gateway --helppnpm moltbot channels --help
+# Chat with the assistant
+pnpm moltbot agent --message "Write a Python script for me" --thinking high
 
+# View help
+pnpm moltbot --help
+pnpm moltbot gateway --help
+pnpm moltbot channels --help
 ```
 
 ### 8.6 FAQ

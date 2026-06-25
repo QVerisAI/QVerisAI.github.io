@@ -1,17 +1,15 @@
 ---
 title: 'Starting with FMP: Helping Agents Truly See the Financial World'
-description: 'Connect FMP through QVeris so your Agent can truly see every data node across the global financial world.'
+description: 'Connect FMP through QVeris so agents can access live company financials, valuation metrics, market data, and macro indicators from one workflow.'
 pubDate: 'Mar 13 2026'
 heroImage: '../../../assets/blog-qveris-fmp-finance-1.jpg'
 category: 'Product'
 author: 'QVeris Team'
-tags: ['fmp', 'qveris', '金融']
+tags: ['fmp', 'qveris', 'Finance']
 translationKey: 'qveris-fmp-finance'
 ---
 
-## Date: Jan 20
-
-## Qveris.ai has recently integrated Financial Modeling Prep (FMP).
+QVeris.ai has recently integrated Financial Modeling Prep (FMP).
 
 If you have worked on financial analysis, quantitative research, or data products, there is a good chance you are already familiar with it. FMP provides structured, continuously updated financial data APIs covering company financial statements, valuation metrics, market data, macroeconomic data, and more. It serves as the data foundation behind many financial tools and scripts.
 

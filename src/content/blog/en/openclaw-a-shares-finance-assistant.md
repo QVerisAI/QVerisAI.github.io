@@ -1,17 +1,17 @@
 ---
-title: 'OpenClaw + A-Shares: Build a 24/7 Intelligent Finance Assistant with Zero Setup Barrier'
-description: 'Use OpenClaw + QVeris to build a 24-hour intelligent A-share finance assistant with zero setup barrier.'
+title: 'OpenClaw + A-Shares: Build a 24/7 Intelligent Finance Assistant with Minimal Setup'
+description: 'A practical OpenClaw and QVeris setup guide for giving an AI assistant live A-share market data and basic research workflows.'
 pubDate: 'Mar 13 2026'
 heroImage: '../../../assets/blog-openclaw-a-shares-finance-assistant-1.png'
 category: 'Engineering'
 author: 'QVeris Team'
-tags: ['openclaw', '金融', 'a股', '教程']
+tags: ['openclaw', 'Finance', 'A-shares', 'Guide']
 translationKey: 'openclaw-a-shares-finance-assistant'
 ---
 
 As AI-native applications become increasingly common, many users want their OpenClaw setup to break out of the "information silo" and gain real-time financial data analysis capabilities. For A-share investors in particular, an AI assistant that can monitor the market around the clock and screen for promising stocks can significantly improve decision-making efficiency.
 
-Today, we are sharing a zero-barrier configuration guide that walks you through connecting OpenClaw to core A-share data, unlocking practical capabilities such as automated market analysis, gainers list summaries, and promising stock recommendations. Even better, the core API is completely free, with no expensive data service fees required, making it easy for beginners to get started.
+Today, we are sharing a minimal-setup configuration guide that walks you through connecting OpenClaw to core A-share data, unlocking practical capabilities such as automated market analysis, gainers list summaries, and promising stock recommendations. Even better, the core API is completely free, with no expensive data service fees required, making it easy for beginners to get started.
 
 ## 3 Tools to Prepare Before Configuration
 
@@ -32,9 +32,7 @@ Once the preparation is complete, the core configuration requires only a single 
 Copy the configuration instruction: open the OpenClaw chat interface and copy the core instruction:
 
 ```plaintext
-
-通过 clawhub.ai 安装 qveris skill，并将环境变量QVERIS_API_KEY=your-qveris-api-key-here 加到配置文件里
-
+Install the qveris skill through clawhub.ai, then add QVERIS_API_KEY=your-qveris-api-key-here to the configuration file.
 ```
 
 Replace the key information: replace `your-qveris-api-key-here` with the actual API Key you obtained from the QVeris website.

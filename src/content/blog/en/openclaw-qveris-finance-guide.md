@@ -5,7 +5,7 @@ pubDate: 'Apr 02 2026'
 heroImage: '../../../assets/blog-openclaw-qveris-finance-guide-hero.png'
 category: 'Engineering'
 author: 'QVeris Team'
-tags: ['openclaw', 'qveris', '金融', '教程']
+tags: ['openclaw', 'qveris', 'Finance', 'Guide']
 translationKey: 'openclaw-qveris-finance-guide'
 ---
 
@@ -167,12 +167,40 @@ Continuously updated...
 
 5. Agent Behavior Configuration
 
-5.1 Behavior Rules File: ~/workspace/行为规范.md
+5.1 Behavior Rules File: `~/workspace/behavior-rules.md`
 
 ```plaintext
+## QVerisClaw Behavior Rules
 
-## QVerisClaw Behavior Rules## 1. Data Retrieval Priority (Important!)### 1.1 Preferred Tool: QVerisData retrieval priority:1. QVeris tools (preferred) ✅   - Real-time quotes: ths_ifind.real_time_quotation.v1   - Margin trading and securities lending: ths_ifind.margin_trading.v1   - Money flow: ths_ifind.money_flow.v1   - Web search: xiaosu.smartsearch.search.retrieve.v22. Web Fetch (second choice)   - Use when QVeris has no corresponding tool3. Native Web Search (last resort)   - Use when none of the above are available### 1.2 Execution FlowWhenever data is needed:Step 1: Use QVeris discover to find tools   ↓Step 2: If a tool is found, use QVeris call to invoke it   ↓Step 3: If no tool is found or the call fails, use Web Fetch   ↓Step 4: If it still fails, use native Web Search   ↓Step 5: Record the data source and label reliability## 2. Data Source Labeling Rules✅ [QVeris Real-Time Data]- Most reliable, use first⏰ [Data Time]- Include the data timestamp⚠️ [Web Data]- May be delayed📰 [Search Data]- For reference only5.2 Agent Startup Flow: ~/workspace/AGENTS.md## Session StartupBefore doing anything else:1. Read SOUL.md — this is who you are2. Read USER.md — this is who you're helping3. Read memory/YYYY-MM-DD.md (today + yesterday) for recent context4. If in MAIN SESSION: Also read MEMORY.md5. Read 行为规范.md — Load core behavior rules (data retrieval priority, etc.)6. Run startup check script — bash /root/.openclaw/workspace/startup_check.sh7. Verify QVeris tools are available — Ensure data retrieval capabilities are working
+## 1. Data Retrieval Priority
 
+1. QVeris tools, preferred
+   - Real-time quotes: ths_ifind.real_time_quotation.v1
+   - Margin trading and securities lending: ths_ifind.margin_trading.v1
+   - Money flow: ths_ifind.money_flow.v1
+   - Web search: xiaosu.smartsearch.search.retrieve.v2
+2. Web Fetch, used when QVeris has no matching tool
+3. Native Web Search, used only as the last fallback
+
+## 2. Execution Flow
+
+When data is needed:
+1. Use QVeris discover to find tools.
+2. If a tool is found, use QVeris call to invoke it.
+3. If no tool is found or the call fails, use Web Fetch.
+4. If it still fails, use native Web Search.
+5. Record the data source and label its reliability.
+
+## 3. Agent Startup
+
+Before doing anything else:
+1. Read SOUL.md.
+2. Read USER.md.
+3. Read memory/YYYY-MM-DD.md for today and yesterday.
+4. If in the main session, also read MEMORY.md.
+5. Read behavior-rules.md.
+6. Run bash /root/.openclaw/workspace/startup_check.sh.
+7. Verify that QVeris tools are available.
 ```
 
 6. Practical Examples
@@ -180,17 +208,34 @@ Continuously updated...
 6.1 A-share Real-Time Quote Query
 
 ```plaintext
+# Step 1: Discover the tool
+discovery_result=$(node ~/.openclaw/skills/qveris-official/qveris-official/scripts/qveris_tool.mjs \
+  discover "China A-share real-time stock market data API" \
+  --json)
+discovery_id=$(echo "$discovery_result" | jq -r '.search_id')
+tool_id="ths_ifind.real_time_quotation.v1"
 
-## Step 1: Discover the tooldiscovery_result=$(node ~/.openclaw/skills/qveris-official/qveris-official/scripts/qveris_tool.mjs \  discover "China A-share real-time stock market data API" \  --json)discovery_id=$(echo $discovery_result | jq -r '.search_id')tool_id="ths_ifind.real_time_quotation.v1"# Step 2: Call the toolnode ~/.openclaw/skills/qveris-official/qveris-official/scripts/qveris_tool.mjs \  call $tool_id \  --discovery-id $discovery_id \  --params '{"symbols": ["000001.SZ", "600000.SH"]}'
-
+# Step 2: Call the tool
+node ~/.openclaw/skills/qveris-official/qveris-official/scripts/qveris_tool.mjs \
+  call "$tool_id" \
+  --discovery-id "$discovery_id" \
+  --params '{"symbols": ["000001.SZ", "600000.SH"]}'
 ```
 
 6.2 Domestic News Search
 
 ```plaintext
+# Step 1: Discover the search tool
+discovery_result=$(node ~/.openclaw/skills/qveris-official/qveris-official/scripts/qveris_tool.mjs \
+  discover "web search API" \
+  --json)
+discovery_id=$(echo "$discovery_result" | jq -r '.search_id')
 
-## Step 1: Discover the search tooldiscovery_result=$(node ~/.openclaw/skills/qveris-official/qveris-official/scripts/qveris_tool.mjs \  discover "web search API" \  --json)discovery_id=$(echo $discovery_result | jq -r '.search_id')# Step 2: Call domestic searchnode ~/.openclaw/skills/qveris-official/qveris-official/scripts/qveris_tool.mjs \  call xiaosu.smartsearch.search.retrieve.v2.6c50f296_domestic \  --discovery-id $discovery_id \  --params '{"q":"人工智能行业最新动态","count":10,"freshness":"week","enableContent":true}'
-
+# Step 2: Call domestic search
+node ~/.openclaw/skills/qveris-official/qveris-official/scripts/qveris_tool.mjs \
+  call xiaosu.smartsearch.search.retrieve.v2.6c50f296_domestic \
+  --discovery-id "$discovery_id" \
+  --params '{"q":"latest artificial intelligence industry news","count":10,"freshness":"week","enableContent":true}'
 ```
 
 6.3 Internal Agent Invocation (JavaScript/TypeScript)

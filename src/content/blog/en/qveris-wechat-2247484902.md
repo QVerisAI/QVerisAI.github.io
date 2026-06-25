@@ -153,19 +153,15 @@ During this full run, the transcript API encountered one `ReadTimeout`. The prog
 If this kind of demo is to become a long-running tool, external API timeouts, empty results, and partial failures should be normal branches, not terminal exceptions.
 ## How to Run It
 
-
-
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-
-```js
-uv synccp .env.example .envuv run earnings-signal \  --symbols AAPL,NVDA,TSM \  --quarters 2 \  --theme-set extended \  --themes AI,Margin,Guidance,SupplyChain,Pricing,Competition \  --full-context
+```bash
+uv sync
+cp .env.example .env
+uv run earnings-signal \
+  --symbols AAPL,NVDA,TSM \
+  --quarters 2 \
+  --theme-set extended \
+  --themes AI,Margin,Guidance,SupplyChain,Pricing,Competition \
+  --full-context
 ```
 
 Code repository:
@@ -185,54 +181,13 @@ The implementation idea behind this demo is not complicated: delegate “finding
 
 ![](../../../assets/blog-qveris-wechat-2247484902-16.png)
 
-### The Actual Instructions Given to Codex 
+### Implementation Notes
 
-The development process was largely completed by Codex. The instruction was not “write the whole program in one shot,” but a staged convergence: first define the direction, then expand capabilities, then deploy, test, fix, and update the article.
+The demo was built in stages rather than as a one-shot script. The first version focused on the smallest useful loop: search for transcript-related tools through QVeris, call them, extract evidence, and write the results to CSV and Markdown.
 
-Development direction
+The second version expanded that loop into a full-context run. Market data was also retrieved through QVeris instead of relying on a separate chart API, so the output could keep a consistent record of tool IDs, parameters, execution IDs, and cost.
 
-- 
-
-```js
-阅读 QVeris 官微相关文章，参照文章实现一个有意义的程序，需要有实际效果。代码单独放一个仓库，在 demo 目录下建一个子目录，然后推送到 GitHub。
-```
-
-This step established the project direction: build a demo that can turn earnings call transcripts into structured investment research signals. Codex first scaffolded the Python project, QVeris client, analyzer, and command-line entry point.
-
-Capability expansion 
-
-- 
-- 
-
-```js
-按文章最终的可以继续扩展的方向扩展 qveris-earnings-call-signal-demo。不要使用 Yahoo Finance chart 接口，使用QVeris的工具获取数据。
-```
-
-This step extended the program from “transcript-only analysis” into a full-context version. Because the instruction explicitly said not to use the Yahoo Finance chart API (the first AI version would try to use that interface based on its own interpretation, but it would fail, so the instruction explicitly recommended using QVeris tools), market data was changed to be retrieved by searching for and calling market data tools through QVeris.
-
-Screenshots and documentation
-
-- 
-- 
-
-```js
-按文章最终的可以继续扩展的方向扩展 qveris-earnings-call-signal-demo。不要使用 Yahoo Finance chart 接口，使用QVeris的工具获取数据。
-```
-
-This step completed screenshots, reports, the LICENSE, and the article content.
-
-Codex did not only write code. It also ran the program, generated output files, captured pages, and updated documentation. While writing the article, we completed the demo program in parallel. The process was iterative: each article version ended with a section explaining “what can still be done next,” and Codex could continue from those points, with adjustments as needed.
-
-Deployment and pages
-
-- 
-- 
-
-```js
-在测试机器上部署这个程序。除了 Markdown Report 的内容，还可以增加一个 Report 按钮，直接显示 HTML 格式的页面。更新代码、文档并同步部署到 testlab。
-```
-
-This step turned the demo from a command-line program into an accessible web application. Codex added a FastAPI service, homepage dashboard, HTML report page, screenshots page, and systemd user service. Beforehand, Codex needed to be told how to access the test machine, and it could set up passwordless login by itself. The first version of the program only had a Markdown Report, which was not very intuitive, so we asked Codex to generate an HTML version of the report page that could be opened directly.
+The final version added the web layer: a FastAPI service, a dashboard, an HTML report page, screenshots, and a lightweight service deployment. That made the demo easier to review than a command-line report alone, while keeping the underlying research artifacts reproducible.
 
 ![](../../../assets/blog-qveris-wechat-2247484902-17.png)
 ## What Could Be Done Next

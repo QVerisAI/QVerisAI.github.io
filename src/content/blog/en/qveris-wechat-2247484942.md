@@ -1,6 +1,6 @@
 ---
 title: 'Starting with a Failed Tool Call: Teaching Agents to Auto-Repair Parameters'
-description: 'Starting with a Failed Tool Call: Teaching Agents to Auto-Repair Parameters'
+description: 'A failed tool-call case study on parameter repair and how agents can recover from malformed financial inputs.'
 pubDate: 'May 27 2026'
 heroImage: '../../../assets/blog-qveris-wechat-2247484942-hero.jpg'
 category: 'Product'

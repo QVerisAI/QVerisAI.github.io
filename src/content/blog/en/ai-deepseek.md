@@ -1,6 +1,6 @@
 ---
 title: 'Why Can’t DeepSeek or Doubao Answer “What’s the Stock Price Today?”'
-description: 'Why Can’t DeepSeek or Doubao Answer “What’s the Stock Price Today?”'
+description: 'Why general-purpose LLMs struggle with live stock prices, and how QVeris connects agents to fresh market data.'
 pubDate: 'Apr 21 2026'
 heroImage: '../../../assets/blog-ai-deepseek-hero.jpg'
 category: 'Product'

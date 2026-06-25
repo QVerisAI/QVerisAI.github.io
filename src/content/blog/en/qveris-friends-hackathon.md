@@ -64,7 +64,7 @@ https://github.com/QverisFriends
 Each person has 3 votes. The first two awards will be decided by on-site peer voting, and the final award will be selected officially by Qveris.
 
 **Benefits!**
-1. **Register at Qveris.ai: receive 5,000 Credits immediately:**
+1. **Register at QVeris.ai: receive 5,000 Credits immediately:**
 1. **Star Qveris on GitHub: redeem one drink on site👇**
 
  https://github.com/QverisAI/QverisAI

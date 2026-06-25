@@ -1,6 +1,6 @@
 ---
 title: 'New on QVeris | Unlock the Core Signals Behind Options Trading: Greeks and Implied Volatility Tools Now Live'
-description: 'New on QVeris | Unlock the Core Signals Behind Options Trading: Greeks and Implied Volatility Tools Now Live'
+description: 'A product update introducing options Greeks and implied volatility tools on QVeris for more structured options analysis.'
 pubDate: 'Apr 17 2026'
 heroImage: '../../../assets/blog-qveris-greeks-hero.jpg'
 category: 'Product'

@@ -1,6 +1,6 @@
 ---
 title: 'How to Use Hermes for A-Share Data Freedom: A Practical Guide to 24-Hour Intelligent Analysis'
-description: 'How to Use Hermes for A-Share Data Freedom: A Practical Guide to 24-Hour Intelligent Analysis'
+description: 'A hands-on guide to using Hermes with QVeris for always-on A-share data access and practical market analysis.'
 pubDate: 'May 09 2026'
 heroImage: '../../../assets/blog-hermes-24-hero.jpg'
 category: 'Product'
