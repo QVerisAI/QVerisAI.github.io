@@ -2,7 +2,7 @@
 title: 'From Armchair Strategy to Spatiotemporal Exploration: How QVeris Empowers MapStory to Reinvent Historical Storytelling'
 description: 'How QVeris empowers MapStory: moving from armchair strategy to spatiotemporal exploration, using agents to reshape historical storytelling.'
 pubDate: 'Mar 13 2026'
-heroImage: '../../../assets/blog-qveris-mapstory-history-1.png'
+heroImage: '../../../assets/blog-qveris-mapstory-history-1-en.png'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['mapstory', 'qveris', '案例']
@@ -21,15 +21,15 @@ A project called MapStory can now generate footprint maps corresponding to lines
 
 "Above Mount Emei, an autumn half-moon; its shadow flows into the Pingqiang River."
 
-![qveris-mapstory-history-1](../../../assets/blog-qveris-mapstory-history-1.png)
+![qveris-mapstory-history-1](../../../assets/blog-qveris-mapstory-history-1-en.png)
 
 "Ask me about my life's work: Huangzhou, Huizhou, Danzhou."
 
-![qveris-mapstory-history-2](../../../assets/blog-qveris-mapstory-history-2.png)
+![qveris-mapstory-history-2](../../../assets/blog-qveris-mapstory-history-2-en.png)
 
 "East of the Pass, righteous men rise in arms to punish the villains."
 
-![qveris-mapstory-history-3](../../../assets/blog-qveris-mapstory-history-3.png)
+![qveris-mapstory-history-3](../../../assets/blog-qveris-mapstory-history-3-en.png)
 
 MapStory uses a spatial narrative logic built around "people, time-space, and events" to rediscover the life trajectories of historical figures from a geographic perspective.
 

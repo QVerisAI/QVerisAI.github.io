@@ -2,7 +2,7 @@
 title: 'QVeris: From Information Overload to an Explainable Research Workflow'
 description: 'How QVeris turns messy financial information into an explainable research workflow with sources, calls, and evidence.'
 pubDate: 'Jun 20 2026'
-heroImage: '../../../assets/blog-qveris-explainable-research-workflow-hero.jpg'
+heroImage: '../../../assets/blog-qveris-explainable-research-workflow-hero-en.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -33,7 +33,7 @@ QStock is closer to a research workflow framework: first confirm the data scope,
 
 QVeris focuses not only on individual pages, but also on the continuity between pages. A more complete investment research process should begin with data checks, move through strategy validation, opportunity observation, and stock-specific explanation, and finally return to simulation records and review.
 
-![](../../../assets/blog-qveris-explainable-research-workflow-1.png)
+![](../../../assets/blog-qveris-explainable-research-workflow-1-en.png)
 
 | Stage | What users actually ask | What QVeris aims to help organize |
 | --- | --- | --- |

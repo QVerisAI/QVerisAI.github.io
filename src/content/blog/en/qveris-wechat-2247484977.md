@@ -2,7 +2,7 @@
 title: 'Less Hallucination, More Real-World Capability for AI'
 description: 'Less hallucination, more real-world capability for AI'
 pubDate: 'Jun 01 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484977-hero.jpg'
+heroImage: '../../../assets/blog-qveris-wechat-2247484977-hero-en.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -40,7 +40,7 @@ It is like putting a very smart person in a room with no internet, no tools, and
 
 Large models themselves are becoming stronger. That much is clear. But if a model cannot reliably connect to data, tools, systems, and processes, it will struggle to move from “answering questions” to “getting work done.”
 
-![](../../../assets/blog-qveris-wechat-2247484977-2.png)
+![](../../../assets/blog-qveris-wechat-2247484977-2-en.png)
 
 Figure 2: As AI moves from answering questions to completing tasks, the core challenge also shifts from generation quality to real-world connectivity.
 
@@ -68,7 +68,7 @@ These tasks all have one thing in common: they require AI to connect with real-w
 
 ## Who Does This Matter To?
 
-![](../../../assets/blog-qveris-wechat-2247484977-3.png)
+![](../../../assets/blog-qveris-wechat-2247484977-3-en.png)
 
 Figure 3: The value of a real-world capability network ultimately shows up in the work efficiency and decision quality of different groups.
 
@@ -94,7 +94,7 @@ They need an assistant that can help collect evidence, call tools, organize mate
 
 ## Real Cases We Have Seen
 
-![](../../../assets/blog-qveris-wechat-2247484977-4.png)
+![](../../../assets/blog-qveris-wechat-2247484977-4-en.png)
 
 Figure 4: Both scenarios show that AI’s value is not only in generating content, but in organizing evidence, state, and feedback.
 
@@ -146,7 +146,7 @@ None of these problems can be solved by a large model alone.
 
 The model is responsible for understanding and reasoning. The Agent is responsible for planning and execution. But between the model and the real world, another layer of infrastructure is needed: one that helps Agents discover capabilities, inspect capabilities, call capabilities, record the process, evaluate results, and continuously calibrate.
 
-![](../../../assets/blog-qveris-wechat-2247484977-5.png)
+![](../../../assets/blog-qveris-wechat-2247484977-5-en.png)
 
 Figure 5: QVeris aims to become the routing layer between models, Agents, and real-world capabilities.
 

@@ -127,4 +127,4 @@ No need to remember endpoint names or parameter formats. Just ask in natural lan
 
 This is part of QVeris's "New Provider Dispatch" series. We continue to integrate global data providers, and each one is validated through real API calls. Follow QVeris to be the first to learn about newly available data capabilities.
 
-![qveris-twelve-data-5](../../../assets/blog-qveris-twelve-data-5.webp)
+![qveris-twelve-data-5](../../../assets/blog-qveris-twelve-data-5-en.webp)

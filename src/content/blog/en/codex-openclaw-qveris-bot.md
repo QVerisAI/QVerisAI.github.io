@@ -2,7 +2,7 @@
 title: 'A Zero-Code Retail Investor’s Field Test: Building a Stock Research Bot with Codex, OpenClaw, and QVeris. No Price Predictions, Just a Personal Investment Research Workbench'
 description: 'A zero-code retail investor’s field test: building a stock research Bot with Codex, OpenClaw, and QVeris. No price predictions, just a personal investment research workbench.'
 pubDate: 'Jun 05 2026'
-heroImage: '../../../assets/blog-codex-openclaw-qveris-bot-hero.jpg'
+heroImage: '../../../assets/blog-codex-openclaw-qveris-bot-hero-en.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -10,7 +10,7 @@ translationKey: 'codex-openclaw-qveris-bot'
 ---
 QVeris · Data Tested
 
-![](../../../assets/blog-codex-openclaw-qveris-bot-1.png)
+![](../../../assets/blog-codex-openclaw-qveris-bot-1-en.png)
 
 Let me say this upfront: this is not investment advice, and it is not a tutorial on “making money with automated AI trading.”
 
@@ -20,7 +20,7 @@ What I eventually built is more accurately described as a personal investment re
 
 It does not trade for me, and it does not make mystical claims like “this will definitely rise tomorrow.”
 
-![](../../../assets/blog-codex-openclaw-qveris-bot-2.png)
+![](../../../assets/blog-codex-openclaw-qveris-bot-2-en.png)
 ## First, the Goal: What My Bot Can Do
 
 
@@ -37,7 +37,7 @@ I defined four everyday tasks for it:
 
 
 
-![](../../../assets/blog-codex-openclaw-qveris-bot-3.png)
+![](../../../assets/blog-codex-openclaw-qveris-bot-3-en.png)
 
 On the surface, it looks like a financial assistant you can chat with.
 
@@ -82,20 +82,20 @@ After stepping through the pitfalls, my recommendation is: **use Plugin first fo
 
 The official OpenClaw Setup documentation gives this Plugin installation method:
 
-![](../../../assets/blog-codex-openclaw-qveris-bot-4.png)
+![](../../../assets/blog-codex-openclaw-qveris-bot-4-en.png)
 
 Then allow the plugin and configure the API key in `openclaw.json`:
 
-![](../../../assets/blog-codex-openclaw-qveris-bot-5.png)
+![](../../../assets/blog-codex-openclaw-qveris-bot-5-en.png)
 
 The Skill path also works:
 
-![](../../../assets/blog-codex-openclaw-qveris-bot-6.png)
+![](../../../assets/blog-codex-openclaw-qveris-bot-6-en.png)
 
 But the official documentation is also very clear: Plugin registers tools at runtime and does not compete with the prompt context for space. Its parameters are also easier to validate with JSON Schema. For a beginner like me who can easily mess up configuration, this matters a lot.
 ## Pitfalls I Ran Into
 
-![](../../../assets/blog-codex-openclaw-qveris-bot-7.png)
+![](../../../assets/blog-codex-openclaw-qveris-bot-7-en.png)
 
 ### Pitfall 1: I Asked Questions That Sounded Too Much Like Wishes
 
@@ -106,7 +106,7 @@ A prompt like “help me find stocks that will rise tomorrow” is essentially a
 
 A better prompt defines the research targets, required data fields, screening thresholds, final output format, and explicit prohibitions.
 
-![](../../../assets/blog-codex-openclaw-qveris-bot-8.png)
+![](../../../assets/blog-codex-openclaw-qveris-bot-8-en.png)
 
 Once I made the objective, scope, output format, and forbidden behaviors clear, the Bot immediately became much more useful.
 
@@ -145,7 +145,7 @@ I later added a very simple rule to the Bot: before executing any batch task, fi
 
 My biggest takeaway from this experiment is that I no longer treat AI tools as an all-purpose black box. I do not completely outsource my own judgment and intelligence to AI. Instead, I break the tool apart, understand its execution logic, and spar with it. I split its execution process into three things:
 
-![](../../../assets/blog-codex-openclaw-qveris-bot-9.png)
+![](../../../assets/blog-codex-openclaw-qveris-bot-9-en.png)
 
 For zero-code users, the value of Codex vibe coding is not that it turns me into a programmer overnight. It is that it lets me explain a workflow more and more clearly in natural language. Codex helps turn that workflow into configuration and scripts. OpenClaw makes it a runnable Agent. QVeris lets it touch real financial data and tools.
 ## Who This Is For, and Who It Is Not For
@@ -179,7 +179,7 @@ People who treat AI answers as investment advice.
 
 Here is a look at my bot. It is still very rough, and I am still polishing and tuning it.
 
-![](../../../assets/blog-codex-openclaw-qveris-bot-10.png)
+![](../../../assets/blog-codex-openclaw-qveris-bot-10-en.png)
 
 I used to think the hard part of building a stock-trading Bot was “how to make AI smarter.”
 

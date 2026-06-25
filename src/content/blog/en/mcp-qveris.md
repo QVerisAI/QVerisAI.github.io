@@ -2,7 +2,7 @@
 title: 'Stop Wiring Up MCP Tools Yourself. Use QVeris.'
 description: 'Why agents often need a unified QVeris data layer instead of manually wiring many separate MCP tools.'
 pubDate: 'May 25 2026'
-heroImage: '../../../assets/blog-mcp-qveris-hero.jpg'
+heroImage: '../../../assets/blog-mcp-qveris-hero-en.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -14,7 +14,7 @@ QVeris · Technical Deep Dive
 
 Connecting a tool to a model is no longer the hardest part. The real challenge is getting an Agent, in a real environment, to reliably find the right tool, understand it, and use the parameters correctly.
 
-![](../../../assets/blog-mcp-qveris-1.png)
+![](../../../assets/blog-mcp-qveris-1-en.png)
 ## Background
 
 
@@ -103,7 +103,7 @@ Usually, you first collect entry points, then filter links, and only then decide
 
 The point is not to “crawl as much as possible,” but to capture the truly valuable entry points as reliably as possible.
 
-![Link explosion](../../../assets/blog-mcp-qveris-2.png)
+![Link explosion](../../../assets/blog-mcp-qveris-2-en.png)
 
  A single documentation page can contain thousands of links, and every link may explode into more links when opened. For stability, this also needs to be maintained on a schedule.
 
@@ -119,11 +119,11 @@ Three things need to be controlled at the same time: accuracy, recall, and cost.
 
 Accuracy determines whether the system will misunderstand the content later. Recall determines whether key information will be missed. Cost determines whether this process can be sustained over time.
 
-![Specification document](../../../assets/blog-mcp-qveris-3.png)
+![Specification document](../../../assets/blog-mcp-qveris-3-en.png)
 
  This time, we chose a docs page that looks very standardized: concise and clear, with required fields, descriptions, and formats. It looks like a large model should be able to produce the result immediately.
 
-![Buried deep](../../../assets/blog-mcp-qveris-4.png)
+![Buried deep](../../../assets/blog-mcp-qveris-4-en.png)
 
  Buried at character 760,000 in a 990,000-character document.
 
@@ -135,7 +135,7 @@ Whether field semantics are clear, parameter boundaries are accurate, and authen
 
  So a schema is not about “making things look more organized.” It is about helping the Agent make fewer mistakes.
 
-![](../../../assets/blog-mcp-qveris-5.png)
+![](../../../assets/blog-mcp-qveris-5-en.png)
 ## This Article Covers the First Half
 
 

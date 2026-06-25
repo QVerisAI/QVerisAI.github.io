@@ -2,7 +2,7 @@
 title: 'QVeris + OpenClaw: Turning a Personal AI Assistant into a Production-Grade Agent'
 description: 'How QVeris and OpenClaw can turn a personal assistant into a production-grade agent with live external tools.'
 pubDate: 'May 23 2026'
-heroImage: '../../../assets/blog-qveris-openclaw-ai-agent-hero.jpg'
+heroImage: '../../../assets/blog-qveris-openclaw-ai-agent-hero-en.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -20,7 +20,7 @@ That is where the problem begins. Ordinary chatbots are too good at keeping the 
 
 So a truly useful personal Agent should not merely be "better at chatting." It needs to know when it must look things up, be willing to stop when it cannot find data, and separate facts, inferences, and risks in its response. 
 
-![](../../../assets/blog-qveris-openclaw-ai-agent-1.png)
+![](../../../assets/blog-qveris-openclaw-ai-agent-1-en.png)
 ## The Smoothest Answers Are Often the Most Risky
 
 
@@ -71,7 +71,7 @@ But if the assistant participates in judgment every day, it cannot rely only on 
 
 Personal Agent tasks are usually more fragmented, faster, and less standardized: a ticker, a news headline, a sudden thought, or a screenshot can all become the entry point for a task. If the assistant does not have a stable workflow, every answer feels patched together on the spot. 
 
-![](../../../assets/blog-qveris-openclaw-ai-agent-2.png)
+![](../../../assets/blog-qveris-openclaw-ai-agent-2-en.png)
 
 OpenClaw is like the assistant's workbench: where files live, which memories are read at startup, how tools are called, and which tasks run on a schedule all have a place.
 
@@ -79,7 +79,7 @@ QVeris connects the assistant to the outside world: market data, announcements, 
 
 More precisely: **OpenClaw keeps the personal assistant running steadily; QVeris keeps it grounded in real data.**
 
-![](../../../assets/blog-qveris-openclaw-ai-agent-3.png)
+![](../../../assets/blog-qveris-openclaw-ai-agent-3-en.png)
 
 **  
 **
@@ -106,7 +106,7 @@ Personal users do not ask questions according to API documentation. Inputs are o
 
 At this point, the Agent should not call APIs at random. It should first use `qveris_discover` to find the right tools, then use `qveris_call` to retrieve results. Stock-related questions may involve real-time quotes, historical prices, announcements, news, financial statements, and capital flows. More tools are not always better; the key is matching the question.
 
-![](../../../assets/blog-qveris-openclaw-ai-agent-4.png)
+![](../../../assets/blog-qveris-openclaw-ai-agent-4-en.png)
 
 **The standard QVeris flow for a personal Agent:**
 ```
@@ -117,7 +117,7 @@ User asks a question â†’ Determine whether it involves real-time/business data â
 
 Getting a returned result does not mean the assistant can immediately draw a conclusion. This is especially easy to overlook in personal use, because users often want answers quickly. 
 
-![](../../../assets/blog-qveris-openclaw-ai-agent-5.png)
+![](../../../assets/blog-qveris-openclaw-ai-agent-5-en.png)
 
 ### Step Four: Keep Boundaries in the Final Output 
 
@@ -158,7 +158,7 @@ This step is critical. It turns the Agent from something that "can call tools" i
 
 The value of a personal assistant is not limited to "ask once, answer once." Scheduled reminders and proactive organization are more valuable. A truly useful assistant should prepare the relevant material on its own at key moments. 
 
-![](../../../assets/blog-qveris-openclaw-ai-agent-6.png)
+![](../../../assets/blog-qveris-openclaw-ai-agent-6-en.png)
 ## A Day in Use Makes This Clearer
 
 
@@ -205,7 +205,7 @@ What personal users fear most is not that the assistant occasionally cannot retr
 
 The real danger is when the assistant cannot retrieve data but keeps talking anyway. The harder it tries to smooth over the gap, the more dangerous it becomes. 
 
-![](../../../assets/blog-qveris-openclaw-ai-agent-7.png)
+![](../../../assets/blog-qveris-openclaw-ai-agent-7-en.png)
 
 A reliable personal Agent does not need to succeed every time, but it must fail honestly. Saying "I did not get enough data this time" is more valuable than forcing a polished conclusion. 
 

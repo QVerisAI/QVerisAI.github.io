@@ -108,7 +108,7 @@ Weeks of work becomes hours of building.
 
 Instead of managing 10+ API keys, 10+ authentication flows, 10+ rate limit handlers, and 10+ error handling patterns, you manage one QVeris integration, one unified interface, one skill installation.
 
-![openclaw-qveris-real-world-data-5](../../../assets/blog-openclaw-qveris-real-world-data-5.png)
+![openclaw-qveris-real-world-data-5](../../../assets/blog-openclaw-qveris-real-world-data-5-en.png)
 
 ## Open Source Reference Implementation
 

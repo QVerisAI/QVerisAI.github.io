@@ -2,7 +2,7 @@
 title: 'Financial AI Must Do More Than Answer. It Must Be Verifiable.'
 description: 'A QVeris product note on why financial AI must produce verifiable evidence instead of just fluent answers.'
 pubDate: 'May 29 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484958-hero.jpg'
+heroImage: '../../../assets/blog-qveris-wechat-2247484958-hero-en.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -26,7 +26,7 @@ and reliably produce usable answers across complex tasks such as filings, market
 
 This is exactly where QVeris is designed to matter.
 
-![](../../../assets/blog-qveris-wechat-2247484958-1.png)
+![](../../../assets/blog-qveris-wechat-2247484958-1-en.png)
 
 This evaluation used Claude as the control Agent and covered 50 real financial workflow tasks. It compared three operating modes:
 

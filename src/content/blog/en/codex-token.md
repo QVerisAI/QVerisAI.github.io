@@ -2,7 +2,7 @@
 title: 'The Longer You Use Codex, the More You Need to Save Tokens'
 description: 'The longer you use Codex, the more you need to save tokens'
 pubDate: 'Jun 08 2026'
-heroImage: '../../../assets/blog-codex-token-hero.jpg'
+heroImage: '../../../assets/blog-codex-token-hero-en.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -54,7 +54,7 @@ OpenAI’s model documentation shows GPT-5.5 text token pricing as input \$5.00,
 
 Prompt caching is also worth calling out separately. OpenAI’s prompt caching documentation is clear: cache hits depend on an “exactly matching prefix.” Stable system prompts, tool definitions, and historical context are easier to reuse. Static content should be placed at the front of the prompt, and dynamic content at the end. Caching can significantly reduce latency and input cost, but it is not free quota.
 
-![Cost structure of one long Codex session](../../../assets/blog-codex-token-2.png)
+![Cost structure of one long Codex session](../../../assets/blog-codex-token-2-en.png)
 
 As the chart shows, cached input had the largest token count and the largest cost. Its unit price is only one tenth of uncached input, but the volume is so large that it still becomes the main cost.
 
@@ -80,7 +80,7 @@ When people first look at an agent’s token bill, they often have one misconcep
 
 So a question that appears to contain only a dozen words may actually have hundreds of thousands of tokens of input. More importantly, an agent task is often not one model call, but a chain of calls: analyze first, then read files, then modify code, then run tests, then handle failures, then summarize. Every loop consumes part of the context again.
 
-![How tokens flow through an agent conversation](../../../assets/blog-codex-token-3.png)
+![How tokens flow through an agent conversation](../../../assets/blog-codex-token-3-en.png)
 
 This is why “making the final answer shorter” only saves a little output cost and does not solve the root problem. What really needs to be saved is repeatedly carried context and material that the model never needed to see in full.
 
@@ -88,7 +88,7 @@ This is why “making the final answer shorter” only saves a little output cos
 
 I pulled out the 10 most expensive interactions from that main session. The result matched everyday intuition: the more a task crosses systems and repositories and requires repeated verification, the more expensive it is.
 
-![The 10 most expensive categories of conversations](../../../assets/blog-codex-token-4.png)
+![The 10 most expensive categories of conversations](../../../assets/blog-codex-token-4-en.png)
 
 What those 10 interactions actually did is also representative.
 
@@ -119,7 +119,7 @@ These interactions can be roughly grouped into five categories.
 
 Another long session from the same day confirmed the same conclusion. Roughly grouped by task type, code/PR/release work and Q&A/debugging accounted for the vast majority of cost, while ordinary data statistics were tiny.
 
-![Cost distribution by task type](../../../assets/blog-codex-token-5.png)
+![Cost distribution by task type](../../../assets/blog-codex-token-5-en.png)
 
 | Task type | Estimated cost | Share |
 | --- | --- | --- |

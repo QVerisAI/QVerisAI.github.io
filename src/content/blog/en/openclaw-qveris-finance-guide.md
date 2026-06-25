@@ -9,13 +9,13 @@ tags: ['openclaw', 'qveris', 'Finance', 'Guide']
 translationKey: 'openclaw-qveris-finance-guide'
 ---
 
-![openclaw-qveris-finance-guide-1](../../../assets/blog-openclaw-qveris-finance-guide-1.webp)
+![openclaw-qveris-finance-guide-1](../../../assets/blog-openclaw-qveris-finance-guide-1-en.webp)
 
 ![openclaw-qveris-finance-guide-2](../../../assets/blog-openclaw-qveris-finance-guide-2.webp)
 
 1. Architecture Overview
 
-![openclaw-qveris-finance-guide-3](../../../assets/blog-openclaw-qveris-finance-guide-3.webp)
+![openclaw-qveris-finance-guide-3](../../../assets/blog-openclaw-qveris-finance-guide-3-en.webp)
 
 2. Core Configuration File Explained
 

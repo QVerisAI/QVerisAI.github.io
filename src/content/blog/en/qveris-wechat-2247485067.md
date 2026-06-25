@@ -2,7 +2,7 @@
 title: 'For AI Stock Research, Start by Getting Data Preparation Right'
 description: 'For AI stock research, start by getting data preparation right'
 pubDate: 'Jun 07 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247485067-hero.jpg'
+heroImage: '../../../assets/blog-qveris-wechat-2247485067-hero-en.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -22,7 +22,7 @@ More often, you first confirm where the price is, then review historical movemen
 
 This is where I see QVeris creating value: it does not make investment conclusions for you. Instead, it brings together the upfront work of finding capabilities, checking parameters, retrieving data, and reviewing sources into one workflow.
 
-![](../../../assets/blog-qveris-wechat-2247485067-1.png)
+![](../../../assets/blog-qveris-wechat-2247485067-1-en.png)
 ## Start with the Capability Map: Do Not Query Before You Know What Can Be Queried
 
 
@@ -35,9 +35,9 @@ For the user, this step answers the question: "Is there an existing capability f
 
 The benefit is that the research question is naturally separated into parts: stock price belongs with price data, financial reports belong with financial statements, and news and announcements belong with news and announcements. Once the pieces are separated clearly, later queries are less likely to get mixed together.
 
-![](../../../assets/blog-qveris-wechat-2247485067-2.png)
+![](../../../assets/blog-qveris-wechat-2247485067-2-en.png)
 
-![](../../../assets/blog-qveris-wechat-2247485067-3.png)
+![](../../../assets/blog-qveris-wechat-2247485067-3-en.png)
 ## Then Use the CLI in Three Steps: Discover, Inspect, Call
 
 
@@ -58,7 +58,7 @@ For example, when searching for "白酒 行业 动销 渠道 库存", the return
 
 
 
-![](../../../assets/blog-qveris-wechat-2247485067-4.png)
+![](../../../assets/blog-qveris-wechat-2247485067-4-en.png)
 
 Inspect is easy to skip, but it can expose two issues in advance: whether the capability can retrieve the fields I need, and whether this call is worth spending credits on.
 ## What QVeris Can Provide in Stock Research
@@ -104,7 +104,7 @@ After completing one round of queries, I do not recommend writing a conclusion i
 
 The draft can include company overview, current market data, historical trends, risk indicators, changes in revenue and profit, cash flow quality, recent news, positive factors, and risk factors. Put the facts in order first; then later discussions about valuation and judgment have a foundation.
 
-![](../../../assets/blog-qveris-wechat-2247485067-5.png)
+![](../../../assets/blog-qveris-wechat-2247485067-5-en.png)
 ## How I Understand This Workflow
 
 

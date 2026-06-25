@@ -2,7 +2,7 @@
 title: 'I Used QVeris as an AI Stock Research Assistant: Start with Industry Valuation, Then Filter Companies with a Screener'
 description: 'A stock research assistant workflow that starts with industry valuation and then narrows candidates with QVeris screening tools.'
 pubDate: 'Jun 22 2026'
-heroImage: '../../../assets/blog-qveris-ai-stock-research-assistant-hero.jpg'
+heroImage: '../../../assets/blog-qveris-ai-stock-research-assistant-hero-en.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -44,7 +44,7 @@ This set of numbers was useful to me. It does not tell me whether the software i
 
 I also had QVeris call the SIC classification and search for SEMICONDUCTORS. It returned SIC code **3674**, with the industry title **SEMICONDUCTORS & RELATED DEVICES**.
 
-![](../../../assets/blog-qveris-ai-stock-research-assistant-2.jpg)
+![](../../../assets/blog-qveris-ai-stock-research-assistant-2-en.jpg)
 
 This step may look small, but it matters for an Agent. AI themes should not be classified by keyword guessing alone. Aligning industry, SIC, and sector classifications first keeps the later screening process from turning into "if it looks like AI, count it as AI."
 
@@ -54,7 +54,7 @@ Industry valuation can answer the question of "level." It cannot answer "what is
 
 So in the second step, I asked QVeris to call FMP's Historical Sector Performance and look at recent sector performance for NASDAQ Technology.
 
-![](../../../assets/blog-qveris-ai-stock-research-assistant-3.jpg)
+![](../../../assets/blog-qveris-ai-stock-research-assistant-3-en.jpg)
 
 The result also returned normally. On 2026-06-15, the averageChange for Technology / NASDAQ was about **0.94%**. On 2026-06-05, there was a more obvious negative value of around -**4.51**%. On 2026-06-08, it was -**0.07**%.
 
@@ -62,7 +62,7 @@ This means the Agent can read sector performance as background noise. Otherwise,
 
 Next, I ran FMP's market mover endpoints: Biggest Gainers, Biggest Losers, and Most Active.
 
-![](../../../assets/blog-qveris-ai-stock-research-assistant-4.jpg)
+![](../../../assets/blog-qveris-ai-stock-research-assistant-4-en.jpg)
 
 Gainers returned 50 records. At the top were names such as RGNT, CAST, AREB, CUPR, and VSME with extremely large gains. Most Active also returned 50 records, including high-attention tickers such as ADTX, GPUS, PAVS, SOXS, and SPCX. Losers also successfully returned 50 records, including QGRD, SPCK, ELTX, MLAC, and CNTX among the largest decliners.
 
@@ -72,7 +72,7 @@ This step is not a stock-picking conclusion. It simply helps the research assist
 
 ## Step 3: Use the Screener to Build a Candidate Pool, Then Review ROE and PE
 
-![](../../../assets/blog-qveris-ai-stock-research-assistant-5.jpg)
+![](../../../assets/blog-qveris-ai-stock-research-assistant-5-en.jpg)
 
 At this point, I finally started screening companies.
 
@@ -84,13 +84,13 @@ I used a two-step approach instead. First, I used the Screener to filter for a c
 
 **This Screener call successfully returned 10 candidates**:
 
-![](../../../assets/blog-qveris-ai-stock-research-assistant-6.jpg)
+![](../../../assets/blog-qveris-ai-stock-research-assistant-6-en.jpg)
 
 That already looks much more like what a research assistant should do: produce a candidate pool first, instead of immediately outputting an opinion.
 
 Then I used Key Metrics TTM on two samples: NVDA and MSFT.
 
-![](../../../assets/blog-qveris-ai-stock-research-assistant-7.jpg)
+![](../../../assets/blog-qveris-ai-stock-research-assistant-7-en.jpg)
 
 NVDA's TTM ROE returned at about **111.66%**, with an earnings yield of about **3.09%**, implying a PE of roughly **32.33**. MSFT's TTM ROE returned at about **33.13%**, with an earnings yield of about **4.22%**, implying a PE of roughly **23.71**.
 
@@ -112,7 +112,7 @@ I first ran All Shares Float. The endpoint successfully returned 10 records, but
 
 So I switched to Company Share Float and queried NVDA from the Screener candidates.
 
-![](../../../assets/blog-qveris-ai-stock-research-assistant-8.jpg)
+![](../../../assets/blog-qveris-ai-stock-research-assistant-8-en.jpg)
 
 This result was very clear: for NVDA on 2026-06-15, freeFloat was about **95.89%**, floatShares were about **23.225 billion shares**, outstandingShares were about **24.221 billion shares**, and the result also included an SEC source link.
 
@@ -130,19 +130,19 @@ After this test, I think the value of FMP's industry / sector plus Screener capa
 
 The difference is large.
 
-![](../../../assets/blog-qveris-ai-stock-research-assistant-9.jpg)
+![](../../../assets/blog-qveris-ai-stock-research-assistant-9-en.jpg)
 
-![](../../../assets/blog-qveris-ai-stock-research-assistant-10.jpg)
+![](../../../assets/blog-qveris-ai-stock-research-assistant-10-en.jpg)
 
-![](../../../assets/blog-qveris-ai-stock-research-assistant-11.jpg)
+![](../../../assets/blog-qveris-ai-stock-research-assistant-11-en.jpg)
 
-![](../../../assets/blog-qveris-ai-stock-research-assistant-12.jpg)
+![](../../../assets/blog-qveris-ai-stock-research-assistant-12-en.jpg)
 
-![](../../../assets/blog-qveris-ai-stock-research-assistant-13.jpg)
+![](../../../assets/blog-qveris-ai-stock-research-assistant-13-en.jpg)
 
-![](../../../assets/blog-qveris-ai-stock-research-assistant-14.jpg)
+![](../../../assets/blog-qveris-ai-stock-research-assistant-14-en.jpg)
 
-![](../../../assets/blog-qveris-ai-stock-research-assistant-15.jpg)
+![](../../../assets/blog-qveris-ai-stock-research-assistant-15-en.jpg)
 
 Answering stock questions can easily become opinion generation: AI is hot, technology stocks are strong, valuation needs attention. Building a screening process is closer to what a research assistant does: first check industry valuation, then sector performance, then market movers, then use the Screener to produce a candidate pool, then use ROE, PE, and Share Float for a second review.
 
@@ -154,7 +154,7 @@ This is especially important for a theme like AI. The hotter a theme becomes, th
 
 This QVeris call to FMP proved at least one thing: an Agent does not need to rush to an answer. It can first learn how to screen.
 
-![](../../../assets/blog-qveris-ai-stock-research-assistant-16.jpg)
+![](../../../assets/blog-qveris-ai-stock-research-assistant-16-en.jpg)
 
 >
 > This article only demonstrates the QVeris × FMP data calls and research workflow. It does not constitute investment advice.

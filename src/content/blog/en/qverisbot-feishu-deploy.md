@@ -13,7 +13,7 @@ Before you start deploying, you can scan the Feishu QR code to join the group an
 
 ![qverisbot-feishu-deploy-1](../../../assets/blog-qverisbot-feishu-deploy-1.jpg)
 
-![qverisbot-feishu-deploy-2](../../../assets/blog-qverisbot-feishu-deploy-2.jpg)
+![qverisbot-feishu-deploy-2](../../../assets/blog-qverisbot-feishu-deploy-2-en.jpg)
 
 Also, please log in to the QVeris official website, register, and get your API KEY. You will need it later:
 
@@ -27,7 +27,7 @@ https://qveris.ai/
 
 **QVerisBot** is a personal AI assistant developed by the QVeris AI team, deeply customized and enhanced based on the open-source Moltbot project. QVerisBot is not just a chatbot. It is a versatile AI assistant that can call tens of thousands of professional tools and data sources.
 
-![qverisbot-feishu-deploy-3](../../../assets/blog-qverisbot-feishu-deploy-3.jpg)
+![qverisbot-feishu-deploy-3](../../../assets/blog-qverisbot-feishu-deploy-3-en.jpg)
 
 **Core features**:
 
@@ -93,7 +93,7 @@ QVerisBot is built on Moltbot, formerly Clawdbot, and inherits its powerful plat
 
 ### 2.1 System Requirements
 
-![qverisbot-feishu-deploy-4](../../../assets/blog-qverisbot-feishu-deploy-4.png)
+![qverisbot-feishu-deploy-4](../../../assets/blog-qverisbot-feishu-deploy-4-en.png)
 
 ### 2.2 macOS Installation
 
@@ -177,7 +177,7 @@ sudo apt update && sudo apt upgrade -y
 
 ### QVerisBot's Python test scripts and skills use the following libraries:
 
-![qverisbot-feishu-deploy-5](../../../assets/blog-qverisbot-feishu-deploy-5.png)
+![qverisbot-feishu-deploy-5](../../../assets/blog-qverisbot-feishu-deploy-5-en.png)
 
 Installation:
 
@@ -223,11 +223,11 @@ Feishu configuration requires two steps:
 
 On the **Permission Management** page, add the following permissions:
 
-![qverisbot-feishu-deploy-6](../../../assets/blog-qverisbot-feishu-deploy-6.png)
+![qverisbot-feishu-deploy-6](../../../assets/blog-qverisbot-feishu-deploy-6-en.png)
 
 #### User Information Permissions (Optional)
 
-![qverisbot-feishu-deploy-7](../../../assets/blog-qverisbot-feishu-deploy-7.png)
+![qverisbot-feishu-deploy-7](../../../assets/blog-qverisbot-feishu-deploy-7-en.png)
 
 ### 3.5 Get Credentials
 
@@ -263,7 +263,7 @@ On the **Event Subscription** page:
 - QVerisBot uses this mode by default
 1. **Add events**:
 
-![qverisbot-feishu-deploy-8](../../../assets/blog-qverisbot-feishu-deploy-8.png)
+![qverisbot-feishu-deploy-8](../../../assets/blog-qverisbot-feishu-deploy-8-en.png)
 
 1. Save the configuration
 
@@ -391,7 +391,7 @@ Supported model format: `provider/model-name`, for example:
 
 ```
 
-![qverisbot-feishu-deploy-9](../../../assets/blog-qverisbot-feishu-deploy-9.png)
+![qverisbot-feishu-deploy-9](../../../assets/blog-qverisbot-feishu-deploy-9-en.png)
 
 ##### startupChatId Configuration Notes
 
@@ -452,7 +452,7 @@ Multiple groups are supported:
 
 ```
 
-![qverisbot-feishu-deploy-10](../../../assets/blog-qverisbot-feishu-deploy-10.png)
+![qverisbot-feishu-deploy-10](../../../assets/blog-qverisbot-feishu-deploy-10-en.png)
 
 #### .4 LLM Proxy Configuration
 
@@ -560,7 +560,7 @@ Chat with the bot in Feishu:
 
 Send the following commands in Feishu chat:
 
-![qverisbot-feishu-deploy-11](../../../assets/blog-qverisbot-feishu-deploy-11.png)
+![qverisbot-feishu-deploy-11](../../../assets/blog-qverisbot-feishu-deploy-11-en.png)
 
 ### 8.3 Use QVeris Tools
 

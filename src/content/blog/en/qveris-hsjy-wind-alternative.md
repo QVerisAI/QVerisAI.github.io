@@ -13,7 +13,7 @@ translationKey: 'qveris-hsjy-wind-alternative'
 
 ![qveris-hsjy-wind-alternative-2](../../../assets/blog-qveris-hsjy-wind-alternative-2.jpg)
 
-![qveris-hsjy-wind-alternative-3](../../../assets/blog-qveris-hsjy-wind-alternative-3.jpg)
+![qveris-hsjy-wind-alternative-3](../../../assets/blog-qveris-hsjy-wind-alternative-3-en.jpg)
 > QVeris New Provider Briefing | Issue 2
 
 Cambricon in March broke a lot of investors' nerves. It started the month at 1200 and fell to 1009 by month-end, with a maximum drawdown of 18.5%.
@@ -34,7 +34,7 @@ The daily K-line data is more complete: 21 trading days, each with open, high, l
 
 Free apps also have this data. But what comes next is **what you cannot see in Tonghuashun.**
 
-![qveris-hsjy-wind-alternative-4](../../../assets/blog-qveris-hsjy-wind-alternative-4.png)
+![qveris-hsjy-wind-alternative-4](../../../assets/blog-qveris-hsjy-wind-alternative-4-en.png)
 
 ## Layer 2: What Used to Require a RMB 60,000 Wind Subscription
 
@@ -44,7 +44,7 @@ Free apps also have this data. But what comes next is **what you cannot see in T
 
 It was not a vague "analysts are bullish" summary. It was **212 specific forecasts** from more than ten brokerages, including Huatai, Zheshang, Donghai, GF Securities, and Guohai. Each entry included explicit revenue forecasts, net profit forecasts, EPS, and target price:
 
-![qveris-hsjy-wind-alternative-5](../../../assets/blog-qveris-hsjy-wind-alternative-5.png)
+![qveris-hsjy-wind-alternative-5](../../../assets/blog-qveris-hsjy-wind-alternative-5-en.png)
 
 Market consensus: **2026 revenue of RMB 14.3 billion (+120%), net profit of RMB 4.95 billion (+140%), and a target price of RMB 1546**: 53% above the current price of RMB 1009.
 
@@ -66,7 +66,7 @@ This structured data can be fed directly into NLP models for sentiment analysis,
 
 "Cambricon industry peer financial ratio comparison" returns a cross-sectional comparison of ROE, gross margin, net margin, and asset-liability ratio across **172 companies** in the semiconductor industry:
 
-![qveris-hsjy-wind-alternative-6](../../../assets/blog-qveris-hsjy-wind-alternative-6.png)
+![qveris-hsjy-wind-alternative-6](../../../assets/blog-qveris-hsjy-wind-alternative-6-en.png)
 
 Cambricon's ROE of 23.86% ranks near the top of the semiconductor industry, while its asset-liability ratio of just 11.87% is extremely healthy. Multi-factor models need intra-industry rankings. This API **returns the entire industry in one call**, saving hours of data cleaning.
 
@@ -80,13 +80,13 @@ Translation: **institutions are reducing positions, while mid-sized capital is t
 
 Margin financing balance is **RMB 15.542 billion**, with a financing cost price of RMB 796.94. The current price of 1009 is still far above the financing cost, so leveraged capital is temporarily safe. But if the stock continues falling toward the 800 level, margin positions could trigger a stampede.
 
-![qveris-hsjy-wind-alternative-7](../../../assets/blog-qveris-hsjy-wind-alternative-7.png)
+![qveris-hsjy-wind-alternative-7](../../../assets/blog-qveris-hsjy-wind-alternative-7-en.png)
 
 ### Shareholder Account Count: Retail Investors Are Pouring In
 
 This is the signal I think deserves the most attention: "Cambricon shareholder account count":
 
-![qveris-hsjy-wind-alternative-8](../../../assets/blog-qveris-hsjy-wind-alternative-8.png)
+![qveris-hsjy-wind-alternative-8](../../../assets/blog-qveris-hsjy-wind-alternative-8-en.png)
 
 Over a year and a half, the shareholder account count surged from 26,000 to **66,000**, up 151%. Average shares per account fell from 15,772 to 6,339: **chips are moving from institutions to retail investors.**
 
@@ -133,15 +133,15 @@ No need to register a Hundsun Juyuan account. No need to get an API key. Just on
 
 > **You: What are the latest broker consensus estimates for Cambricon?**
 
-![qveris-hsjy-wind-alternative-9](../../../assets/blog-qveris-hsjy-wind-alternative-9.png)
+![qveris-hsjy-wind-alternative-9](../../../assets/blog-qveris-hsjy-wind-alternative-9-en.png)
 
 > **You: What is the recent trend in shareholder account count?**
 
-![qveris-hsjy-wind-alternative-10](../../../assets/blog-qveris-hsjy-wind-alternative-10.png)
+![qveris-hsjy-wind-alternative-10](../../../assets/blog-qveris-hsjy-wind-alternative-10-en.png)
 
 > **You: Compared with its industry peers, how profitable is Cambricon?**
 
-![qveris-hsjy-wind-alternative-11](../../../assets/blog-qveris-hsjy-wind-alternative-11.jpg)
+![qveris-hsjy-wind-alternative-11](../../../assets/blog-qveris-hsjy-wind-alternative-11-en.jpg)
 
 In three rounds of conversation, you already have the data foundation for a basic investment research report.
 
@@ -157,14 +157,14 @@ Explore more use cases: 👇
 
 [QVeris Integrates Twelve Data: One API for U.S. Stocks, FX, Gold, and Bitcoin](https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzY4NDAxMTE3NQ%3D%3D%26mid%3D2247484175%26idx%3D1%26sn%3Da80486a8a7c07e3a9c55cfab8b2606fa%26scene%3D21%23wechat_redirect)
 
-![qveris-hsjy-wind-alternative-13](../../../assets/blog-qveris-hsjy-wind-alternative-13.jpg)
+![qveris-hsjy-wind-alternative-13](../../../assets/blog-qveris-hsjy-wind-alternative-13-en.jpg)
 
 [OpenClaw Configuration Guide for Full QVeris Capabilities: Financial Analysis Edition](https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzY4NDAxMTE3NQ%3D%3D%26mid%3D2247484167%26idx%3D1%26sn%3D9c5f5bc1f6c73ee42b8e3d020645951d%26scene%3D21%23wechat_redirect)
 
-![qveris-hsjy-wind-alternative-14](../../../assets/blog-qveris-hsjy-wind-alternative-14.jpg)
+![qveris-hsjy-wind-alternative-14](../../../assets/blog-qveris-hsjy-wind-alternative-14-en.jpg)
 
 [Trillion-Dollar AI Agents Are Coming: The Software Industry Is About to Change Completely](https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzY4NDAxMTE3NQ%3D%3D%26mid%3D2247484154%26idx%3D1%26sn%3Db1a514f6af3b81c3ad447b59e927ae10%26scene%3D21%23wechat_redirect)
 
-![qveris-hsjy-wind-alternative-15](../../../assets/blog-qveris-hsjy-wind-alternative-15.png)
+![qveris-hsjy-wind-alternative-15](../../../assets/blog-qveris-hsjy-wind-alternative-15-en.png)
 
-![qveris-hsjy-wind-alternative-16](../../../assets/blog-qveris-hsjy-wind-alternative-16.jpg)
+![qveris-hsjy-wind-alternative-16](../../../assets/blog-qveris-hsjy-wind-alternative-16-en.jpg)
