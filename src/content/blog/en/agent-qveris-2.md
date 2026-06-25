@@ -2,7 +2,7 @@
 title: 'Building an Investment Research Agent and Missing Earnings Call Data? QVeris Has It Covered'
 description: 'How QVeris helps investment research agents fill gaps such as earnings call data, source discovery, and traceable tool calls.'
 pubDate: 'May 19 2026'
-heroImage: '../../../assets/blog-agent-qveris-2-hero-en.jpg'
+heroImage: '../../../assets/blog-agent-qveris-2-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -12,7 +12,7 @@ QVeris · Data Test
 
 
 
-![](../../../assets/blog-agent-qveris-2-1-en.png)
+![](../../../assets/blog-agent-qveris-2-1.png)  
 
 If you are building an investment research Agent, you may have run into this problem: a client asks how Tim Cook handed off the CEO role on Apple’s last-quarter earnings call, or how the CFO presented the first earnings report no longer signed off by Tim. Your Agent cannot answer.
 
@@ -57,7 +57,7 @@ Morgan Stanley’s Erik Woodring opens by paying tribute to Tim; Bank of America
 
 This is the depth of Bloomberg Transcript content. That is not an exaggeration.
 
-![FMP Earnings Call Transcripts historical coverage](../../../assets/blog-agent-qveris-2-2-en.png)
+![FMP Earnings Call Transcripts historical coverage](../../../assets/blog-agent-qveris-2-2.png)
 
  FMP Earnings Call Transcripts historical coverage (4 representative companies) 
 ## A 21-Year Timeline: From Before the iPhone to Tim Cook’s Exit
@@ -83,7 +83,7 @@ The contract states “10+ Years” of depth. In testing, the actual coverage wa
 
 Starting from Apple, I expanded the test set and deliberately selected several companies that are not US-headquartered but have ADRs dual-listed in the US. This is where FMP’s dataset becomes genuinely differentiated:
 
-![FMP Transcript body test sample](../../../assets/blog-agent-qveris-2-3-en.png)
+![FMP Transcript body test sample](../../../assets/blog-agent-qveris-2-3.png)
 
  FMP Transcript body test sample (8 companies · 5 listing markets · latest period) 
 
@@ -128,13 +128,13 @@ A single transcript can run 40,000-50,000 words. What users really ask an Agent 
 >
 > You: Find how the tone of Apple, NVIDIA, and Samsung changed when discussing AI / large models in earnings calls over the past 5 years, and include the key quotes.
 >
-![](../../../assets/blog-agent-qveris-2-4-en.png)
+![](../../../assets/blog-agent-qveris-2-4.png)
 
-![](../../../assets/blog-agent-qveris-2-5-en.png)
+![](../../../assets/blog-agent-qveris-2-5.png)
 
-![](../../../assets/blog-agent-qveris-2-6-en.png)
+![](../../../assets/blog-agent-qveris-2-6.png)
 
-![](../../../assets/blog-agent-qveris-2-7-en.png)
+![](../../../assets/blog-agent-qveris-2-7.png)
 
 Tens of thousands of words × dozens of companies × dozens of quarters of unstructured text: impossible for a human to read through manually, while news summaries are too shallow.
 

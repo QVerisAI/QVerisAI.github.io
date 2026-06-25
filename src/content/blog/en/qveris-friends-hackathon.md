@@ -2,17 +2,17 @@
 title: 'QVeris Friends Hackathon: Agent, Action!'
 description: 'The QVeris Friends Hackathon is officially underway: Agent, Action! Join this creative journey centered on action.'
 pubDate: 'Mar 13 2026'
-heroImage: '../../../assets/blog-qveris-friends-hackathon-1-en.png'
+heroImage: '../../../assets/blog-qveris-friends-hackathon-1.png'
 category: 'Announcement'
 author: 'QVeris Team'
 tags: ['黑客松', 'qveris', '活动']
 translationKey: 'qveris-friends-hackathon'
 ---
 
-![qveris-friends-hackathon-1](../../../assets/blog-qveris-friends-hackathon-1-en.png)
+![qveris-friends-hackathon-1](../../../assets/blog-qveris-friends-hackathon-1.png)
 
 Share the poster above to your WeChat Moments = receive 1 drink voucher on site (limited to the first 50 people)
-![qveris-friends-hackathon-2](../../../assets/blog-qveris-friends-hackathon-2-en.png)
+![qveris-friends-hackathon-2](../../../assets/blog-qveris-friends-hackathon-2.png)
 Event Details
 **Theme**: Agent, Action!
 

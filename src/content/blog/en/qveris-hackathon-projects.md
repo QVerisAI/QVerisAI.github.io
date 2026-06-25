@@ -2,7 +2,7 @@
 title: '4 Hours, 10 Agent Projects: A Closer Look at the Winners'
 description: 'The full QVeris hackathon recap: 10 Agent projects built in 4 hours, with a project-by-project look at the winners.'
 pubDate: 'Mar 13 2026'
-heroImage: '../../../assets/blog-qveris-hackathon-projects-1-en.jpg'
+heroImage: '../../../assets/blog-qveris-hackathon-projects-1.jpg'
 category: 'Announcement'
 author: 'QVeris Team'
 tags: ['黑客松', 'qveris', '案例']
@@ -37,17 +37,17 @@ By running on real financial data and policy information, the project delivered 
 
 ***👉https://github.com/QverisFriends/funds_advice***
 
-![qveris-hackathon-projects-1](../../../assets/blog-qveris-hackathon-projects-1-en.jpg)
+![qveris-hackathon-projects-1](../../../assets/blog-qveris-hackathon-projects-1.jpg)
 
-![qveris-hackathon-projects-2](../../../assets/blog-qveris-hackathon-projects-2-en.png)
+![qveris-hackathon-projects-2](../../../assets/blog-qveris-hackathon-projects-2.png)
 
-![qveris-hackathon-projects-3](../../../assets/blog-qveris-hackathon-projects-3-en.png)
+![qveris-hackathon-projects-3](../../../assets/blog-qveris-hackathon-projects-3.png)
 
-![qveris-hackathon-projects-4](../../../assets/blog-qveris-hackathon-projects-4-en.jpg)
+![qveris-hackathon-projects-4](../../../assets/blog-qveris-hackathon-projects-4.jpg)
 
-![qveris-hackathon-projects-5](../../../assets/blog-qveris-hackathon-projects-5-en.jpg)
+![qveris-hackathon-projects-5](../../../assets/blog-qveris-hackathon-projects-5.jpg)
 
-![qveris-hackathon-projects-6](../../../assets/blog-qveris-hackathon-projects-6-en.jpg)
+![qveris-hackathon-projects-6](../../../assets/blog-qveris-hackathon-projects-6.jpg)
 
 > ⚠️ Project disclaimer: For learning and entertainment purposes only. This does not constitute any investment advice.
 
@@ -72,9 +72,9 @@ Through dense, multimodal API calls, the project visualizes QVeris action capabi
 
 ***👉https://github.com/QverisFriends/qveris-dashboard***
 
-![qveris-hackathon-projects-7](../../../assets/blog-qveris-hackathon-projects-7-en.jpg)
+![qveris-hackathon-projects-7](../../../assets/blog-qveris-hackathon-projects-7.jpg)
 
-![qveris-hackathon-projects-8](../../../assets/blog-qveris-hackathon-projects-8-en.jpg)
+![qveris-hackathon-projects-8](../../../assets/blog-qveris-hackathon-projects-8.jpg)
 
 ## 🎨
 ## Just For Fun: Most Interesting Award
@@ -95,11 +95,11 @@ The creative workflow is fully orchestrated by the Agent:
 - ✌️🤘🤟 Inject different artistic styles
 - 👌 Confirm and generate the final work
 
-![qveris-hackathon-projects-9](../../../assets/blog-qveris-hackathon-projects-9-en.png)
+![qveris-hackathon-projects-9](../../../assets/blog-qveris-hackathon-projects-9.png)
 
-![qveris-hackathon-projects-10](../../../assets/blog-qveris-hackathon-projects-10-en.png)
+![qveris-hackathon-projects-10](../../../assets/blog-qveris-hackathon-projects-10.png)
 
-![qveris-hackathon-projects-11](../../../assets/blog-qveris-hackathon-projects-11-en.png)
+![qveris-hackathon-projects-11](../../../assets/blog-qveris-hackathon-projects-11.png)
 
 The user is only responsible for expressing intent, while **the Agent organizes the prompt, calls the model, and executes the creation**.
 
@@ -123,15 +123,15 @@ Behind every module is a complete **user upload → AI analysis → professional
 
 By combining multimodal movement recognition with a professional knowledge base, the project visualizes the companionship capabilities of an AI coach as an immediately tangible system-level demo. It clearly demonstrates the depth of AI in personalized sports instruction scenarios.
 
-![qveris-hackathon-projects-12](../../../assets/blog-qveris-hackathon-projects-12-en.png)
+![qveris-hackathon-projects-12](../../../assets/blog-qveris-hackathon-projects-12.png)
 
-![qveris-hackathon-projects-13](../../../assets/blog-qveris-hackathon-projects-13-en.png)
+![qveris-hackathon-projects-13](../../../assets/blog-qveris-hackathon-projects-13.png)
 
-![qveris-hackathon-projects-14](../../../assets/blog-qveris-hackathon-projects-14-en.png)
+![qveris-hackathon-projects-14](../../../assets/blog-qveris-hackathon-projects-14.png)
 
-![qveris-hackathon-projects-15](../../../assets/blog-qveris-hackathon-projects-15-en.jpg)
+![qveris-hackathon-projects-15](../../../assets/blog-qveris-hackathon-projects-15.jpg)
 
-![qveris-hackathon-projects-16](../../../assets/blog-qveris-hackathon-projects-16-en.jpg)
+![qveris-hackathon-projects-16](../../../assets/blog-qveris-hackathon-projects-16.jpg)
 
 ## **Final Notes**
 

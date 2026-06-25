@@ -2,7 +2,7 @@
 title: 'Apple Has Laid Out Its AI Hand. Why Isn’t the Market Buying It? I Ran Six Data Checks with QVeris'
 description: 'A six-check QVeris workflow for examining Apple’s AI narrative through market data, fundamentals, and investor signals.'
 pubDate: 'Jun 09 2026'
-heroImage: '../../../assets/blog-ai-qveris-hero-en.jpg'
+heroImage: '../../../assets/blog-ai-qveris-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -35,7 +35,7 @@ What follows is not gut-feel analysis. I used QVeris to call six sets of interfa
 
 Start with real-time data from FMP. Apple is currently at \$301.54, with a market cap of \$4.43 trillion, a 52-week range of \$195.07 to \$317.40, and a beta of 1.09. In other words, the stock is only 5% below its all-time high. It is no longer “cheap.”
 
-![](../../../assets/blog-ai-qveris-1-en.png)
+![](../../../assets/blog-ai-qveris-1.png)
 
 Then look at Twelve Data’s analyst price targets: the average 12-month target is \$310.51, the median is \$310, the most optimistic target is \$400, and the most pessimistic is \$215. With the current price at \$301.57, there is only about 3% upside to the average target. Institutions had already priced in most of the expectation.
 
@@ -54,7 +54,7 @@ That explains why the “keynote rally” did not last: the good news was alread
 
 Using FMP’s revenue breakdown interface, here is Apple’s latest quarterly product mix, for FY2026 Q2 ending March 28, 2026:
 
-![](../../../assets/blog-ai-qveris-2-en.png)
+![](../../../assets/blog-ai-qveris-2.png)
 
 Compared with the previous quarter, FY2026 Q1 holiday season, iPhone revenue fell sharply from \$85.269 billion to \$56.994 billion. That is normal seasonality. The key point is this: **Services revenue has stayed above \$30 billion for four consecutive quarters**, rising from \$24.213 billion in 2024 Q3 to \$30.976 billion now, a 28% increase.
 
@@ -91,18 +91,18 @@ Using Alpha Vantage’s news sentiment interface, I pulled 50 AAPL-related news 
 
 Overall, the media response to Siri AI itself is positive. But the narrative around the stock decline has already taken on a life of its own. The market is no longer asking “does Apple have AI?” It is asking “when will it ship, and how much incremental growth can it generate?”
 
-![](../../../assets/blog-ai-qveris-3-en.png)
+![](../../../assets/blog-ai-qveris-3.png)
 ##  
 
 ## Set 4: Who Siri AI Really Depends On: Google and Nvidia
 
 ## Alpha Vantage’s sentiment data also reveals another layer of the story: GOOGL appears repeatedly in AAPL-related news. Apple Intelligence’s backend model relies on Google Gemini, and Apple publicly confirmed the partnership during the keynote.
 
-![](../../../assets/blog-ai-qveris-4-en.png)
+![](../../../assets/blog-ai-qveris-4.png)
 
 Then look at Nvidia. NVDA is currently at \$208.64, with a market cap of \$5.05 trillion and a beta of 2.2, twice Apple’s beta. When Apple mentioned “the most advanced cloud models” during WWDC, it did not name Nvidia, but inference compute demand is hard to separate from Nvidia GPUs.
 
-![](../../../assets/blog-ai-qveris-5-en.png)
+![](../../../assets/blog-ai-qveris-5.png)
 
 In other words, Apple is not the only beneficiary of the Siri AI story. **Google gets a top-tier device entry point, while Nvidia continues collecting rent behind the scenes as the compute infrastructure provider.** This is another hidden reason Apple’s stock weakened: the market is breaking apart the value chain and finding that Apple is not the only winner.
 ##  
@@ -130,7 +130,7 @@ That divergence is the point. The market has no consensus on the core assumption
 
 ## The Six QVeris Data Checks at a Glance
 
-![](../../../assets/blog-ai-qveris-6-en.png)
+![](../../../assets/blog-ai-qveris-6.png)
 
 Every data set can be traced back to its source, timestamp, and original link. This is not “we believe.” It is “the data shows.”
 ##  

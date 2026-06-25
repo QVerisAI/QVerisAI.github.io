@@ -107,7 +107,7 @@ Please reply with the following 3 questions (just be real):
 
 Scan the code to apply. We will reply one by one👇
 
-![qveris-cocreation-camp-2](../../../assets/blog-qveris-cocreation-camp-2-en.png)
+![qveris-cocreation-camp-2](../../../assets/blog-qveris-cocreation-camp-2.png)
 
 **QVeris hopes to work with developers**
 **to get your AI Agent taking action!**

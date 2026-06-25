@@ -2,7 +2,7 @@
 title: 'What Enterprise-Grade Trustworthy Agents Lack Is Not Answers, but Evidence'
 description: 'What enterprise-grade trustworthy Agents lack is not answers, but evidence'
 pubDate: 'Jun 19 2026'
-heroImage: '../../../assets/blog-enterprise-trustworthy-agent-evidence-hero-en.jpg'
+heroImage: '../../../assets/blog-enterprise-trustworthy-agent-evidence-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -32,7 +32,7 @@ This is where QVeris has a clear role: when AI moves from "can chat" to "can get
 >
 > Large models handle understanding and expression. Agents break down tasks and execute them. QVeris connects that execution to real-world capabilities and makes the process controllable, trustworthy, and reviewable.
 >
-![](../../../assets/blog-enterprise-trustworthy-agent-evidence-1-en.jpg)
+![](../../../assets/blog-enterprise-trustworthy-agent-evidence-1.jpg)
 
 Figure 1 | The four-layer structure of a trustworthy enterprise Agent
 ## Why Ordinary Agents Struggle to Enter Enterprise Workflows Directly
@@ -62,12 +62,12 @@ QVeris breaks the act of calling real capabilities through an Agent into three s
 
 These three steps may look simple, but they determine whether an Agent can move from demo to production. Enterprises do not just need "AI that sounds right." They need to know "what AI did, what it was based on, and whether problems can be investigated."
 
-![](../../../assets/blog-enterprise-trustworthy-agent-evidence-2-en.jpg)
+![](../../../assets/blog-enterprise-trustworthy-agent-evidence-2.jpg)
 
 Figure 2 | Six checkpoints enterprises need to answer before they can trust Agents
 ## Scenarios: Three High-Pain Industry Use Cases
 
-![](../../../assets/blog-enterprise-trustworthy-agent-evidence-3-en.jpg)
+![](../../../assets/blog-enterprise-trustworthy-agent-evidence-3.jpg)
 
 Figure 3 | Different industries have different problems, but trustworthy Agents share the same underlying requirements
 ## These Industries Look Different, but the Underlying Problems Are the Same

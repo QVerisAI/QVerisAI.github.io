@@ -27,7 +27,7 @@ Earnings call transcripts are an excellent foundational data source for investme
 
 But transcripts also have obvious problems. A single transcript can easily run to tens of thousands of words, and the manual reading cost becomes high when comparing multiple companies across multiple quarters. If you simply ask a model to “summarize it,” the evidence trail is easy to lose, making the final result hard to verify.
 
-![](../../../assets/blog-qveris-wechat-2247484902-2-en.png)
+![](../../../assets/blog-qveris-wechat-2247484902-2.png)
 ## What the Sample Program Does Now
 
 
@@ -40,14 +40,14 @@ The program is called QVeris Earnings Call Signal Demo. Its inputs are simple: s
 
 
 
-![](../../../assets/blog-qveris-wechat-2247484902-4-en.png)
+![](../../../assets/blog-qveris-wechat-2247484902-4.png)
 ## A Real Run
 
 
 
 I ran the program on AAPL and NVDA for their two most recent quarters, producing four transcripts. The new full run took about 12 seconds and generated 381 evidence snippets and 12 output files.
 
-![](../../../assets/blog-qveris-wechat-2247484902-5-en.png)
+![](../../../assets/blog-qveris-wechat-2247484902-5.png)
 
 In the theme results, AI was the strongest signal, with 210 mentions led by NVDA. SupplyChain, Margin, Pricing, and Guidance also formed a comparable theme matrix. These numbers are not conclusions; they are indexes for the next round of source-text reading.
 ## Putting Earnings Calls into Broader Context
@@ -99,11 +99,11 @@ Market context uses a historical price tool, but that is only supplementary back
 
 The program does not hard-code external API endpoints directly. Instead, it first asks QVeris to search for two types of tools: “earnings call dates” and “earnings call text.” After search hits are returned, the subsequent executions are associated through the returned `search_id`.
 
-![](../../../assets/blog-qveris-wechat-2247484902-9-en.png)
+![](../../../assets/blog-qveris-wechat-2247484902-9.png)
 
 The actual flow is: first search for tools, then call the transcript dates tool for each stock symbol. For example, given AAPL, the tool returns available fiscal years, quarters, and dates. The program then selects the most recent periods based on the user-provided `--quarters` value. Finally, for each period, it calls the transcript content tool and passes `symbol/year/quarter` to retrieve the body text.
 
-![](../../../assets/blog-qveris-wechat-2247484902-10-en.png)
+![](../../../assets/blog-qveris-wechat-2247484902-10.png)
 
 Only after receiving the `content` field does the program enter the analysis stage: speaker identification, prepared remarks / Q&A segmentation, theme matching, risk/opportunity context, semantic buckets, and the evidence ledger. Market prices, fundamentals, and news are added as context after transcript analysis is complete.
 
@@ -113,7 +113,7 @@ This is why the article emphasizes “traceable”: the report does not only sho
 
 This demo is not a retelling of the WeChat article. It turns the product idea in that article into a runnable third-party practice.
 
-![](../../../assets/blog-qveris-wechat-2247484902-11-en.png)
+![](../../../assets/blog-qveris-wechat-2247484902-11.png)
 
 In other words, the WeChat article provides the direction for “why QVeris is suitable as API Agent infrastructure.” This demo answers a different question: “Can we take a real investment research problem and make that path work end to end?”
 ## Getting Market Context Through QVeris
@@ -171,15 +171,15 @@ https://github.com/ax2/qveris-earnings-call-signal-demo
 
 
 
-![](../../../assets/blog-qveris-wechat-2247484902-14-en.png)
+![](../../../assets/blog-qveris-wechat-2247484902-14.png)
 
 The implementation idea behind this demo is not complicated: delegate “finding data interfaces” and “calling data interfaces” to QVeris, then focus on the investment research workflow itself. The program does not hard-code a fixed interface internally. Instead, it first searches for available tools using natural language, then selects the most suitable tool from the search results for execution.
 
-![](../../../assets/blog-qveris-wechat-2247484902-15-en.png)
+![](../../../assets/blog-qveris-wechat-2247484902-15.png)
 
 ### Several Key Concepts 
 
-![](../../../assets/blog-qveris-wechat-2247484902-16-en.png)
+![](../../../assets/blog-qveris-wechat-2247484902-16.png)
 
 ### Implementation Notes
 
@@ -189,7 +189,7 @@ The second version expanded that loop into a full-context run. Market data was a
 
 The final version added the web layer: a FastAPI service, a dashboard, an HTML report page, screenshots, and a lightweight service deployment. That made the demo easier to review than a command-line report alone, while keeping the underlying research artifacts reproducible.
 
-![](../../../assets/blog-qveris-wechat-2247484902-17-en.png)
+![](../../../assets/blog-qveris-wechat-2247484902-17.png)
 ## What Could Be Done Next
 
 

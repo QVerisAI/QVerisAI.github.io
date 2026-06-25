@@ -2,7 +2,7 @@
 title: 'I Had QVeris Read Apple’s Fundamentals: The Three Statements, As Reported Data, and TTM Metrics Are All Connected'
 description: 'A walkthrough of using QVeris to connect Apple’s financial statements, reported data, and TTM metrics in one research flow.'
 pubDate: 'Jun 15 2026'
-heroImage: '../../../assets/blog-qveris-apple-fundamentals-workflow-hero-en.jpg'
+heroImage: '../../../assets/blog-qveris-apple-fundamentals-workflow-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -32,7 +32,7 @@ I first asked QVeris to pull the income statement: five years of revenue and net
 
 The first step was asking QVeris to call FMP’s Income Statement.
 
-![](../../../assets/blog-qveris-apple-fundamentals-workflow-1-en.png)
+![](../../../assets/blog-qveris-apple-fundamentals-workflow-1.png)
 
 The returned result was clean: the latest 5 fiscal years for AAPL were available, with fields including revenue, grossProfit, operatingIncome, netIncome, EPS, R&D, SG&A, filingDate, acceptedDate, and more.
 
@@ -78,9 +78,9 @@ This time I asked QVeris to call FMP’s Cashflow Statements TTM. AAPL returned 
 
 This set of numbers is interesting. Apple’s TTM operating cash flow is higher than net income, and free cash flow remains at the USD 129.174 billion level. In other words, profit did not just remain on the statement. It really did turn into substantial cash.
 
-![](../../../assets/blog-qveris-apple-fundamentals-workflow-2-en.png)
+![](../../../assets/blog-qveris-apple-fundamentals-workflow-2.png)
 
-![](../../../assets/blog-qveris-apple-fundamentals-workflow-3-en.png)
+![](../../../assets/blog-qveris-apple-fundamentals-workflow-3.png)
 
 This is the kind of judgment a fundamental analysis Agent should be able to make. It should not merely recite the cash flow fields. It should be able to ask the next questions: How does operating cash flow compare with net income? Is free cash flow enough to support buybacks, dividends, and reinvestment? Is the capital expenditure ratio high?
 
@@ -98,9 +98,9 @@ But they are extremely important for an Agent.
 
 Standardized data solves the “usability” problem. As Reported data solves the “traceability” problem. If a user asks, “Which original 10-K disclosure item does this revenue number correspond to?”, the Agent cannot simply say, “I think it should be this.” It needs a way to return to the original disclosure basis and verify.
 
-![](../../../assets/blog-qveris-apple-fundamentals-workflow-4-en.png)
+![](../../../assets/blog-qveris-apple-fundamentals-workflow-4.png)
 
-![](../../../assets/blog-qveris-apple-fundamentals-workflow-5-en.png)
+![](../../../assets/blog-qveris-apple-fundamentals-workflow-5.png)
 
 What does this mean for an Agent? It can first use standardized three-statement data for fast analysis, then return to As Reported data for verification when needed. This capability moves the Agent from “has seen the summary” to “can trace the source.”
 
@@ -129,15 +129,15 @@ It can say: Apple’s revenue was still growing in 2025, and net income grew fas
 
 The point of this paragraph is not that it “sounds professional.” The point is that every sentence has data behind it.
 
-![](../../../assets/blog-qveris-apple-fundamentals-workflow-6-en.png)
+![](../../../assets/blog-qveris-apple-fundamentals-workflow-6.png)
 
-![](../../../assets/blog-qveris-apple-fundamentals-workflow-7-en.png)
+![](../../../assets/blog-qveris-apple-fundamentals-workflow-7.png)
 
-![](../../../assets/blog-qveris-apple-fundamentals-workflow-8-en.png)
+![](../../../assets/blog-qveris-apple-fundamentals-workflow-8.png)
 
 What does this mean for an Agent? It is no longer just looking up numbers. It can connect the three statements, TTM metrics, ratios, and growth rates into a fundamental judgment chain. When a user asks “How is it?”, the Agent is actually running a full financial analysis workflow behind the scenes.
 
-![](../../../assets/blog-qveris-apple-fundamentals-workflow-9-en.png)
+![](../../../assets/blog-qveris-apple-fundamentals-workflow-9.png)
 
 This is the data foundation a fundamental analysis Agent should have
 
@@ -155,11 +155,11 @@ Has Apple still been growing over the past few years? How is earnings quality? I
 
 Previously, questions like these required analysts to break the work into more than a dozen steps: find the three statements, align fiscal years, calculate ratios, examine cash flow, then return to original disclosures for verification. Now these steps can be orchestrated by a QVeris Agent.
 
-![](../../../assets/blog-qveris-apple-fundamentals-workflow-10-en.png)
+![](../../../assets/blog-qveris-apple-fundamentals-workflow-10.png)
 
-![](../../../assets/blog-qveris-apple-fundamentals-workflow-11-en.png)
+![](../../../assets/blog-qveris-apple-fundamentals-workflow-11.png)
 
-![](../../../assets/blog-qveris-apple-fundamentals-workflow-12-en.png)
+![](../../../assets/blog-qveris-apple-fundamentals-workflow-12.png)
 
 External messaging point: QVeris has connected FMP’s fundamental financial statement data into a callable data workflow. Developers do not have to build shallow Agents that only “look up PE.” They can directly build company fundamentals Agents covering the three financial statements, As Reported data, TTM metrics, financial ratios, and growth analysis.
 

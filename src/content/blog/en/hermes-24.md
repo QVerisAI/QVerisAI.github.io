@@ -38,7 +38,7 @@ The key point is that the **barrier to entry is extremely low**:
 
 The logic of this combination is simple: Hermes handles “thinking” and “decision-making,” while QVeris handles market “perception.” Put them together, and your Agent gets both eyes and an evolvable brain.
 
-![](../../../assets/blog-hermes-24-1-en.png)
+![](../../../assets/blog-hermes-24-1.png)
 
 02 Preparation: 3 things you need
 
@@ -54,9 +54,9 @@ First, here is the final effect: asking Hermes about today’s market in Feishu:
 
  👤 Help me find technology stocks where major funds have continued to flow in over the past 3 days, but the stock price has not risen sharply yet
 
-![](../../../assets/blog-hermes-24-2-en.png)
+![](../../../assets/blog-hermes-24-2.png)
 
-![](../../../assets/blog-hermes-24-3-en.png)
+![](../../../assets/blog-hermes-24-3.png)
 
 03 Core step: connect with one command
 
@@ -68,11 +68,11 @@ Log in to https://qveris.ai/plugins, copy the sentence below, and send it to Her
 
 That is all it takes to connect.
 
-![](../../../assets/blog-hermes-24-4-en.png)
+![](../../../assets/blog-hermes-24-4.png)
 
 If you need to enter an API KEY, you can get it from the website: after logging in, click your avatar in the upper-right corner and select API Keys.
 
-![](../../../assets/blog-hermes-24-5-en.png)
+![](../../../assets/blog-hermes-24-5.png)
 
 Then ask your AI whether the connection was successful. It really is that simple.
 
@@ -90,19 +90,19 @@ Tell Hermes what you want to look up, and ask it to find the right tools for you
 
    👤 "I want to check A-share capital flows. Help me find what tools are available."
 
-![](../../../assets/blog-hermes-24-6-en.png)
+![](../../../assets/blog-hermes-24-6.png)
 
 Step 2: run a query
 
    👤 "Use the first tool to check today’s capital flow for Kweichow Moutai."
 
-![](../../../assets/blog-hermes-24-7-en.png)
+![](../../../assets/blog-hermes-24-7.png)
 
 Step 3: ask a deeper follow-up
 
    👤 "Help me compare the net inflow data for Moutai and Wuliangye over the past 5 days."
 
-![](../../../assets/blog-hermes-24-8-en.png)
+![](../../../assets/blog-hermes-24-8.png)
 
 See what happened? Your Hermes Agent now has professional A-share data analysis capabilities.
 
@@ -116,7 +116,7 @@ Once you can query data, you can automate it.
 
 Configure a scheduled task in Hermes and let the Agent check the capital flows of your portfolio stocks once every hour:
 
-![](../../../assets/blog-hermes-24-9-en.png)
+![](../../../assets/blog-hermes-24-9.png)
 
 Now your Agent becomes a 24-hour market monitor. When abnormal activity appears, it can automatically push alerts to Feishu, DingTalk, or Telegram, so you no longer need to stare at the market all day.
 
@@ -182,6 +182,6 @@ https://qveris.ai/?ref=DFk24wT50FzHDA
 
 Invite friends to receive an additional 1000 credits 🎁
 
-![](../../../assets/blog-hermes-24-10-en.png)
+![](../../../assets/blog-hermes-24-10.png)
 
 See you in the next article.

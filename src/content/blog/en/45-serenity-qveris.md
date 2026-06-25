@@ -2,7 +2,7 @@
 title: 'Serenity, the 45x White-Haired Stock Oracle, Went Viral. We Recreated Her Method for Finding Obscure Winners with QVeris'
 description: 'A QVeris case study inspired by a viral stock-picking persona, showing how obscure winners can be screened with real data instead of vibes.'
 pubDate: 'Jun 14 2026'
-heroImage: '../../../assets/blog-45-serenity-qveris-hero-en.jpg'
+heroImage: '../../../assets/blog-45-serenity-qveris-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -39,7 +39,7 @@ If you only look at the stocks Serenity has named, you learn the answers. Answer
 
 **Step 5: repeatedly test the thesis with evidence, and define what would make it wrong.** Read announcements, check financials, track catalysts, and list the signals that would overturn the thesis.
 
-![](../../../assets/blog-45-serenity-qveris-1-en.jpg)
+![](../../../assets/blog-45-serenity-qveris-1.jpg)
 
 Once you see it this way, the first two steps are reasoning work. The last three are all data work.
 
@@ -54,7 +54,7 @@ On the reasoning side: translate constraints, break down supply-chain layers, an
 
 For the demo below, all data was run inside the Live Demo, or Playground, on the QVeris website. Open the web page, ask in Chinese, and QVeris finds the data source, calls it, and returns results by itself. Nothing needs to be installed.
 
-![](../../../assets/blog-45-serenity-qveris-2-en.png)
+![](../../../assets/blog-45-serenity-qveris-2.png)
 ## Step 1: translate “robotics is hot” into concrete constraints
 
 “Robotics is hot” is not a research object. “Which link is tightening?” is.
@@ -70,25 +70,25 @@ The framework comes from reasoning. But whether the theme is real, and whether m
 
 **1. Period performance**
 
-![](../../../assets/blog-45-serenity-qveris-3-en.jpg)
+![](../../../assets/blog-45-serenity-qveris-3.jpg)
 
 Both sectors pulled back by roughly -4.5% to -5% over the past week, with reducers falling slightly more. But once the window is extended, the divergence becomes clear: over the past 20, 30, and 60 days, humanoid robots outperformed reducers across the board. Over the past 30 days, humanoid robots were still positive (+2.74%), while reducers had already turned negative. **Both are falling, but one is pulling back from a high, while the other remains persistently weak.**
 
 **2. Capital scale**
 
-![](../../../assets/blog-45-serenity-qveris-4-en.jpg)
+![](../../../assets/blog-45-serenity-qveris-4.jpg)
 
 The gap widens here: on June 12 alone, humanoid robots recorded RMB 438.7 billion in turnover, while reducers had only RMB 74.6 billion, a difference of nearly 6x. Over the past five days, humanoid robots accumulated just over RMB 2 trillion in turnover, while reducers had about RMB 390 billion, still more than a 5x gap. **Both are in correction, but one is falling on massive volume while the other is sliding on shrinking volume. In the humanoid robotics pullback, liquidity has not left at all.**
 
 **3. Attention**
 
-![](../../../assets/blog-45-serenity-qveris-5-en.jpg)
+![](../../../assets/blog-45-serenity-qveris-5.jpg)
 
 Humanoid robots had total popularity of 14.03 million over the past week, ranking 23rd across the whole market. Its absolute heat remains firmly at the top. Reducers had only 2.66 million and ranked 147th, a full tier lower in absolute scale. But the interesting part is that reducers are quietly warming up: total popularity rose +8.29% week over week, versus only +2.16% for humanoid robots; search heat rose +16% week over week, versus +4% for humanoid robots. **One is already at a high level and holding attention; the other is still an overlooked low-base theme, but search volume is starting to ignite.**
 
 Read the three tables together, and you get exactly the kind of signal the Serenity method cares about most: **only when the tide goes out can you see who is moving**. Humanoid robots show “price down, but attention stable and liquidity still present”: a correction is a correction, but money and attention are still in the market. Reducers show “price down, but search heat rising quickly”: the absolute level is still cold, but some people have begun quietly looking at it from a low base. The former is an obvious strong track. The latter is an incubating position worth watching to see whether attention can turn into buying. Which one has been mistakenly sold off, and which one is building momentum? The data gives clues, but the answer requires more digging.
 
-![](../../../assets/blog-45-serenity-qveris-6-en.jpg)
+![](../../../assets/blog-45-serenity-qveris-6.jpg)
 
 **The first two steps are now complete: we have the target, namely precision transmission, force control, and mass-production yield; we have the map, a six-layer supply chain; and we have used real-time data to understand the market stage. Next, go deeper into the chain.**
 ## An easily overlooked detail: the data itself must also be verified

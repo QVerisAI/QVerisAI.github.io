@@ -2,7 +2,7 @@
 title: 'Why Can’t DeepSeek or Doubao Answer “What’s the Stock Price Today?”'
 description: 'Why general-purpose LLMs struggle with live stock prices, and how QVeris connects agents to fresh market data.'
 pubDate: 'Apr 21 2026'
-heroImage: '../../../assets/blog-ai-deepseek-hero-en.jpg'
+heroImage: '../../../assets/blog-ai-deepseek-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -68,7 +68,7 @@ Put simply, QVeris gives AI “professional financial analyst database access,�
 
 **🤖 Pure LLM: It pulls from various web pages, only provides key data, cannot directly call database data, and may easily make things up**
 
-![](../../../assets/blog-ai-deepseek-2-en.jpg)
+![](../../../assets/blog-ai-deepseek-2.jpg)
 
 **Comment**: The answer may sound convincing, but data pulled from various web pages is not accurate enough, and you cannot make a decision based on it.
 
@@ -76,7 +76,7 @@ Put simply, QVeris gives AI “professional financial analyst database access,�
 
 **🤖 QVeris Agent:**
 
-![](../../../assets/blog-ai-deepseek-3-en.jpg)
+![](../../../assets/blog-ai-deepseek-3.jpg)
 
 **Comment**: It provides specific numbers, identifies anomalies, offers an analytical framework, and has traceable data sources. You can use this to support trading decisions.
 
@@ -90,13 +90,13 @@ Pure LLM conversations are fragmented. You ask a question, it gives an answer, a
 
 **QVeris + OpenClaw can support a much broader range of scenarios**:
 
-![](../../../assets/blog-ai-deepseek-4-en.jpg)
+![](../../../assets/blog-ai-deepseek-4.jpg)
 
-![](../../../assets/blog-ai-deepseek-5-en.jpg)
+![](../../../assets/blog-ai-deepseek-5.jpg)
 
-![](../../../assets/blog-ai-deepseek-6-en.jpg)
+![](../../../assets/blog-ai-deepseek-6.jpg)
 
-![](../../../assets/blog-ai-deepseek-7-en.jpg)
+![](../../../assets/blog-ai-deepseek-7.jpg)
 
 ## Once You Understand the Difference, You Also Need to Know the Boundaries: When Should You Use Which?
 

@@ -2,7 +2,7 @@
 title: 'How to Use QVeris in Cursor'
 description: 'Step-by-step guide: install the QVeris extension in Cursor and let your AI call thousands of real tools.'
 pubDate: 'Mar 25 2026'
-heroImage: '../../../assets/blog-qveris-in-cursor-1-en.png'
+heroImage: '../../../assets/blog-qveris-in-cursor-1.png'
 category: 'Engineering'
 author: 'QVeris Team'
 tags: ['cursor', 'qveris', 'tutorial']
@@ -39,31 +39,31 @@ Once you connect **QVeris inside Cursor**:
 
 Open **Cursor**
 
-![qveris-in-cursor-1](../../../assets/blog-qveris-in-cursor-1-en.png)
+![qveris-in-cursor-1](../../../assets/blog-qveris-in-cursor-1.png)
 
 Click the small arrow in the top-left corner to expand the menu,then open **Extensions**
 
-![qveris-in-cursor-2](../../../assets/blog-qveris-in-cursor-2-en.png)
+![qveris-in-cursor-2](../../../assets/blog-qveris-in-cursor-2.png)
 
 Search for **QVeris AI,then c**lick**Install**
 
-![qveris-in-cursor-3](../../../assets/blog-qveris-in-cursor-3-en.png)
+![qveris-in-cursor-3](../../../assets/blog-qveris-in-cursor-3.png)
 
 Step 2: Register on QVeris and Get Your API Key
 
 After installation, find **QVeris AI** again in Extensions
 
-![qveris-in-cursor-4](../../../assets/blog-qveris-in-cursor-4-en.png)
+![qveris-in-cursor-4](../../../assets/blog-qveris-in-cursor-4.png)
 
 Click **“Sign in with Browser”**
 
 In the popup, click **Open** — you’ll be redirected to the QVeris website,then sign up or log in
 
-![qveris-in-cursor-5](../../../assets/blog-qveris-in-cursor-5-en.png)
+![qveris-in-cursor-5](../../../assets/blog-qveris-in-cursor-5.png)
 
 Generate your **API Key**
 
-![qveris-in-cursor-6](../../../assets/blog-qveris-in-cursor-6-en.png)
+![qveris-in-cursor-6](../../../assets/blog-qveris-in-cursor-6.png)
 
 ⚠️ **Important:**
 
@@ -73,19 +73,19 @@ You’ll need this API key when calling tools via QVeris later.
 
 Click **File → Open Folder**
 
-![qveris-in-cursor-7](../../../assets/blog-qveris-in-cursor-7-en.png)
+![qveris-in-cursor-7](../../../assets/blog-qveris-in-cursor-7.png)
 
 Create a new folder (for example: code-for-example)
 
-![qveris-in-cursor-8](../../../assets/blog-qveris-in-cursor-8-en.png)
+![qveris-in-cursor-8](../../../assets/blog-qveris-in-cursor-8.png)
 
 ## Tell the AI What You Want
 
 You can now start chatting with AI in the right panel to build your project.
 
-![qveris-in-cursor-9](../../../assets/blog-qveris-in-cursor-9-en.png)
+![qveris-in-cursor-9](../../../assets/blog-qveris-in-cursor-9.png)
 
-![qveris-in-cursor-10](../../../assets/blog-qveris-in-cursor-10-en.png)
+![qveris-in-cursor-10](../../../assets/blog-qveris-in-cursor-10.png)
 
 Next, let’s walk through a simple example using QVeris.
 
@@ -93,11 +93,11 @@ In **Cursor Chat**, try something like:
 
 > *“*Create a web page, collect the latest posts from some Al-relatedbloggers on platform X and display a list.*”*
 
-![qveris-in-cursor-11](../../../assets/blog-qveris-in-cursor-11-en.png)
+![qveris-in-cursor-11](../../../assets/blog-qveris-in-cursor-11.png)
 
 You can expand the response to see **which tools were actually called** behind the scenes.
 
-![qveris-in-cursor-12](../../../assets/blog-qveris-in-cursor-12-en.png)
+![qveris-in-cursor-12](../../../assets/blog-qveris-in-cursor-12.png)
 
 When using QVeris inside Cursor, make sure to:
 

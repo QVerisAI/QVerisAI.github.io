@@ -2,7 +2,7 @@
 title: 'QVeris Launches the Option Chain (T-Quote) Data Query Tool: A Complete Guide'
 description: 'A guide to QVeris option chain data tools and how agents can use T-quote signals in options workflows.'
 pubDate: 'Apr 16 2026'
-heroImage: '../../../assets/blog-qveris-t-hero-en.jpg'
+heroImage: '../../../assets/blog-qveris-t-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -26,7 +26,7 @@ However, efficiently and accurately extracting structured option chain data from
 
 To solve this problem, we developed the **Option Chain Data Query Tool** by heavily encapsulating the underlying interfaces.
 
-![](../../../assets/blog-qveris-t-2-en.png)
+![](../../../assets/blog-qveris-t-2.png)
 
 ------------------------------------------------------------------------
 
@@ -77,9 +77,9 @@ Using this tool is simple. Enter a few key parameters to obtain customized data 
 
 **The following table explains the parameters**:
 
-![](../../../assets/blog-qveris-t-3-en.png)
+![](../../../assets/blog-qveris-t-3.png)
 
-![](../../../assets/blog-qveris-t-4-en.png)
+![](../../../assets/blog-qveris-t-4.png)
 
 *(Note: If the date parameters are left blank, the system will automatically retrieve the latest data for the current day in Beijing time.)*
 
@@ -113,7 +113,7 @@ Requirement: Query the option chain data for SSE 50ETF (510050) on April 15, 202
 
 👇 【Sample Run Result】 👇
 
-![](../../../assets/blog-qveris-t-5-en.png)
+![](../../../assets/blog-qveris-t-5.png)
 
 ------------------------------------------------------------------------
 

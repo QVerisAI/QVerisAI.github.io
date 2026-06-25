@@ -77,7 +77,7 @@ Before pasting, replace YOUR_KEY with your own QVeris API key generated from the
 
 The whole process happens inside the sandbox. It does not pollute the host machine’s PATH, and you do not need to restart Hermes.
 
-![](../../../assets/blog-5-hermes-qveris-cli-prompt-4-en.png)
+![](../../../assets/blog-5-hermes-qveris-cli-prompt-4.png)
 
 3.3 Verification
 
@@ -111,7 +111,7 @@ Help me check which three A-share sectors gained the most today. For each one, e
 
 4.  It condenses the result into a three-sentence conclusion
 
-![](../../../assets/blog-5-hermes-qveris-cli-prompt-5-en.png)
+![](../../../assets/blog-5-hermes-qveris-cli-prompt-5.png)
 
 Example 2: Generate a company fundamentals snapshot
 
@@ -121,7 +121,7 @@ Best for: a 5-minute warm-up before due diligence
 
 Use qveris to generate a one-page fundamentals snapshot for CATL, including revenue / net profit trends over the last 4 quarters, the share of major business lines, and one risk note. Output it in Markdown.
 
-![](../../../assets/blog-5-hermes-qveris-cli-prompt-6-en.png)
+![](../../../assets/blog-5-hermes-qveris-cli-prompt-6.png)
 
 Example 3: Research a technical topic
 
@@ -131,7 +131,7 @@ Best for: using QVeris as “deep search with citations”
 
 Use qveris to research representative work from the past six months on “KV cache compression in the LLM inference layer.” Classify the work by methodology, and for each category provide a 1-2 sentence summary plus representative paper links.
 
-![](../../../assets/blog-5-hermes-qveris-cli-prompt-7-en.png)
+![](../../../assets/blog-5-hermes-qveris-cli-prompt-7.png)
 
 5. FAQ
 
@@ -155,6 +155,6 @@ Q: Can I use an environment variable instead of `qveris login`?
 
 Yes. Tell Hermes directly: “Write `QVERIS_API_KEY=` into the sandbox shell initialization script, then skip the `qveris login` step.” This is recommended for CI or headless scenarios.
 
- ![Image](../../../assets/blog-5-hermes-qveris-cli-prompt-8-en.png)
+ ![Image](../../../assets/blog-5-hermes-qveris-cli-prompt-8.png)
 
-![Image](../../../assets/blog-5-hermes-qveris-cli-prompt-9-en.webp)
+![Image](../../../assets/blog-5-hermes-qveris-cli-prompt-9.webp)
