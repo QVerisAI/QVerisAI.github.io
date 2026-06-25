@@ -5,7 +5,7 @@ pubDate: 'Apr 02 2026'
 heroImage: '../../../assets/blog-qveris-hsjy-wind-alternative-hero.png'
 category: 'Engineering'
 author: 'QVeris Team'
-tags: ['a股', '量化', 'qveris', '金融']
+tags: ['A-shares', '量化', 'qveris', 'Finance']
 translationKey: 'qveris-hsjy-wind-alternative'
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 'I Used QVeris as an AI Stock Research Assistant: Start with Industry Valuation, Then Filter Companies with a Screener'
-description: 'I Used QVeris as an AI Stock Research Assistant: Start with Industry Valuation, Then Filter Companies with a Screener'
+description: 'A stock research assistant workflow that starts with industry valuation and then narrows candidates with QVeris screening tools.'
 pubDate: 'Jun 22 2026'
 heroImage: '../../../assets/blog-qveris-ai-stock-research-assistant-hero.jpg'
 category: 'Product'

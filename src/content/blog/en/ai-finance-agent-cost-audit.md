@@ -5,7 +5,7 @@ pubDate: 'Jun 03 2026'
 heroImage: '../../../assets/blog-ai-finance-agent-cost-audit-hero.png'
 category: 'Product'
 author: 'QVeris Team'
-tags: ['金融 Agent', '数据工具', '成本优化', 'QVeris']
+tags: ['Finance Agent', 'Data Tools', 'Cost Optimization', 'QVeris']
 translationKey: 'ai-finance-agent-cost-audit'
 ---
 

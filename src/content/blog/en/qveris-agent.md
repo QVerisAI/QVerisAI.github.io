@@ -1,6 +1,6 @@
 ---
 title: 'QVeris Billing Upgrade: Clear Visibility Into Every Agent Charge'
-description: 'QVeris Billing Upgrade: Clear Visibility Into Every Agent Charge'
+description: 'An overview of QVeris billing improvements that make agent usage, charges, and execution records easier to inspect.'
 pubDate: 'May 01 2026'
 heroImage: '../../../assets/blog-qveris-agent-hero.jpg'
 category: 'Product'

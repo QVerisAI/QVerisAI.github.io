@@ -1,6 +1,6 @@
 ---
 title: 'QVeris: Democratizing Quantitative Finance'
-description: 'QVeris: Democratizing Quantitative Finance'
+description: 'A product essay on making quantitative finance more accessible through QVeris data tools and agent workflows.'
 pubDate: 'Apr 24 2026'
 heroImage: '../../../assets/blog-qveris-wechat-2247484581-hero.jpg'
 category: 'Product'

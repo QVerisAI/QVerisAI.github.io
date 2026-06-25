@@ -1,6 +1,6 @@
 ---
 title: 'QVeris Product Update | New A-Share Data Toolkit -- User Guide'
-description: 'QVeris Product Update | New A-Share Data Toolkit -- User Guide'
+description: 'A user guide for the new QVeris A-share data toolkit, covering core capabilities and practical usage scenarios.'
 pubDate: 'Apr 15 2026'
 heroImage: '../../../assets/blog-qveris-wechat-2247484379-hero.jpg'
 category: 'Product'

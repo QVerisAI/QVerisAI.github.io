@@ -1,6 +1,6 @@
 ---
 title: 'QVeris CLI Launch: Turn Your Terminal into a Universal API Gateway'
-description: 'QVeris CLI Launch: Turn Your Terminal into a Universal API Gateway'
+description: 'An introduction to QVeris CLI as a terminal-based universal API gateway for discovering, inspecting, and calling tools.'
 pubDate: 'Apr 08 2026'
 heroImage: '../../../assets/blog-qveris-cli-api-hero.jpg'
 category: 'Product'
@@ -290,7 +290,8 @@ All commands support `--json` output, `--api-key` authentication override, and `
 **Need to quickly verify what data an API returns while coding? Stay in the terminal**:
 
 ```
-qveris discover "geocoding API"qveris call 1 --params '{"address": "北京市朝阳区"}'
+qveris discover "geocoding API"
+qveris call 1 --params '{"address": "Chaoyang District, Beijing"}'
 ```
 
 

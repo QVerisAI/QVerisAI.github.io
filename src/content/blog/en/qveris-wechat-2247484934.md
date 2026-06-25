@@ -1,6 +1,6 @@
 ---
 title: 'A-Share Watchlist Assistant: Using QVeris to Connect Quotes, Capital Flows, and Market Themes'
-description: 'A-Share Watchlist Assistant: Using QVeris to Connect Quotes, Capital Flows, and Market Themes'
+description: 'An A-share watchlist assistant workflow that connects quotes, capital flows, and market themes through QVeris.'
 pubDate: 'May 26 2026'
 heroImage: '../../../assets/blog-qveris-wechat-2247484934-hero.jpg'
 category: 'Product'

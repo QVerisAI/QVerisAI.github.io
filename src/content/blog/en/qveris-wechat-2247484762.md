@@ -1,6 +1,6 @@
 ---
 title: 'How Much Does a Single Stock Data Query Actually Cost?'
-description: 'How Much Does a Single Stock Data Query Actually Cost?'
+description: 'A practical cost breakdown of a single stock data query and what agent builders should understand about usage pricing.'
 pubDate: 'May 13 2026'
 heroImage: '../../../assets/blog-qveris-wechat-2247484762-hero.jpg'
 category: 'Product'
@@ -125,7 +125,7 @@ No need to apply for separate accounts and integrate separate APIs across data v
 
 Search directly in QVeris:
 ```
-qveris discover "A股实时行情"
+qveris discover "A-share real-time quote"
 ```
 
 **Actual output excerpt:**
@@ -171,17 +171,17 @@ After getting an API Key from qveris.ai, choose one of the following methods bas
 
 **Windows CMD:**
 ```
-set QVERIS_API_KEY=sk-你的Key
+set QVERIS_API_KEY=sk-your-key
 ```
 
 **PowerShell:**
 ```
-$env:QVERIS_API_KEY="sk-你的Key"
+$env:QVERIS_API_KEY="sk-your-key"
 ```
 
 **Linux / WSL / macOS:**
 ```
-export QVERIS_API_KEY="sk-你的Key"
+export QVERIS_API_KEY="sk-your-key"
 ```
 
 You can also use the following command to confirm your current authentication status:

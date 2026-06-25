@@ -1,6 +1,6 @@
 ---
 title: 'The Order Book Truth Retail Investors Miss: What Signals Are Hidden in Minute-Level Market Data?'
-description: 'The Order Book Truth Retail Investors Miss: What Signals Are Hidden in Minute-Level Market Data?'
+description: 'A look at minute-level order book signals and what retail investors often miss when reading short-term market data.'
 pubDate: 'Apr 22 2026'
 heroImage: '../../../assets/blog-qveris-wechat-2247484519-hero.jpg'
 category: 'Product'

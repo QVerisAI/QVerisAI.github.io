@@ -1,6 +1,6 @@
 ---
 title: 'I Asked QVeris to Predict the World Cup Champion: Not a Superstitious Bet, but an Agent Learning to Use Real-World Signals'
-description: 'I Asked QVeris to Predict the World Cup Champion: Not a Superstitious Bet, but an Agent Learning to Use Real-World Signals'
+description: 'A QVeris case study on turning World Cup champion prediction into a real-world, multi-signal workflow for agents.'
 pubDate: 'Jun 18 2026'
 heroImage: '../../../assets/blog-qveris-world-cup-signal-workflow-hero.jpg'
 category: 'Product'

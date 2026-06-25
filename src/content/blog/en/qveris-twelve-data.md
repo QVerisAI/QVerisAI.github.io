@@ -5,7 +5,7 @@ pubDate: 'Apr 02 2026'
 heroImage: '../../../assets/blog-qveris-twelve-data-1.png'
 category: 'Product'
 author: 'QVeris Team'
-tags: ['twelve-data', 'qveris', '金融']
+tags: ['twelve-data', 'qveris', 'Finance']
 translationKey: 'qveris-twelve-data'
 ---
 

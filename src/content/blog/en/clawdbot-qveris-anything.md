@@ -5,7 +5,7 @@ pubDate: 'Mar 13 2026'
 heroImage: '../../../assets/blog-clawdbot-qveris-anything-1.jpg'
 category: 'Engineering'
 author: 'QVeris Team'
-tags: ['clawdbot', 'qveris', '教程']
+tags: ['clawdbot', 'qveris', 'Guide']
 translationKey: 'clawdbot-qveris-anything'
 ---
 

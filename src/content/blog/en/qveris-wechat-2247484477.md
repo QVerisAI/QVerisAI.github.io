@@ -1,6 +1,6 @@
 ---
 title: 'Moutai Is Near 1,400. Is It Time to Buy the Dip? A Data-Tested Report'
-description: 'Moutai Is Near 1,400. Is It Time to Buy the Dip? A Data-Tested Report'
+description: 'A data-tested QVeris report on Moutai near 1,400, combining market context with a more disciplined buy-the-dip question.'
 pubDate: 'Apr 20 2026'
 heroImage: '../../../assets/blog-qveris-wechat-2247484477-hero.jpg'
 category: 'Product'

@@ -1,6 +1,6 @@
 ---
 title: 'Building an Investment Research Agent and Missing Earnings Call Data? QVeris Has It Covered'
-description: 'Building an Investment Research Agent and Missing Earnings Call Data? QVeris Has It Covered'
+description: 'How QVeris helps investment research agents fill gaps such as earnings call data, source discovery, and traceable tool calls.'
 pubDate: 'May 19 2026'
 heroImage: '../../../assets/blog-agent-qveris-2-hero.jpg'
 category: 'Product'

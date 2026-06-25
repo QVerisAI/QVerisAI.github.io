@@ -1,6 +1,6 @@
 ---
 title: 'Making Agent Tool Calls More Reliable: What I Have Been Working on at QVeris'
-description: 'Making Agent Tool Calls More Reliable: What I Have Been Working on at QVeris'
+description: 'A behind-the-scenes note on making agent tool calls more reliable through better search, parameter handling, and execution traces.'
 pubDate: 'May 31 2026'
 heroImage: '../../../assets/blog-agent-qveris-hero.jpg'
 category: 'Product'

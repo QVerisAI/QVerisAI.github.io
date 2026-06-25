@@ -1,6 +1,6 @@
 ---
 title: 'QVeris: From Information Overload to an Explainable Research Workflow'
-description: 'QVeris: From Information Overload to an Explainable Research Workflow'
+description: 'How QVeris turns messy financial information into an explainable research workflow with sources, calls, and evidence.'
 pubDate: 'Jun 20 2026'
 heroImage: '../../../assets/blog-qveris-explainable-research-workflow-hero.jpg'
 category: 'Product'

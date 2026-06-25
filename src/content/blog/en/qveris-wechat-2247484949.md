@@ -1,6 +1,6 @@
 ---
 title: 'The Hard Part of Building a Financial Agent Is Not Calling Tools. It Is Choosing the Right Ones.'
-description: 'The Hard Part of Building a Financial Agent Is Not Calling Tools. It Is Choosing the Right Ones.'
+description: 'Why the hard part of building a financial agent is choosing the right tool, not just calling one successfully.'
 pubDate: 'May 28 2026'
 heroImage: '../../../assets/blog-qveris-wechat-2247484949-hero.jpg'
 category: 'Product'
