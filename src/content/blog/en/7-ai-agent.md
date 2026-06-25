@@ -2,7 +2,7 @@
 title: 'One Tencent, Seven Tickers: Which One Should an AI Agent Trust?'
 description: 'A Tencent ticker case study on entity ambiguity, market coverage, and why financial agents need reliable symbol resolution.'
 pubDate: 'Jun 02 2026'
-heroImage: '../../../assets/blog-7-ai-agent-hero-en.jpg'
+heroImage: '../../../assets/blog-7-ai-agent-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -25,9 +25,9 @@ Figure 1: Hero — Tencent Holdings 700 + ticker translation layer overview acro
 
 If you ask an AI assistant, "How much is Tencent up today?", which ticker should it use when querying the data source? We went through the official documentation of multiple **paid institutional terminals**:
 
-![](../../../assets/blog-7-ai-agent-2-en.png)
+![](../../../assets/blog-7-ai-agent-2.png)
 
-![](../../../assets/blog-7-ai-agent-3-en.png)
+![](../../../assets/blog-7-ai-agent-3.png)
 
 Figure 2: Tencent Holdings ticker dialect map across seven vendors
 
@@ -42,7 +42,7 @@ Each vendor has its own historical reason. **But to an AI Agent, these are four 
 
 A-shares are even more interesting. For the same Kweichow Moutai stock (600519), mainstream paid sources write the ticker like this:
 
-![](../../../assets/blog-7-ai-agent-4-en.png)
+![](../../../assets/blog-7-ai-agent-4.png)
 
 The three domestic vendors unexpectedly agree on A-share notation: all use `.SH`. **But once you move to overseas data sources, Yahoo and Refinitiv use `.SS`, Bloomberg uses `:CH`, and FactSet uses a hyphen plus `-CN`.**
 
@@ -62,7 +62,7 @@ What happens next?
 
 **It fully covers mainstream markets across Asia-Pacific, Europe, and South America. Nobody had simply told it which ticker dialect you were speaking.**
 
-![](../../../assets/blog-7-ai-agent-5-en.png)
+![](../../../assets/blog-7-ai-agent-5.png)
 
 Figure 3: Incorrect capability map vs corrected routing comparison
 
@@ -89,7 +89,7 @@ This translation layer does three things:
 
 **Third, translate the dialect automatically before the call.** The Agent gives us a ticker, such as `600519.SH`. Based on the vendor it is being routed to, **the routing layer automatically translates it into the dialect that vendor understands**: `600519.SS` for Yahoo / Refinitiv, `600519:CH` for Bloomberg, `600519-CN` for FactSet, or `600519` without a suffix for Tushare. The Agent does not need to know this translation layer exists, **just as you do not need to understand submarine cables to make an overseas phone call**.
 
-![](../../../assets/blog-7-ai-agent-6-en.png)
+![](../../../assets/blog-7-ai-agent-6.png)
 
 Figure 4: TICKER dialect translation layer architecture: user → AI → three steps → vendor API + fallback
 
@@ -99,7 +99,7 @@ There is also a fallback layer behind these three steps. When a given "vendor ×
 
 After completing this system, what we saw was not just "how much the call success rate improved." That kind of number can go into any promotional material. What we saw was **vendors previously misjudged by dialect differences being rehabilitated one by one**: A-share, Hong Kong stock, Japanese stock, and Brazilian stock coverage each moved from "assumed unsupported" back to "actually usable."
 
-![](../../../assets/blog-7-ai-agent-7-en.png)
+![](../../../assets/blog-7-ai-agent-7.png)
 
 Figure 5: Found it / Guessed it / Did not understand it — three-state comparison
 

@@ -2,7 +2,7 @@
 title: 'OpenClaw + A-Shares: Build a 24/7 Intelligent Finance Assistant with Minimal Setup'
 description: 'A practical OpenClaw and QVeris setup guide for giving an AI assistant live A-share market data and basic research workflows.'
 pubDate: 'Mar 13 2026'
-heroImage: '../../../assets/blog-openclaw-a-shares-finance-assistant-1-en.png'
+heroImage: '../../../assets/blog-openclaw-a-shares-finance-assistant-1.png'
 category: 'Engineering'
 author: 'QVeris Team'
 tags: ['openclaw', 'Finance', 'A-shares', 'Guide']
@@ -23,7 +23,7 @@ No professional development background is required. To complete the setup, you o
 
 After installation, you can use it in Feishu and see the result below👇
 
-![openclaw-a-shares-finance-assistant-1](../../../assets/blog-openclaw-a-shares-finance-assistant-1-en.png)
+![openclaw-a-shares-finance-assistant-1](../../../assets/blog-openclaw-a-shares-finance-assistant-1.png)
 
 ## One-Command Setup: Connect the A-Share Data Pipeline in 3 Steps
 
@@ -47,9 +47,9 @@ Send the instruction: send the modified instruction to OpenClaw and wait for the
 
 Here is an example using Telegram configuration:
 
-![openclaw-a-shares-finance-assistant-2](../../../assets/blog-openclaw-a-shares-finance-assistant-2-en.png)
+![openclaw-a-shares-finance-assistant-2](../../../assets/blog-openclaw-a-shares-finance-assistant-2.png)
 
-![openclaw-a-shares-finance-assistant-3](../../../assets/blog-openclaw-a-shares-finance-assistant-3-en.png)
+![openclaw-a-shares-finance-assistant-3](../../../assets/blog-openclaw-a-shares-finance-assistant-3.png)
 
 Whether you use OpenClaw on Feishu, Telegram, or another platform, the configuration logic is exactly the same. After the instruction finishes executing, you will receive a clear "QVeris installation complete" message. This means you have successfully connected financial data to OpenClaw.
 
@@ -65,7 +65,7 @@ Promising stock recommendations: screen market data and recommend up to 3 stocks
 
 Multi-market expansion: beyond A-shares, you can also seamlessly connect data from U.S. stocks, Hong Kong stocks, cryptocurrencies, and other markets, enabling broader global financial analysis.
 
-![openclaw-a-shares-finance-assistant-4](../../../assets/blog-openclaw-a-shares-finance-assistant-4-en.png)
+![openclaw-a-shares-finance-assistant-4](../../../assets/blog-openclaw-a-shares-finance-assistant-4.png)
 
 ## Appendix: Detailed Steps to Get a Free QVeris API Key
 

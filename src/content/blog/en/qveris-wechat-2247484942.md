@@ -2,7 +2,7 @@
 title: 'Starting with a Failed Tool Call: Teaching Agents to Auto-Repair Parameters'
 description: 'A failed tool-call case study on parameter repair and how agents can recover from malformed financial inputs.'
 pubDate: 'May 27 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484942-hero-en.jpg'
+heroImage: '../../../assets/blog-qveris-wechat-2247484942-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -12,7 +12,7 @@ QVeris · Engineering Practice
 
 #  
 
-![](../../../assets/blog-qveris-wechat-2247484942-1-en.png)
+![](../../../assets/blog-qveris-wechat-2247484942-1.png)
 
 ## Background
 
@@ -56,7 +56,7 @@ So what I have been working on recently is turning these failed call records int
 
 **A complete parameter repair trajectory looks roughly like this**:
 
-![](../../../assets/blog-qveris-wechat-2247484942-2-en.png)
+![](../../../assets/blog-qveris-wechat-2247484942-2.png)
 
 The pipeline looks simple, but implementing it exposes many detailed challenges.
 

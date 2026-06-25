@@ -2,7 +2,7 @@
 title: 'QVeris Field Test: The Summer Movie Season Has Begun. Are There Trading Opportunities in Film and Media?'
 description: 'A QVeris field test on the summer movie season, using data signals to examine film and media trading opportunities.'
 pubDate: 'Jun 23 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247485418-hero-en.jpg'
+heroImage: '../../../assets/blog-qveris-wechat-2247485418-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -28,7 +28,7 @@ Wait a moment. After looking through the stock price data pulled from QVeris, th
 
 Using QVeris to connect directly to cn_financial_pro, I pulled daily data for four core film and media names over the past month, from May 20 to June 23:
 
-![](../../../assets/blog-qveris-wechat-2247485418-1-en.png)
+![](../../../assets/blog-qveris-wechat-2247485418-1.png)
 
 China Film is the only one with a positive monthly return, and it rose 7.88% in a single day on June 23, with trading volume surging. Wanda Film and Enlight Media both fell 12% over the month, but both showed signs of a rebound over the past two trading days, June 22-23.
 
@@ -36,7 +36,7 @@ Here is the interesting part: the policy support is broad-based. Every company c
 
 This suggests the market is not trading the broad concept of "positive news for the film and media sector." It is selecting specific names.
 
-![](../../../assets/blog-qveris-wechat-2247485418-2-en.png)
+![](../../../assets/blog-qveris-wechat-2247485418-2.png)
 ## Capital Flows: Who Is Buying, and Who Is Leaving?
 
 **Stock prices are only the surface. I then pulled main-fund net inflow data on QVeris, and that is where the real divergence appeared**:
@@ -54,13 +54,13 @@ Enlight Media was the weakest. Its five-day cumulative main-fund net outflow was
 
 China Film is the one most worth watching. Although it was hit with a RMB 95.77 million outflow on June 17, when the whole sector was falling, it still saw net inflows on June 15 and June 22. Combined with today's 7.88% gain, this suggests capital is building positions in batches.
 
-![](../../../assets/blog-qveris-wechat-2247485418-3-en.png)
+![](../../../assets/blog-qveris-wechat-2247485418-3.png)
 
 To be honest, I initially thought Enlight Media should be the leader. After all, *A Letter to Grandma* broke RMB 1.5 billion, and Enlight is one of the main producers. But the data shows money moving toward China Film. I checked the capital-flow data three times before accepting it. This feedback changed how I understood "how the market thinks."
 
 Although Enlight has a blockbuster, the market may be worried about concentration risk from a single film's box office. If one film accounts for most of the revenue expectation, visibility into the follow-up content pipeline may not be enough. China Film, by contrast, is an integrated platform spanning distribution, exhibition, and production. The policy dividend, especially the RMB 1.2 billion in subsidies that mainly flows through cinema channels, transmits more directly to it.
 
-![](../../../assets/blog-qveris-wechat-2247485418-4-en.png)
+![](../../../assets/blog-qveris-wechat-2247485418-4.png)
 
 That said, one week of data has limited explanatory power. The real peak of the summer season comes in mid-to-late July. At that point, the box office data and capital flows will be worth pulling again in QVeris.
 ## How to Track This Yourself in QVeris

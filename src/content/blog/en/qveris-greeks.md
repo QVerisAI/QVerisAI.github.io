@@ -2,7 +2,7 @@
 title: 'New on QVeris | Unlock the Core Signals Behind Options Trading: Greeks and Implied Volatility Tools Now Live'
 description: 'A product update introducing options Greeks and implied volatility tools on QVeris for more structured options analysis.'
 pubDate: 'Apr 17 2026'
-heroImage: '../../../assets/blog-qveris-greeks-hero-en.jpg'
+heroImage: '../../../assets/blog-qveris-greeks-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -76,7 +76,7 @@ Theta can be both a friend and an enemy of time. It tells you how much “rent�
 
 We have lowered the barrier to use as much as possible while preserving the customization space advanced users need. You only need to configure the following parameters:
 
-![](../../../assets/blog-qveris-greeks-4-en.png)
+![](../../../assets/blog-qveris-greeks-4.png)
 
 *Developer note: codes must be accurate to the option contract code, such as 10010295.SH, 10010304.SH, M2605-C-2400.DCE, M2605-C-2450.DCE, and so on.*
 
@@ -94,7 +94,7 @@ We have lowered the barrier to use as much as possible while preserving the cust
 
 👇 Run Result Display 👇
 
-![](../../../assets/blog-qveris-greeks-5-en.png)
+![](../../../assets/blog-qveris-greeks-5.png)
 
 > Insight analysis: The returned data clearly shows that options near at-the-money have significantly higher Gamma than deep in-the-money options. This means that once the market starts moving, at-the-money options have the most sensitive Delta changes and the fastest growth, giving them strong explosive potential.
 
@@ -108,7 +108,7 @@ We have lowered the barrier to use as much as possible while preserving the cust
 
 👇 Run Result Display 👇
 
-![](../../../assets/blog-qveris-greeks-6-en.png)
+![](../../../assets/blog-qveris-greeks-6.png)
 
 > Insight analysis: The reason a trade can “get the direction right but still not make money” lies in the double hit of “volatility crush” and “time decay” on at-the-money options. At-the-money contracts are extremely sensitive to implied volatility, with Vega as high as 80.17, and their time value decays faster as expiration approaches, with Theta as high as -1180. A slight decline in implied volatility and the high daily cost of time can completely consume the gains from being right on direction. In options trading, volatility mean reversion and the rapid passage of time are often the real profit killers.
 

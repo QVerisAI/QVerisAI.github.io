@@ -2,7 +2,7 @@
 title: 'The Key to Financial Agents Is Not Answers, but Multi-Source Cross-Examination'
 description: 'Why financial agents need multi-source cross-examination, not just single-answer generation.'
 pubDate: 'Jun 22 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247485409-hero-en.jpg'
+heroImage: '../../../assets/blog-qveris-wechat-2247485409-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -54,7 +54,7 @@ That is because the “company name” in a financial question is often not a cl
 
 For example, when a user says “Alibaba,” in a stock context it may refer to a listed company or stock symbol; in a news context it may refer to a brand or group; in a corporate registry context, the interface may require a specific legal entity. We cannot expect the foundation model to naturally memorize every mapping between names and entities.
 
-![Alibaba company name](../../../assets/blog-qveris-wechat-2247485409-1-en.png)
+![Alibaba company name](../../../assets/blog-qveris-wechat-2247485409-1.png)
 
  Some companies are literally named with the four Chinese characters “Alibaba”
 

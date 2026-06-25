@@ -89,7 +89,7 @@ Found 6 tools:  1. finance.stock_quote       Real-time stock quotes      ⚡ 320
 
 
 
-![](../../../assets/blog-qveris-cli-api-4-en.png)
+![](../../../assets/blog-qveris-cli-api-4.png)
 
 Each result includes latency and success-rate scores at a glance. **Search is completely free and does not consume any credits.**
 
@@ -111,7 +111,7 @@ finance.stock_quoteReal-time stock price quotes from major exchangesProvider: Ma
 
 
 
-![](../../../assets/blog-qveris-cli-api-5-en.png)
+![](../../../assets/blog-qveris-cli-api-5.png)
 
 Parameters, descriptions, and performance metrics are all clearly visible.
 
@@ -129,7 +129,7 @@ qveris call 1 --params '{"symbol": "AAPL"}'
 { "symbol": "AAPL", "price": 198.52, "change": +2.31, "volume": 45230100 }
 ```
 
-![](../../../assets/blog-qveris-cli-api-6-en.png)
+![](../../../assets/blog-qveris-cli-api-6.png)
 
 **Three commands take you from “I need a stock API” to real-time data in under 30 seconds.**
 
@@ -145,7 +145,7 @@ qveris call 1 --params '{"symbol": "AAPL"}'
 
 **If you want to explore and test as you go, start an interactive environment with `qveris interactive`**:
 
-![](../../../assets/blog-qveris-cli-api-7-en.png)
+![](../../../assets/blog-qveris-cli-api-7.png)
 
 ```
 $ qveris interactiveQVeris REPL v1.0 — type a query to discover tools, help for commandsqveris> weather forecast APIFound 4 tools:  1. weather.forecast   7-day weather forecast   ⚡ 380ms  2. weather.current    Current conditions        ⚡ 220msqveris> inspect 1  weather.forecast  Parameters: location (required), days (optional, default: 7)qveris> call 1 {"location": "Shanghai"}  { "location": "Shanghai", "forecast": [...] }qveris> codegen curl# Generated curl command:curl -X POST https://qveris.ai/api/v1/execute \  -H "Authorization: Bearer $QVERIS_API_KEY" \  -d '{"tool_id":"weather.forecast","params":{"location":"Shanghai"}}'
@@ -153,7 +153,7 @@ $ qveris interactiveQVeris REPL v1.0 — type a query to discover tools, help fo
 
 
 
-![](../../../assets/blog-qveris-cli-api-8-en.png)
+![](../../../assets/blog-qveris-cli-api-8.png)
 
 **Highlight**: The `codegen` command can automatically generate curl, Python, or JavaScript calling code that you can copy directly into your project.
 
@@ -243,7 +243,7 @@ qveris discover "export table or spreadsheet Excel CSV API" --json --limit 3
 
 #  
 
-![](../../../assets/blog-qveris-cli-api-9-en.png)
+![](../../../assets/blog-qveris-cli-api-9.png)
 
 All commands support `--json` output, `--api-key` authentication override, and `--timeout` timeout settings.
 
@@ -257,7 +257,7 @@ All commands support `--json` output, `--api-key` authentication override, and `
 
 #  
 
-![](../../../assets/blog-qveris-cli-api-10-en.png)
+![](../../../assets/blog-qveris-cli-api-10.png)
 
 #  
 
@@ -269,7 +269,7 @@ All commands support `--json` output, `--api-key` authentication override, and `
 
 #  
 
-![](../../../assets/blog-qveris-cli-api-11-en.png)
+![](../../../assets/blog-qveris-cli-api-11.png)
 
 **Recommendation**: They are not mutually exclusive. CLI is a good fit for terminal and automation scenarios, while MCP is a good fit for embedded IDE scenarios. You can use both at the same time.
 

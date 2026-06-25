@@ -2,7 +2,7 @@
 title: 'The New QVeris China Edition (qveris.cn) Is Here'
 description: 'The new QVeris China edition (qveris.cn) is here.'
 pubDate: 'May 21 2026'
-heroImage: '../../../assets/blog-qveris-qveris-cn-hero-en.jpg'
+heroImage: '../../../assets/blog-qveris-qveris-cn-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -16,7 +16,7 @@ The QVeris China website has been fully upgraded, making the path for connecting
 
 The most immediate change in this update is simple: it is faster to get started, and easier to use.
 
-![](../../../assets/blog-qveris-qveris-cn-1-en.png)
+![](../../../assets/blog-qveris-qveris-cn-1.png)
 
 If you are using QVeris for the first time, you can think of it as a “capability routing network” for AI Agents.
 
@@ -29,21 +29,21 @@ Now, after logging in to the QVeris website, you can complete the whole process 
 
 Now you only need to open WeChat on your phone and scan the code to log in instantly. Start exploring digital capabilities in seconds.
 
-![](../../../assets/blog-qveris-qveris-cn-2-en.png)
+![](../../../assets/blog-qveris-qveris-cn-2.png)
 ## Seamless Payments: WeChat Pay and Alipay in One Tap
 
 
 
 QVeris now fully supports mainstream domestic payment channels in China. Whether you are purchasing discounted call credits, paying by usage, or subscribing to the advanced routing engine, payments can be completed in seconds, giving you a smooth localized transaction experience.
 
-![](../../../assets/blog-qveris-qveris-cn-3-en.png)
+![](../../../assets/blog-qveris-qveris-cn-3.png)
 ## Clearer Usage and Billing
 
 
 
 Every paid Agent action is now easier to understand. Billing is clearer and more transparent.
 
-![](../../../assets/blog-qveris-qveris-cn-4-en.png)
+![](../../../assets/blog-qveris-qveris-cn-4.png)
 ## A New Financial Capability Map
 
 
@@ -56,7 +56,7 @@ From real-time market data, macro interest rates, and investment research analys
 
 Taking investment research analysis in financial scenarios as an example, here is the full end-to-end flow for finding which providers can be called to obtain a financial report:
 
-![](../../../assets/blog-qveris-qveris-cn-5-en.gif)
+![](../../../assets/blog-qveris-qveris-cn-5.gif)
 
 At its core, QVeris provides a unified tool search and execution layer for agents. By describing your need in natural language, you can search APIs, data sources, and automation capabilities. Through a unified protocol, you can execute tools and receive structured, machine-readable results. The capabilities shown on the website span financial markets, economics, news, social media, blockchain, AI/ML, image generation, healthcare, weather, and more, with over 10,000 tool and data capabilities.
 
@@ -81,7 +81,7 @@ Discover capabilities, evaluate capabilities, and call capabilities.
 
 In the online experience, you can directly test capability calls, such as market analysis, financial report parsing, structured summaries, and other tasks. Validate the results first, then decide whether to integrate them into your own agent or product.
 
-![](../../../assets/blog-qveris-qveris-cn-6-en.gif)
+![](../../../assets/blog-qveris-qveris-cn-6.gif)
 
 **The refreshed QVeris China website is not just a page update. It is an upgraded capability entry point for the AI Agent era.**
 

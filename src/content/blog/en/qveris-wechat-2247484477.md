@@ -2,7 +2,7 @@
 title: 'Moutai Is Near 1,400. Is It Time to Buy the Dip? A Data-Tested Report'
 description: 'A data-tested QVeris report on Moutai near 1,400, combining market context with a more disciplined buy-the-dip question.'
 pubDate: 'Apr 20 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484477-hero-en.jpg'
+heroImage: '../../../assets/blog-qveris-wechat-2247484477-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -24,9 +24,9 @@ I. Valuation Analysis
 
 **Query example**:
 
-![](../../../assets/blog-qveris-wechat-2247484477-1-en.png)
+![](../../../assets/blog-qveris-wechat-2247484477-1.png)
 
-![](../../../assets/blog-qveris-wechat-2247484477-2-en.jpg)
+![](../../../assets/blog-qveris-wechat-2247484477-2.jpg)
 
 **Using Hundsun Juyuan valuation data, Moutai's current valuation metrics are**:
 
@@ -61,7 +61,7 @@ II. Earnings Analysis
 
 ## Earnings Analysis: Growth Has Slowed from 20% to 10%, and Expectations Have Already Been Lowered
 
-![](../../../assets/blog-qveris-wechat-2247484477-3-en.jpg)
+![](../../../assets/blog-qveris-wechat-2247484477-3.jpg)
 
 Valuation is the price in the numerator; earnings are the profit in the denominator. Before looking at valuation, look at earnings first.
 
@@ -97,7 +97,7 @@ III. Capital Flows
 
 ## Capital Flows: Institutional Selling Does Not Mean the Company Has Deteriorated, but Buying Power Has Clearly Weakened
 
-![](../../../assets/blog-qveris-wechat-2247484477-4-en.jpg)
+![](../../../assets/blog-qveris-wechat-2247484477-4.jpg)
 
 Using data tools to check changes in Moutai's institutional holdings, we found several signals worth noting.
 
@@ -127,9 +127,9 @@ IV. Future Catalyst
 
 ## Future Catalyst: Price Increase Potential and the Younger-Consumer Challenge Coexist
 
-![](../../../assets/blog-qveris-wechat-2247484477-5-en.jpg)
+![](../../../assets/blog-qveris-wechat-2247484477-5.jpg)
 
-![](../../../assets/blog-qveris-wechat-2247484477-6-en.jpg)
+![](../../../assets/blog-qveris-wechat-2247484477-6.jpg)
 
 Investing is about the future. What catalysts does Moutai have ahead?
 
@@ -153,9 +153,9 @@ V. Overall Assessment
 
 ## Overall Assessment
 
-![](../../../assets/blog-qveris-wechat-2247484477-7-en.jpg)
+![](../../../assets/blog-qveris-wechat-2247484477-7.jpg)
 
-![](../../../assets/blog-qveris-wechat-2247484477-8-en.jpg)
+![](../../../assets/blog-qveris-wechat-2247484477-8.jpg)
 
 Back to the original question: can you buy the dip in Moutai at RMB 1,400?
 

@@ -2,7 +2,7 @@
 title: 'AI Agents Are Everywhere, But What Can They Actually Call?'
 description: 'AI Agents are everywhere, but what can they actually call?'
 pubDate: 'Jun 04 2026'
-heroImage: '../../../assets/blog-ai-agent-hero-en.jpg'
+heroImage: '../../../assets/blog-ai-agent-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -88,7 +88,7 @@ For example, if you want an Agent to query an AAPL stock quote, it can first fin
 
 This step answers the question: **AI does not just know a tool exists. It can actually use it.**
 
-![](../../../assets/blog-ai-agent-2-en.png)
+![](../../../assets/blog-ai-agent-2.png)
 
 ### 4. Integrate as a developer: let your own Agent use these capabilities
 

@@ -2,7 +2,7 @@
 title: 'I Asked QVeris to Predict the World Cup Champion: Not a Superstitious Bet, but an Agent Learning to Use Real-World Signals'
 description: 'A QVeris case study on turning World Cup champion prediction into a real-world, multi-signal workflow for agents.'
 pubDate: 'Jun 18 2026'
-heroImage: '../../../assets/blog-qveris-world-cup-signal-workflow-hero-en.jpg'
+heroImage: '../../../assets/blog-qveris-world-cup-signal-workflow-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -45,7 +45,7 @@ A normal chatbot might immediately return a team name. But in a QVeris workflow,
 
 The final output is not just an answer, but a “championship probability radar” that can be updated over time: first contender, second contender, dark horses, risk teams, and the data sources and signal strength behind each judgment.
 
-![](../../../assets/blog-qveris-world-cup-signal-workflow-1-en.png)
+![](../../../assets/blog-qveris-world-cup-signal-workflow-1.png)
 ## How QVeris Turns an Agent from “Can Talk” into “Can Search, Calculate, and Verify”
 
 The core capability highlighted on the QVeris website is a capability routing network: enabling AI Agents to Discover, Inspect, and Call real-world capabilities through a unified protocol. In the context of World Cup champion prediction, this mechanism can be broken down into three steps.
@@ -58,7 +58,7 @@ Third, Call: the Agent calls the most suitable capability and receives structure
 
 This is the difference between QVeris and ordinary API calling: developers do not manually wire together a pile of interfaces for each scenario. Instead, they let the Agent find and call capabilities through QVeris at task time.
 
-![](../../../assets/blog-qveris-world-cup-signal-workflow-2-en.png)
+![](../../../assets/blog-qveris-world-cup-signal-workflow-2.png)
 ## Prediction Model: Do Not Worship a Single Metric; Cross-Validate Multiple Signals
 
 In this case, the Agent does not directly ask, “Who is the strongest?” Instead, it builds a multi-signal scoring model. Each signal can be routed by QVeris to different capabilities and then aggregated into a unified view. A simplified version looks like this:
@@ -138,7 +138,7 @@ Third, the World Cup is a real-time event. Pre-tournament predictions, predictio
 
 Fourth, this is not only a sports case. It can also transfer to finance, branding, public sentiment, and business decision-making. Questions such as “Which company is most likely to become the AI winner?”, “Which industry is forming a trading opportunity?”, and “Which brand is gaining social-media momentum?” are all, at their core, multi-signal, multi-tool, multi-stage judgment problems.
 
-![](../../../assets/blog-qveris-world-cup-signal-workflow-3-en.png)
+![](../../../assets/blog-qveris-world-cup-signal-workflow-3.png)
 ## Conclusion
 
 If you ask a normal large model to predict the World Cup champion, it may produce an answer that sounds like it came from an expert.

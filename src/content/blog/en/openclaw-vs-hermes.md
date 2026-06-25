@@ -30,7 +30,7 @@ This shift in perspective, from "pursuing scale" to "pursuing evolution," made m
 
 
 
-![](../../../assets/blog-openclaw-vs-hermes-1-en.png)
+![](../../../assets/blog-openclaw-vs-hermes-1.png)
 
 At its core, this shift reflects two different directions in how AI Agents are implemented. To analyze the differences more clearly, we need to move away from the metaphor and return to concrete product capabilities and technical logic.
 
@@ -88,7 +88,7 @@ When both are asked to perform the task: "query the 20 A-shares with the smalles
 
 
 
-![](../../../assets/blog-openclaw-vs-hermes-2-en.png)
+![](../../../assets/blog-openclaw-vs-hermes-2.png)
 
 **  
 **
@@ -98,7 +98,7 @@ When both are asked to perform the task: "query the 20 A-shares with the smalles
 **  
 **
 
-![](../../../assets/blog-openclaw-vs-hermes-3-en.png)
+![](../../../assets/blog-openclaw-vs-hermes-3.png)
 
 **  
 **
@@ -217,7 +217,7 @@ In deep usage and testing, Hermes gave us an extremely contradictory experience:
 
 
 
-![](../../../assets/blog-openclaw-vs-hermes-4-en.png)
+![](../../../assets/blog-openclaw-vs-hermes-4.png)
 
 **  
 **
@@ -235,7 +235,7 @@ This intelligence comes at a price. Because it goes through a complex ReAct loop
 
 
 
-![](../../../assets/blog-openclaw-vs-hermes-5-en.png)
+![](../../../assets/blog-openclaw-vs-hermes-5.png)
 
 **-**A lack of ecosystem infrastructure****:
 
@@ -245,7 +245,7 @@ Compared with OpenClaw, which can be distributed seamlessly with one click to do
 
 
 
-![](../../../assets/blog-openclaw-vs-hermes-6-en.png)
+![](../../../assets/blog-openclaw-vs-hermes-6.png)
 
 03 Core Differences
 

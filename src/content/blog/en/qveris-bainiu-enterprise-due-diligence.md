@@ -2,7 +2,7 @@
 title: 'QVeris Integrates Bainiu: Let Agents Read a Company Like an Enterprise Due Diligence Radar'
 description: 'QVeris integrates Bainiu, enabling Agents to read a company like an enterprise due diligence radar'
 pubDate: 'Jun 13 2026'
-heroImage: '../../../assets/blog-qveris-bainiu-enterprise-due-diligence-hero-en.jpg'
+heroImage: '../../../assets/blog-qveris-bainiu-enterprise-due-diligence-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -30,7 +30,7 @@ Bainiu's core value is bringing multidimensional public enterprise information i
 
 It does not provide only a business registration lookup. It covers multiple dimensions, including company profiles, equity relationships, risk and compliance, operating activity, commercial opportunities, and intellectual property. For QVeris Agents, this means an enterprise analysis can continue beyond "basic information" instead of stopping at company name, legal representative, and registered capital.
 
-![](../../../assets/blog-qveris-bainiu-enterprise-due-diligence-1-en.png)
+![](../../../assets/blog-qveris-bainiu-enterprise-due-diligence-1.png)
 
 ## Layer One: Company Profile, First Confirm Who It Is
 
@@ -38,7 +38,7 @@ The first step in any due diligence process is not to rush to a conclusion, but 
 
 Companies with the same name, historical names, group companies, branches, and affiliated companies can easily cause errors in manual searches. Bainiu's enterprise super search and in-depth company information capabilities help Agents first align the target company's basic identity: company name, Unified Social Credit Code, legal representative, registered capital, establishment date, operating status, registered address, official website, industry classification, geographic location, and more.
 
-![](../../../assets/blog-qveris-bainiu-enterprise-due-diligence-2-en.png)
+![](../../../assets/blog-qveris-bainiu-enterprise-due-diligence-2.png)
 
 This step may look basic, but it is critical.
 
@@ -54,9 +54,9 @@ Bainiu's capabilities for shareholders and executives, historical shareholders a
 
 This is useful in many scenarios. Investment teams can examine the capital and control relationships behind a company. Sales teams can identify group customers and affiliated companies. Risk control teams can check whether legal representatives, executives, and external investments show anomalies. BD teams can find potential collaboration paths through enterprise relationships.
 
-![](../../../assets/blog-qveris-bainiu-enterprise-due-diligence-3-en.png)
+![](../../../assets/blog-qveris-bainiu-enterprise-due-diligence-3.png)
 
-![](../../../assets/blog-qveris-bainiu-enterprise-due-diligence-4-en.png)
+![](../../../assets/blog-qveris-bainiu-enterprise-due-diligence-4.png)
 
 The advantage of an Agent is that it does more than list fields. It can explain relationships: who the key controllers are, which external investments deserve attention, and whether historical shareholder changes suggest shifts in business stage.
 
@@ -70,7 +70,7 @@ After integrating Bainiu, QVeris Agents can build a set of risk and compliance c
 
 This capability is especially suitable for basic due diligence before supplier admission, risk checks before signing with a partner, initial screening of investment targets, background reviews of customers or channel partners, and high-compliance scenarios such as finance, government and enterprise services, and tendering.
 
-![](../../../assets/blog-qveris-bainiu-enterprise-due-diligence-5-en.png)
+![](../../../assets/blog-qveris-bainiu-enterprise-due-diligence-5.png)
 
 >
 > The absence of negative records is itself a signal. At the same time, a large number of administrative license records can indicate ongoing operational traces in areas such as production, construction, safety, and environmental compliance.
@@ -102,13 +102,13 @@ After integrating Bainiu, QVeris Agents can organize these signals into business
 > Operating activity and commercial opportunities are often assessed together. Recruitment, contact information, financing, tenders, and trademark information can jointly indicate whether a company is still continuously operating.
 >
 
-![](../../../assets/blog-qveris-bainiu-enterprise-due-diligence-6-en.png)
+![](../../../assets/blog-qveris-bainiu-enterprise-due-diligence-6.png)
 
 This is valuable for sales, investment research, BD, procurement, and industry analysis. The Agent can first organize the company's commercial activity signals, then help users decide whether to keep following up, conduct focused review, or lower priority.
 
 ## What This Means for QVeris Agent Workflows
 
-![](../../../assets/blog-qveris-bainiu-enterprise-due-diligence-7-en.png)
+![](../../../assets/blog-qveris-bainiu-enterprise-due-diligence-7.png)
 
 After Bainiu is integrated into QVeris, enterprise analysis can evolve from "checking business registration" into a complete workflow.
 
@@ -122,7 +122,7 @@ A user enters a company name. The Agent can first confirm the company's identity
 | Commercial opportunity | Is it worth following up? | Financing → Tenders and bids → Recruitment → Intellectual property | Business signals and follow-up priority |
 | Supplier admission | Can it be added to the supplier pool? | Company identity → Compliance risk → Contact information → Operating status | Pre-admission check report |
 
-![](../../../assets/blog-qveris-bainiu-enterprise-due-diligence-8-en.png)
+![](../../../assets/blog-qveris-bainiu-enterprise-due-diligence-8.png)
 
 The significance of integrating Bainiu into QVeris is not that Agents can memorize another batch of enterprise fields. It is that Agents can turn enterprise data into a path for judgment.
 

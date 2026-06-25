@@ -2,17 +2,17 @@
 title: 'QVeris AI and Wangsu Science & Technology Form Strategic Partnership to Build Execution Infrastructure for the Agent Era'
 description: 'QVeris AI and Wangsu Science & Technology form a strategic partnership to build execution infrastructure for the Agent era'
 pubDate: 'Apr 28 2026'
-heroImage: '../../../assets/blog-qveris-ai-agent-hero-en.jpg'
+heroImage: '../../../assets/blog-qveris-ai-agent-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
 translationKey: 'qveris-ai-agent'
 ---
-![Lark document - image](../../../assets/blog-qveris-ai-agent-1-en.png)
+![Lark document - image](../../../assets/blog-qveris-ai-agent-1.png)
 
 Recently, QVeris AI and Wangsu Science & Technology entered into a strategic partnership. The two companies will work together on the deployment of enterprise-grade AI agents, jointly explore the Agent Infra market, and advance integrated “model + tool” solutions for enterprise customers, providing full-stack support for agents from reasoning and decision-making to secure execution.
 
-![](../../../assets/blog-qveris-ai-agent-2-en.png)
+![](../../../assets/blog-qveris-ai-agent-2.png)
 
 Source: China Securities Journal
 

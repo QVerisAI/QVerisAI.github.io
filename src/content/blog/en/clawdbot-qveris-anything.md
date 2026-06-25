@@ -2,7 +2,7 @@
 title: 'Clawdbot + QVeris: Make Your AI Capable of Almost Anything'
 description: 'Connect Clawdbot to QVeris and give your AI assistant real access to tens of thousands of tools.'
 pubDate: 'Mar 13 2026'
-heroImage: '../../../assets/blog-clawdbot-qveris-anything-1-en.jpg'
+heroImage: '../../../assets/blog-clawdbot-qveris-anything-1.jpg'
 category: 'Engineering'
 author: 'QVeris Team'
 tags: ['clawdbot', 'qveris', 'Guide']
@@ -11,7 +11,7 @@ translationKey: 'clawdbot-qveris-anything'
 
 Today, we connected Clawdbot (now Moltbot) to QVeris, brought it into Lark, and turned it into a 24/7 A-share analyst.
 
-![clawdbot-qveris-anything-1](../../../assets/blog-clawdbot-qveris-anything-1-en.jpg)
+![clawdbot-qveris-anything-1](../../../assets/blog-clawdbot-qveris-anything-1.jpg)
 
 **Now you can do the same with just a few taps. Try it at the end of this article.**
 
@@ -91,7 +91,7 @@ Beyond finance, connecting to QVeris can also help you integrate data from X, cr
 
 ![clawdbot-qveris-anything-4](../../../assets/blog-clawdbot-qveris-anything-4.png)
 
-![clawdbot-qveris-anything-5](../../../assets/blog-clawdbot-qveris-anything-5-en.jpg)
+![clawdbot-qveris-anything-5](../../../assets/blog-clawdbot-qveris-anything-5.jpg)
 
 QVerisBot is now open for internal testing.
 
@@ -105,4 +105,4 @@ If you are interested in Agents, automation, or the AI action layer, **now is th
 
 **Internal testing group link:**
 
-![clawdbot-qveris-anything-6](../../../assets/blog-clawdbot-qveris-anything-6-en.jpg)
+![clawdbot-qveris-anything-6](../../../assets/blog-clawdbot-qveris-anything-6.jpg)

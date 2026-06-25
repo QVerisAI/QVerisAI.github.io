@@ -2,7 +2,7 @@
 title: 'The Hard Part of Building a Financial Agent Is Not Calling Tools. It Is Choosing the Right Ones.'
 description: 'Why the hard part of building a financial agent is choosing the right tool, not just calling one successfully.'
 pubDate: 'May 28 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484949-hero-en.jpg'
+heroImage: '../../../assets/blog-qveris-wechat-2247484949-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -10,7 +10,7 @@ translationKey: 'qveris-wechat-2247484949'
 ---
 QVeris · Data-Tested
 
-![](../../../assets/blog-qveris-wechat-2247484949-1-en.png)
+![](../../../assets/blog-qveris-wechat-2247484949-1.png)
 
 If you have built a financial Agent, you have probably run into an awkward problem:
 
@@ -120,7 +120,7 @@ It needs to know:
 
 Which exact tool should I call next?
 
-![](../../../assets/blog-qveris-wechat-2247484949-4-en.png)
+![](../../../assets/blog-qveris-wechat-2247484949-4.png)
 
 ## Third, do not disguise "uncertain" as "certain."
 
@@ -166,7 +166,7 @@ They do not step into the same pit again and again.
 
 But they also do not reject an entire direction forever because of one failed attempt.
 
-![](../../../assets/blog-qveris-wechat-2247484949-5-en.png)
+![](../../../assets/blog-qveris-wechat-2247484949-5.png)
 
 What QVeris is building is not just a collection of financial data tools.
 
@@ -188,7 +188,7 @@ Which results have real examples.
 
 Which paths have already been verified as difficult to use.
 
-![](../../../assets/blog-qveris-wechat-2247484949-6-en.png)
+![](../../../assets/blog-qveris-wechat-2247484949-6.png)
 
 The next stage of competition for financial Agents may not be about model capability alone.
 

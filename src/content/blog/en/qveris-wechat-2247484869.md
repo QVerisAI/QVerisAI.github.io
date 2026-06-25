@@ -2,7 +2,7 @@
 title: 'Can’t Trade U.S. Stocks Anymore. Now What?'
 description: 'A QVeris workflow for investors who cannot trade U.S. stocks directly but still need structured market intelligence.'
 pubDate: 'May 22 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484869-hero-en.jpg'
+heroImage: '../../../assets/blog-qveris-wechat-2247484869-hero.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
