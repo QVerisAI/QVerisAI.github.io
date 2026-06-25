@@ -160,7 +160,7 @@ QVeris 的计费很透明：
 
 **并且计费公开透明**：
 
-<a href="https://mp.weixin.qq.com/s?__biz=MzY4NDAxMTE3NQ==&amp;mid=2247484604&amp;idx=1&amp;sn=a403293cae450e40a0831fc6a4048bdb&amp;scene=21#wechat_redirect" class="normal_text_link mp_article_text_link" target="_blank" style="" data-textvalue="QVeris 计费升级：让你清楚Agent的每一次付费" data-itemshowtype="0" data-linktype="2">QVeris 计费升级：让你清楚Agent的每一次付费</a>
+QVeris 计费升级：让你清楚Agent的每一次付费
 
   
 
@@ -185,7 +185,3 @@ https://qveris.ai/?ref=DFk24wT50FzHDA
 ![](../../../assets/blog-hermes-24-10.png)
 
 我们下篇见。
-
----
-
-原文链接：[微信公众号原文](https://mp.weixin.qq.com/s/AwEtr-1tvdvvG0zBibAyaw)

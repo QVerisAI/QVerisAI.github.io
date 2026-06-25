@@ -176,7 +176,3 @@ Q: 我能用环境变量代替 qveris login 吗？
  ![图片](../../../assets/blog-5-hermes-qveris-cli-prompt-8.png)
 
 ![图片](../../../assets/blog-5-hermes-qveris-cli-prompt-9.webp)
-
----
-
-原文链接：[微信公众号原文](https://mp.weixin.qq.com/s/J18wxpv-6kwSNgeYqxL1Ng)

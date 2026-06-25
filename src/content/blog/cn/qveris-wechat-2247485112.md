@@ -321,7 +321,3 @@ QVeris 负责把真实金融数据能力接进来，并让 Agent 先发现、再
 金融判断还是人来做。 
 
 AI 负责把工具找对，把数据查清，把过程留下来。
-
----
-
-原文链接：[微信公众号原文](https://mp.weixin.qq.com/s/3FEm0VEUUGGKXPbuNv0Egw)

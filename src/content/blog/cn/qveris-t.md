@@ -132,7 +132,3 @@ translationKey: 'qveris-t'
 \[戳文末右下角分享\]，把好用的工具推荐给您的交易伙伴吧！📈
 
 #
-
----
-
-原文链接：[微信公众号原文](https://mp.weixin.qq.com/s/UMvVQQCVr8hZvF_JjY1Lgw)

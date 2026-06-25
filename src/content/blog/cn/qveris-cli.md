@@ -396,24 +396,3 @@ qveris discover "你想要的任何 API"
 ---
 
 ## 10.
-
-## 关于 QVeris AI
-
-QVeris AI 聚焦于 **Agent 时代的行动基础设施层**，致力于构建 AI 可理解、可调用的"能力互联网"。
-
-**QVeris 当前定位：面向智能体的搜索和行动引擎，让智能体能够通过语义搜索发现并一键调用 10,000+ 工具。**
-
-**产品矩阵：**
-
-- **QVeris CLI** — 终端中的万能 API 入口（本文介绍）
-- **QVeris MCP Server** — IDE 智能体的工具网关
-- **QVerisBot** — 基于 OpenClaw 的生产级 AI 助手
-- **QVeris REST API** — 标准 HTTP 接口，适配任何语言和平台
-
-**官网：** [https://qveris.ai](https://qveris.ai)
-
-**CLI 文档：** [https://qveris.ai/docs/cli](https://qveris.ai/cli)
-
-**GitHub：** [https://github.com/QVerisAI/QVerisAI](https://github.com/QVerisAI/QVerisAI)
-
-*QVeris 原创首发，转载请注明出处*

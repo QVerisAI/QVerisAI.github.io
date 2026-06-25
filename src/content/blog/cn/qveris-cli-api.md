@@ -362,7 +362,3 @@ curl -fsSL https://qveris.ai/cli/install | bashqveris loginqveris discover "你�
 # 10.
 
 #
-
----
-
-原文链接：[微信公众号原文](https://mp.weixin.qq.com/s/PWtg7ae6ELda19Qin2Rcaw)

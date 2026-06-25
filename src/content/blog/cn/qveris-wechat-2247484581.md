@@ -113,7 +113,3 @@ QVeris.ai —— 这一次，你和机构站在同一起跑线。
 可立即加入飞书群体验
 
 ![](../../../assets/blog-qveris-wechat-2247484581-10.png)
-
----
-
-原文链接：[微信公众号原文](https://mp.weixin.qq.com/s/XpcQMpXIxhLbUak3mbmlDg)
