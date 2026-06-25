@@ -2,7 +2,7 @@
 title: 'I Asked QVeris to Pull Microsoft Historical Data Back to 1995: In Long-Horizon Investment Research, the First Step Is Not Writing a Strategy'
 description: 'A long-horizon Microsoft data example showing why historical coverage matters before writing an investment strategy.'
 pubDate: 'Jun 16 2026'
-heroImage: '../../../assets/blog-qveris-microsoft-1995-hero.jpg'
+heroImage: '../../../assets/blog-qveris-microsoft-1995-hero-en.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -29,7 +29,7 @@ So this time I used a more conservative test method: instead of directly claimin
 
 The endpoint I tested was FMP's `Historical Market Cap`. It is not full OHLCV, and it cannot replace the daily open, high, low, close, and volume data required for a formal backtest. But it is very suitable as a first-layer view of long-term company value change: how a company has become larger in the market's eyes over the past few decades.
 
-![](../../../assets/blog-qveris-microsoft-1995-1.png)
+![](../../../assets/blog-qveris-microsoft-1995-1-en.png)
 ## MSFT from 1995 to 2026: Historical Market Cap Data Can Be Retrieved
 
 I asked QVeris to call FMP and query MSFT Historical Market Cap from 1995-01-01 to 2026-05-27.
@@ -51,9 +51,9 @@ First, QVeris did successfully call FMP's historical data interface, rather than
 | Early sample | 1995-01-03, marketCap = 37,224,000,000 |
 | End-2000 sample | 2000-12-29, marketCap = 231,215,400,000 |
 
-![](../../../assets/blog-qveris-microsoft-1995-2.png)
+![](../../../assets/blog-qveris-microsoft-1995-2-en.png)
 
-![](../../../assets/blog-qveris-microsoft-1995-3.png)
+![](../../../assets/blog-qveris-microsoft-1995-3-en.png)
 
 These numbers are very intuitive. On January 3, 1995, FMP returned a Microsoft market cap of about $37.224 billion. On December 29, 2000, it was about $231.215 billion. By May 27, 2026, the returned market cap was about $3.06 trillion.
 
@@ -77,7 +77,7 @@ This article cannot currently be written as "QVeris has already run a 30-year OH
 
 What I confirmed in this round is this: QVeris can successfully call long-horizon historical market cap data through FMP; at the same time, a large-range request will encounter the 5000-record boundary for a single response.
 
-![](../../../assets/blog-qveris-microsoft-1995-4.png)
+![](../../../assets/blog-qveris-microsoft-1995-4-en.png)
 
 That sentence may sound less "marketing-friendly," but it is more truthful. Truth itself is the best credibility for technical content.
 ## What This Means for QVeris Agent
@@ -90,7 +90,7 @@ Second, the Agent can connect historical data with fundamental data. In the prev
 
 Third, the Agent can prepare for later backtesting. A real backtest is not finished by saying "run 30 years." It requires confirming data length, field completeness, adjustment rules, trading-day continuity, and response limits. If QVeris can also orchestrate these checks into a workflow, developers building investment research Agents will not need to rebuild the data pipeline from scratch every time.
 
-![](../../../assets/blog-qveris-microsoft-1995-5.png)
+![](../../../assets/blog-qveris-microsoft-1995-5-en.png)
 ## What I Most Wanted to Say This Time Is Not How Much Microsoft Rose
 
 After this round of testing, I think the most worthwhile point in this article is not that "Microsoft went from tens of billions of dollars to trillions of dollars." That is of course a big story, but telling only the increase is too thin.

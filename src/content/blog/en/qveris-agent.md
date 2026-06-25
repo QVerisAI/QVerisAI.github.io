@@ -38,7 +38,7 @@ Now: Calls and the ledger can be reconciled
 
 - Failures, empty results, provider errors, timeouts, permission issues, and similar cases can now be clearly shown as not charged or requiring review.
 
-![](../../../assets/blog-qveris-agent-1.png)
+![](../../../assets/blog-qveris-agent-1-en.png)
 
    You can think of it this way: Usage is the call detail view, while Credits Ledger is the credits transaction log. The former shows the process; the latter shows the money.
 
@@ -46,9 +46,9 @@ Now: Calls and the ledger can be reconciled
 
 In the Usage page under Account Center, you will see "Calls and usage records." It covers search discovery, tool calls, and model calls, making it the first place to investigate a request.
 
-![](../../../assets/blog-qveris-agent-2.jpg)
+![](../../../assets/blog-qveris-agent-2-en.jpg)
 
-![](../../../assets/blog-qveris-agent-3.png)
+![](../../../assets/blog-qveris-agent-3-en.png)
 
 **  
 **
@@ -65,9 +65,9 @@ In the Usage page under Account Center, you will see "Calls and usage records." 
 
    The Billing page in Account Center includes the "Credits Ledger." It does not try to record every request. Instead, it focuses only on **events that actually affect the balance**: tool call charges, model call charges, top-up grants, refund reversals, daily free allowances, signup rewards, referral rewards, and so on.
 
-![](../../../assets/blog-qveris-agent-4.png)
+![](../../../assets/blog-qveris-agent-4-en.png)
 
-![](../../../assets/blog-qveris-agent-5.png)
+![](../../../assets/blog-qveris-agent-5-en.png)
 
 Ledger rows can also be expanded. After expanding a row, you can see the billing summary, bucket deduction details, source references, and, when there are multiple billing items, the quantity, unit price, and subtotal.
 
@@ -103,9 +103,9 @@ Recommended troubleshooting flow: first use Usage to determine whether the reque
 
 05 Benefits after the upgrade
 
-![](../../../assets/blog-qveris-agent-6.png)
+![](../../../assets/blog-qveris-agent-6-en.png)
 
-![](../../../assets/blog-qveris-agent-7.png)
+![](../../../assets/blog-qveris-agent-7-en.png)
 
 # FAQ
 

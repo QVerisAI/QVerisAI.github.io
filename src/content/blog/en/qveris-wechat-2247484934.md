@@ -2,7 +2,7 @@
 title: 'A-Share Watchlist Assistant: Using QVeris to Connect Quotes, Capital Flows, and Market Themes'
 description: 'An A-share watchlist assistant workflow that connects quotes, capital flows, and market themes through QVeris.'
 pubDate: 'May 26 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484934-hero.jpg'
+heroImage: '../../../assets/blog-qveris-wechat-2247484934-hero-en.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -18,7 +18,7 @@ It is not complicated. But it is fragmented. Dozens of stocks, several apps, con
 
 More and more experienced A-share investors are starting to give themselves a small assistant.
 
-![](../../../assets/blog-qveris-wechat-2247484934-1.png)
+![](../../../assets/blog-qveris-wechat-2247484934-1-en.png)
 
 It does not make decisions for you. Buying and selling are always your own responsibility. What it does is scan the market first, filter out unusual moves, and connect capital flows with market themes into one or two reliable observations.
 
@@ -42,7 +42,7 @@ You can immediately see whose price moved, whose turnover expanded fastest, and 
 
 At a glance: BYD is stronger today. CATL is down the most, but also has the largest turnover, which means the divergence is significant. Kweichow Moutai has 5 billion yuan in turnover, but its price barely moved and its turnover rate is low.
 
-![](../../../assets/blog-qveris-wechat-2247484934-2.png)
+![](../../../assets/blog-qveris-wechat-2247484934-2-en.png)
 
 Data time: intraday snapshot at 14:02 on 2026-05-25, tested with cn_financial_pro.real_time_quotation.v1
 
@@ -78,7 +78,7 @@ It does not say "there is unusual activity." It says: "Main capital net outflow 
 
 That one sentence answers the most important question: is this stock worth chasing?
 
-![](../../../assets/blog-qveris-wechat-2247484934-3.png)
+![](../../../assets/blog-qveris-wechat-2247484934-3-en.png)
 
 Data time: trading day of 2026-05-22, tested with caidazi.get_stock_moneyflow (symbol=600519)
 
@@ -90,7 +90,7 @@ Money is still coming in. Wait, securities lending balance is 169 million yuan, 
 
 The assistant gives a complete judgment: "Leverage is still participating, but main capital is weak."
 
-![](../../../assets/blog-qveris-wechat-2247484934-4.png)
+![](../../../assets/blog-qveris-wechat-2247484934-4-en.png)
 
 Data time: 2026-05-22, tested with caidazi.get_stock_margin_detail (symbol=600519).
 
@@ -124,7 +124,7 @@ It does not display every field one by one. The assistant layers them itself: st
 
 
 
-![](../../../assets/blog-qveris-wechat-2247484934-5.png)
+![](../../../assets/blog-qveris-wechat-2247484934-5-en.png)
 
 News search is added as well: search "semiconductor robot computing power," and it returns news flashes from Securities Times, Tencent, and other media. On 5/21, A-shares plunged in the afternoon, the semiconductor sector fell, but the robot concept was active against the broader market.
 
@@ -132,11 +132,11 @@ Search "Kweichow Moutai announcement," and two key pieces of information appear:
 
 This is not for reading news. It is to add one line of explanation: is this move driven by a theme, an announcement, or pure capital flows? After running the process, the assistant directly outputs the list.
 
-![](../../../assets/blog-qveris-wechat-2247484934-6.png)
+![](../../../assets/blog-qveris-wechat-2247484934-6-en.png)
 
 The next day, when you open the market, you do not have to start from zero. Back to the main point: what exactly is running behind these three scenarios? Here is a quick review in one table:
 
-![](../../../assets/blog-qveris-wechat-2247484934-7.png)
+![](../../../assets/blog-qveris-wechat-2247484934-7-en.png)
 
 If you want to run these scenarios, the experience looks roughly like this:
 

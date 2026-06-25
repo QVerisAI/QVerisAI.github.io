@@ -2,7 +2,7 @@
 title: 'QVeris Product Update | New A-Share Data Toolkit -- User Guide'
 description: 'A user guide for the new QVeris A-share data toolkit, covering core capabilities and practical usage scenarios.'
 pubDate: 'Apr 15 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484379-hero.jpg'
+heroImage: '../../../assets/blog-qveris-wechat-2247484379-hero-en.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -38,17 +38,17 @@ Data available: daily open, high, low, close, price change, percentage change, v
 
 How to Use
 
-![](../../../assets/blog-qveris-wechat-2247484379-2.png)
+![](../../../assets/blog-qveris-wechat-2247484379-2-en.png)
 
 Adjustment Method Guide
 
-![](../../../assets/blog-qveris-wechat-2247484379-3.png)
+![](../../../assets/blog-qveris-wechat-2247484379-3-en.png)
 
 Example
 
 **Query forward-adjusted daily data for Kweichow Moutai during the first 10 trading days of January 2025**:
 
-![](../../../assets/blog-qveris-wechat-2247484379-4.png)
+![](../../../assets/blog-qveris-wechat-2247484379-4-en.png)
 
 
 
@@ -62,13 +62,13 @@ Data available: stock code, name, latest price, percentage change, turnover, vol
 
 How to Use
 
-![](../../../assets/blog-qveris-wechat-2247484379-5.png)
+![](../../../assets/blog-qveris-wechat-2247484379-5-en.png)
 
 Example
 
 **Query the top 10 ChiNext gainers today**:
 
-![](../../../assets/blog-qveris-wechat-2247484379-6.png)
+![](../../../assets/blog-qveris-wechat-2247484379-6-en.png)
 
 Note: Only rankings for today or the most recent trading day are supported. Historical rankings are not supported.
 
@@ -84,13 +84,13 @@ Data available: suspended stock code, name, suspension date, suspension reason, 
 
 How to Use
 
-![](../../../assets/blog-qveris-wechat-2247484379-7.png)
+![](../../../assets/blog-qveris-wechat-2247484379-7-en.png)
 
 Example
 
 **Query suspended stocks on April 11, 2026**:
 
-![](../../../assets/blog-qveris-wechat-2247484379-8.png)
+![](../../../assets/blog-qveris-wechat-2247484379-8-en.png)
 
 
 
@@ -104,13 +104,13 @@ Data available: Beta coefficient and historical volatility.
 
 How to Use
 
-![](../../../assets/blog-qveris-wechat-2247484379-9.png)
+![](../../../assets/blog-qveris-wechat-2247484379-9-en.png)
 
 Example
 
 **Query weekly Beta for Kweichow Moutai and Ping An Bank relative to the CSI 300**:
 
-![](../../../assets/blog-qveris-wechat-2247484379-10.png)
+![](../../../assets/blog-qveris-wechat-2247484379-10-en.png)
 
 
 
@@ -124,13 +124,13 @@ Data available: dividend plan description, plan status, cash dividend per share,
 
 How to Use
 
-![](../../../assets/blog-qveris-wechat-2247484379-11.png)
+![](../../../assets/blog-qveris-wechat-2247484379-11-en.png)
 
 Example
 
 Query Kweichow Moutai's dividend plan for its 2025 annual report:
 
-![](../../../assets/blog-qveris-wechat-2247484379-12.png)
+![](../../../assets/blog-qveris-wechat-2247484379-12-en.png)
 
 Tip: Cash dividends are measured in "yuan/share"; bonus and capitalization ratios are measured as "per 10 shares".
 
@@ -146,13 +146,13 @@ Data available: unlock date, number of shares unlocked, unlock amount, share typ
 
 How to Use
 
-![](../../../assets/blog-qveris-wechat-2247484379-13.png)
+![](../../../assets/blog-qveris-wechat-2247484379-13-en.png)
 
 Example
 
 **Query market-wide unlock events for this week**:
 
-![](../../../assets/blog-qveris-wechat-2247484379-14.png)
+![](../../../assets/blog-qveris-wechat-2247484379-14-en.png)
 
 Tip: Share counts and amounts are both measured in "ten thousand"; closing prices are measured in "yuan".
 
@@ -168,13 +168,13 @@ Data available: number of advancing stocks, number of declining stocks, total co
 
 How to Use
 
-![](../../../assets/blog-qveris-wechat-2247484379-15.png)
+![](../../../assets/blog-qveris-wechat-2247484379-15-en.png)
 
 Example
 
 **Query market breadth for the Shanghai Composite Index and ChiNext Index over the past week**:
 
-![](../../../assets/blog-qveris-wechat-2247484379-16.png)
+![](../../../assets/blog-qveris-wechat-2247484379-16-en.png)
 
 
 
@@ -184,21 +184,21 @@ Use cases: hot concept tracking, sector rotation analysis, public opinion heat m
 
 **Query market performance and popularity data for concept sectors across three dimensions**:
 
-![](../../../assets/blog-qveris-wechat-2247484379-17.png)
+![](../../../assets/blog-qveris-wechat-2247484379-17-en.png)
 
 How to Use
 
-![](../../../assets/blog-qveris-wechat-2247484379-18.png)
+![](../../../assets/blog-qveris-wechat-2247484379-18-en.png)
 
 Example
 
 **View today's concept sector rankings by percentage gain**:
 
-![](../../../assets/blog-qveris-wechat-2247484379-19.png)
+![](../../../assets/blog-qveris-wechat-2247484379-19-en.png)
 
 **View recent concept sector popularity rankings**:
 
-![](../../../assets/blog-qveris-wechat-2247484379-20.png)
+![](../../../assets/blog-qveris-wechat-2247484379-20-en.png)
 
 
 
@@ -212,13 +212,13 @@ Data available: issue price, opening price, closing price, first-day percentage 
 
 How to Use
 
-![](../../../assets/blog-qveris-wechat-2247484379-21.png)
+![](../../../assets/blog-qveris-wechat-2247484379-21-en.png)
 
 Example
 
 **Query the listing performance of all new stocks in Q1 2026**:
 
-![](../../../assets/blog-qveris-wechat-2247484379-22.png)
+![](../../../assets/blog-qveris-wechat-2247484379-22-en.png)
 
 
 
@@ -230,17 +230,17 @@ Query A-share block trade data, also known as negotiated transfer data. Block tr
 
 **Two viewing modes are supported**:
 
-![](../../../assets/blog-qveris-wechat-2247484379-23.png)
+![](../../../assets/blog-qveris-wechat-2247484379-23-en.png)
 
 How to Use
 
-![](../../../assets/blog-qveris-wechat-2247484379-24.png)
+![](../../../assets/blog-qveris-wechat-2247484379-24-en.png)
 
 Example
 
 **Query the block trade summary for Huaxia Shouchuang Outlets over the past month**:
 
-![](../../../assets/blog-qveris-wechat-2247484379-25.png)
+![](../../../assets/blog-qveris-wechat-2247484379-25-en.png)
 
 Tip: A positive discount/premium rate indicates a premium, meaning the trade price is above the closing price; a negative value indicates a discount. For units, prices are in "yuan", volume is in "ten thousand shares", and transaction value is in "ten thousand yuan".
 
@@ -254,11 +254,11 @@ Query data for listed Chinese convertible bonds, combining static terms, valuati
 
 **There are currently about 365 convertible bonds in the market. This tool provides three query modes for different analytical needs**:
 
-![](../../../assets/blog-qveris-wechat-2247484379-26.png)
+![](../../../assets/blog-qveris-wechat-2247484379-26-en.png)
 
 How to Use
 
-![](../../../assets/blog-qveris-wechat-2247484379-27.png)
+![](../../../assets/blog-qveris-wechat-2247484379-27-en.png)
 
 Double-low strategy guide: double-low value = convertible bond price + conversion premium rate. The lower the value, the cheaper the bond is and the closer it is to the underlying stock's value, making it a commonly used screening metric for convertible bond investors.
 
@@ -268,7 +268,7 @@ Example
 
 **Query issuance terms for convertible bonds across the full market**:
 
-![](../../../assets/blog-qveris-wechat-2247484379-28.png)
+![](../../../assets/blog-qveris-wechat-2247484379-28-en.png)
 
 
 
@@ -280,7 +280,7 @@ Query real-time or delayed quotes for commodity futures and financial futures, c
 
 Supported Exchanges
 
-![](../../../assets/blog-qveris-wechat-2247484379-29.png)
+![](../../../assets/blog-qveris-wechat-2247484379-29-en.png)
 
 Contract Code Rules
 
@@ -294,13 +294,13 @@ Data available: latest price, open/high/low/close, previous close, volume, turno
 
 How to Use
 
-![](../../../assets/blog-qveris-wechat-2247484379-30.png)
+![](../../../assets/blog-qveris-wechat-2247484379-30-en.png)
 
 Example
 
 **Query real-time quotes for CSI 300 stock index futures and Shanghai copper**:
 
-![](../../../assets/blog-qveris-wechat-2247484379-31.png)
+![](../../../assets/blog-qveris-wechat-2247484379-31-en.png)
 
 Note: Settlement prices are usually empty during trading hours and update only after market close. Expired contracts return empty values without raising an error, so make sure to use active contract codes.
 
@@ -316,18 +316,18 @@ Data available: contract code, contract short name, underlying code and short na
 
 How to Use
 
-![](../../../assets/blog-qveris-wechat-2247484379-32.png)
+![](../../../assets/blog-qveris-wechat-2247484379-32-en.png)
 
 Example
 
 **Query detailed information for 50ETF options contracts**:
 
-![](../../../assets/blog-qveris-wechat-2247484379-33.png)
+![](../../../assets/blog-qveris-wechat-2247484379-33-en.png)
 
 Tip: This tool provides static information only. It does not include real-time prices or Greeks. For market data, please use the options chain tool.
 
 Tool Quick Reference
 
-![](../../../assets/blog-qveris-wechat-2247484379-34.png)
+![](../../../assets/blog-qveris-wechat-2247484379-34-en.png)
 
 #

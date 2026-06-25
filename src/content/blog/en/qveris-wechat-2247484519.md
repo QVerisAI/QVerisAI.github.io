@@ -2,7 +2,7 @@
 title: 'The Order Book Truth Retail Investors Miss: What Signals Are Hidden in Minute-Level Market Data?'
 description: 'A look at minute-level order book signals and what retail investors often miss when reading short-term market data.'
 pubDate: 'Apr 22 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484519-hero.jpg'
+heroImage: '../../../assets/blog-qveris-wechat-2247484519-hero-en.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -24,7 +24,7 @@ The daily chart cannot give the answer. Today, using a set of tested data, I wil
 
 **Open any free market data app, and CATL's April 21 move looks like this**:
 
-![](../../../assets/blog-qveris-wechat-2247484519-1.jpg)
+![](../../../assets/blog-qveris-wechat-2247484519-1-en.jpg)
 
 Opening price: 225.46 yuan. Closing price: 231.36 yuan. Gain: 2.63%. Full-day volume: 18.68 million shares. Turnover: 4.345 billion yuan.
 
@@ -50,7 +50,7 @@ I pulled a set of minute-level data. Not 15-minute data, but **5-minute data**: 
 
 Segmented capital flow for CATL on April 21
 
-![](../../../assets/blog-qveris-wechat-2247484519-2.jpg)
+![](../../../assets/blog-qveris-wechat-2247484519-2-en.jpg)
 
 See it?
 
@@ -86,7 +86,7 @@ I calculated a simple metric: **capital efficiency** (price change ÷ turnover r
 
 Capital efficiency = price change ÷ turnover rate
 
-![](../../../assets/blog-qveris-wechat-2247484519-3.jpg)
+![](../../../assets/blog-qveris-wechat-2247484519-3-en.jpg)
 
 At 9:50 in the morning, capital efficiency reached **25**, meaning every 1% of turnover could move 25 units of price gain. This is a classic **strongly controlled stock** pattern.
 

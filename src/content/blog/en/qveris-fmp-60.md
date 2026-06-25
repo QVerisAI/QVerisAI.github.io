@@ -2,7 +2,7 @@
 title: 'Still Switching Data Sources by Hand for Cross-Border Research? QVeris × FMP Connects 60+ Exchanges Through One Entry Point'
 description: 'Still switching data sources by hand for cross-border research? QVeris × FMP connects 60+ exchanges through one entry point'
 pubDate: 'Jun 04 2026'
-heroImage: '../../../assets/blog-qveris-fmp-60-hero.jpg'
+heroImage: '../../../assets/blog-qveris-fmp-60-hero-en.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -32,17 +32,17 @@ So this test was not about whether “FMP can look up a U.S. company.” That is
 
 The first step was to call `availableexchanges`.
 
-![](../../../assets/blog-qveris-fmp-60-1.png)
+![](../../../assets/blog-qveris-fmp-60-1-en.png)
 
 The result returned 64 exchanges. Roughly by region: 11 in North America, 3 in South America, 29 in Europe, 14 in Asia, 4 in the Middle East, 1 in Africa, and 2 in Oceania. This is no longer “a U.S. equity data source with a bit of international coverage on the side.” It is a real underlying data map that can support cross-border investment research.
 
-![](../../../assets/blog-qveris-fmp-60-2.png)
+![](../../../assets/blog-qveris-fmp-60-2-en.png)
 
-![](../../../assets/blog-qveris-fmp-60-3.png)
+![](../../../assets/blog-qveris-fmp-60-3-en.png)
 
-![](../../../assets/blog-qveris-fmp-60-4.png)
+![](../../../assets/blog-qveris-fmp-60-4-en.png)
 
-![](../../../assets/blog-qveris-fmp-60-5.png)
+![](../../../assets/blog-qveris-fmp-60-5-en.png)
 
 The most important point here is not the number itself, but the consistency.
 
@@ -68,7 +68,7 @@ The ISIN is especially important here, because cross-market companies often have
 
 Looking only at the ticker can easily lead to a mismatch, while looking only at the company name is too loose. The ISIN is a very practical anchor in cross-border investment research.
 
-![](../../../assets/blog-qveris-fmp-60-6.png)
+![](../../../assets/blog-qveris-fmp-60-6-en.png)
 
 **Once this step works, the Agent can move on to more valuable questions**:
 
@@ -88,9 +88,9 @@ Tencent, Hong Kong equities, priced in HKD. Toyota, Japan, priced in JPY. Samsun
 
 Together with Kweichow Moutai and Nestlé, that makes nine market samples, all successfully handled through profile.
 
-![](../../../assets/blog-qveris-fmp-60-7.png)
+![](../../../assets/blog-qveris-fmp-60-7-en.png)
 
-![](../../../assets/blog-qveris-fmp-60-8.png)
+![](../../../assets/blog-qveris-fmp-60-8-en.png)
 
 The point of this sample set is that it covers several common sources of friction when an Agent performs cross-border research: Asian markets, European markets, Hong Kong equities, local-currency trading, different ticker suffixes, different currency units, and differences in how the same industry is classified across countries.
 
@@ -106,9 +106,9 @@ Company profiles only prove that “company identity can be recognized.” Inves
 
 The case here was Tesco on the London Stock Exchange. In testing, the EOD daily series for TSCO.L returned 1260 records.
 
-![](../../../assets/blog-qveris-fmp-60-9.png)
+![](../../../assets/blog-qveris-fmp-60-9-en.png)
 
-![](../../../assets/blog-qveris-fmp-60-10.png)
+![](../../../assets/blog-qveris-fmp-60-10-en.png)
 
 This result shows two things.
 
@@ -130,7 +130,7 @@ The most important part of this test, in my view, is not that FMP covers 64 exch
 
 QVeris Agent can start treating “global markets” as an operable object, not as a set of scattered data islands.
 
-![](../../../assets/blog-qveris-fmp-60-11.png)
+![](../../../assets/blog-qveris-fmp-60-11-en.png)
 
 In the past, building a cross-border research Agent could easily turn into an engineering swamp. First connect U.S. equities, then Hong Kong equities, then find a way to fill in A-shares, then handle European markets. Every new provider requires another round of adaptation for authentication, fields, tickers, currencies, and error handling. Before the Agent becomes smart, the engineering work has already turned into an interface maintenance project.
 
@@ -141,7 +141,7 @@ For example, users will be able to ask directly:
 >
 >  Compare the company profiles of Kweichow Moutai and Nestlé, including exchange, local currency, ISIN, industry, and CEO. Answer with a concise table suitable for researchers, and note the data source below the table.
 >
-![](../../../assets/blog-qveris-fmp-60-12.png)
+![](../../../assets/blog-qveris-fmp-60-12-en.png)
 
 This question is not a single-point lookup. It is cross-market data orchestration. It requires the Agent to know where to look, how to align the data, how to explain the result, and how to preserve the data source and methodology in the output.
 

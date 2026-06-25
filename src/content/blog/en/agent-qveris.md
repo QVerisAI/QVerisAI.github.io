@@ -2,7 +2,7 @@
 title: 'Making Agent Tool Calls More Reliable: What I Have Been Working on at QVeris'
 description: 'A behind-the-scenes note on making agent tool calls more reliable through better search, parameter handling, and execution traces.'
 pubDate: 'May 31 2026'
-heroImage: '../../../assets/blog-agent-qveris-hero.jpg'
+heroImage: '../../../assets/blog-agent-qveris-hero-en.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -22,7 +22,7 @@ So my recent work has focused on moving the QVeris toolchain from "being able to
 
 
 
-![](../../../assets/blog-agent-qveris-1.png)
+![](../../../assets/blog-agent-qveris-1-en.png)
 ## Background
 
 
@@ -73,7 +73,7 @@ The truly valuable repair is to keep the user's intent as intact as possible whi
 
 ## A More User-Centered Example
 
-![](../../../assets/blog-agent-qveris-2.png)
+![](../../../assets/blog-agent-qveris-2-en.png)
 
 Suppose a user wants to query a set of accounts or symbols.
 

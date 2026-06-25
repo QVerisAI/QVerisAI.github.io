@@ -8,7 +8,7 @@ author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
 translationKey: 'qveris-wechat-2247484280'
 ---
-![Image](../../../assets/blog-qveris-wechat-2247484280-1.webp)
+![Image](../../../assets/blog-qveris-wechat-2247484280-1-en.webp)
 
 ![](../../../assets/blog-qveris-wechat-2247484280-2.png)
 
@@ -44,9 +44,9 @@ For AI agents, this process is even more painful. They cannot “browse document
 
 Capability Explorer is built around five layers, covering the full journey of how agents discover and use capabilities:
 
-![](../../../assets/blog-qveris-wechat-2247484280-3.png)
+![](../../../assets/blog-qveris-wechat-2247484280-3-en.png)
 
-![](../../../assets/blog-qveris-wechat-2247484280-4.png)
+![](../../../assets/blog-qveris-wechat-2247484280-4-en.png)
 
 #  
 
@@ -97,7 +97,7 @@ Public opinion analysis, satellite data, web crawling, and social media sentimen
 
 Spot and derivatives data, on-chain analytics, DeFi TVL, and token metrics. Coverage for Web3 data needs.
 
-![](../../../assets/blog-qveris-wechat-2247484280-5.png)
+![](../../../assets/blog-qveris-wechat-2247484280-5-en.png)
 
 #  
 
@@ -129,7 +129,7 @@ Each provider is more than a Tool ID. Capability Explorer presents a complete qu
 
 When the same capability has three providers, your agent can automatically choose based on quality signals: prioritize the highest success rate, the lowest latency, or the lowest cost. This is not an API directory. It is a **decision dashboard for capability routing**.
 
-![](../../../assets/blog-qveris-wechat-2247484280-6.png)
+![](../../../assets/blog-qveris-wechat-2247484280-6-en.png)
 
 #  
 

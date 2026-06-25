@@ -2,13 +2,13 @@
 title: 'QVeris: Democratizing Quantitative Finance'
 description: 'A product essay on making quantitative finance more accessible through QVeris data tools and agent workflows.'
 pubDate: 'Apr 24 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484581-hero.jpg'
+heroImage: '../../../assets/blog-qveris-wechat-2247484581-hero-en.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
 translationKey: 'qveris-wechat-2247484581'
 ---
-![](../../../assets/blog-qveris-wechat-2247484581-1.png)
+![](../../../assets/blog-qveris-wechat-2247484581-1-en.png)
 
 Have you noticed that in financial markets, the people who make money are often not the smartest ones, but the ones with the fastest information?
 
@@ -52,9 +52,9 @@ Case 1
 
 🤖 **"Over the past five days, main capital net inflow was RMB 1.23 billion, while retail net outflow was RMB 870 million. Chips are concentrating in institutional hands."**
 
-![](../../../assets/blog-qveris-wechat-2247484581-3.jpg)
+![](../../../assets/blog-qveris-wechat-2247484581-3-en.jpg)
 
-![](../../../assets/blog-qveris-wechat-2247484581-4.jpg)
+![](../../../assets/blog-qveris-wechat-2247484581-4-en.jpg)
 
 Case 2
 
@@ -62,9 +62,9 @@ Case 2
 
 🤖 **"Wuliangye saw RMB 310 million of main capital net inflow and RMB 240 million of retail outflow. Institutional participation is deeper in Moutai."**
 
-![](../../../assets/blog-qveris-wechat-2247484581-5.jpg)
+![](../../../assets/blog-qveris-wechat-2247484581-5-en.jpg)
 
-![](../../../assets/blog-qveris-wechat-2247484581-6.jpg)
+![](../../../assets/blog-qveris-wechat-2247484581-6-en.jpg)
 
 Case 3
 
@@ -74,13 +74,13 @@ Case 3
 
 **Three markets, three kinds of data, handled in one conversation.**
 
-![](../../../assets/blog-qveris-wechat-2247484581-7.jpg)
+![](../../../assets/blog-qveris-wechat-2247484581-7-en.jpg)
 
-![](../../../assets/blog-qveris-wechat-2247484581-8.jpg)
+![](../../../assets/blog-qveris-wechat-2247484581-8-en.jpg)
 
 You do not need to know which provider is running behind the scenes. You do not need to care how the API documentation is written. You do not need to calculate how much this call costs. You only need to ask, then get the answer.
 
-![](../../../assets/blog-qveris-wechat-2247484581-9.png)
+![](../../../assets/blog-qveris-wechat-2247484581-9-en.png)
 
 If you are doing high-frequency trading, where millisecond latency decides life or death, QVeris is not for you. You need to connect directly to the exchange.
 
@@ -112,4 +112,4 @@ QVeris.ai: this time, you and the institutions are standing at the same starting
 
 Join the Feishu group now to try it
 
-![](../../../assets/blog-qveris-wechat-2247484581-10.png)
+![](../../../assets/blog-qveris-wechat-2247484581-10-en.png)

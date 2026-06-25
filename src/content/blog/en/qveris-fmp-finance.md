@@ -36,7 +36,7 @@ For example:
 - Data freshness could not be guaranteed
 - If a data source became unavailable, the task would simply stop
 
-![qveris-fmp-finance-2](../../../assets/blog-qveris-fmp-finance-2.jpg)
+![qveris-fmp-finance-2](../../../assets/blog-qveris-fmp-finance-2-en.jpg)
 
 **After integrating FMP:**
 
@@ -45,9 +45,9 @@ For example:
 - When one data source fails, it can automatically switch to an alternative
 - It can finally close the loop from “analysis” to “action”
 
-![qveris-fmp-finance-3](../../../assets/blog-qveris-fmp-finance-3.jpg)
+![qveris-fmp-finance-3](../../../assets/blog-qveris-fmp-finance-3-en.jpg)
 
-![qveris-fmp-finance-4](../../../assets/blog-qveris-fmp-finance-4.jpg)
+![qveris-fmp-finance-4](../../../assets/blog-qveris-fmp-finance-4-en.jpg)
 
 This is one of the most critical, and most easily overlooked, layers in making Agents practical.
 

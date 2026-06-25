@@ -2,7 +2,7 @@
 title: 'How Much Does a Single Stock Data Query Actually Cost?'
 description: 'A practical cost breakdown of a single stock data query and what agent builders should understand about usage pricing.'
 pubDate: 'May 13 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484762-hero.jpg'
+heroImage: '../../../assets/blog-qveris-wechat-2247484762-hero-en.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']

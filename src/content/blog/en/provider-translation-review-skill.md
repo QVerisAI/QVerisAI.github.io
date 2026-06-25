@@ -2,7 +2,7 @@
 title: 'Provider Translation Review: From One Spreadsheet Revision to a Reusable Skill'
 description: 'How a one-off provider translation review became a reusable skill for checking terminology, copy quality, and multilingual metadata.'
 pubDate: 'Jun 14 2026'
-heroImage: '../../../assets/blog-provider-translation-review-skill-hero.jpg'
+heroImage: '../../../assets/blog-provider-translation-review-skill-hero-en.jpg'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
@@ -76,7 +76,7 @@ This last point is critical. For example, `AEM Admin API` should not simply be t
 
 Recently, we ran another small-sample validation on several providers from the database. They covered several typical problem types: official institutions, official APIs, third-party RapidAPI endpoints, and abnormal description fields.
 
-![](../../../assets/blog-provider-translation-review-skill-1.png)
+![](../../../assets/blog-provider-translation-review-skill-1-en.png)
 
 >
 > 💡 The point here is not "whether RapidAPI should be translated." The point is that import traces should not become final display names, and third-party endpoints should not be packaged as official providers.

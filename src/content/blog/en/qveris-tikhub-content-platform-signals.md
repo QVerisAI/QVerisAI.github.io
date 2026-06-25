@@ -2,7 +2,7 @@
 title: 'QVeris Integrates TikHub: Agents Can Finally Read the Real Momentum of Content Platforms'
 description: 'How QVeris integrates TikHub so agents can read public content-platform signals across short video, social, local service, and e-commerce workflows.'
 pubDate: 'Jun 12 2026'
-heroImage: '../../../assets/blog-qveris-tikhub-content-platform-signals-hero.png'
+heroImage: '../../../assets/blog-qveris-tikhub-content-platform-signals-hero-en.png'
 category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'TikHub', 'Agent', '内容平台']
@@ -17,7 +17,7 @@ A new consumer product may first gain traction on Xiaohongshu. An AI hardware de
 
 That is why QVeris integrated TikHub: to help agents understand public signals from content platforms.
 
-![qveris-tikhub-content-platform-signals-1](../../../assets/blog-qveris-tikhub-content-platform-signals-1.png)
+![qveris-tikhub-content-platform-signals-1](../../../assets/blog-qveris-tikhub-content-platform-signals-1-en.png)
 
 In the past, agents were good at answering questions like “What does this company do?”, “When was this product released?”, or “What news is there about this industry?” But when users ask more specific questions, such as “Where exactly is this trend taking off?”, “Who is driving the conversation?”, “What is the real user feedback?”, or “Has short-video momentum carried over into product sales and reviews?”, ordinary web search is not enough.
 
@@ -25,7 +25,7 @@ TikHub fills precisely this layer of fresher, more fragmented data that is close
 
 > After QVeris integrates TikHub, agents can move beyond “searching for information” toward “understanding platforms”: looking at accounts, videos, notes, comments, products, engagement metrics, and how a topic moves across different platforms.
 
-![qveris-tikhub-content-platform-signals-2](../../../assets/blog-qveris-tikhub-content-platform-signals-2.png)
+![qveris-tikhub-content-platform-signals-2](../../../assets/blog-qveris-tikhub-content-platform-signals-2-en.png)
 
 ## TikHub Brings More Than an API. It Brings a Map of Content Platforms
 
@@ -33,7 +33,7 @@ What makes TikHub distinctive is that it does not cover a single data type. It c
 
 After the integration with QVeris, these public platform signals can be called, organized, and cross-analyzed by agents through unified workflows.
 
-![qveris-tikhub-content-platform-signals-3](../../../assets/blog-qveris-tikhub-content-platform-signals-3.png)
+![qveris-tikhub-content-platform-signals-3](../../../assets/blog-qveris-tikhub-content-platform-signals-3-en.png)
 
 | Platform Type | Representative Platforms | What Agents Can Focus On | Typical Use Cases |
 | --- | --- | --- | --- |
@@ -54,9 +54,9 @@ After integrating TikHub, QVeris agents can run more complete short-video analys
 
 For example, around the topic of “AI toys,” an agent can first find relevant creator and solution provider accounts, then enter public videos to observe whether the content concentrates on plush toys, voice interaction, movement modules, companion robots, children’s education, and related directions. If multiple videos show similar tags, it suggests this is not isolated content, but may already be forming a platform-level content narrative.
 
-![qveris-tikhub-content-platform-signals-4](../../../assets/blog-qveris-tikhub-content-platform-signals-4.png)
+![qveris-tikhub-content-platform-signals-4](../../../assets/blog-qveris-tikhub-content-platform-signals-4-en.png)
 
-![qveris-tikhub-content-platform-signals-5](../../../assets/blog-qveris-tikhub-content-platform-signals-5.png)
+![qveris-tikhub-content-platform-signals-5](../../../assets/blog-qveris-tikhub-content-platform-signals-5-en.png)
 
 This capability is useful across content operations, brand marketing, investment research, and product teams. Operations teams can identify topics. Marketing teams can observe propagation paths. Product teams can see which features users care about. Investment teams can treat short-video signals as early trend indicators.
 
@@ -70,7 +70,7 @@ If short video acts more like an amplifier for trends, lifestyle discovery commu
 
 The same AI toy may be framed on short-video platforms as “cutting-edge tech,” a “companion robot,” or a “novel gift.” But in lifestyle discovery communities, users write in more specific terms: whether children are willing to play with it, whether voice interaction feels natural, whether battery life is enough, whether the price feels worthwhile, whether it ends up unused after purchase, and even whether it creates emotional dependence.
 
-![qveris-tikhub-content-platform-signals-6](../../../assets/blog-qveris-tikhub-content-platform-signals-6.png)
+![qveris-tikhub-content-platform-signals-6](../../../assets/blog-qveris-tikhub-content-platform-signals-6-en.png)
 
 This content is critical for agents because it is not a cold list of product specifications. It is experience written by users in their own language. After QVeris integrates TikHub, agents can organize public note signals such as titles, authors, likes, saves, comments, shares, and body text clues into trend reports that are closer to the user’s point of view.
 
@@ -84,9 +84,9 @@ Short video and lifestyle discovery communities often create momentum, but conte
 
 Bilibili may have long-form video reviews. Weibo may contain event propagation chains. WeChat Official Accounts may publish industry analysis. Zhihu may host long Q&A threads. Reddit may contain real discussions from overseas users. What they share is higher content density, more complex viewpoints, and better suitability for agents to summarize, compare, and organize context.
 
-![qveris-tikhub-content-platform-signals-7](../../../assets/blog-qveris-tikhub-content-platform-signals-7.png)
+![qveris-tikhub-content-platform-signals-7](../../../assets/blog-qveris-tikhub-content-platform-signals-7-en.png)
 
-![qveris-tikhub-content-platform-signals-8](../../../assets/blog-qveris-tikhub-content-platform-signals-8.png)
+![qveris-tikhub-content-platform-signals-8](../../../assets/blog-qveris-tikhub-content-platform-signals-8-en.png)
 
 After integrating TikHub, QVeris can bring these public content platforms into the same analytical framework. For example, when a new product goes viral on Douyin, an agent can continue into content communities to look for longer reviews and debates. When an overseas trend appears on Reddit or YouTube, an agent can compare whether there is already corresponding discussion on domestic platforms. When a brand incident spreads on Weibo, an agent can analyze reposts, comments, and long-form viewpoints separately.
 
@@ -102,9 +102,9 @@ This is one of the most promising parts of TikHub for QVeris. E-commerce and loc
 
 For consumer goods, new brands, local services, retail, and content commerce teams, this chain is highly practical. If a new product suddenly becomes popular on short-video platforms, an agent can first look at the propagation content, then examine Xiaohongshu experiences, and finally review e-commerce comments and store feedback. The result is not a “hot topic summary,” but a complete evidence chain from content to consumption.
 
-![qveris-tikhub-content-platform-signals-9](../../../assets/blog-qveris-tikhub-content-platform-signals-9.png)
+![qveris-tikhub-content-platform-signals-9](../../../assets/blog-qveris-tikhub-content-platform-signals-9-en.png)
 
-![qveris-tikhub-content-platform-signals-10](../../../assets/blog-qveris-tikhub-content-platform-signals-10.png)
+![qveris-tikhub-content-platform-signals-10](../../../assets/blog-qveris-tikhub-content-platform-signals-10-en.png)
 
 In the future, QVeris agents can combine these capabilities into more workflows: new product launch monitoring, competitor review analysis, price-band observation, negative review root-cause analysis, store reputation summaries, urban consumption trend observation, and more.
 
@@ -116,9 +116,9 @@ Many trends do not stay within one country or one platform. AI products, new con
 
 TikHub’s coverage of overseas platforms gives QVeris agents the opportunity to bring public content signals from TikTok, Instagram, YouTube, Twitter/X, Threads, and other platforms into the same analysis process. Agents can compare how the same keyword takes shape across platforms: TikTok may lean toward short-video challenges, YouTube toward long-form reviews, Instagram toward visual posts, and Twitter/X toward opinion diffusion.
 
-![qveris-tikhub-content-platform-signals-11](../../../assets/blog-qveris-tikhub-content-platform-signals-11.png)
+![qveris-tikhub-content-platform-signals-11](../../../assets/blog-qveris-tikhub-content-platform-signals-11-en.png)
 
-![qveris-tikhub-content-platform-signals-12](../../../assets/blog-qveris-tikhub-content-platform-signals-12.png)
+![qveris-tikhub-content-platform-signals-12](../../../assets/blog-qveris-tikhub-content-platform-signals-12-en.png)
 
 This is highly useful for global expansion teams. Whether a product is being discussed overseas is not just a matter of search result volume. It depends on how creators present it, how users comment, which platform has stronger engagement, and whether the content creates secondary propagation. If agents can organize these signals across platforms, they can produce overseas market observations faster.
 
@@ -128,11 +128,11 @@ This is highly useful for global expansion teams. Whether a product is being dis
 
 After the TikHub integration, QVeris agents can build not just one-off queries, but a set of workflows that are closer to real business scenarios.
 
-![qveris-tikhub-content-platform-signals-13](../../../assets/blog-qveris-tikhub-content-platform-signals-13.png)
+![qveris-tikhub-content-platform-signals-13](../../../assets/blog-qveris-tikhub-content-platform-signals-13-en.png)
 
-![qveris-tikhub-content-platform-signals-14](../../../assets/blog-qveris-tikhub-content-platform-signals-14.png)
+![qveris-tikhub-content-platform-signals-14](../../../assets/blog-qveris-tikhub-content-platform-signals-14-en.png)
 
-![qveris-tikhub-content-platform-signals-15](../../../assets/blog-qveris-tikhub-content-platform-signals-15.png)
+![qveris-tikhub-content-platform-signals-15](../../../assets/blog-qveris-tikhub-content-platform-signals-15-en.png)
 
 > For QVeris, TikHub matters because it brings agents one step closer to real users. It lets agents see how content appears, how it spreads, how it is discussed, and how it affects consumption, instead of staying limited to web summaries and static materials.
 

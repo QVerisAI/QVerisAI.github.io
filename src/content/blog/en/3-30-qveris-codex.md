@@ -58,7 +58,7 @@ QVeris: a professional financial data interface
 
 Once QVeris is connected to Codex, Codex can directly call these data capabilities.
 
-![](../../../assets/blog-3-30-qveris-codex-2.jpg)
+![](../../../assets/blog-3-30-qveris-codex-2-en.jpg)
 
 **How do you use it? Three steps:**
 
@@ -66,23 +66,23 @@ Once QVeris is connected to Codex, Codex can directly call these data capabiliti
 
 Tell your Codex directly: "connect qveris.ai"
 
-![](../../../assets/blog-3-30-qveris-codex-3.png)
+![](../../../assets/blog-3-30-qveris-codex-3-en.png)
 
 2. Register on qveris.ai and get an API Key
 
-![](../../../assets/blog-3-30-qveris-codex-4.png)
+![](../../../assets/blog-3-30-qveris-codex-4-en.png)
 
 3. Give the API Key to Codex, and it can start calling QVeris
 
 It is that simple. No coding required. No need to understand API documentation.
 
-![](../../../assets/blog-3-30-qveris-codex-5.png)
+![](../../../assets/blog-3-30-qveris-codex-5-en.png)
 
 02 What does it feel like after connecting?
 
 **First, let's see what Codex says officially**:
 
-![](../../../assets/blog-3-30-qveris-codex-6.png)
+![](../../../assets/blog-3-30-qveris-codex-6-en.png)
 
 Now let's look at three real scenarios:
 
@@ -134,7 +134,7 @@ Codex automatically:
 
 A first draft is ready in 5 minutes. You only need to refine the conclusions.
 
-![](../../../assets/blog-3-30-qveris-codex-7.png)
+![](../../../assets/blog-3-30-qveris-codex-7-en.png)
 
 03 Why is this an opportunity for everyone?
 
