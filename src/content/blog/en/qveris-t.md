@@ -7,6 +7,7 @@ category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
 translationKey: 'qveris-t'
+draft: true
 ---
 ![Image](../../../assets/blog-qveris-t-1.webp)In options trading and quantitative analysis, the option chain, also known as the T-quote view, is the core lens through which investors observe market sentiment and identify trading opportunities.
 
