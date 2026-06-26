@@ -2,427 +2,490 @@
   "articles": {
     "0-1-agent": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862591+00:00"
+      "english_sync_reason": "Financial research agent engineering, data integration, tool selection, workflow pitfalls, infrastructure stability, and compliance in AI agent development — all globally relevant technical/product topics.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.240906+00:00"
     },
     "10-cci-305": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862595+00:00"
+      "requires_english": false,
+      "english_sync_reason": "China-local A-share trading signal analysis (CCI on BYD), minute-level technical indicator interpretation, domestic market context, and retail investor behavior — value depends on Chinese market mechanics and screenshots.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.241361+00:00"
     },
     "3-3-ai": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862596+00:00"
+      "requires_english": false,
+      "english_sync_reason": "A-share-specific data unit ambiguity (‘hand’ vs ‘shares’ vs ‘ten-thousand hands’), Chinese financial API conventions, and regulatory context — deeply tied to China’s stock exchange rules and domestic data vendors.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.241513+00:00"
     },
     "3-30-qveris-codex": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862598+00:00"
+      "english_sync_reason": "Technical integration of QVeris with Codex for live financial data access, workflow automation, and AI agent capability augmentation — core infrastructure/product topic with global applicability.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.241610+00:00"
     },
     "45-serenity-qveris": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862599+00:00"
+      "requires_english": false,
+      "english_sync_reason": "Viral Chinese social media persona (Serenity) and her A-share ‘cold ticket’ stock-picking method; relies on domestic platform culture, local sentiment, and China-specific small-cap screening — not transferable without heavy localization.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.241708+00:00"
     },
     "5-hermes-qveris-cli-prompt": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862600+00:00"
+      "english_sync_reason": "CLI installation and tool integration for Hermes Agent using QVeris — technical setup, shell sandboxing, and agent extensibility — broadly applicable engineering content.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.241800+00:00"
     },
     "7-ai-agent": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862602+00:00"
+      "english_sync_reason": "Ticker symbol resolution across global markets (HK/US/CN/JP/DE/BR), entity disambiguation, and cross-vendor symbol mapping — fundamental infrastructure challenge for international financial agents.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.241865+00:00"
     },
     "agent-action-long-term": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862604+00:00"
+      "english_sync_reason": "AI agent action-oriented philosophy, hackerthon execution focus, tool invocation reliability, and real-world agent operability — core agentic AI theme with global relevance.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.241941+00:00"
     },
     "agent-qveris-2": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862606+00:00"
+      "english_sync_reason": "Earnings call transcript integration for investment research agents, multi-market coverage (US/foreign dual-listed), and unstructured financial text access — globally valuable product/data capability.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.242027+00:00"
     },
     "agent-qveris": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862608+00:00"
-    },
-    "agent-tool-calling-quality-engineering": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862609+00:00"
+      "english_sync_reason": "Reliable tool calling infrastructure: parameter normalization, error diagnosis, execution tracing, and schema alignment — foundational engineering work for production AI agents worldwide.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.242162+00:00"
     },
     "agents-become-species": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862610+00:00"
+      "english_sync_reason": "Agentic AI ecosystem evolution, multi-agent coordination, discovery/routing infrastructure, and societal analogies — high-level, globally significant technical vision piece.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.242262+00:00"
     },
     "ai-agent": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862612+00:00"
+      "english_sync_reason": "Agent tooling fundamentals: capability discovery, provider evaluation, structured invocation, and developer integration — universal infrastructure concept for AI agents.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.242355+00:00"
     },
     "ai-deepseek": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862613+00:00"
+      "english_sync_reason": "LLM vs. agent distinction, real-time data access, financial accuracy requirements, and QVeris as a ‘capability router’ — conceptual explanation with broad international applicability.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.242442+00:00"
     },
     "ai-finance-agent-cost-audit": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862614+00:00"
+      "english_sync_reason": "Cost optimization of financial data APIs, multi-vendor redundancy, empty response billing, and credit-based auditing — operational efficiency topic relevant to global fintech/AI teams.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.242558+00:00"
     },
     "ai-qveris": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862615+00:00"
+      "english_sync_reason": "QVeris-powered data-driven analysis of Apple’s AI narrative using market, fundamental, and sentiment signals — cross-border tech/finance workflow demonstration.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.242654+00:00"
     },
     "anthropic-finance-agent-third-layer": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862616+00:00"
+      "english_sync_reason": "Financial agent architecture layers (Agent/Skill/Connector), enterprise-grade tooling, auditability, cost-aware routing, and compliance-by-design — critical infrastructure layer for global financial AI adoption.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.242736+00:00"
     },
     "capability-explorer": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862617+00:00"
+      "english_sync_reason": "Product feature launch: interactive capability map for agents, covering global technical domains (trading, market data, risk, research, alt signals), infrastructure-agnostic, no China-specific context or A-share-only content.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.242832+00:00"
     },
     "clawdbot-qveris-anything": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862618+00:00"
+      "english_sync_reason": "Product integration post: Clawdbot (Moltbot) + QVeris enables cross-platform AI action with verified tools; financial examples are illustrative but not A-share-exclusive; core value is global agent tooling.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.242898+00:00"
     },
     "codex-openclaw-qveris-bot": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862620+00:00"
+      "requires_english": false,
+      "english_sync_reason": "Strongly China-local: focused on retail A-share investors, uses Chinese stock examples (e.g., Kweichow Moutai), references domestic platforms (Feishu), and centers on personal A-share research workflows with no global applicability.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.242946+00:00"
     },
     "codex-token": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862621+00:00"
+      "english_sync_reason": "Engineering best practice: token optimization for coding agents, universally applicable to Codex-like systems, no China-specific dependencies or localized context.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.243005+00:00"
     },
     "enterprise-trustworthy-agent-evidence": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862622+00:00"
+      "english_sync_reason": "Core technical concept: enterprise-grade trustworthy agents require evidence, auditability, and tool harness — a globally relevant infrastructure concern, not tied to Chinese markets or regulations.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.243173+00:00"
     },
     "former-liblib-cto-agent-infra": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862623+00:00"
+      "english_sync_reason": "Company founding story & infra vision: positioning QVeris as Agent-era action infrastructure; emphasizes universal challenges (tool discovery, standardization, real-world connectivity), not China-specific operations.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.243259+00:00"
     },
     "hermes-24": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862625+00:00"
+      "requires_english": false,
+      "english_sync_reason": "China-local tutorial: explicitly targets A-share data freedom, uses domestic examples (A-share real-time monitoring), references Feishu, and assumes Chinese retail investor context with no global translation value.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.243338+00:00"
     },
     "mcp-qveris": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862626+00:00"
+      "english_sync_reason": "Technical deep dive: MCP tooling challenges and QVeris’ role in discovery, inspection, and parameter resolution — fundamental agent infra problem, language-agnostic and globally applicable.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.243397+00:00"
     },
     "openclaw-a-shares-data": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862627+00:00"
+      "requires_english": false,
+      "english_sync_reason": "A-share-specific setup guide: step-by-step instructions for OpenClaw + QVeris targeting Chinese retail investors, mentions Feishu, Telegram, and A-share data as primary use case.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.243500+00:00"
     },
     "openclaw-a-shares-finance-assistant": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862628+00:00"
+      "requires_english": false,
+      "english_sync_reason": "China-local product tutorial: built entirely around 24h A-share analysis, zero门槛 for Chinese retail investors, references domestic platforms and free A-share API access — no international relevance.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.243566+00:00"
     },
     "openclaw-qveris-finance-guide": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862629+00:00"
+      "requires_english": false,
+      "english_sync_reason": "Finance-focused configuration guide with A-share as default context, includes Chinese platform examples (Feishu), and assumes domestic financial data usage — strongly localized.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.243624+00:00"
     },
     "openclaw-vs-hermes": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862630+00:00"
+      "requires_english": false,
+      "english_sync_reason": "China-local comparison: framed around 'shrimp farming' metaphor popular in Chinese dev communities, uses A-share queries as benchmark, and references Feishu internal testing — culturally and contextually bound.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.243687+00:00"
     },
     "prompt-layering-for-tool-calling": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862631+00:00"
+      "english_sync_reason": "Universal engineering pattern: layered prompt management for scalable tool calling — applies to any multi-tool agent system, no localization dependency.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.243769+00:00"
     },
     "provider-translation-review-skill": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862632+00:00"
+      "english_sync_reason": "Internal engineering process: multilingual provider metadata governance, focused on terminology consistency and evidence-based naming — relevant for global product localization and developer tooling.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.243858+00:00"
     },
     "qveris-agent": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862633+00:00"
+      "english_sync_reason": "Billing transparency upgrade: usage/ledger separation, charge auditing, and execution-result-based pricing — critical for global SaaS/API products, not China-specific.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.243925+00:00"
     },
     "qveris-ai-agent": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862635+00:00"
+      "english_sync_reason": "Strategic partnership announcement: QVeris + Wangsu for enterprise agent infra; emphasizes universal enterprise needs (security, audit, scalability, model+tool integration) — no China-only constraints or localized content.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.244002+00:00"
     },
     "qveris-ai-stock-research-assistant": {
-      "requires_english": false,
-      "updated_by": "feishu_on_45814608eaf1f940248e75691870a611",
-      "updated_at": "2026-06-26T05:30:16.719054+00:00",
-      "tags": [],
-      "wechat_url": "",
-      "notes": ""
+      "requires_english": true,
+      "english_sync_reason": "Global stock research workflow using US market data, FMP API, sector/industry valuation, screener logic — broadly applicable to international quant/AI practitioners.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.244083+00:00"
     },
     "qveris-apple-fundamentals-workflow": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862637+00:00"
+      "english_sync_reason": "Apple fundamentals analysis using FMP; covers universal financial statements (income/balance/cash flow), TTM, As Reported data — core global finance content.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.244142+00:00"
     },
     "qveris-bainiu-enterprise-due-diligence": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862638+00:00"
+      "requires_english": false,
+      "english_sync_reason": "Bainiu is a China-specific enterprise data provider (judicial risk, AIC registration, bidding, patents); due diligence context is domestic-only.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.244212+00:00"
     },
     "qveris-cli-api": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862639+00:00"
+      "english_sync_reason": "CLI as universal API gateway — technical product documentation, terminal workflow, tool discovery/inspect/call — globally relevant developer infrastructure.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.244283+00:00"
     },
     "qveris-cli": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862640+00:00"
+      "english_sync_reason": "Same as qveris-cli-api: core CLI product docs for developers worldwide; no China-local dependencies.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.244349+00:00"
     },
     "qveris-cocreation-camp": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862642+00:00"
+      "english_sync_reason": "AI co-creation camp for developers building agents; focuses on infrastructure, tool calling, stability, cost — global developer audience.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.244410+00:00"
     },
     "qveris-explainable-research-workflow": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862643+00:00"
+      "english_sync_reason": "Explainable research workflow design — data provenance, strategy validation, observability, reproducibility — universal for financial AI products.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.244463+00:00"
     },
     "qveris-financial-capability-network": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862644+00:00"
+      "english_sync_reason": "Financial capability network concept — agent-facing abstraction over fragmented APIs, evaluation, verification — foundational global infra topic.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.244530+00:00"
     },
     "qveris-fmp-60": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862645+00:00"
+      "english_sync_reason": "Cross-border research with 60+ exchanges via FMP; covers ISIN, multi-currency, unified schema — explicitly global financial data integration.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.244595+00:00"
     },
     "qveris-fmp-finance": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862647+00:00"
+      "english_sync_reason": "FMP integration enabling live financials, valuation, macro data — core global financial data capability for agents.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.244658+00:00"
     },
     "qveris-friends-hackathon": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862648+00:00"
+      "requires_english": false,
+      "english_sync_reason": "Local Beijing offline hackathon with RMB prizes, WeChat/friend circle promotion, venue-specific logistics — China-only event.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.244706+00:00"
     },
     "qveris-greeks": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862649+00:00"
+      "requires_english": false,
+      "english_sync_reason": "China-specific options tools (SSE, SZSE, CFFEX ETF/commodity options); IV/Greeks implementation tied to domestic exchange rules and products.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.244753+00:00"
     },
     "qveris-hackathon-projects": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862650+00:00"
+      "requires_english": false,
+      "english_sync_reason": "Post-event recap of local Beijing hackathon projects; includes LOF arbitrage (A-share specific) and Chinese-language demos — domestic context only.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.244801+00:00"
     },
     "qveris-hsjy-wind-alternative": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862651+00:00"
+      "requires_english": false,
+      "english_sync_reason": "A-share quant alternative to Wind; focuses on Hundsun Juyuan, Chinese broker consensus, A-share metrics — strongly China-local.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.244857+00:00"
     },
     "qveris-in-cursor": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862652+00:00"
+      "english_sync_reason": "Developer tutorial for Cursor IDE integration — universal tooling for AI engineers using CLI/APIs, language-agnostic setup.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.244927+00:00"
     },
     "qveris-mapstory-history": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862653+00:00"
+      "english_sync_reason": "Historical spatiotemporal storytelling via geocoding; uses QVeris as unified interface for location resolution — applicable globally (e.g., Shakespeare, Napoleon).",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.244973+00:00"
     },
     "qveris-microsoft-1995": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862654+00:00"
+      "english_sync_reason": "Long-horizon investment research using Microsoft data; focuses on data infrastructure, historical coverage validation, API integration (FMP), and technical workflow—globally relevant engineering/product topic.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.245032+00:00"
     },
     "qveris-openclaw-ai-agent": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862657+00:00"
+      "english_sync_reason": "Covers production-grade AI agent design, real-time tool calling, fact-grounding, failure handling, and workflow robustness—core global AI/agent engineering concerns.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.245088+00:00"
     },
     "qveris-qveris-cn": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862658+00:00"
+      "requires_english": false,
+      "english_sync_reason": "China-specific product launch: domestic payment (WeChat/Alipay), qveris.cn domain, localized registration/login, and China-only operational features—no international utility without heavy localization.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.245148+00:00"
     },
     "qveris-skill-for-openclaw": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862660+00:00"
+      "english_sync_reason": "Official OpenClaw skill for QVeris; details agent behavior protocols, tool selection criteria, error recovery, and cross-domain capability mapping—broadly applicable technical product documentation.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.245196+00:00"
     },
     "qveris-sports-tool-workflow": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862661+00:00"
+      "english_sync_reason": "Sports data tooling across football, basketball, MMA, etc.; emphasizes multi-sport workflow design, API composition, and real-time intelligence—global technical use case with universal applicability.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.245245+00:00"
     },
     "qveris-t": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862662+00:00"
+      "requires_english": false,
+      "english_sync_reason": "A-share options chain (T-quote) tool focused on Chinese exchanges (SSE, SZSE, CFFEX, SHFE, DCE, CZCE, GFEX); deeply tied to domestic regulatory context, trading mechanics, and local market structure.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.245305+00:00"
     },
     "qveris-tikhub-content-platform-signals": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862663+00:00"
+      "english_sync_reason": "Integration of TikHub for cross-platform content signals (TikTok, Xiaohongshu, Douyin, Taobao, Meituan, Instagram, etc.); addresses global social/ecommerce data workflows and real-world user behavior analysis.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.245355+00:00"
     },
     "qveris-tripadvisor-travel": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862664+00:00"
+      "english_sync_reason": "TripAdvisor API integration for travel data—global platform, multilingual reviews, POI data, and location-based workflows—universally relevant for travel tech and agent applications.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.245415+00:00"
     },
     "qveris-twelve-data": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862666+00:00"
+      "english_sync_reason": "Twelve Data integration covering US stocks, FX, gold, Bitcoin; technical analysis (RSI, Bollinger Bands), latency benchmarks, and cross-asset API unification—global quant/engineering topic.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.245464+00:00"
     },
     "qveris-wechat-2247484280": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862667+00:00"
+      "english_sync_reason": "Agent Capability Map—a UI/UX and infrastructure feature for discovering, comparing, and testing tools across domains (quant, market data, risk, alt signals, crypto); core product functionality for global developers.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.245521+00:00"
     },
     "qveris-wechat-2247484379": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862668+00:00"
+      "requires_english": false,
+      "english_sync_reason": "A-share-specific data toolkit: SH/SZ stock codes, A-share exchanges (SSE/SZSE/BSE), dividend-adjusted pricing, and China-market-only metrics—strongly local context and regulatory dependency.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.245574+00:00"
     },
     "qveris-wechat-2247484477": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862669+00:00"
+      "requires_english": false,
+      "english_sync_reason": "Moutai (600519.SH) price analysis at 1400 CNY; uses A-share valuation metrics, domestic peer comparison (Wuliangye, Luzhou Laojiao), and China-specific investor behavior—China-local stock picking context.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.245623+00:00"
     },
     "qveris-wechat-2247484519": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862670+00:00"
+      "requires_english": false,
+      "english_sync_reason": "Minute-level order book analysis of Ningde Times (300750.SZ); discusses A-share-specific mechanisms (price limits, no pre-market), and domestic retail vs. institutional dynamics—deeply China-market dependent.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.245669+00:00"
     },
     "qveris-wechat-2247484581": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862671+00:00"
+      "requires_english": false,
+      "english_sync_reason": "'Quant democratization' narrative centered on A-share data access, domestic suppliers (Hengsheng Juyuan), and China retail investor pain points—local market framing and audience.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.245720+00:00"
     },
     "qveris-wechat-2247484762": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862672+00:00"
+      "english_sync_reason": "Transparent data cost tracking (credits, execution ID, usage history); applies universally to API consumption, billing, and quant team resource allocation—global engineering/product concern.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.245772+00:00"
     },
     "qveris-wechat-2247484869": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862674+00:00"
+      "requires_english": false,
+      "english_sync_reason": "A-share adaptation guide: focuses on China-specific mechanisms (t+1, price limits, dragon tiger board, northbound funds, margin financing)—entirely domestic trading context and regulatory environment.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.245827+00:00"
     },
     "qveris-wechat-2247484902": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862675+00:00"
+      "english_sync_reason": "Product workflow for earnings call analysis using QVeris; globally relevant technical use case.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.245943+00:00"
     },
     "qveris-wechat-2247484934": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862676+00:00"
+      "requires_english": false,
+      "english_sync_reason": "A-share-specific trading assistant with domestic market data, indicators, and local context (e.g., '九点半盯盘', '比亚迪/宁德/茅台', 'cn_financial_pro.real_time_quotation.v1').",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.246032+00:00"
     },
     "qveris-wechat-2247484942": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862677+00:00"
+      "english_sync_reason": "Core engineering topic: parameter repair for financial tool calls — broadly applicable AI/agent infrastructure challenge.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.246115+00:00"
     },
     "qveris-wechat-2247484949": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862678+00:00"
+      "english_sync_reason": "Fundamental agent design problem: tool selection logic — critical for global financial agents, not China-local.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.246171+00:00"
     },
     "qveris-wechat-2247484958": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862679+00:00"
+      "english_sync_reason": "Product-level verification framework for financial AI — emphasizes evidence chains, MCP/API integration, benchmark results.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.246222+00:00"
     },
     "qveris-wechat-2247484977": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862680+00:00"
+      "english_sync_reason": "Broad technical thesis on real-world AI capability — applies to all domains, not China-specific.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.246275+00:00"
     },
     "qveris-wechat-2247485067": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862681+00:00"
+      "english_sync_reason": "Data preparation methodology for AI stock research — focuses on universal workflow (Discover/Inspect/Call), not A-share trading.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.246332+00:00"
     },
     "qveris-wechat-2247485112": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862683+00:00"
+      "english_sync_reason": "Design of a data-source-first financial assistant — generic agent UX pattern, not China-market dependent.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.246384+00:00"
     },
     "qveris-wechat-2247485152": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862684+00:00"
+      "english_sync_reason": "Technical deep dive into parameter repair pipeline design — engineering best practices for tool reliability.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.246436+00:00"
     },
     "qveris-wechat-2247485216": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862685+00:00"
+      "english_sync_reason": "Pitfalls in building financial agents — universal challenges around tool choice, verification, and system boundaries.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.246489+00:00"
     },
     "qveris-wechat-2247485409": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862686+00:00"
+      "english_sync_reason": "Multi-source cross-examination methodology — foundational agent reasoning pattern, domain-agnostic.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.246544+00:00"
     },
     "qveris-wechat-2247485418": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862687+00:00"
+      "requires_english": false,
+      "english_sync_reason": "China-specific summer movie season analysis with domestic policy ('2026电影经济促进年'), A-share stocks (中国电影/万达/光线), and local box office data.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.246601+00:00"
     },
     "qveris-world-cup-signal-workflow": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862688+00:00"
+      "english_sync_reason": "Global World Cup prediction case study demonstrating multi-signal agent workflow — intentionally international, non-China-specific.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.246658+00:00"
     },
     "qverisbot-10000-tools": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862689+00:00"
+      "english_sync_reason": "Product announcement of QVerisBot — highlights universal capabilities (10k+ tools, OpenClaw, cross-platform) and global deployment.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.246718+00:00"
     },
     "qverisbot-feishu-deploy": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862690+00:00"
+      "requires_english": false,
+      "english_sync_reason": "Feishu-specific deployment guide — targets Chinese enterprise users, includes QR code, Feishu-native features, and local setup context.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.246772+00:00"
     },
     "trillion-agents-software-industry": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862692+00:00"
+      "english_sync_reason": "Macro industry analysis on trillion-scale AI agents — cites global leaders (Levie, Box), open-source projects (OpenClaw, Claude), and systemic software shifts.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.246895+00:00"
     },
     "why-not-another-langchain": {
       "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862693+00:00"
-    },
-    "openclaw-qveris-real-world-data": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862694+00:00"
-    },
-    "qverisbot-2026-3-8-release": {
-      "requires_english": true,
-      "updated_by": "admin-blog-management-defaults",
-      "updated_at": "2026-06-26T05:27:34.862695+00:00"
+      "english_sync_reason": "Core technical post on AI agent infrastructure, autonomous workflows, dynamic tool discovery, and architectural philosophy — globally relevant to engineers, researchers, and product teams building agents.",
+      "english_sync_checked_by": "llm-qwen-plus",
+      "english_sync_checked_at": "2026-06-26T06:27:10.246985+00:00"
     }
   },
-  "updated_at": "2026-06-26T05:30:16.719173+00:00"
+  "updated_at": "2026-06-26T06:27:10.247070+00:00"
 }

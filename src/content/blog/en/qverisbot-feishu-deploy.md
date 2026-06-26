@@ -7,6 +7,7 @@ category: 'Engineering'
 author: 'QVeris Team'
 tags: ['qverisbot', 'clawdbot', 'Feishu', 'Deployment', 'Guide']
 translationKey: 'qverisbot-feishu-deploy'
+draft: true
 ---
 
 Before you start deploying, you can scan the Feishu QR code to join the group and see what QVerisBot looks like after deployment👇
