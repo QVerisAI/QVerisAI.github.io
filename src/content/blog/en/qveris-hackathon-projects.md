@@ -7,7 +7,6 @@ category: 'Announcement'
 author: 'QVeris Team'
 tags: ['黑客松', 'qveris', '案例']
 translationKey: 'qveris-hackathon-projects'
-draft: true
 ---
 
 Last Sunday, at the offline hackathon hosted by **QVeris Friends × Origin Academy**, nearly 100 developers, product managers, and creators built and shipped 10 AI Agent projects in just **4 hours**.

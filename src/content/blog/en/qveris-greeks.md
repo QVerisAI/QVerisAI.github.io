@@ -7,7 +7,6 @@ category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
 translationKey: 'qveris-greeks'
-draft: true
 ---
 ![Image](../../../assets/blog-qveris-greeks-1.webp)In the multidimensional game of options trading, focusing only on static “call/put” prices is like sailing through fog. Skilled options traders look beyond the direction of the underlying asset and understand the real forces driving price: **implied volatility (IV)** and **risk sensitivity metrics (Greeks)**.
 

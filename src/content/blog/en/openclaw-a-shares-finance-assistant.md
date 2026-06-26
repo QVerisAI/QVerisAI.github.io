@@ -7,7 +7,6 @@ category: 'Engineering'
 author: 'QVeris Team'
 tags: ['openclaw', 'Finance', 'A-shares', 'Guide']
 translationKey: 'openclaw-a-shares-finance-assistant'
-draft: true
 ---
 
 As AI-native applications become increasingly common, many users want their OpenClaw setup to break out of the "information silo" and gain real-time financial data analysis capabilities. For A-share investors in particular, an AI assistant that can monitor the market around the clock and screen for promising stocks can significantly improve decision-making efficiency.

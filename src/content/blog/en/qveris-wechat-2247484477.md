@@ -7,7 +7,6 @@ category: 'Product'
 author: 'QVeris Team'
 tags: ['QVeris', 'Agent']
 translationKey: 'qveris-wechat-2247484477'
-draft: true
 ---
 A friend asked me: "Moutai has fallen from 2,600 to 1,400, nearly 50%. Is it time to buy the dip?"
 
