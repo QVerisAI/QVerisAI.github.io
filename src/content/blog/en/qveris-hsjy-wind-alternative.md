@@ -7,6 +7,7 @@ category: 'Engineering'
 author: 'QVeris Team'
 tags: ['A-shares', '量化', 'qveris', 'Finance']
 translationKey: 'qveris-hsjy-wind-alternative'
+draft: true
 ---
 
 ![qveris-hsjy-wind-alternative-1](../../../assets/blog-qveris-hsjy-wind-alternative-1.png)

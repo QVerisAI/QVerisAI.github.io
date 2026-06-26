@@ -7,6 +7,7 @@ category: 'Engineering'
 author: 'QVeris Team'
 tags: ['openclaw', 'Finance', 'A-shares', 'Guide']
 translationKey: 'openclaw-a-shares-data'
+draft: true
 ---
 
 A few days ago, we connected Clawdbot, now OpenClaw, to QVeris and brought it into Feishu, creating a 24/7 A-share analyst. More than 1,000 friends joined the beta group within a single day. (**Experience link included at the end.**)

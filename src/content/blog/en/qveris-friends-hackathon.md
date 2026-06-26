@@ -7,6 +7,7 @@ category: 'Announcement'
 author: 'QVeris Team'
 tags: ['黑客松', 'qveris', '活动']
 translationKey: 'qveris-friends-hackathon'
+draft: true
 ---
 
 ![qveris-friends-hackathon-1](../../../assets/blog-qveris-friends-hackathon-1.png)
