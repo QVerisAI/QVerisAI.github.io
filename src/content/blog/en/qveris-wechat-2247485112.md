@@ -1,12 +1,17 @@
 ---
-title: 'Stop Letting AI Make Up Financial Analysis: I Built a Small Assistant That Finds Data Sources First'
-description: 'A small assistant design that forces financial analysis to find data sources before generating conclusions.'
-pubDate: 'Jun 08 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247485112-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247485112'
+title: 'Stop Letting AI Make Up Financial Analysis: I Built a Small Assistant That
+  Finds Data Sources First'
+description: A small assistant design that forces financial analysis to find data
+  sources before generating conclusions.
+pubDate: Jun 08 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247485112-hero.jpg
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247485112
+draft: false
 ---
 QVeris · Product Story 
 

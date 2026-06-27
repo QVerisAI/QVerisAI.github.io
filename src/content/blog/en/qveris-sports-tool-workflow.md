@@ -1,12 +1,17 @@
 ---
-title: 'What QVeris Sports Tools Can Do: From Score Lookup to Pre-Match Intelligence Workflows'
-description: 'An overview of QVeris sports tools, from score lookup to pre-match intelligence workflows and multi-sport data retrieval.'
-pubDate: 'Jun 21 2026'
-heroImage: '../../../assets/blog-qveris-sports-tool-workflow-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-sports-tool-workflow'
+title: 'What QVeris Sports Tools Can Do: From Score Lookup to Pre-Match Intelligence
+  Workflows'
+description: An overview of QVeris sports tools, from score lookup to pre-match intelligence
+  workflows and multi-sport data retrieval.
+pubDate: Jun 21 2026
+heroImage: ../../../assets/blog-qveris-sports-tool-workflow-hero.jpg
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-sports-tool-workflow
+draft: false
 ---
 QVeris · Technical Deep Dive
 

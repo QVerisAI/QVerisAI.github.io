@@ -1,12 +1,15 @@
 ---
-title: 'The Longer You Use Codex, the More You Need to Save Tokens'
-description: 'The longer you use Codex, the more you need to save tokens'
-pubDate: 'Jun 08 2026'
-heroImage: '../../../assets/blog-codex-token-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'codex-token'
+title: The Longer You Use Codex, the More You Need to Save Tokens
+description: The longer you use Codex, the more you need to save tokens
+pubDate: Jun 08 2026
+heroImage: ../../../assets/blog-codex-token-hero.jpg
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: codex-token
+draft: false
 ---
 I am an old-school programmer. After leaving large tech companies, I have spent years in startups, and I am still writing AI-related backend code on the front line. I keep more complete technical notes on the WeChat Official Account “字与码”: pitfalls I have hit, tradeoffs when switching stacks, and detours I have taken over the years. I post there from time to time. If this article is useful to you, feel free to follow it.
 

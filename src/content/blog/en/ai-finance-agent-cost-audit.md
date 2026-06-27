@@ -1,14 +1,20 @@
 ---
 title: 'Your AI Finance Agent Burns $200 a Day, and $130 Is Waste: A Billing Audit'
-description: 'A QVeris-based audit of financial data call costs, breaking down the hidden expenses AI finance agents incur across multi-vendor APIs, duplicate queries, and empty returns.'
-pubDate: 'Jun 03 2026'
-heroImage: '../../../assets/blog-ai-finance-agent-cost-audit-hero.png'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['Finance Agent', 'Data Tools', 'Cost Optimization', 'QVeris']
-translationKey: 'ai-finance-agent-cost-audit'
+description: A QVeris-based audit of financial data call costs, breaking down the
+  hidden expenses AI finance agents incur across multi-vendor APIs, duplicate queries,
+  and empty returns.
+pubDate: Jun 03 2026
+heroImage: ../../../assets/blog-ai-finance-agent-cost-audit-hero.png
+category: Product
+author: QVeris Team
+tags:
+- Finance Agent
+- Data Tools
+- Cost Optimization
+- QVeris
+translationKey: ai-finance-agent-cost-audit
+draft: false
 ---
-
 Two weeks ago, I went through our team's AI agent API bill.
 
 Afterward, I had to drink a glass of ice water to calm down.

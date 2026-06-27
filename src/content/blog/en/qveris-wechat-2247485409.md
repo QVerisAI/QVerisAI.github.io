@@ -1,12 +1,16 @@
 ---
-title: 'The Key to Financial Agents Is Not Answers, but Multi-Source Cross-Examination'
-description: 'Why financial agents need multi-source cross-examination, not just single-answer generation.'
-pubDate: 'Jun 22 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247485409-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247485409'
+title: The Key to Financial Agents Is Not Answers, but Multi-Source Cross-Examination
+description: Why financial agents need multi-source cross-examination, not just single-answer
+  generation.
+pubDate: Jun 22 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247485409-hero.jpg
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247485409
+draft: true
 ---
 QVeris · QVeris Methodology
 
