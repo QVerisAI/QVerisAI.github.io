@@ -37,10 +37,18 @@
       "english_sync_checked_at": "2026-06-26T06:27:10.241800+00:00"
     },
     "7-ai-agent": {
-      "requires_english": true,
+      "requires_english": false,
       "english_sync_reason": "Ticker symbol resolution across global markets (HK/US/CN/JP/DE/BR), entity disambiguation, and cross-vendor symbol mapping — fundamental infrastructure challenge for international financial agents.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.241865+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.241865+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:30:08.290044+00:00"
     },
     "agent-action-long-term": {
       "requires_english": true,
@@ -70,7 +78,15 @@
       "requires_english": true,
       "english_sync_reason": "Agent tooling fundamentals: capability discovery, provider evaluation, structured invocation, and developer integration — universal infrastructure concept for AI agents.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.242355+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.242355+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:29:36.256424+00:00"
     },
     "ai-deepseek": {
       "requires_english": true,
@@ -82,19 +98,43 @@
       "requires_english": true,
       "english_sync_reason": "Cost optimization of financial data APIs, multi-vendor redundancy, empty response billing, and credit-based auditing — operational efficiency topic relevant to global fintech/AI teams.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.242558+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.242558+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:29:41.107988+00:00"
     },
     "ai-qveris": {
       "requires_english": true,
       "english_sync_reason": "QVeris-powered data-driven analysis of Apple’s AI narrative using market, fundamental, and sentiment signals — cross-border tech/finance workflow demonstration.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.242654+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.242654+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:28:41.790904+00:00"
     },
     "anthropic-finance-agent-third-layer": {
       "requires_english": true,
       "english_sync_reason": "Financial agent architecture layers (Agent/Skill/Connector), enterprise-grade tooling, auditability, cost-aware routing, and compliance-by-design — critical infrastructure layer for global financial AI adoption.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.242736+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.242736+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:20:46.898071+00:00"
     },
     "capability-explorer": {
       "requires_english": true,
@@ -109,22 +149,46 @@
       "english_sync_checked_at": "2026-06-26T06:27:10.242898+00:00"
     },
     "codex-openclaw-qveris-bot": {
-      "requires_english": false,
+      "requires_english": true,
       "english_sync_reason": "Strongly China-local: focused on retail A-share investors, uses Chinese stock examples (e.g., Kweichow Moutai), references domestic platforms (Feishu), and centers on personal A-share research workflows with no global applicability.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.242946+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.242946+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:29:28.623053+00:00"
     },
     "codex-token": {
       "requires_english": true,
       "english_sync_reason": "Engineering best practice: token optimization for coding agents, universally applicable to Codex-like systems, no China-specific dependencies or localized context.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.243005+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.243005+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:28:53.789031+00:00"
     },
     "enterprise-trustworthy-agent-evidence": {
       "requires_english": true,
       "english_sync_reason": "Core technical concept: enterprise-grade trustworthy agents require evidence, auditability, and tool harness — a globally relevant infrastructure concern, not tied to Chinese markets or regulations.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.243173+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.243173+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:20:17.916104+00:00"
     },
     "former-liblib-cto-agent-infra": {
       "requires_english": true,
@@ -172,13 +236,29 @@
       "requires_english": true,
       "english_sync_reason": "Universal engineering pattern: layered prompt management for scalable tool calling — applies to any multi-tool agent system, no localization dependency.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.243769+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.243769+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T09:11:00.137261+00:00"
     },
     "provider-translation-review-skill": {
       "requires_english": true,
       "english_sync_reason": "Internal engineering process: multilingual provider metadata governance, focused on terminology consistency and evidence-based naming — relevant for global product localization and developer tooling.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.243858+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.243858+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:21:19.946153+00:00"
     },
     "qveris-agent": {
       "requires_english": true,
@@ -196,13 +276,31 @@
       "requires_english": true,
       "english_sync_reason": "Global stock research workflow using US market data, FMP API, sector/industry valuation, screener logic — broadly applicable to international quant/AI practitioners.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.244083+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.244083+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T09:11:10.806859+00:00"
     },
     "qveris-apple-fundamentals-workflow": {
       "requires_english": true,
       "english_sync_reason": "Apple fundamentals analysis using FMP; covers universal financial statements (income/balance/cash flow), TTM, As Reported data — core global finance content.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.244142+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.244142+00:00",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "english_image_checked_at": "2026-06-26T09:10:10.143972+00:00",
+      "english_image_checked_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T09:10:22.548038+00:00"
     },
     "qveris-bainiu-enterprise-due-diligence": {
       "requires_english": false,
@@ -232,19 +330,43 @@
       "requires_english": true,
       "english_sync_reason": "Explainable research workflow design — data provenance, strategy validation, observability, reproducibility — universal for financial AI products.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.244463+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.244463+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:20:00.004024+00:00"
     },
     "qveris-financial-capability-network": {
       "requires_english": true,
       "english_sync_reason": "Financial capability network concept — agent-facing abstraction over fragmented APIs, evaluation, verification — foundational global infra topic.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.244530+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.244530+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:27:51.704793+00:00"
     },
     "qveris-fmp-60": {
       "requires_english": true,
       "english_sync_reason": "Cross-border research with 60+ exchanges via FMP; covers ISIN, multi-currency, unified schema — explicitly global financial data integration.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.244595+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.244595+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:29:33.287771+00:00"
     },
     "qveris-fmp-finance": {
       "requires_english": true,
@@ -292,7 +414,15 @@
       "requires_english": true,
       "english_sync_reason": "Long-horizon investment research using Microsoft data; focuses on data infrastructure, historical coverage validation, API integration (FMP), and technical workflow—globally relevant engineering/product topic.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.245032+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.245032+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:21:00.024116+00:00"
     },
     "qveris-openclaw-ai-agent": {
       "requires_english": true,
@@ -316,7 +446,15 @@
       "requires_english": true,
       "english_sync_reason": "Sports data tooling across football, basketball, MMA, etc.; emphasizes multi-sport workflow design, API composition, and real-time intelligence—global technical use case with universal applicability.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.245245+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.245245+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T09:11:39.157088+00:00"
     },
     "qveris-t": {
       "requires_english": false,
@@ -328,7 +466,15 @@
       "requires_english": true,
       "english_sync_reason": "Integration of TikHub for cross-platform content signals (TikTok, Xiaohongshu, Douyin, Taobao, Meituan, Instagram, etc.); addresses global social/ecommerce data workflows and real-world user behavior analysis.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.245355+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.245355+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:27:44.425782+00:00"
     },
     "qveris-tripadvisor-travel": {
       "requires_english": true,
@@ -424,31 +570,73 @@
       "requires_english": true,
       "english_sync_reason": "Data preparation methodology for AI stock research — focuses on universal workflow (Discover/Inspect/Call), not A-share trading.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.246332+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.246332+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:29:12.378602+00:00"
     },
     "qveris-wechat-2247485112": {
       "requires_english": true,
       "english_sync_reason": "Design of a data-source-first financial assistant — generic agent UX pattern, not China-market dependent.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.246384+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.246384+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:28:44.748550+00:00"
     },
     "qveris-wechat-2247485152": {
       "requires_english": true,
       "english_sync_reason": "Technical deep dive into parameter repair pipeline design — engineering best practices for tool reliability.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.246436+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.246436+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:28:38.257172+00:00"
     },
     "qveris-wechat-2247485216": {
       "requires_english": true,
       "english_sync_reason": "Pitfalls in building financial agents — universal challenges around tool choice, verification, and system boundaries.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.246489+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.246489+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:27:37.266293+00:00"
     },
     "qveris-wechat-2247485409": {
-      "requires_english": true,
+      "requires_english": false,
       "english_sync_reason": "Multi-source cross-examination methodology — foundational agent reasoning pattern, domain-agnostic.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.246544+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.246544+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-06-26T08:34:42.316631+00:00",
+      "english_image_checked_at": "2026-06-26T08:34:15.706823+00:00",
+      "english_image_checked_by": "feishu_on_5ed36136714013ed3162e9044c2c0596"
     },
     "qveris-wechat-2247485418": {
       "requires_english": false,
@@ -460,7 +648,15 @@
       "requires_english": true,
       "english_sync_reason": "Global World Cup prediction case study demonstrating multi-signal agent workflow — intentionally international, non-China-specific.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.246658+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.246658+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": true,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
+      "updated_at": "2026-06-26T10:20:36.640720+00:00"
     },
     "qverisbot-10000-tools": {
       "requires_english": true,
@@ -487,5 +683,5 @@
       "english_sync_checked_at": "2026-06-26T06:27:10.246985+00:00"
     }
   },
-  "updated_at": "2026-06-26T06:27:10.247070+00:00"
+  "updated_at": "2026-06-26T10:30:08.290103+00:00"
 }

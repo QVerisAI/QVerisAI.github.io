@@ -1,12 +1,17 @@
 ---
-title: 'I Asked QVeris to Pull Microsoft Historical Data Back to 1995: In Long-Horizon Investment Research, the First Step Is Not Writing a Strategy'
-description: 'A long-horizon Microsoft data example showing why historical coverage matters before writing an investment strategy.'
-pubDate: 'Jun 16 2026'
-heroImage: '../../../assets/blog-qveris-microsoft-1995-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-microsoft-1995'
+title: 'I Asked QVeris to Pull Microsoft Historical Data Back to 1995: In Long-Horizon
+  Investment Research, the First Step Is Not Writing a Strategy'
+description: A long-horizon Microsoft data example showing why historical coverage
+  matters before writing an investment strategy.
+pubDate: Jun 16 2026
+heroImage: ../../../assets/blog-qveris-microsoft-1995-hero.jpg
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-microsoft-1995
+draft: false
 ---
 QVeris · Data Test
 

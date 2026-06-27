@@ -1,12 +1,17 @@
 ---
-title: 'Still Switching Data Sources by Hand for Cross-Border Research? QVeris × FMP Connects 60+ Exchanges Through One Entry Point'
-description: 'Still switching data sources by hand for cross-border research? QVeris × FMP connects 60+ exchanges through one entry point'
-pubDate: 'Jun 04 2026'
-heroImage: '../../../assets/blog-qveris-fmp-60-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-fmp-60'
+title: Still Switching Data Sources by Hand for Cross-Border Research? QVeris × FMP
+  Connects 60+ Exchanges Through One Entry Point
+description: Still switching data sources by hand for cross-border research? QVeris
+  × FMP connects 60+ exchanges through one entry point
+pubDate: Jun 04 2026
+heroImage: ../../../assets/blog-qveris-fmp-60-hero.jpg
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-fmp-60
+draft: false
 ---
 ## A Cross-Border Research Question That Gets Stuck at the Data Source
 

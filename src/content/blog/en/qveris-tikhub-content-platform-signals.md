@@ -1,14 +1,20 @@
 ---
-title: 'QVeris Integrates TikHub: Agents Can Finally Read the Real Momentum of Content Platforms'
-description: 'How QVeris integrates TikHub so agents can read public content-platform signals across short video, social, local service, and e-commerce workflows.'
-pubDate: 'Jun 12 2026'
-heroImage: '../../../assets/blog-qveris-tikhub-content-platform-signals-hero.png'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'TikHub', 'Agent', '内容平台']
-translationKey: 'qveris-tikhub-content-platform-signals'
+title: 'QVeris Integrates TikHub: Agents Can Finally Read the Real Momentum of Content
+  Platforms'
+description: How QVeris integrates TikHub so agents can read public content-platform
+  signals across short video, social, local service, and e-commerce workflows.
+pubDate: Jun 12 2026
+heroImage: ../../../assets/blog-qveris-tikhub-content-platform-signals-hero.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- TikHub
+- Agent
+- 内容平台
+translationKey: qveris-tikhub-content-platform-signals
+draft: false
 ---
-
 ## If an Agent Can Only Search the Web, It Is Still One Step Away from the Real World
 
 Many trends today no longer begin with official announcements, press releases, or research reports.

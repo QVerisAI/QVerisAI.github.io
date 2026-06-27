@@ -1,12 +1,15 @@
 ---
-title: 'For AI Stock Research, Start by Getting Data Preparation Right'
-description: 'For AI stock research, start by getting data preparation right'
-pubDate: 'Jun 07 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247485067-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247485067'
+title: For AI Stock Research, Start by Getting Data Preparation Right
+description: For AI stock research, start by getting data preparation right
+pubDate: Jun 07 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247485067-hero.jpg
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247485067
+draft: false
 ---
 QVeris · Data Test
 

@@ -1,12 +1,16 @@
 ---
 title: 'One Tencent, Seven Tickers: Which One Should an AI Agent Trust?'
-description: 'A Tencent ticker case study on entity ambiguity, market coverage, and why financial agents need reliable symbol resolution.'
-pubDate: 'Jun 02 2026'
-heroImage: '../../../assets/blog-7-ai-agent-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: '7-ai-agent'
+description: A Tencent ticker case study on entity ambiguity, market coverage, and
+  why financial agents need reliable symbol resolution.
+pubDate: Jun 02 2026
+heroImage: ../../../assets/blog-7-ai-agent-hero.jpg
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: 7-ai-agent
+draft: true
 ---
 QVeris · Data-Tested
 

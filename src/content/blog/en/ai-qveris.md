@@ -1,12 +1,17 @@
 ---
-title: 'Apple Has Laid Out Its AI Hand. Why Isn’t the Market Buying It? I Ran Six Data Checks with QVeris'
-description: 'A six-check QVeris workflow for examining Apple’s AI narrative through market data, fundamentals, and investor signals.'
-pubDate: 'Jun 09 2026'
-heroImage: '../../../assets/blog-ai-qveris-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'ai-qveris'
+title: Apple Has Laid Out Its AI Hand. Why Isn’t the Market Buying It? I Ran Six Data
+  Checks with QVeris
+description: A six-check QVeris workflow for examining Apple’s AI narrative through
+  market data, fundamentals, and investor signals.
+pubDate: Jun 09 2026
+heroImage: ../../../assets/blog-ai-qveris-hero.jpg
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: ai-qveris
+draft: false
 ---
 QVeris · Data Check
 

@@ -1,13 +1,19 @@
 ---
-title: 'A Zero-Code Retail Investor’s Field Test: Building a Stock Research Bot with Codex, OpenClaw, and QVeris. No Price Predictions, Just a Personal Investment Research Workbench'
-description: 'A zero-code retail investor’s field test: building a stock research Bot with Codex, OpenClaw, and QVeris. No price predictions, just a personal investment research workbench.'
-pubDate: 'Jun 05 2026'
-heroImage: '../../../assets/blog-codex-openclaw-qveris-bot-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'codex-openclaw-qveris-bot'
-draft: true
+title: 'A Zero-Code Retail Investor’s Field Test: Building a Stock Research Bot with
+  Codex, OpenClaw, and QVeris. No Price Predictions, Just a Personal Investment Research
+  Workbench'
+description: 'A zero-code retail investor’s field test: building a stock research
+  Bot with Codex, OpenClaw, and QVeris. No price predictions, just a personal investment
+  research workbench.'
+pubDate: Jun 05 2026
+heroImage: ../../../assets/blog-codex-openclaw-qveris-bot-hero.jpg
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: codex-openclaw-qveris-bot
+draft: false
 ---
 QVeris · Data Tested
 

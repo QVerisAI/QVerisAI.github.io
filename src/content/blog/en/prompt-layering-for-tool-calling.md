@@ -1,12 +1,15 @@
 ---
-title: 'As Tool Counts Grow, Prompts Need Layered Management'
-description: 'As tool counts grow, prompts need layered management'
-pubDate: 'Jun 24 2026'
-heroImage: '../../../assets/blog-prompt-layering-for-tool-calling-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'prompt-layering-for-tool-calling'
+title: As Tool Counts Grow, Prompts Need Layered Management
+description: As tool counts grow, prompts need layered management
+pubDate: Jun 24 2026
+heroImage: ../../../assets/blog-prompt-layering-for-tool-calling-hero.jpg
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: prompt-layering-for-tool-calling
+draft: false
 ---
 QVeris · Product Thinking
 
