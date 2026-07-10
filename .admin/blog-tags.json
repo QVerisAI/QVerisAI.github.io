@@ -683,7 +683,7 @@
       "english_sync_checked_at": "2026-06-26T06:27:10.246985+00:00"
     },
     "feishu-e5rid02e6oaxx4xhcczclbkuncg": {
-      "requires_english": false,
+      "requires_english": true,
       "imported_from": {
         "source": "feishu",
         "doc": "https://zxoriiwxds4.feishu.cn/docx/E5rId02e6oAxX4xHcCzcLbKunCg",
@@ -691,20 +691,21 @@
         "language": "cn",
         "path": "src/content/blog/cn/feishu-e5rid02e6oaxx4xhcczclbkuncg.md",
         "image_count": 5,
-        "imported_at": "2026-07-09T12:35:01.960536+00:00",
+        "imported_at": "2026-07-10T11:27:08.549181+00:00",
         "imported_by": "feishu_on_45814608eaf1f940248e75691870a611"
       },
       "updated_by": "feishu_on_45814608eaf1f940248e75691870a611",
-      "updated_at": "2026-07-09T12:36:01.718582+00:00",
+      "updated_at": "2026-07-10T11:27:08.549204+00:00",
       "tags": [],
       "wechat_url": "",
       "notes": "",
       "english_image_has_chinese": false,
       "english_image_check_status": "manual",
-      "english_image_check_reason": "Manually set in admin."
+      "english_image_check_reason": "Manually set in admin.",
+      "feishu_doc_id": "E5rId02e6oAxX4xHcCzcLbKunCg"
     }
   },
-  "updated_at": "2026-07-09T12:36:01.718696+00:00",
+  "updated_at": "2026-07-10T11:27:08.549538+00:00",
   "tag_catalogs": {
     "content": [],
     "operational": []
