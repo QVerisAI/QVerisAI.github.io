@@ -1,12 +1,14 @@
 ---
-title: 'QVeris AI 与网宿科技达成战略合作：共建 Agent 时代的行动基础设施'
-description: 'QVeris AI 与网宿科技达成战略合作：共建 Agent 时代的行动基础设施'
-pubDate: 'Apr 28 2026'
-heroImage: '../../../assets/blog-qveris-ai-agent-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-ai-agent'
+title: QVeris AI 与网宿科技达成战略合作：共建 Agent 时代的行动基础设施
+description: QVeris AI 与网宿科技达成战略合作：共建 Agent 时代的行动基础设施
+pubDate: Apr 28 2026
+heroImage: ../../../assets/blog-qveris-ai-agent-hero.jpg
+category: Product
+author: QVeris Team
+tags:
+- Agent
+- QVeris
+translationKey: qveris-ai-agent
 ---
 ![飞书文档 - 图片](../../../assets/blog-qveris-ai-agent-1.png)
 
