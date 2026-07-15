@@ -4,7 +4,7 @@ title: 'I Asked QVeris to Predict the World Cup Champion: Not a Superstitious Be
 description: A QVeris case study on turning World Cup champion prediction into a real-world,
   multi-signal workflow for agents.
 pubDate: Jun 18 2026
-heroImage: ../../../assets/blog-qveris-world-cup-signal-workflow-hero.jpg
+heroImage: ../../../assets/blog-qveris-world-cup-signal-workflow-cover-en.png
 category: Product
 author: QVeris Team
 tags:
