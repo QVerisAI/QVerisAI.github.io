@@ -184,11 +184,13 @@
       "tags": [],
       "wechat_url": "",
       "notes": "",
-      "english_image_has_chinese": true,
-      "english_image_check_status": "manual",
-      "english_image_check_reason": "Manually set in admin.",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "checked",
+      "english_image_check_reason": "",
       "updated_by": "feishu_on_a98ed4d5f92d6dc890c861223924aa64",
-      "updated_at": "2026-06-26T10:20:17.916104+00:00"
+      "updated_at": "2026-06-26T10:20:17.916104+00:00",
+      "english_image_checked_at": "2026-07-15T09:17:52.032420+00:00",
+      "english_image_checked_by": "feishu_on_5ed36136714013ed3162e9044c2c0596"
     },
     "former-liblib-cto-agent-infra": {
       "requires_english": true,
@@ -267,10 +269,18 @@
       "english_sync_checked_at": "2026-06-26T06:27:10.243925+00:00"
     },
     "qveris-ai-agent": {
-      "requires_english": true,
+      "requires_english": false,
       "english_sync_reason": "Strategic partnership announcement: QVeris + Wangsu for enterprise agent infra; emphasizes universal enterprise needs (security, audit, scalability, model+tool integration) — no China-only constraints or localized content.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.244002+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.244002+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-15T09:10:02.354111+00:00"
     },
     "qveris-ai-stock-research-assistant": {
       "requires_english": true,
@@ -457,10 +467,18 @@
       "updated_at": "2026-06-26T09:11:39.157088+00:00"
     },
     "qveris-t": {
-      "requires_english": false,
+      "requires_english": true,
       "english_sync_reason": "A-share options chain (T-quote) tool focused on Chinese exchanges (SSE, SZSE, CFFEX, SHFE, DCE, CZCE, GFEX); deeply tied to domestic regulatory context, trading mechanics, and local market structure.",
       "english_sync_checked_by": "llm-qwen-plus",
-      "english_sync_checked_at": "2026-06-26T06:27:10.245305+00:00"
+      "english_sync_checked_at": "2026-06-26T06:27:10.245305+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-15T09:09:27.938590+00:00"
     },
     "qveris-tikhub-content-platform-signals": {
       "requires_english": true,
@@ -705,7 +723,7 @@
       "feishu_doc_id": "E5rId02e6oAxX4xHcCzcLbKunCg"
     }
   },
-  "updated_at": "2026-07-10T11:27:08.549538+00:00",
+  "updated_at": "2026-07-15T09:17:52.032715+00:00",
   "tag_catalogs": {
     "content": [],
     "operational": []

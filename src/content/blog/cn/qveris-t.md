@@ -1,12 +1,14 @@
 ---
-title: 'QVeris重磅上线！期权链(T型报价)数据查询工具全解析'
-description: 'QVeris重磅上线！期权链(T型报价)数据查询工具全解析'
-pubDate: 'Apr 16 2026'
-heroImage: '../../../assets/blog-qveris-t-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-t'
+title: QVeris重磅上线！期权链(T型报价)数据查询工具全解析
+description: QVeris重磅上线！期权链(T型报价)数据查询工具全解析
+pubDate: Apr 16 2026
+heroImage: ../../../assets/blog-qveris-t-hero.jpg
+category: Product
+author: QVeris Team
+tags:
+- Agent
+- QVeris
+translationKey: qveris-t
 ---
 ![图片](../../../assets/blog-qveris-t-1.webp)在期权交易与量化分析中，期权链（T型报价）是投资者观察市场情绪、寻找交易机会最核心的视图。
 

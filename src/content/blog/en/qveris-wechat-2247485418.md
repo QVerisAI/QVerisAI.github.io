@@ -1,12 +1,16 @@
 ---
-title: 'QVeris Field Test: The Summer Movie Season Has Begun. Are There Trading Opportunities in Film and Media?'
-description: 'A QVeris field test on the summer movie season, using data signals to examine film and media trading opportunities.'
-pubDate: 'Jun 23 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247485418-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247485418'
+title: 'QVeris Field Test: The Summer Movie Season Has Begun. Are There Trading Opportunities
+  in Film and Media?'
+description: A QVeris field test on the summer movie season, using data signals to
+  examine film and media trading opportunities.
+pubDate: Jun 23 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247485418-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247485418
 draft: true
 ---
 QVeris · Data Field Test
