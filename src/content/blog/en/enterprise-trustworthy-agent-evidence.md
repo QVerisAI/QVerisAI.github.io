@@ -2,7 +2,7 @@
 title: What Enterprise-Grade Trustworthy Agents Lack Is Not Answers, but Evidence
 description: What enterprise-grade trustworthy Agents lack is not answers, but evidence
 pubDate: Jun 19 2026
-heroImage: ../../../assets/blog-enterprise-trustworthy-agent-evidence-hero.jpg
+heroImage: ../../../assets/blog-enterprise-trustworthy-agent-evidence-cover-en.png
 category: Product
 author: QVeris Team
 tags:
