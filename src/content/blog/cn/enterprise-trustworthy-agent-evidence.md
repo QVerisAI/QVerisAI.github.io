@@ -2,7 +2,7 @@
 title: 企业可信Agent，缺的不是回答，而是证据
 description: 企业可信Agent，缺的不是回答，而是证据
 pubDate: Jun 19 2026
-heroImage: ../../../assets/blog-enterprise-trustworthy-agent-evidence-cover-cn.png
+heroImage: ../../../assets/blog-enterprise-trustworthy-agent-evidence-cover-cn.jpeg
 category: Product
 author: QVeris Team
 tags:

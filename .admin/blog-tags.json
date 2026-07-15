@@ -721,9 +721,31 @@
       "english_image_check_status": "manual",
       "english_image_check_reason": "Manually set in admin.",
       "feishu_doc_id": "E5rId02e6oAxX4xHcCzcLbKunCg"
+    },
+    "cong-yi-ci-xing-prompt-dao-lian-xu-gong-7933db": {
+      "requires_english": true,
+      "feishu_doc_id": "NKglwdcZQidFPLkdZbYcfmNonfd",
+      "imported_from": {
+        "source": "feishu",
+        "doc": "https://zxoriiwxds4.feishu.cn/wiki/NKglwdcZQidFPLkdZbYcfmNonfd",
+        "doc_token": "NKglwdcZQidFPLkdZbYcfmNonfd",
+        "language": "cn",
+        "path": "src/content/blog/cn/cong-yi-ci-xing-prompt-dao-lian-xu-gong-7933db.md",
+        "image_count": 2,
+        "imported_at": "2026-07-15T10:02:39.281675+00:00",
+        "imported_by": "feishu_on_5ed36136714013ed3162e9044c2c0596"
+      },
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-15T10:05:41.885826+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin."
     }
   },
-  "updated_at": "2026-07-15T09:17:52.032715+00:00",
+  "updated_at": "2026-07-15T10:05:41.885905+00:00",
   "tag_catalogs": {
     "content": [],
     "operational": []
