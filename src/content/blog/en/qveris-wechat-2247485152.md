@@ -3,7 +3,7 @@ title: What to Watch For When Designing a Parameter Repair Pipeline
 description: Design notes for parameter repair pipelines, including what to log, when
   to retry, and how to keep failures inspectable.
 pubDate: Jun 10 2026
-heroImage: ../../../assets/blog-qveris-wechat-2247485152-hero.jpg
+heroImage: ../../../assets/blog-qveris-wechat-2247485152-cover-en.png
 category: Product
 author: QVeris Team
 tags:
