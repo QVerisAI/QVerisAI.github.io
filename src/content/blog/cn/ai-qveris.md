@@ -1,12 +1,14 @@
 ---
-title: '苹果的 AI 牌摊开了，市场为什么不买账？我用 QVeris 跑了六组数据'
-description: '苹果的 AI 牌摊开了，市场为什么不买账？我用 QVeris 跑了六组数据'
-pubDate: 'Jun 09 2026'
-heroImage: '../../../assets/blog-ai-qveris-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'ai-qveris'
+title: 苹果的 AI 牌摊开了，市场为什么不买账？我用 QVeris 跑了六组数据
+description: 苹果的 AI 牌摊开了，市场为什么不买账？我用 QVeris 跑了六组数据
+pubDate: Jun 09 2026
+heroImage: ../../../assets/blog-ai-qveris-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: ai-qveris
 ---
 QVeris · 数据实测 
 

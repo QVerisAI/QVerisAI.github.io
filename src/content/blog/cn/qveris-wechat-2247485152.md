@@ -1,12 +1,14 @@
 ---
-title: '设计参数修复 Pipeline 需要注意什么'
-description: '设计参数修复 Pipeline 需要注意什么'
-pubDate: 'Jun 10 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247485152-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247485152'
+title: 设计参数修复 Pipeline 需要注意什么
+description: 设计参数修复 Pipeline 需要注意什么
+pubDate: Jun 10 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247485152-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247485152
 ---
 QVeris · 技术实践 
 

@@ -1,12 +1,14 @@
 ---
-title: '零代码小白股民实战：靠 Codex+OpenClaw+QVeris 自建炒股 Bot，不猜涨跌，只做自己的专属投研工作台'
-description: '零代码小白股民实战：靠 Codex+OpenClaw+QVeris 自建炒股 Bot，不猜涨跌，只做自己的专属投研工作台'
-pubDate: 'Jun 05 2026'
-heroImage: '../../../assets/blog-codex-openclaw-qveris-bot-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'codex-openclaw-qveris-bot'
+title: 零代码小白股民实战：靠 Codex+OpenClaw+QVeris 自建炒股 Bot，不猜涨跌，只做自己的专属投研工作台
+description: 零代码小白股民实战：靠 Codex+OpenClaw+QVeris 自建炒股 Bot，不猜涨跌，只做自己的专属投研工作台
+pubDate: Jun 05 2026
+heroImage: ../../../assets/blog-codex-openclaw-qveris-bot-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: codex-openclaw-qveris-bot
 ---
 QVeris · 数据实测 
 

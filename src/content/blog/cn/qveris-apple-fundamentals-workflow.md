@@ -1,12 +1,14 @@
 ---
-title: '我让 QVeris 读了一遍 Apple 基本面：三大表、As Reported、TTM 指标都接上了'
-description: '我让 QVeris 读了一遍 Apple 基本面：三大表、As Reported、TTM 指标都接上了'
-pubDate: 'Jun 15 2026'
-heroImage: '../../../assets/blog-qveris-apple-fundamentals-workflow-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-apple-fundamentals-workflow'
+title: 我让 QVeris 读了一遍 Apple 基本面：三大表、As Reported、TTM 指标都接上了
+description: 我让 QVeris 读了一遍 Apple 基本面：三大表、As Reported、TTM 指标都接上了
+pubDate: Jun 15 2026
+heroImage: ../../../assets/blog-qveris-apple-fundamentals-workflow-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-apple-fundamentals-workflow
 ---
 QVeris · 数据实测 
 

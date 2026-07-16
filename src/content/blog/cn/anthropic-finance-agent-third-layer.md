@@ -1,12 +1,15 @@
 ---
-title: 'Anthropic 公开金融 Agent 样板间，我们一直在做最值钱的第三层'
-description: 'Anthropic 公开金融 Agent 样板间，我们一直在做最值钱的第三层'
-pubDate: 'Jun 17 2026'
-heroImage: '../../../assets/blog-anthropic-finance-agent-third-layer-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent', 'Finance']
-translationKey: 'anthropic-finance-agent-third-layer'
+title: Anthropic 公开金融 Agent 样板间，我们一直在做最值钱的第三层
+description: Anthropic 公开金融 Agent 样板间，我们一直在做最值钱的第三层
+pubDate: Jun 17 2026
+heroImage: ../../../assets/blog-anthropic-finance-agent-third-layer-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+- Finance
+translationKey: anthropic-finance-agent-third-layer
 ---
 QVeris · 行业洞察 
 
