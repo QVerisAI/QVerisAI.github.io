@@ -1,12 +1,14 @@
 ---
-title: '别再让 AI 瞎分析了：我做了个先找数据源的金融小助手'
-description: '别再让 AI 瞎分析了：我做了个先找数据源的金融小助手'
-pubDate: 'Jun 08 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247485112-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247485112'
+title: 别再让 AI 瞎分析了：我做了个先找数据源的金融小助手
+description: 别再让 AI 瞎分析了：我做了个先找数据源的金融小助手
+pubDate: Jun 08 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247485112-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247485112
 ---
 QVeris · 产品故事 
 

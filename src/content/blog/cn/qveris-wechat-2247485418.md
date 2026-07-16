@@ -1,12 +1,14 @@
 ---
-title: 'QVeris实测：暑期档开场了，影视传媒板块有没有交易机会？'
-description: 'QVeris实测：暑期档开场了，影视传媒板块有没有交易机会？'
-pubDate: 'Jun 23 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247485418-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247485418'
+title: QVeris实测：暑期档开场了，影视传媒板块有没有交易机会？
+description: QVeris实测：暑期档开场了，影视传媒板块有没有交易机会？
+pubDate: Jun 23 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247485418-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247485418
 ---
 QVeris · 数据实测 
 

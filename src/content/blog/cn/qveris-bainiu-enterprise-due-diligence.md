@@ -1,12 +1,14 @@
 ---
-title: 'QVeris 接入白牛：让 Agent 像企业尽调雷达一样读懂一家公司'
-description: 'QVeris 接入白牛：让 Agent 像企业尽调雷达一样读懂一家公司'
-pubDate: 'Jun 13 2026'
-heroImage: '../../../assets/blog-qveris-bainiu-enterprise-due-diligence-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-bainiu-enterprise-due-diligence'
+title: QVeris 接入白牛：让 Agent 像企业尽调雷达一样读懂一家公司
+description: QVeris 接入白牛：让 Agent 像企业尽调雷达一样读懂一家公司
+pubDate: Jun 13 2026
+heroImage: ../../../assets/blog-qveris-bainiu-enterprise-due-diligence-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-bainiu-enterprise-due-diligence
 ---
 QVeris · 产品动态 
 ## 查一家公司，真正难的不是搜到名字

@@ -1,12 +1,14 @@
 ---
-title: '我让 QVeris 把 Microsoft 历史数据拉回 1995 年：做长周期投研，第一步不是写策略'
-description: '我让 QVeris 把 Microsoft 历史数据拉回 1995 年：做长周期投研，第一步不是写策略'
-pubDate: 'Jun 16 2026'
-heroImage: '../../../assets/blog-qveris-microsoft-1995-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-microsoft-1995'
+title: 我让 QVeris 把 Microsoft 历史数据拉回 1995 年：做长周期投研，第一步不是写策略
+description: 我让 QVeris 把 Microsoft 历史数据拉回 1995 年：做长周期投研，第一步不是写策略
+pubDate: Jun 16 2026
+heroImage: ../../../assets/blog-qveris-microsoft-1995-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-microsoft-1995
 ---
 QVeris · 数据实测 
 

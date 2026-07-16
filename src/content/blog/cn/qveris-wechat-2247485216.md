@@ -1,12 +1,14 @@
 ---
-title: '为什么金融 Agent 没那么容易做出来：我们最近踩到的几个坑'
-description: '为什么金融 Agent 没那么容易做出来：我们最近踩到的几个坑'
-pubDate: 'Jun 12 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247485216-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247485216'
+title: 为什么金融 Agent 没那么容易做出来：我们最近踩到的几个坑
+description: 为什么金融 Agent 没那么容易做出来：我们最近踩到的几个坑
+pubDate: Jun 12 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247485216-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247485216
 ---
 QVeris · 产品理念 
 

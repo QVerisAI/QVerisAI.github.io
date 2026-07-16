@@ -1,12 +1,14 @@
 ---
-title: 'Provider 翻译审核：从一次表格修订到可复用 Skill'
-description: 'Provider 翻译审核：从一次表格修订到可复用 Skill'
-pubDate: 'Jun 14 2026'
-heroImage: '../../../assets/blog-provider-translation-review-skill-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'provider-translation-review-skill'
+title: Provider 翻译审核：从一次表格修订到可复用 Skill
+description: Provider 翻译审核：从一次表格修订到可复用 Skill
+pubDate: Jun 14 2026
+heroImage: ../../../assets/blog-provider-translation-review-skill-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: provider-translation-review-skill
 ---
 QVeris · 工程实践 
 ## 背景

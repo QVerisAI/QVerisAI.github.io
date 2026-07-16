@@ -1,12 +1,14 @@
 ---
-title: 'QVeris 如何把分散 API，变成 Agent 能用的金融能力网络'
-description: 'QVeris 如何把分散 API，变成 Agent 能用的金融能力网络'
-pubDate: 'Jun 11 2026'
-heroImage: '../../../assets/blog-qveris-financial-capability-network-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-financial-capability-network'
+title: QVeris 如何把分散 API，变成 Agent 能用的金融能力网络
+description: QVeris 如何把分散 API，变成 Agent 能用的金融能力网络
+pubDate: Jun 11 2026
+heroImage: ../../../assets/blog-qveris-financial-capability-network-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-financial-capability-network
 ---
 QVeris · 产品理念 
 

@@ -1,12 +1,14 @@
 ---
-title: '跨境投研还在手动切数据源？QVeris × FMP 把 60+ 交易所接成一个入口'
-description: '跨境投研还在手动切数据源？QVeris × FMP 把 60+ 交易所接成一个入口'
-pubDate: 'Jun 04 2026'
-heroImage: '../../../assets/blog-qveris-fmp-60-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-fmp-60'
+title: 跨境投研还在手动切数据源？QVeris × FMP 把 60+ 交易所接成一个入口
+description: 跨境投研还在手动切数据源？QVeris × FMP 把 60+ 交易所接成一个入口
+pubDate: Jun 04 2026
+heroImage: ../../../assets/blog-qveris-fmp-60-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-fmp-60
 ---
 ## 一个跨境投研问题，第一步就卡在数据源
 

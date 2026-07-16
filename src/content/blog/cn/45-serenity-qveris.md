@@ -1,12 +1,14 @@
 ---
-title: '45倍白毛股神 Serenity 爆火，她押中冷门票的方法，我们用 QVeris 跑了一遍'
-description: '45倍白毛股神 Serenity 爆火，她押中冷门票的方法，我们用 QVeris 跑了一遍'
-pubDate: 'Jun 14 2026'
-heroImage: '../../../assets/blog-45-serenity-qveris-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: '45-serenity-qveris'
+title: 45倍白毛股神 Serenity 爆火，她押中冷门票的方法，我们用 QVeris 跑了一遍
+description: 45倍白毛股神 Serenity 爆火，她押中冷门票的方法，我们用 QVeris 跑了一遍
+pubDate: Jun 14 2026
+heroImage: ../../../assets/blog-45-serenity-qveris-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: 45-serenity-qveris
 ---
 QVeris · 数据实测 
 

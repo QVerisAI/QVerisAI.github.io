@@ -1,12 +1,14 @@
 ---
-title: '用AI做股票研究，先把数据准备这一步做扎实'
-description: '用AI做股票研究，先把数据准备这一步做扎实'
-pubDate: 'Jun 07 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247485067-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247485067'
+title: 用AI做股票研究，先把数据准备这一步做扎实
+description: 用AI做股票研究，先把数据准备这一步做扎实
+pubDate: Jun 07 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247485067-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247485067
 ---
 QVeris · 数据实测 
 

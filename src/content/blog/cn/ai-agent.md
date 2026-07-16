@@ -1,12 +1,14 @@
 ---
-title: 'AI Agent 很火，但它到底能调用什么？'
-description: 'AI Agent 很火，但它到底能调用什么？'
-pubDate: 'Jun 04 2026'
-heroImage: '../../../assets/blog-ai-agent-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'ai-agent'
+title: AI Agent 很火，但它到底能调用什么？
+description: AI Agent 很火，但它到底能调用什么？
+pubDate: Jun 04 2026
+heroImage: ../../../assets/blog-ai-agent-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: ai-agent
 ---
 QVeris · 数据实测 
 

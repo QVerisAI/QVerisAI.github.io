@@ -1,14 +1,17 @@
 ---
-title: 'QVeris 接入 TikHub：Agent 终于能读懂内容平台的真实热度了'
-description: 'QVeris 接入 TikHub，让 Agent 能读取短视频、种草社区、电商、本地生活和海外社媒等公开平台信号，形成更接近真实用户行为的分析工作流。'
-pubDate: 'Jun 12 2026'
-heroImage: '../../../assets/blog-qveris-tikhub-content-platform-signals-hero.png'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'TikHub', 'Agent', '内容平台']
-translationKey: 'qveris-tikhub-content-platform-signals'
+title: QVeris 接入 TikHub：Agent 终于能读懂内容平台的真实热度了
+description: QVeris 接入 TikHub，让 Agent 能读取短视频、种草社区、电商、本地生活和海外社媒等公开平台信号，形成更接近真实用户行为的分析工作流。
+pubDate: Jun 12 2026
+heroImage: ../../../assets/blog-qveris-tikhub-content-platform-signals-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- TikHub
+- Agent
+- 内容平台
+translationKey: qveris-tikhub-content-platform-signals
 ---
-
 ## 如果 Agent 只会搜网页，它其实离真实世界还差一步
 
 今天很多趋势，已经不是从官网公告、新闻稿或研报里开始的。
