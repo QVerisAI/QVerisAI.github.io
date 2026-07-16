@@ -1,12 +1,14 @@
 ---
-title: '让AI少一点幻觉，多一点真实世界的能力'
-description: '让AI少一点幻觉，多一点真实世界的能力'
-pubDate: 'Jun 01 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484977-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247484977'
+title: 让AI少一点幻觉，多一点真实世界的能力
+description: 让AI少一点幻觉，多一点真实世界的能力
+pubDate: Jun 01 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247484977-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247484977
 ---
 QVeris · 行业观察 
 

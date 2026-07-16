@@ -1,12 +1,14 @@
 ---
-title: '一个金融Agent真正难的地方：不是调用工具，而是选对工具。'
-description: '一个金融Agent真正难的地方：不是调用工具，而是选对工具。'
-pubDate: 'May 28 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484949-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247484949'
+title: 一个金融Agent真正难的地方：不是调用工具，而是选对工具。
+description: 一个金融Agent真正难的地方：不是调用工具，而是选对工具。
+pubDate: May 28 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247484949-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247484949
 ---
 QVeris · 数据实测 
 

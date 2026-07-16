@@ -1,12 +1,14 @@
 ---
-title: 'OpenClaw vs Hermes：金融分析谁更强？'
-description: 'OpenClaw vs Hermes：金融分析谁更强？'
-pubDate: 'May 06 2026'
-heroImage: '../../../assets/blog-openclaw-vs-hermes-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'openclaw-vs-hermes'
+title: OpenClaw vs Hermes：金融分析谁更强？
+description: OpenClaw vs Hermes：金融分析谁更强？
+pubDate: May 06 2026
+heroImage: ../../../assets/blog-openclaw-vs-hermes-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: openclaw-vs-hermes
 ---
 QVeris · 产品更新
 

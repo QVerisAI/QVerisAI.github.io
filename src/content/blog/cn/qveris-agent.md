@@ -1,12 +1,14 @@
 ---
-title: 'QVeris 计费升级：让你清楚Agent的每一次付费'
-description: 'QVeris 计费升级：让你清楚Agent的每一次付费'
-pubDate: 'May 01 2026'
-heroImage: '../../../assets/blog-qveris-agent-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-agent'
+title: QVeris 计费升级：让你清楚Agent的每一次付费
+description: QVeris 计费升级：让你清楚Agent的每一次付费
+pubDate: May 01 2026
+heroImage: ../../../assets/blog-qveris-agent-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-agent
 ---
 QVeris · 产品更新
 

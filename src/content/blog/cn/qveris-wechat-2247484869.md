@@ -1,12 +1,14 @@
 ---
-title: '炒不了美股了，咋办？'
-description: '炒不了美股了，咋办？'
-pubDate: 'May 22 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484869-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247484869'
+title: 炒不了美股了，咋办？
+description: 炒不了美股了，咋办？
+pubDate: May 22 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247484869-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247484869
 ---
 QVeris · 热点解读 
 ## 如果你现在开始看 A 股

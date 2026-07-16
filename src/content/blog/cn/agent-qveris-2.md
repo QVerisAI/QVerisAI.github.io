@@ -1,12 +1,14 @@
 ---
-title: '做投研 Agent 缺财报电话会议这块数据吗？QVeris 已经全接好了'
-description: '做投研 Agent 缺财报电话会议这块数据吗？QVeris 已经全接好了'
-pubDate: 'May 19 2026'
-heroImage: '../../../assets/blog-agent-qveris-2-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'agent-qveris-2'
+title: 做投研 Agent 缺财报电话会议这块数据吗？QVeris 已经全接好了
+description: 做投研 Agent 缺财报电话会议这块数据吗？QVeris 已经全接好了
+pubDate: May 19 2026
+heroImage: ../../../assets/blog-agent-qveris-2-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: agent-qveris-2
 ---
 QVeris · 数据实测 
 

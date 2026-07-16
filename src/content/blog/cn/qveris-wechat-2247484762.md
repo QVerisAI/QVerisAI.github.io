@@ -1,12 +1,14 @@
 ---
-title: '你查一次股票数据，到底花了多少钱？'
-description: '你查一次股票数据，到底花了多少钱？'
-pubDate: 'May 13 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484762-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247484762'
+title: 你查一次股票数据，到底花了多少钱？
+description: 你查一次股票数据，到底花了多少钱？
+pubDate: May 13 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247484762-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247484762
 ---
 QVeris · 产品更新 
 

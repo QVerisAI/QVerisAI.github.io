@@ -1,12 +1,14 @@
 ---
-title: 'QVeris + OpenClaw：把个人 AI 助手变成生产级 Agent'
-description: 'QVeris + OpenClaw：把个人 AI 助手变成生产级 Agent'
-pubDate: 'May 23 2026'
-heroImage: '../../../assets/blog-qveris-openclaw-ai-agent-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-openclaw-ai-agent'
+title: QVeris + OpenClaw：把个人 AI 助手变成生产级 Agent
+description: QVeris + OpenClaw：把个人 AI 助手变成生产级 Agent
+pubDate: May 23 2026
+heroImage: ../../../assets/blog-qveris-openclaw-ai-agent-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-openclaw-ai-agent
 ---
 QVeris · 产品实践 
 

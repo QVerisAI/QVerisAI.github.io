@@ -1,12 +1,14 @@
 ---
-title: '如何用 Hermes 实现 A 股数据自由：24 小时智能分析实战指南'
-description: '如何用 Hermes 实现 A 股数据自由：24 小时智能分析实战指南'
-pubDate: 'May 09 2026'
-heroImage: '../../../assets/blog-hermes-24-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'hermes-24'
+title: 如何用 Hermes 实现 A 股数据自由：24 小时智能分析实战指南
+description: 如何用 Hermes 实现 A 股数据自由：24 小时智能分析实战指南
+pubDate: May 09 2026
+heroImage: ../../../assets/blog-hermes-24-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: hermes-24
 ---
 QVeris · 使用教程   
 

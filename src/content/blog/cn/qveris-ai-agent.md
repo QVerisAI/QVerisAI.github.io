@@ -2,7 +2,7 @@
 title: QVeris AI 与网宿科技达成战略合作：共建 Agent 时代的行动基础设施
 description: QVeris AI 与网宿科技达成战略合作：共建 Agent 时代的行动基础设施
 pubDate: Apr 28 2026
-heroImage: ../../../assets/blog-qveris-ai-agent-hero.jpg
+heroImage: ../../../assets/blog-qveris-ai-agent-cover-cn.png
 category: Product
 author: QVeris Team
 tags:
