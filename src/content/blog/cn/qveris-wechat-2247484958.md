@@ -1,12 +1,14 @@
 ---
-title: '金融 AI 不只要会回答，更要可验证'
-description: '金融 AI 不只要会回答，更要可验证'
-pubDate: 'May 29 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484958-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247484958'
+title: 金融 AI 不只要会回答，更要可验证
+description: 金融 AI 不只要会回答，更要可验证
+pubDate: May 29 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247484958-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247484958
 ---
 QVeris · 产品测评 
 

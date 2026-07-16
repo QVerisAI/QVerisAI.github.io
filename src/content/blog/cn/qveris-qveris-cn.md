@@ -1,12 +1,14 @@
 ---
-title: '全新QVeris国内版(qveris.cn)震撼来袭！'
-description: '全新QVeris国内版(qveris.cn)震撼来袭！'
-pubDate: 'May 21 2026'
-heroImage: '../../../assets/blog-qveris-qveris-cn-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-qveris-cn'
+title: 全新QVeris国内版(qveris.cn)震撼来袭！
+description: 全新QVeris国内版(qveris.cn)震撼来袭！
+pubDate: May 21 2026
+heroImage: ../../../assets/blog-qveris-qveris-cn-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-qveris-cn
 ---
 QVeris · 产品发布 
 

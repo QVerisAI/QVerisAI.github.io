@@ -1,12 +1,14 @@
 ---
-title: '别再自己接 MCP 工具了，用 QVeris 吧！'
-description: '别再自己接 MCP 工具了，用 QVeris 吧！'
-pubDate: 'May 25 2026'
-heroImage: '../../../assets/blog-mcp-qveris-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'mcp-qveris'
+title: 别再自己接 MCP 工具了，用 QVeris 吧！
+description: 别再自己接 MCP 工具了，用 QVeris 吧！
+pubDate: May 25 2026
+heroImage: ../../../assets/blog-mcp-qveris-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: mcp-qveris
 ---
 QVeris · 技术解读 
 

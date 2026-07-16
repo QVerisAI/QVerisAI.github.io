@@ -1,12 +1,14 @@
 ---
-title: '3小时变30秒：接入QVeris后，Codex秒变金融数据分析师'
-description: '3小时变30秒：接入QVeris后，Codex秒变金融数据分析师'
-pubDate: 'May 20 2026'
-heroImage: '../../../assets/blog-3-30-qveris-codex-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: '3-30-qveris-codex'
+title: 3小时变30秒：接入QVeris后，Codex秒变金融数据分析师
+description: 3小时变30秒：接入QVeris后，Codex秒变金融数据分析师
+pubDate: May 20 2026
+heroImage: ../../../assets/blog-3-30-qveris-codex-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: 3-30-qveris-codex
 ---
 QVeris · 技术解读 
 

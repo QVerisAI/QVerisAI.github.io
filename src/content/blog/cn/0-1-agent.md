@@ -1,12 +1,14 @@
 ---
-title: '从 0 到 1 搭一个金融研究 Agent：我踩过的那些坑'
-description: '从 0 到 1 搭一个金融研究 Agent：我踩过的那些坑'
-pubDate: 'May 22 2026'
-heroImage: '../../../assets/blog-0-1-agent-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: '0-1-agent'
+title: 从 0 到 1 搭一个金融研究 Agent：我踩过的那些坑
+description: 从 0 到 1 搭一个金融研究 Agent：我踩过的那些坑
+pubDate: May 22 2026
+heroImage: ../../../assets/blog-0-1-agent-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: 0-1-agent
 ---
 QVeris · 产品实践 
 

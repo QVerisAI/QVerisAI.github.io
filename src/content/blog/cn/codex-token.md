@@ -1,12 +1,14 @@
 ---
-title: 'Codex 用得越久，越要学会省 Token'
-description: 'Codex 用得越久，越要学会省 Token'
-pubDate: 'Jun 08 2026'
-heroImage: '../../../assets/blog-codex-token-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'codex-token'
+title: Codex 用得越久，越要学会省 Token
+description: Codex 用得越久，越要学会省 Token
+pubDate: Jun 08 2026
+heroImage: ../../../assets/blog-codex-token-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: codex-token
 ---
 古董级程序员，大厂出来后一直在创业公司，现在还在一线写 AI 相关的后端。更完整的技术记录写在微信公众号「字与码」：踩过的坑、换技术栈时的权衡、和这些年绕过的弯路，会不定期发在那里。若这篇对你有用，欢迎顺手关注。
 

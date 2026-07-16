@@ -1,12 +1,14 @@
 ---
-title: '从一次失败的工具调用开始：让 Agent 学会自动修复参数'
-description: '从一次失败的工具调用开始：让 Agent 学会自动修复参数'
-pubDate: 'May 27 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484942-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247484942'
+title: 从一次失败的工具调用开始：让 Agent 学会自动修复参数
+description: 从一次失败的工具调用开始：让 Agent 学会自动修复参数
+pubDate: May 27 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247484942-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247484942
 ---
 QVeris · 技术实践
 

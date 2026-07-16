@@ -1,12 +1,14 @@
 ---
-title: '让 Agent 的工具调用更稳：我在 QVeris 最近在做的事'
-description: '让 Agent 的工具调用更稳：我在 QVeris 最近在做的事'
-pubDate: 'May 31 2026'
-heroImage: '../../../assets/blog-agent-qveris-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'agent-qveris'
+title: 让 Agent 的工具调用更稳：我在 QVeris 最近在做的事
+description: 让 Agent 的工具调用更稳：我在 QVeris 最近在做的事
+pubDate: May 31 2026
+heroImage: ../../../assets/blog-agent-qveris-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: agent-qveris
 ---
 QVeris · 产品动态 
 

@@ -1,12 +1,14 @@
 ---
-title: '用 QVeris 把财报电话会逐字稿变成可追溯的投研线索'
-description: '用 QVeris 把财报电话会逐字稿变成可追溯的投研线索'
-pubDate: 'May 24 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484902-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247484902'
+title: 用 QVeris 把财报电话会逐字稿变成可追溯的投研线索
+description: 用 QVeris 把财报电话会逐字稿变成可追溯的投研线索
+pubDate: May 24 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247484902-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247484902
 ---
 QVeris · 数据实测 
 

@@ -1,12 +1,14 @@
 ---
-title: 'A 股盯盘小助手：用 QVeris 串起行情、资金、题材'
-description: 'A 股盯盘小助手：用 QVeris 串起行情、资金、题材'
-pubDate: 'May 26 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484934-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247484934'
+title: A 股盯盘小助手：用 QVeris 串起行情、资金、题材
+description: A 股盯盘小助手：用 QVeris 串起行情、资金、题材
+pubDate: May 26 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247484934-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247484934
 ---
 QVeris · 数据实测 
 

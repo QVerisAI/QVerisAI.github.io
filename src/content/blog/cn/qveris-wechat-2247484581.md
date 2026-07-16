@@ -1,12 +1,14 @@
 ---
-title: 'QVeris —— 让量化平权'
-description: 'QVeris —— 让量化平权'
-pubDate: 'Apr 24 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484581-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247484581'
+title: QVeris —— 让量化平权
+description: QVeris —— 让量化平权
+pubDate: Apr 24 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247484581-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247484581
 ---
 ![](../../../assets/blog-qveris-wechat-2247484581-1.png)
 
