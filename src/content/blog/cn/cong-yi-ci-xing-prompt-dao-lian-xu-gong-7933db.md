@@ -2,7 +2,7 @@
 title: 从一次性 Prompt 到连续工作流：投研 Agent 为什么需要长期可用的数据入口？
 description: 结论先说：
 pubDate: Jun 25 2026
-heroImage: ../../../assets/blog-cong-yi-ci-xing-prompt-dao-lian-xu-gong-7933db-1.png
+heroImage: ../../../assets/blog-cong-yi-ci-xing-prompt-dao-lian-xu-gong-7933db-cover-cn.png
 category: Agent
 author: QVeris Team
 tags:

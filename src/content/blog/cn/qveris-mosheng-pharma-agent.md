@@ -1,14 +1,17 @@
 ---
-title: 'QVeris 接入摩熵数科：下一个爆款药，到底卡在发现、临床还是注册？'
-description: 'QVeris 接入摩熵数科 Provider，让 Agent 能沿药品研发、临床试验、注册审评、监管政策、合理用药和分子实体链路追踪医药问题。'
-pubDate: 'Jun 26 2026'
-heroImage: '../../../assets/blog-qveris-mosheng-pharma-agent-hero.png'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent', '医药', '摩熵数科']
-translationKey: 'qveris-mosheng-pharma-agent'
+title: QVeris 接入摩熵数科：下一个爆款药，到底卡在发现、临床还是注册？
+description: QVeris 接入摩熵数科 Provider，让 Agent 能沿药品研发、临床试验、注册审评、监管政策、合理用药和分子实体链路追踪医药问题。
+pubDate: Jun 26 2026
+heroImage: ../../../assets/blog-qveris-mosheng-pharma-agent-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+- 医药
+- 摩熵数科
+translationKey: qveris-mosheng-pharma-agent
 ---
-
 ## 医药热点很多，但真正难的是查清楚
 
 这两年，医药行业几乎每天都有新故事。

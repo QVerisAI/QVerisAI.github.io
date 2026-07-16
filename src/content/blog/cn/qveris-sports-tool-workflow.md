@@ -1,12 +1,14 @@
 ---
-title: 'QVeris的体育工具能做什么：从比分查询到赛前情报工作流'
-description: 'QVeris的体育工具能做什么：从比分查询到赛前情报工作流'
-pubDate: 'Jun 21 2026'
-heroImage: '../../../assets/blog-qveris-sports-tool-workflow-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-sports-tool-workflow'
+title: QVeris的体育工具能做什么：从比分查询到赛前情报工作流
+description: QVeris的体育工具能做什么：从比分查询到赛前情报工作流
+pubDate: Jun 21 2026
+heroImage: ../../../assets/blog-qveris-sports-tool-workflow-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-sports-tool-workflow
 ---
 QVeris · 技术解读 
 
