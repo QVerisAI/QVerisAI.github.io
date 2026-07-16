@@ -1,12 +1,14 @@
 ---
-title: '茅台股价临近1400，现在能抄底吗？一份数据实测报告'
-description: '茅台股价临近1400，现在能抄底吗？一份数据实测报告'
-pubDate: 'Apr 20 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484477-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247484477'
+title: 茅台股价临近1400，现在能抄底吗？一份数据实测报告
+description: 茅台股价临近1400，现在能抄底吗？一份数据实测报告
+pubDate: Apr 20 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247484477-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247484477
 ---
 朋友问我："茅台从2600跌到1400，跌了近50%，现在能抄底吗？"
 

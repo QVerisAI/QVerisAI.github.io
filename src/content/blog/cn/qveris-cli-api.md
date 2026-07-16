@@ -1,12 +1,14 @@
 ---
-title: 'QVeris Cli发布：让终端成为你的万能 API 入口'
-description: 'QVeris Cli发布：让终端成为你的万能 API 入口'
-pubDate: 'Apr 08 2026'
-heroImage: '../../../assets/blog-qveris-cli-api-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-cli-api'
+title: QVeris Cli发布：让终端成为你的万能 API 入口
+description: QVeris Cli发布：让终端成为你的万能 API 入口
+pubDate: Apr 08 2026
+heroImage: ../../../assets/blog-qveris-cli-api-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-cli-api
 ---
 ![图片](../../../assets/blog-qveris-cli-api-1.webp)
 

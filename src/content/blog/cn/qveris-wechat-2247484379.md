@@ -1,12 +1,14 @@
 ---
-title: 'QVeris上新｜A股新增数据工具集 -- 用户使用指南'
-description: 'QVeris上新｜A股新增数据工具集 -- 用户使用指南'
-pubDate: 'Apr 15 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484379-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247484379'
+title: QVeris上新｜A股新增数据工具集 -- 用户使用指南
+description: QVeris上新｜A股新增数据工具集 -- 用户使用指南
+pubDate: Apr 15 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247484379-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247484379
 ---
 ![图片](../../../assets/blog-qveris-wechat-2247484379-1.webp)
 

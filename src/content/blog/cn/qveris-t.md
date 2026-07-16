@@ -2,7 +2,7 @@
 title: QVeris重磅上线！期权链(T型报价)数据查询工具全解析
 description: QVeris重磅上线！期权链(T型报价)数据查询工具全解析
 pubDate: Apr 16 2026
-heroImage: ../../../assets/blog-qveris-t-hero.jpg
+heroImage: ../../../assets/blog-qveris-t-cover-cn.png
 category: Product
 author: QVeris Team
 tags:

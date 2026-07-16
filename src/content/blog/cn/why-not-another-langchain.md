@@ -1,14 +1,16 @@
 ---
-title: '为什么我们不做 LangChain：一个关于智能体自主运行的底层判断'
-description: '我们对智能体自主运行的底层判断：为什么我们刻意没有去做又一个 LangChain。'
-pubDate: 'Mar 25 2026'
-heroImage: '../../../assets/blog-why-not-another-langchain-1.png'
-category: 'Research'
-author: 'QVeris Team'
-tags: ['langchain', '智能体', '架构']
-translationKey: 'why-not-another-langchain'
+title: 为什么我们不做 LangChain：一个关于智能体自主运行的底层判断
+description: 我们对智能体自主运行的底层判断：为什么我们刻意没有去做又一个 LangChain。
+pubDate: Mar 25 2026
+heroImage: ../../../assets/blog-why-not-another-langchain-cover-cn.png
+category: Research
+author: QVeris Team
+tags:
+- langchain
+- 智能体
+- 架构
+translationKey: why-not-another-langchain
 ---
-
 ![why-not-another-langchain-1](../../../assets/blog-why-not-another-langchain-1.png)
 
 作者： 王林芳，QVeris AI 创始人兼 CEO
