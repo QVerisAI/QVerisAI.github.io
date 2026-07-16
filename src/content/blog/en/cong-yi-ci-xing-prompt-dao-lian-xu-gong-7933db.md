@@ -1,11 +1,16 @@
 ---
-title: 'From One-Off Prompts to Continuous Workflows: Why Investment Research Agents Need a Durable Data Entry Point'
-description: Investment research agents need trusted, traceable, reusable data more than polished one-off analysis.
+title: 'From One-Off Prompts to Continuous Workflows: Why Investment Research Agents
+  Need a Durable Data Entry Point'
+description: Investment research agents need trusted, traceable, reusable data more
+  than polished one-off analysis.
 pubDate: Jun 25 2026
-heroImage: ../../../assets/blog-cong-yi-ci-xing-prompt-dao-lian-xu-gong-7933db-cover-cn.png
+heroImage: ../../../assets/blog-cong-yi-ci-xing-prompt-dao-lian-xu-gong-7933db-cover-en.png
 category: Agent
 author: QVeris Team
-tags: ['Agent', 'Quant', 'Finance']
+tags:
+- Agent
+- Quant
+- Finance
 translationKey: cong-yi-ci-xing-prompt-dao-lian-xu-gong-7933db
 draft: false
 ---
