@@ -6,10 +6,9 @@ heroImage: ../../../assets/blog-feishu-e5rid02e6oaxx4xhcczclbkuncg-1.png
 category: 量化
 author: QVeris Team
 tags:
-- 量化
-- 金融
+  - 量化
+  - 金融
 translationKey: feishu-e5rid02e6oaxx4xhcczclbkuncg
-feishuDocId: E5rId02e6oAxX4xHcCzcLbKunCg
 ---
 工具没错，数据源也没错。真正危险的，是一个正确数据在写进报告时，被模型悄悄写错了一位。
 

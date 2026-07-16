@@ -5,12 +5,8 @@ pubDate: Jun 25 2026
 heroImage: ../../../assets/blog-cong-yi-ci-xing-prompt-dao-lian-xu-gong-7933db-cover-cn.png
 category: Agent
 author: QVeris Team
-tags:
-- Agent
-- 量化
-- 金融
+tags: ['Agent', '量化', '金融']
 translationKey: cong-yi-ci-xing-prompt-dao-lian-xu-gong-7933db
-feishuDocId: NKglwdcZQidFPLkdZbYcfmNonfd
 draft: false
 ---
 结论先说：
