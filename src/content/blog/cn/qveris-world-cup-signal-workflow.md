@@ -1,12 +1,14 @@
 ---
-title: '我让 QVeris 猜了一次世界杯冠军：不是玄学押注，而是让 Agent 学会调用真实世界信号'
-description: '我让 QVeris 猜了一次世界杯冠军：不是玄学押注，而是让 Agent 学会调用真实世界信号'
-pubDate: 'Jun 18 2026'
-heroImage: '../../../assets/blog-qveris-world-cup-signal-workflow-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-world-cup-signal-workflow'
+title: 我让 QVeris 猜了一次世界杯冠军：不是玄学押注，而是让 Agent 学会调用真实世界信号
+description: 我让 QVeris 猜了一次世界杯冠军：不是玄学押注，而是让 Agent 学会调用真实世界信号
+pubDate: Jun 18 2026
+heroImage: ../../../assets/blog-qveris-world-cup-signal-workflow-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-world-cup-signal-workflow
 ---
 QVeris · 案例演示 
 

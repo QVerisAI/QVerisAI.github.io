@@ -1,12 +1,14 @@
 ---
-title: '金融 Agent 的关键不是答案，而是多源质证'
-description: '金融 Agent 的关键不是答案，而是多源质证'
-pubDate: 'Jun 22 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247485409-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247485409'
+title: 金融 Agent 的关键不是答案，而是多源质证
+description: 金融 Agent 的关键不是答案，而是多源质证
+pubDate: Jun 22 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247485409-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247485409
 ---
 QVeris · QVeris方法论 
 

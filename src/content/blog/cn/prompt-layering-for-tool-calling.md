@@ -1,12 +1,14 @@
 ---
-title: '当工具越来越多，Prompt 需要分层管理'
-description: '当工具越来越多，Prompt 需要分层管理'
-pubDate: 'Jun 24 2026'
-heroImage: '../../../assets/blog-prompt-layering-for-tool-calling-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'prompt-layering-for-tool-calling'
+title: 当工具越来越多，Prompt 需要分层管理
+description: 当工具越来越多，Prompt 需要分层管理
+pubDate: Jun 24 2026
+heroImage: ../../../assets/blog-prompt-layering-for-tool-calling-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: prompt-layering-for-tool-calling
 ---
 QVeris · 产品思考 
 

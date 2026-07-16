@@ -1,12 +1,14 @@
 ---
-title: 'QVeris：从信息过载到可解释的研究流程'
-description: 'QVeris：从信息过载到可解释的研究流程'
-pubDate: 'Jun 20 2026'
-heroImage: '../../../assets/blog-qveris-explainable-research-workflow-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-explainable-research-workflow'
+title: QVeris：从信息过载到可解释的研究流程
+description: QVeris：从信息过载到可解释的研究流程
+pubDate: Jun 20 2026
+heroImage: ../../../assets/blog-qveris-explainable-research-workflow-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-explainable-research-workflow
 ---
 QVeris · 产品介绍 
 ## 开场：信息不缺，缺的是可解释的研究流程

@@ -1,12 +1,14 @@
 ---
-title: '我让QVeris做了一次AI选股研究助理：先看行业估值，再用Screener过滤公司'
-description: '我让QVeris做了一次AI选股研究助理：先看行业估值，再用Screener过滤公司'
-pubDate: 'Jun 22 2026'
-heroImage: '../../../assets/blog-qveris-ai-stock-research-assistant-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-ai-stock-research-assistant'
+title: 我让QVeris做了一次AI选股研究助理：先看行业估值，再用Screener过滤公司
+description: 我让QVeris做了一次AI选股研究助理：先看行业估值，再用Screener过滤公司
+pubDate: Jun 22 2026
+heroImage: ../../../assets/blog-qveris-ai-stock-research-assistant-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-ai-stock-research-assistant
 ---
 QVeris · 数据实测 
 ## 我不想让 Agent 直接荐股，我想让它先会筛
