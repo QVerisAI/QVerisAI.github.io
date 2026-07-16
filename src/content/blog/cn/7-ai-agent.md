@@ -1,12 +1,14 @@
 ---
-title: '同一只腾讯7种写法，AI Agent该信谁？'
-description: '同一只腾讯7种写法，AI Agent该信谁？'
-pubDate: 'Jun 02 2026'
-heroImage: '../../../assets/blog-7-ai-agent-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: '7-ai-agent'
+title: 同一只腾讯7种写法，AI Agent该信谁？
+description: 同一只腾讯7种写法，AI Agent该信谁？
+pubDate: Jun 02 2026
+heroImage: ../../../assets/blog-7-ai-agent-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: 7-ai-agent
 ---
 QVeris · 数据实测 
 
