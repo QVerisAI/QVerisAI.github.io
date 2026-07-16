@@ -1,14 +1,17 @@
 ---
-title: '想做 A 股量化但不想花几万买 Wind，怎么办？恒生聚源实测'
-description: '想做 A 股量化但又不想花几万买 Wind？我们用恒生聚源做了一次完整的实测对比。'
-pubDate: 'Apr 02 2026'
-heroImage: '../../../assets/blog-qveris-hsjy-wind-alternative-hero.png'
-category: 'Engineering'
-author: 'QVeris Team'
-tags: ['a股', '量化', 'qveris', '金融']
-translationKey: 'qveris-hsjy-wind-alternative'
+title: 想做 A 股量化但不想花几万买 Wind，怎么办？恒生聚源实测
+description: 想做 A 股量化但又不想花几万买 Wind？我们用恒生聚源做了一次完整的实测对比。
+pubDate: Apr 02 2026
+heroImage: ../../../assets/blog-qveris-hsjy-wind-alternative-cover-cn.png
+category: Engineering
+author: QVeris Team
+tags:
+- a股
+- 量化
+- qveris
+- 金融
+translationKey: qveris-hsjy-wind-alternative
 ---
-
 ![qveris-hsjy-wind-alternative-1](../../../assets/blog-qveris-hsjy-wind-alternative-1.png)
 
 ![qveris-hsjy-wind-alternative-2](../../../assets/blog-qveris-hsjy-wind-alternative-2.jpg)

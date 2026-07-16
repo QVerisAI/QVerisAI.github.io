@@ -1,12 +1,14 @@
 ---
-title: '5分钟让Hermes自己装QVeris CLI：一句prompt就够了'
-description: '5分钟让Hermes自己装QVeris CLI：一句prompt就够了'
-pubDate: 'Apr 15 2026'
-heroImage: '../../../assets/blog-5-hermes-qveris-cli-prompt-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: '5-hermes-qveris-cli-prompt'
+title: 5分钟让Hermes自己装QVeris CLI：一句prompt就够了
+description: 5分钟让Hermes自己装QVeris CLI：一句prompt就够了
+pubDate: Apr 15 2026
+heroImage: ../../../assets/blog-5-hermes-qveris-cli-prompt-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: 5-hermes-qveris-cli-prompt
 ---
 ![图片](../../../assets/blog-5-hermes-qveris-cli-prompt-1.webp)
 

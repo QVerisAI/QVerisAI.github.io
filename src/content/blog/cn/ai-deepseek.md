@@ -1,12 +1,14 @@
 ---
-title: '问AI"今天股价多少"，为什么DeepSeek、豆包给不出答案？'
-description: '问AI"今天股价多少"，为什么DeepSeek、豆包给不出答案？'
-pubDate: 'Apr 21 2026'
-heroImage: '../../../assets/blog-ai-deepseek-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'ai-deepseek'
+title: 问AI"今天股价多少"，为什么DeepSeek、豆包给不出答案？
+description: 问AI"今天股价多少"，为什么DeepSeek、豆包给不出答案？
+pubDate: Apr 21 2026
+heroImage: ../../../assets/blog-ai-deepseek-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: ai-deepseek
 ---
 ![图片](../../../assets/blog-ai-deepseek-1.webp)  
 

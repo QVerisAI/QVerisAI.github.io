@@ -1,12 +1,14 @@
 ---
-title: 'QVeris上新 | 一键解锁期权交易的核心密码：Greeks与隐含波动率工具上线'
-description: 'QVeris上新 | 一键解锁期权交易的核心密码：Greeks与隐含波动率工具上线'
-pubDate: 'Apr 17 2026'
-heroImage: '../../../assets/blog-qveris-greeks-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-greeks'
+title: QVeris上新 | 一键解锁期权交易的核心密码：Greeks与隐含波动率工具上线
+description: QVeris上新 | 一键解锁期权交易的核心密码：Greeks与隐含波动率工具上线
+pubDate: Apr 17 2026
+heroImage: ../../../assets/blog-qveris-greeks-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-greeks
 ---
 ![图片](../../../assets/blog-qveris-greeks-1.webp)在期权交易的立体博弈中，如果你只盯着静态的“看涨/看跌”价格，那就像是在迷雾中航行 。真正的期权高手，不仅看标的方向，更要洞悉价格背后的真实驱动力——**隐含波动率 (IV**)与**风险敏感度指标 (Greeks)**。
 

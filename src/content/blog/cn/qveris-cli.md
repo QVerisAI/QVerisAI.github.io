@@ -1,14 +1,17 @@
 ---
-title: 'QVeris CLI：让终端成为你的万能 API 入口'
-description: 'QVeris CLI 让命令行成为你的万能 API 入口 —— 一条命令，即可调用上万种工具与服务。'
-pubDate: 'Apr 08 2026'
-heroImage: '../../../assets/blog-qveris-cli-1.png'
-category: 'Engineering'
-author: 'QVeris Team'
-tags: ['cli', 'qveris', '终端', '开发者工具']
-translationKey: 'qveris-cli'
+title: QVeris CLI：让终端成为你的万能 API 入口
+description: QVeris CLI 让命令行成为你的万能 API 入口 —— 一条命令，即可调用上万种工具与服务。
+pubDate: Apr 08 2026
+heroImage: ../../../assets/blog-qveris-cli-cover-cn.png
+category: Engineering
+author: QVeris Team
+tags:
+- cli
+- qveris
+- 终端
+- 开发者工具
+translationKey: qveris-cli
 ---
-
 在 AI 智能体席卷开发者工具链的今天，一个现实问题始终没被很好地解决：**当你需要快速调用一个 API，却不想写代码、不想查文档、不想注册第三方平台——怎么办？**
 
 现在，一行命令就够了。

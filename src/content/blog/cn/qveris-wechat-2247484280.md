@@ -1,12 +1,14 @@
 ---
-title: 'QVeris发布智能体能力地图'
-description: 'QVeris发布智能体能力地图'
-pubDate: 'Apr 13 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484280-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247484280'
+title: QVeris发布智能体能力地图
+description: QVeris发布智能体能力地图
+pubDate: Apr 13 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247484280-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247484280
 ---
 ![图片](../../../assets/blog-qveris-wechat-2247484280-1.webp)
 

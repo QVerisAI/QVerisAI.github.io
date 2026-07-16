@@ -1,14 +1,17 @@
 ---
-title: 'OpenClaw 配置 QVeris 全能力指南【金融分析篇】'
-description: 'OpenClaw 接入 QVeris 全能力的金融分析配置指南，覆盖关键插件、典型工作流与实操示例。'
-pubDate: 'Apr 02 2026'
-heroImage: '../../../assets/blog-openclaw-qveris-finance-guide-hero.png'
-category: 'Engineering'
-author: 'QVeris Team'
-tags: ['openclaw', 'qveris', '金融', '教程']
-translationKey: 'openclaw-qveris-finance-guide'
+title: OpenClaw 配置 QVeris 全能力指南【金融分析篇】
+description: OpenClaw 接入 QVeris 全能力的金融分析配置指南，覆盖关键插件、典型工作流与实操示例。
+pubDate: Apr 02 2026
+heroImage: ../../../assets/blog-openclaw-qveris-finance-guide-cover-cn.png
+category: Engineering
+author: QVeris Team
+tags:
+- openclaw
+- qveris
+- 金融
+- 教程
+translationKey: openclaw-qveris-finance-guide
 ---
-
 ![openclaw-qveris-finance-guide-1](../../../assets/blog-openclaw-qveris-finance-guide-1.webp)
 
 ![openclaw-qveris-finance-guide-2](../../../assets/blog-openclaw-qveris-finance-guide-2.webp)

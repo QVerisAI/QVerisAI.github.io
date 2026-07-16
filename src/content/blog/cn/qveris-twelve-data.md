@@ -1,14 +1,16 @@
 ---
-title: 'QVeris 接入 Twelve Data：一个接口查完美股、外汇、黄金和比特币'
-description: 'QVeris 接入 Twelve Data：一个接口查完美股、外汇、黄金与比特币的完整行情。'
-pubDate: 'Apr 02 2026'
-heroImage: '../../../assets/blog-qveris-twelve-data-1.png'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['twelve-data', 'qveris', '金融']
-translationKey: 'qveris-twelve-data'
+title: QVeris 接入 Twelve Data：一个接口查完美股、外汇、黄金和比特币
+description: QVeris 接入 Twelve Data：一个接口查完美股、外汇、黄金与比特币的完整行情。
+pubDate: Apr 02 2026
+heroImage: ../../../assets/blog-qveris-twelve-data-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- twelve-data
+- qveris
+- 金融
+translationKey: qveris-twelve-data
 ---
-
 > QVeris「新供应商速递」—— 每期介绍一家新接入的全球数据供应商，实测数据说话
 
 ![qveris-twelve-data-1](../../../assets/blog-qveris-twelve-data-1.png)

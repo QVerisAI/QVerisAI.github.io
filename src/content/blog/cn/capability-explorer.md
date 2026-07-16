@@ -1,15 +1,18 @@
 ---
-title: 'Capability Explorer：让你的智能体看见每一个可用的能力'
-description: 'Capability Explorer 是一张可浏览、可检索、可一键测试的能力全景地图，让智能体看得见 QVeris 网络中每一个真实且已验证的能力。'
-pubDate: 'Apr 13 2026'
-heroImage: '../../../assets/blog-capability-explorer-cn-1.png'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['capability-explorer', 'agent', 'qveris', 'api']
+title: Capability Explorer：让你的智能体看见每一个可用的能力
+description: Capability Explorer 是一张可浏览、可检索、可一键测试的能力全景地图，让智能体看得见 QVeris 网络中每一个真实且已验证的能力。
+pubDate: Apr 13 2026
+heroImage: ../../../assets/blog-capability-explorer-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- capability-explorer
+- agent
+- qveris
+- api
 featured: true
-translationKey: 'capability-explorer'
+translationKey: capability-explorer
 ---
-
 智能体（Agent）正在从"对话工具"变成"行动引擎"。但一个关键问题始终没有好的解决方案：**智能体怎么知道自己能做什么？**
 
 今天，我们推出 **Capability Explorer** — 一个交互式的能力全景地图，让开发者和智能体可以浏览、检视、对比，并实时测试 QVeris 网络中的每一个真实且已验证的能力。
