@@ -1,12 +1,16 @@
 ---
-title: 'Serenity, the 45x White-Haired Stock Oracle, Went Viral. We Recreated Her Method for Finding Obscure Winners with QVeris'
-description: 'A QVeris case study inspired by a viral stock-picking persona, showing how obscure winners can be screened with real data instead of vibes.'
-pubDate: 'Jun 14 2026'
-heroImage: '../../../assets/blog-45-serenity-qveris-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: '45-serenity-qveris'
+title: Serenity, the 45x White-Haired Stock Oracle, Went Viral. We Recreated Her Method
+  for Finding Obscure Winners with QVeris
+description: A QVeris case study inspired by a viral stock-picking persona, showing
+  how obscure winners can be screened with real data instead of vibes.
+pubDate: Jun 14 2026
+heroImage: ../../../assets/blog-45-serenity-qveris-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: 45-serenity-qveris
 draft: true
 ---
 QVeris · Tested with Data

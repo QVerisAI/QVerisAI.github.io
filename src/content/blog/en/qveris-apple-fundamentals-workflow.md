@@ -4,7 +4,7 @@ title: 'I Had QVeris Read Apple’s Fundamentals: The Three Statements, As Repor
 description: A walkthrough of using QVeris to connect Apple’s financial statements,
   reported data, and TTM metrics in one research flow.
 pubDate: Jun 15 2026
-heroImage: ../../../assets/blog-qveris-apple-fundamentals-workflow-hero.jpg
+heroImage: ../../../assets/blog-qveris-apple-fundamentals-workflow-cover-en.png
 category: Product
 author: QVeris Team
 tags:

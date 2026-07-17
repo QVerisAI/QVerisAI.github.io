@@ -4,7 +4,7 @@ title: 'I Asked QVeris to Pull Microsoft Historical Data Back to 1995: In Long-H
 description: A long-horizon Microsoft data example showing why historical coverage
   matters before writing an investment strategy.
 pubDate: Jun 16 2026
-heroImage: ../../../assets/blog-qveris-microsoft-1995-hero.jpg
+heroImage: ../../../assets/blog-qveris-microsoft-1995-cover-en.png
 category: Product
 author: QVeris Team
 tags:
