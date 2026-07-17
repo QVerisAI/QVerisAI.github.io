@@ -1,12 +1,14 @@
 ---
-title: 'Less Hallucination, More Real-World Capability for AI'
-description: 'Less hallucination, more real-world capability for AI'
-pubDate: 'Jun 01 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484977-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247484977'
+title: Less Hallucination, More Real-World Capability for AI
+description: Less hallucination, more real-world capability for AI
+pubDate: Jun 01 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247484977-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247484977
 ---
 QVeris · Industry Observations
 

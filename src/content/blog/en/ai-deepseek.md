@@ -1,12 +1,15 @@
 ---
-title: 'Why Can’t DeepSeek or Doubao Answer “What’s the Stock Price Today?”'
-description: 'Why general-purpose LLMs struggle with live stock prices, and how QVeris connects agents to fresh market data.'
-pubDate: 'Apr 21 2026'
-heroImage: '../../../assets/blog-ai-deepseek-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'ai-deepseek'
+title: Why Can’t DeepSeek or Doubao Answer “What’s the Stock Price Today?”
+description: Why general-purpose LLMs struggle with live stock prices, and how QVeris
+  connects agents to fresh market data.
+pubDate: Apr 21 2026
+heroImage: ../../../assets/blog-ai-deepseek-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: ai-deepseek
 ---
 ![Image](../../../assets/blog-ai-deepseek-1.webp)  
 

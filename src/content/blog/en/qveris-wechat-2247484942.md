@@ -1,12 +1,15 @@
 ---
 title: 'Starting with a Failed Tool Call: Teaching Agents to Auto-Repair Parameters'
-description: 'A failed tool-call case study on parameter repair and how agents can recover from malformed financial inputs.'
-pubDate: 'May 27 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484942-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247484942'
+description: A failed tool-call case study on parameter repair and how agents can
+  recover from malformed financial inputs.
+pubDate: May 27 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247484942-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247484942
 ---
 QVeris · Engineering Practice
 

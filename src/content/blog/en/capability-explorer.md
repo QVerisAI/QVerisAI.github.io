@@ -1,15 +1,20 @@
 ---
 title: 'Capability Explorer: See Everything Your Agent Can Do'
-description: 'Capability Explorer is an interactive map that lets developers and agents browse, compare, and live-test every real-world verified capability in the QVeris network.'
-pubDate: 'Apr 11 2026'
-heroImage: '../../../assets/blog-capability-explorer-en-1.png'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['capability-explorer', 'agent', 'qveris', 'api']
+description: Capability Explorer is an interactive map that lets developers and agents
+  browse, compare, and live-test every real-world verified capability in the QVeris
+  network.
+pubDate: Apr 11 2026
+heroImage: ../../../assets/blog-capability-explorer-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- capability-explorer
+- agent
+- qveris
+- api
 featured: true
-translationKey: 'capability-explorer'
+translationKey: capability-explorer
 ---
-
 AI agents are evolving from conversational tools into action engines. But a fundamental question remains unsolved: **how does an agent know what it can do?**
 
 Today we're launching **Capability Explorer** — an interactive coverage map that lets developers and agents browse, inspect, compare, and live-test every real-world, verified capability in the QVeris network.

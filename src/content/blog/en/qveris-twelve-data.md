@@ -1,14 +1,17 @@
 ---
 title: 'QVeris Integrates Twelve Data: One API for U.S. Stocks, FX, Gold, and Bitcoin'
-description: 'QVeris integrates Twelve Data: one API for complete market data across U.S. stocks, FX, gold, and Bitcoin.'
-pubDate: 'Apr 02 2026'
-heroImage: '../../../assets/blog-qveris-twelve-data-1.png'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['twelve-data', 'qveris', 'Finance']
-translationKey: 'qveris-twelve-data'
+description: 'QVeris integrates Twelve Data: one API for complete market data across
+  U.S. stocks, FX, gold, and Bitcoin.'
+pubDate: Apr 02 2026
+heroImage: ../../../assets/blog-qveris-twelve-data-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- twelve-data
+- qveris
+- Finance
+translationKey: qveris-twelve-data
 ---
-
 > QVeris "New Provider Dispatch" — each edition introduces a newly integrated global data provider, with real test results doing the talking
 
 ![qveris-twelve-data-1](../../../assets/blog-qveris-twelve-data-1.png)

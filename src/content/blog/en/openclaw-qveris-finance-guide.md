@@ -1,15 +1,20 @@
 ---
-title: 'Complete Guide to Configuring QVeris Capabilities in OpenClaw [Financial Analysis Edition]'
-description: 'A financial analysis configuration guide for connecting OpenClaw to QVeris full-capability support, covering key plugins, typical workflows, and hands-on examples.'
-pubDate: 'Apr 02 2026'
-heroImage: '../../../assets/blog-openclaw-qveris-finance-guide-hero.png'
-category: 'Engineering'
-author: 'QVeris Team'
-tags: ['openclaw', 'qveris', 'Finance', 'Guide']
-translationKey: 'openclaw-qveris-finance-guide'
+title: Complete Guide to Configuring QVeris Capabilities in OpenClaw [Financial Analysis
+  Edition]
+description: A financial analysis configuration guide for connecting OpenClaw to QVeris
+  full-capability support, covering key plugins, typical workflows, and hands-on examples.
+pubDate: Apr 02 2026
+heroImage: ../../../assets/blog-openclaw-qveris-finance-guide-cover-en.png
+category: Engineering
+author: QVeris Team
+tags:
+- openclaw
+- qveris
+- Finance
+- Guide
+translationKey: openclaw-qveris-finance-guide
 draft: true
 ---
-
 ![openclaw-qveris-finance-guide-1](../../../assets/blog-openclaw-qveris-finance-guide-1.webp)
 
 ![openclaw-qveris-finance-guide-2](../../../assets/blog-openclaw-qveris-finance-guide-2.webp)

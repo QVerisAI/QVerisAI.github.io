@@ -1,12 +1,15 @@
 ---
-title: 'Stop Wiring Up MCP Tools Yourself. Use QVeris.'
-description: 'Why agents often need a unified QVeris data layer instead of manually wiring many separate MCP tools.'
-pubDate: 'May 25 2026'
-heroImage: '../../../assets/blog-mcp-qveris-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'mcp-qveris'
+title: Stop Wiring Up MCP Tools Yourself. Use QVeris.
+description: Why agents often need a unified QVeris data layer instead of manually
+  wiring many separate MCP tools.
+pubDate: May 25 2026
+heroImage: ../../../assets/blog-mcp-qveris-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: mcp-qveris
 ---
 QVeris · Technical Deep Dive
 

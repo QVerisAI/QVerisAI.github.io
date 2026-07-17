@@ -1,12 +1,16 @@
 ---
-title: 'New on QVeris | Unlock the Core Signals Behind Options Trading: Greeks and Implied Volatility Tools Now Live'
-description: 'A product update introducing options Greeks and implied volatility tools on QVeris for more structured options analysis.'
-pubDate: 'Apr 17 2026'
-heroImage: '../../../assets/blog-qveris-greeks-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-greeks'
+title: 'New on QVeris | Unlock the Core Signals Behind Options Trading: Greeks and
+  Implied Volatility Tools Now Live'
+description: A product update introducing options Greeks and implied volatility tools
+  on QVeris for more structured options analysis.
+pubDate: Apr 17 2026
+heroImage: ../../../assets/blog-qveris-greeks-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-greeks
 draft: true
 ---
 ![Image](../../../assets/blog-qveris-greeks-1.webp)In the multidimensional game of options trading, focusing only on static “call/put” prices is like sailing through fog. Skilled options traders look beyond the direction of the underlying asset and understand the real forces driving price: **implied volatility (IV)** and **risk sensitivity metrics (Greeks)**.

@@ -1,12 +1,15 @@
 ---
 title: 'QVeris CLI Launch: Turn Your Terminal into a Universal API Gateway'
-description: 'An introduction to QVeris CLI as a terminal-based universal API gateway for discovering, inspecting, and calling tools.'
-pubDate: 'Apr 08 2026'
-heroImage: '../../../assets/blog-qveris-cli-api-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-cli-api'
+description: An introduction to QVeris CLI as a terminal-based universal API gateway
+  for discovering, inspecting, and calling tools.
+pubDate: Apr 08 2026
+heroImage: ../../../assets/blog-qveris-cli-api-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-cli-api
 ---
 ![Image](../../../assets/blog-qveris-cli-api-1.webp)
 
