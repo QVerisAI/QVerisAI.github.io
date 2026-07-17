@@ -4,7 +4,7 @@ title: 'QVeris Integrates TikHub: Agents Can Finally Read the Real Momentum of C
 description: How QVeris integrates TikHub so agents can read public content-platform
   signals across short video, social, local service, and e-commerce workflows.
 pubDate: Jun 12 2026
-heroImage: ../../../assets/blog-qveris-tikhub-content-platform-signals-hero.png
+heroImage: ../../../assets/blog-qveris-tikhub-content-platform-signals-cover-en.png
 category: Product
 author: QVeris Team
 tags:

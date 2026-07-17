@@ -3,7 +3,7 @@ title: 'Why Financial Agents Are So Hard to Build: A Few Pitfalls We Recently Hi
 description: A practical discussion of recent pitfalls in financial agents, from tool
   choice to parameter quality and source verification.
 pubDate: Jun 12 2026
-heroImage: ../../../assets/blog-qveris-wechat-2247485216-hero.jpg
+heroImage: ../../../assets/blog-qveris-wechat-2247485216-cover-en.png
 category: Product
 author: QVeris Team
 tags:

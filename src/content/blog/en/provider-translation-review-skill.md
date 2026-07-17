@@ -3,7 +3,7 @@ title: 'Provider Translation Review: From One Spreadsheet Revision to a Reusable
 description: How a one-off provider translation review became a reusable skill for
   checking terminology, copy quality, and multilingual metadata.
 pubDate: Jun 14 2026
-heroImage: ../../../assets/blog-provider-translation-review-skill-hero.jpg
+heroImage: ../../../assets/blog-provider-translation-review-skill-cover-en.png
 category: Product
 author: QVeris Team
 tags:

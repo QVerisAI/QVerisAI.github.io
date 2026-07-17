@@ -4,7 +4,7 @@ title: Anthropic Just Open-Sourced a Finance Agent Showroom. We Have Been Buildi
 description: Anthropic just open-sourced a finance Agent showroom. We have been building
   the most valuable third layer all along
 pubDate: Jun 17 2026
-heroImage: ../../../assets/blog-anthropic-finance-agent-third-layer-hero.jpg
+heroImage: ../../../assets/blog-anthropic-finance-agent-third-layer-cover-en.png
 category: Product
 author: QVeris Team
 tags:

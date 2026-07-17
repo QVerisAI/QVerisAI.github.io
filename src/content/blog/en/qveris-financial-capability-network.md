@@ -3,7 +3,7 @@ title: How QVeris Turns Fragmented APIs into a Financial Capability Network for 
 description: How QVeris turns fragmented APIs into a financial capability network
   that agents can understand, choose from, call, and verify
 pubDate: Jun 11 2026
-heroImage: ../../../assets/blog-qveris-financial-capability-network-hero.jpg
+heroImage: ../../../assets/blog-qveris-financial-capability-network-cover-en.png
 category: Product
 author: QVeris Team
 tags:
