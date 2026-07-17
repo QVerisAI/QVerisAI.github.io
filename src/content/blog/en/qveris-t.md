@@ -3,7 +3,7 @@ title: 'QVeris Launches the Option Chain (T-Quote) Data Query Tool: A Complete G
 description: A guide to QVeris option chain data tools and how agents can use T-quote
   signals in options workflows.
 pubDate: Apr 16 2026
-heroImage: ../../../assets/blog-qveris-t-hero.jpg
+heroImage: ../../../assets/blog-qveris-t-cover-en.png
 category: Product
 author: QVeris Team
 tags:

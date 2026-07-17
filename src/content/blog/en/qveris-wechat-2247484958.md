@@ -1,12 +1,15 @@
 ---
-title: 'Financial AI Must Do More Than Answer. It Must Be Verifiable.'
-description: 'A QVeris product note on why financial AI must produce verifiable evidence instead of just fluent answers.'
-pubDate: 'May 29 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484958-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247484958'
+title: Financial AI Must Do More Than Answer. It Must Be Verifiable.
+description: A QVeris product note on why financial AI must produce verifiable evidence
+  instead of just fluent answers.
+pubDate: May 29 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247484958-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247484958
 ---
 QVeris · Product Review
 

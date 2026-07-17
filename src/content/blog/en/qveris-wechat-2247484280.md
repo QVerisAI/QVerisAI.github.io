@@ -1,12 +1,14 @@
 ---
-title: 'QVeris Launches the Agent Capability Map'
-description: 'QVeris launches the Agent Capability Map'
-pubDate: 'Apr 13 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484280-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247484280'
+title: QVeris Launches the Agent Capability Map
+description: QVeris launches the Agent Capability Map
+pubDate: Apr 13 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247484280-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247484280
 ---
 ![Image](../../../assets/blog-qveris-wechat-2247484280-1.webp)
 

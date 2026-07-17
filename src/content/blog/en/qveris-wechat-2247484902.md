@@ -1,12 +1,16 @@
 ---
-title: 'Using QVeris to Turn Earnings Call Transcripts into Traceable Investment Research Signals'
-description: 'Using QVeris to turn earnings call transcripts into traceable investment research signals'
-pubDate: 'May 24 2026'
-heroImage: '../../../assets/blog-qveris-wechat-2247484902-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-wechat-2247484902'
+title: Using QVeris to Turn Earnings Call Transcripts into Traceable Investment Research
+  Signals
+description: Using QVeris to turn earnings call transcripts into traceable investment
+  research signals
+pubDate: May 24 2026
+heroImage: ../../../assets/blog-qveris-wechat-2247484902-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-wechat-2247484902
 ---
 QVeris · Data Test
 

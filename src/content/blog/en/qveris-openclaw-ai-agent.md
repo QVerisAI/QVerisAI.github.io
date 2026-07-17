@@ -1,12 +1,16 @@
 ---
-title: 'QVeris + OpenClaw: Turning a Personal AI Assistant into a Production-Grade Agent'
-description: 'How QVeris and OpenClaw can turn a personal assistant into a production-grade agent with live external tools.'
-pubDate: 'May 23 2026'
-heroImage: '../../../assets/blog-qveris-openclaw-ai-agent-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-openclaw-ai-agent'
+title: 'QVeris + OpenClaw: Turning a Personal AI Assistant into a Production-Grade
+  Agent'
+description: How QVeris and OpenClaw can turn a personal assistant into a production-grade
+  agent with live external tools.
+pubDate: May 23 2026
+heroImage: ../../../assets/blog-qveris-openclaw-ai-agent-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-openclaw-ai-agent
 ---
 QVeris · Product Practice 
 

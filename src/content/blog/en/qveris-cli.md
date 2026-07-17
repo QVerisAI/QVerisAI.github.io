@@ -1,14 +1,18 @@
 ---
 title: 'QVeris CLI: Your Universal API Gateway from the Terminal'
-description: 'QVeris CLI turns your terminal into a universal API gateway — call any of 10,000+ tools from a single command line.'
-pubDate: 'Apr 08 2026'
-heroImage: '../../../assets/blog-qveris-cli-1.png'
-category: 'Engineering'
-author: 'QVeris Team'
-tags: ['cli', 'qveris', 'terminal', 'developer-tools']
-translationKey: 'qveris-cli'
+description: QVeris CLI turns your terminal into a universal API gateway — call any
+  of 10,000+ tools from a single command line.
+pubDate: Apr 08 2026
+heroImage: ../../../assets/blog-qveris-cli-cover-en.png
+category: Engineering
+author: QVeris Team
+tags:
+- cli
+- qveris
+- terminal
+- developer-tools
+translationKey: qveris-cli
 ---
-
 April 7, 2026
 
 Discover, inspect, and call 10,000+ APIs from your terminal — in natural language, in under 30 seconds.

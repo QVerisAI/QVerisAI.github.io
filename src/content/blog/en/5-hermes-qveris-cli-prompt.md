@@ -1,12 +1,15 @@
 ---
 title: 'Install QVeris CLI in Hermes in 5 Minutes: One Prompt Is Enough'
-description: 'A short setup guide for installing QVeris CLI in Hermes and giving an agent access to live financial data through one prompt.'
-pubDate: 'Apr 15 2026'
-heroImage: '../../../assets/blog-5-hermes-qveris-cli-prompt-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: '5-hermes-qveris-cli-prompt'
+description: A short setup guide for installing QVeris CLI in Hermes and giving an
+  agent access to live financial data through one prompt.
+pubDate: Apr 15 2026
+heroImage: ../../../assets/blog-5-hermes-qveris-cli-prompt-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: 5-hermes-qveris-cli-prompt
 ---
 ![Image](../../../assets/blog-5-hermes-qveris-cli-prompt-1.webp)
 
