@@ -3,11 +3,12 @@ title: 2.34% 写成 23.4%：金融 AI 最危险的幻觉，往往不是编出来
 description: 工具没错，数据源也没错。真正危险的，是一个正确数据在写进报告时，被模型悄悄写错了一位。
 pubDate: Jul 10 2026
 heroImage: ../../../assets/blog-feishu-e5rid02e6oaxx4xhcczclbkuncg-1.png
-category: 量化
+category: 金融
 author: QVeris Team
 tags:
-  - 量化
-  - 金融
+- Agent
+- 量化
+- 金融 Agent
 translationKey: feishu-e5rid02e6oaxx4xhcczclbkuncg
 ---
 工具没错，数据源也没错。真正危险的，是一个正确数据在写进报告时，被模型悄悄写错了一位。
