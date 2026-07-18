@@ -4,7 +4,7 @@ title: 'Stop Letting AI Make Up Financial Analysis: I Built a Small Assistant Th
 description: A small assistant design that forces financial analysis to find data
   sources before generating conclusions.
 pubDate: Jun 08 2026
-heroImage: ../../../assets/blog-qveris-wechat-2247485112-hero.jpg
+heroImage: ../../../assets/blog-qveris-wechat-2247485112-cover-en.png
 category: Product
 author: QVeris Team
 tags:

@@ -4,7 +4,7 @@ title: Apple Has Laid Out Its AI Hand. Why Isn’t the Market Buying It? I Ran S
 description: A six-check QVeris workflow for examining Apple’s AI narrative through
   market data, fundamentals, and investor signals.
 pubDate: Jun 09 2026
-heroImage: ../../../assets/blog-ai-qveris-hero.jpg
+heroImage: ../../../assets/blog-ai-qveris-cover-en.png
 category: Product
 author: QVeris Team
 tags:

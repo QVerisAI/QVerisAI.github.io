@@ -2,7 +2,7 @@
 title: The Longer You Use Codex, the More You Need to Save Tokens
 description: The longer you use Codex, the more you need to save tokens
 pubDate: Jun 08 2026
-heroImage: ../../../assets/blog-codex-token-hero.jpg
+heroImage: ../../../assets/blog-codex-token-cover-en.png
 category: Product
 author: QVeris Team
 tags:

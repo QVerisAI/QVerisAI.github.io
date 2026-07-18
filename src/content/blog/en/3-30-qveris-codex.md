@@ -1,12 +1,15 @@
 ---
 title: 'From 3 Hours to 30 Seconds: With QVeris, Codex Becomes a Financial Data Analyst'
-description: 'How QVeris gives Codex live financial data access and turns a slow manual research task into a short, auditable workflow.'
-pubDate: 'May 20 2026'
-heroImage: '../../../assets/blog-3-30-qveris-codex-hero.jpg'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: '3-30-qveris-codex'
+description: How QVeris gives Codex live financial data access and turns a slow manual
+  research task into a short, auditable workflow.
+pubDate: May 20 2026
+heroImage: ../../../assets/blog-3-30-qveris-codex-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: 3-30-qveris-codex
 ---
 QVeris · Technical Deep Dive
 

@@ -1,14 +1,17 @@
 ---
-title: 'Why We Didn''t Build Another LangChain'
-description: 'Our underlying judgment about how agents should run autonomously — and why we deliberately did not build another LangChain.'
-pubDate: 'Mar 25 2026'
-heroImage: '../../../assets/blog-why-not-another-langchain-hero.png'
-category: 'Research'
-author: 'QVeris Team'
-tags: ['langchain', 'agents', 'architecture']
-translationKey: 'why-not-another-langchain'
+title: Why We Didn't Build Another LangChain
+description: Our underlying judgment about how agents should run autonomously — and
+  why we deliberately did not build another LangChain.
+pubDate: Mar 25 2026
+heroImage: ../../../assets/blog-why-not-another-langchain-cover-en.png
+category: Research
+author: QVeris Team
+tags:
+- langchain
+- agents
+- architecture
+translationKey: why-not-another-langchain
 ---
-
 **Author:** Linfang Wang, Founder & CEO at QVeris AI
 
 **Date:** February 27, 2026
