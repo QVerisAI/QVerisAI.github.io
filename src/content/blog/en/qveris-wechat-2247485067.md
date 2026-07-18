@@ -2,7 +2,7 @@
 title: For AI Stock Research, Start by Getting Data Preparation Right
 description: For AI stock research, start by getting data preparation right
 pubDate: Jun 07 2026
-heroImage: ../../../assets/blog-qveris-wechat-2247485067-hero.jpg
+heroImage: ../../../assets/blog-qveris-wechat-2247485067-cover-en.png
 category: Product
 author: QVeris Team
 tags:

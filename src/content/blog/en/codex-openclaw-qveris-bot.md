@@ -6,7 +6,7 @@ description: 'A zero-code retail investor’s field test: building a stock resea
   Bot with Codex, OpenClaw, and QVeris. No price predictions, just a personal investment
   research workbench.'
 pubDate: Jun 05 2026
-heroImage: ../../../assets/blog-codex-openclaw-qveris-bot-hero.jpg
+heroImage: ../../../assets/blog-codex-openclaw-qveris-bot-cover-en.png
 category: Product
 author: QVeris Team
 tags:
