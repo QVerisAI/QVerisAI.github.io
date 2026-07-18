@@ -712,8 +712,8 @@
         "imported_at": "2026-07-10T11:27:08.549181+00:00",
         "imported_by": "feishu_on_45814608eaf1f940248e75691870a611"
       },
-      "updated_by": "feishu_on_45814608eaf1f940248e75691870a611",
-      "updated_at": "2026-07-10T11:27:08.549204+00:00",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-18T10:15:42.284033+00:00",
       "tags": [],
       "wechat_url": "",
       "notes": "",
@@ -743,9 +743,31 @@
       "english_image_has_chinese": false,
       "english_image_check_status": "manual",
       "english_image_check_reason": "Manually set in admin."
+    },
+    "gei-coding-agent-jie-shang-10-000-zhong-fb0bca": {
+      "requires_english": true,
+      "feishu_doc_id": "BkJCdCpI7oe8PVxWHwHcJs46n9g",
+      "imported_from": {
+        "source": "feishu",
+        "doc": "https://zxoriiwxds4.feishu.cn/docx/BkJCdCpI7oe8PVxWHwHcJs46n9g",
+        "doc_token": "BkJCdCpI7oe8PVxWHwHcJs46n9g",
+        "language": "cn",
+        "path": "src/content/blog/cn/gei-coding-agent-jie-shang-10-000-zhong-fb0bca.md",
+        "image_count": 3,
+        "imported_at": "2026-07-18T10:02:14.798434+00:00",
+        "imported_by": "feishu_on_5ed36136714013ed3162e9044c2c0596"
+      },
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-18T10:07:02.071216+00:00",
+      "tags": [],
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin."
     }
   },
-  "updated_at": "2026-07-16T05:13:46.524524+00:00",
+  "updated_at": "2026-07-18T10:15:42.284106+00:00",
   "tag_catalogs": {
     "content": [],
     "operational": []
