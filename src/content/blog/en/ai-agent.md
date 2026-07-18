@@ -2,7 +2,7 @@
 title: AI Agents Are Everywhere, But What Can They Actually Call?
 description: AI Agents are everywhere, but what can they actually call?
 pubDate: Jun 04 2026
-heroImage: ../../../assets/blog-ai-agent-hero.jpg
+heroImage: ../../../assets/blog-ai-agent-cover-en.png
 category: Product
 author: QVeris Team
 tags:
