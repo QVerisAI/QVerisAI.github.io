@@ -1,13 +1,14 @@
 ---
 title: 'Backtesting with QVeris Data: Understand the Data Before Trusting the Curve'
-description: 'Many people conducting factor or strategy backtests want to see the profit curve first. However, a truly valuable b'
+description: Many people conducting factor or strategy backtests want to see the profit
+  curve first. However, a truly valuable b
 pubDate: Jul 10 2026
-heroImage: ../../../assets/blog-qveris-backtesting-data-first-1.png
+heroImage: ../../../assets/blog-qveris-backtesting-data-first-cover-en.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- QVeris
+- Agent
 translationKey: qveris-backtesting-data-first
 draft: false
 ---

@@ -1,12 +1,15 @@
 ---
-title: 'We Built an AI Options Assistant with QVeris'
-description: 'A financial AI product experiment that turns one market view into data, strategies, simulations, and risk boundaries.'
-pubDate: 'Jul 04 2026'
-heroImage: '../../../assets/blog-qveris-ai-options-assistant-1.png'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-ai-options-assistant'
+title: We Built an AI Options Assistant with QVeris
+description: A financial AI product experiment that turns one market view into data,
+  strategies, simulations, and risk boundaries.
+pubDate: Jul 04 2026
+heroImage: ../../../assets/blog-qveris-ai-options-assistant-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-ai-options-assistant
 ---
 An AI financial product experiment: split "I am bullish on NVDA, but I only want to lose $500 at most" into data, strategy, simulation and risk boundaries.
 
