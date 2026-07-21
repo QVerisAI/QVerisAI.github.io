@@ -1,16 +1,14 @@
 ---
-title: 'From 2.34% to 23.4%: The Most Dangerous Hallucination in Financial AI Is Often
-  Not Invented'
-description: The tool was right, and the data source was right. The real danger is
-  a correct data point quietly changing by one digit when the model writes the report.
-pubDate: Jul 10 2026
+title: 'From 2.34% to 23.4%: The Most Dangerous Hallucination in Financial AI Is Often Not Invented'
+description: 'The tool was right, and the data source was right. The real danger is a correct data point quietly changing by one digit when the model writes the report.'
+pubDate: Jul 9 2026
 heroImage: ../../../assets/blog-feishu-e5rid02e6oaxx4xhcczclbkuncg-1.png
 category: 金融
 author: QVeris Team
 tags:
-- Agent
-- 量化
-- 金融 Agent
+  - Agent
+  - 量化
+  - 金融 Agent
 translationKey: feishu-e5rid02e6oaxx4xhcczclbkuncg
 draft: false
 ---

@@ -1,12 +1,14 @@
 ---
-title: '全球顶尖模型做金融分析，最高分为什么还不到 58%？'
-description: '从 Vals Finance Agent v2 到公开题复测，金融 Agent 的短板可能不在分析，而在识别对象。'
-pubDate: 'Jul 06 2026'
-heroImage: '../../../assets/blog-finance-agent-identity-boundaries-1.png'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'finance-agent-identity-boundaries'
+title: 全球顶尖模型做金融分析，最高分为什么还不到 58%？
+description: 从 Vals Finance Agent v2 到公开题复测，金融 Agent 的短板可能不在分析，而在识别对象。
+pubDate: Jul 06 2026
+heroImage: ../../../assets/blog-finance-agent-identity-boundaries-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: finance-agent-identity-boundaries
 ---
 # 全球顶尖模型做金融分析，最高分为什么还不到 58%？
 
