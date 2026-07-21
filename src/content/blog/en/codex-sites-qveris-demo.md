@@ -1,13 +1,15 @@
 ---
-title: 'Building a QVeris-Powered Demo Site with Codex Sites'
-description: 'Many demo sites suffer not from poor aesthetics, but from being purely visual—users see a polished dashboard but ca'
+title: Building a QVeris-Powered Demo Site with Codex Sites
+description: Many demo sites suffer not from poor aesthetics, but from being purely
+  visual—users see a polished dashboard but ca
 pubDate: Jul 11 2026
 heroImage: ../../../assets/blog-codex-sites-qveris-demo-1.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- QVeris
+- 案例
 translationKey: codex-sites-qveris-demo
 draft: false
 ---

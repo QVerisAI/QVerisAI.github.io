@@ -1,13 +1,13 @@
 ---
-title: '市场情绪 API：让交易智能体读懂恐惧、贪婪与新闻风向'
-description: '一个只关注价格的交易智能体，往往只能在行情变化之后才意识到发生了什么。'
+title: 市场情绪 API：让交易智能体读懂恐惧、贪婪与新闻风向
+description: 一个只关注价格的交易智能体，往往只能在行情变化之后才意识到发生了什么。
 pubDate: Jul 19 2026
-heroImage: ../../../assets/blog-market-sentiment-api-trading-agents-1.png
+heroImage: ../../../assets/blog-market-sentiment-api-trading-agents-cover-cn.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- QVeris
+- Agent
 translationKey: market-sentiment-api-trading-agents
 ---
 <title>市场情绪 API：让交易智能体读懂恐惧、贪婪与新闻风向</title>

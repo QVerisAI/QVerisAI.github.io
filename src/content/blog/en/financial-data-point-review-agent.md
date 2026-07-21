@@ -1,14 +1,17 @@
 ---
-title: 'When AI Can Check 24 Financial Data Points One by One, Intelligent Investment Research Gains Real Fundamentals'
-description: 'Intelligent investment research products are evolving from "writing analysis" to "conducting research."'
+title: When AI Can Check 24 Financial Data Points One by One, Intelligent Investment
+  Research Gains Real Fundamentals
+description: Intelligent investment research products are evolving from "writing analysis"
+  to "conducting research."
 pubDate: Jul 19 2026
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- QVeris
+- Agent
 translationKey: financial-data-point-review-agent
 draft: false
+heroImage: ../../../assets/blog-financial-data-point-review-agent-cover-en.png
 ---
 # When AI Can Verify 24 Financial Data Points Item by Item, Intelligent Investment Research Finally Gains Its "Fundamental Capabilities"
 

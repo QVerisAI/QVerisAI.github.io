@@ -1,13 +1,14 @@
 ---
-title: '金融 Skill 接入 QVeris 后，AI 终于不再只会写报告（配图版）'
-description: '过去一段时间，我集中改造和测试了一批金融 Skill。'
+title: 金融 Skill 接入 QVeris 后，AI 终于不再只会写报告（配图版）
+description: 过去一段时间，我集中改造和测试了一批金融 Skill。
 pubDate: Jul 15 2026
-heroImage: ../../../assets/blog-financial-skill-qveris-agent-1.png
+heroImage: ../../../assets/blog-financial-skill-qveris-agent-cover-cn.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- QVeris
+- skill
 translationKey: financial-skill-qveris-agent
 ---
 <title>金融 Skill 接入 QVeris 后，AI 终于不再只会写报告（配图版）</title>

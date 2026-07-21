@@ -1,13 +1,15 @@
 ---
-title: 'New Large Models Do More Than Chat: Try Kimi K3, Claude Fable 5, and GPT-5.6-Sol in QVeris.ai Playground'
-description: 'As new model releases accelerate, what truly impacts user experience is no longer just "whether the model appears i'
+title: 'New Large Models Do More Than Chat: Try Kimi K3, Claude Fable 5, and GPT-5.6-Sol
+  in QVeris.ai Playground'
+description: As new model releases accelerate, what truly impacts user experience
+  is no longer just "whether the model appears i
 pubDate: Jul 18 2026
-heroImage: ../../../assets/blog-qveris-playground-new-models-1.png
+heroImage: ../../../assets/blog-qveris-playground-new-models-cover-en.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- QVeris
+- Agent
 translationKey: qveris-playground-new-models
 draft: false
 ---

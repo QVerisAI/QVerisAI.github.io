@@ -1,13 +1,13 @@
 ---
-title: '别让 AI 盲猜股票了，小白用 Codex + QVeris 拆出 A 股主线'
-description: '很多小白股民用 AI 看股票，第一句话就问错了。'
+title: 别让 AI 盲猜股票了，小白用 Codex + QVeris 拆出 A 股主线
+description: 很多小白股民用 AI 看股票，第一句话就问错了。
 pubDate: Jul 8 2026
-heroImage: ../../../assets/blog-codex-qveris-a-share-mainline-1.png
+heroImage: ../../../assets/blog-codex-qveris-a-share-mainline-cover-cn.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- QVeris
 translationKey: codex-qveris-a-share-mainline
 ---
 # 别让 AI 盲猜股票了，小白用 Codex + QVeris 拆出 A 股主线

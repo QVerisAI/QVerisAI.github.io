@@ -1,13 +1,14 @@
 ---
-title: '用 Codex Sites 做一个真正调用 QVeris 的演示网站'
-description: '很多工具演示站的问题，不是页面不够漂亮，而是只能看，不能真正使用。用户看到一张精致的仪表盘，却不知道数据从哪里来、工具如何选择、失败时又会发生什么。'
+title: 用 Codex Sites 做一个真正调用 QVeris 的演示网站
+description: 很多工具演示站的问题，不是页面不够漂亮，而是只能看，不能真正使用。用户看到一张精致的仪表盘，却不知道数据从哪里来、工具如何选择、失败时又会发生什么。
 pubDate: Jul 11 2026
-heroImage: ../../../assets/blog-codex-sites-qveris-demo-1.png
+heroImage: ../../../assets/blog-codex-sites-qveris-demo-cover-cn.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- QVeris
+- 案例
 translationKey: codex-sites-qveris-demo
 ---
 <title>用 Codex Sites 做一个真正调用 QVeris 的演示网站</title>

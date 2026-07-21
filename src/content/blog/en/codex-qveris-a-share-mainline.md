@@ -1,15 +1,16 @@
 ---
-title: 'Do Not Let AI Guess Stocks Blindly: Using Codex + QVeris to Unpack A-Share Market Themes'
-description: 'Many novice investors ask AI the wrong questions about stocks.'
+title: 'Do Not Let AI Guess Stocks Blindly: Using Codex + QVeris to Unpack A-Share
+  Market Themes'
+description: Many novice investors ask AI the wrong questions about stocks.
 pubDate: Jul 8 2026
 heroImage: ../../../assets/blog-codex-qveris-a-share-mainline-1.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- QVeris
 translationKey: codex-qveris-a-share-mainline
-draft: false
+draft: true
 ---
 # Don't Let AI Blindly Speculate on Stocks—Novice Investors Can Unpack A-Share Mainstream Trends with Codex + QVeris
 

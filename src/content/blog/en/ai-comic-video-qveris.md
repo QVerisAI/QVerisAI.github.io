@@ -1,15 +1,16 @@
 ---
-title: 'Why Did AI Comic Dramas Suddenly Take Over My Short Videos? I Asked QVeris'
-description: 'Recently, while scrolling through short videos, I encountered content that’s increasingly hard to categorize.'
+title: Why Did AI Comic Dramas Suddenly Take Over My Short Videos? I Asked QVeris
+description: Recently, while scrolling through short videos, I encountered content
+  that’s increasingly hard to categorize.
 pubDate: Jul 16 2026
-heroImage: ../../../assets/blog-ai-comic-video-qveris-1.png
+heroImage: ../../../assets/blog-ai-comic-video-qveris-cover-en.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- QVeris
 translationKey: ai-comic-video-qveris
-draft: false
+draft: true
 ---
 # Why Did AI Comic Dramas Suddenly Take Over My Short Videos? I Asked QVeris to Check
 

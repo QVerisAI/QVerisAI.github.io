@@ -1,13 +1,15 @@
 ---
-title: 'Box Office Is Heating Up. Why Are Film Stocks Not Rising Too? I Re-ran Four Companies with QVeris'
+title: Box Office Is Heating Up. Why Are Film Stocks Not Rising Too? I Re-ran Four
+  Companies with QVeris
 description: '**The question I left open three weeks ago, now answered.**'
 pubDate: Jul 14 2026
-heroImage: ../../../assets/blog-film-box-office-stock-qveris-1.png
+heroImage: ../../../assets/blog-film-box-office-stock-qveris-cover-en.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- QVeris
+- 数据工具
 translationKey: film-box-office-stock-qveris
 draft: false
 ---

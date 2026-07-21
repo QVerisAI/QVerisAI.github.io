@@ -1,13 +1,13 @@
 ---
-title: '短剧暑期档开打，谁在制造我的追剧上头？我让 QVeris 查了查'
-description: '我最近有一个很明显的感觉：'
+title: 短剧暑期档开打，谁在制造我的追剧上头？我让 QVeris 查了查
+description: 我最近有一个很明显的感觉：
 pubDate: Jul 17 2026
-heroImage: ../../../assets/blog-short-drama-summer-market-qveris-1.png
+heroImage: ../../../assets/blog-short-drama-summer-market-qveris-cover-cn.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- QVeris
 translationKey: short-drama-summer-market-qveris
 ---
 # 短剧暑期档开打，谁在制造我的追剧上头？我让 QVeris 查了查

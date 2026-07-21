@@ -1,13 +1,14 @@
 ---
-title: '票房热了，影视股为什么没一起涨？我用 QVeris 重跑了四家公司'
+title: 票房热了，影视股为什么没一起涨？我用 QVeris 重跑了四家公司
 description: '**三周前公开留下的问题，今天回来对答案。**'
 pubDate: Jul 14 2026
-heroImage: ../../../assets/blog-film-box-office-stock-qveris-1.png
+heroImage: ../../../assets/blog-film-box-office-stock-qveris-cover-cn.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- QVeris
+- 数据工具
 translationKey: film-box-office-stock-qveris
 ---
 # 票房热了，影视股为什么没一起涨？我用 QVeris 重跑了四家公司

@@ -1,13 +1,16 @@
 ---
-title: '台风会影响股市吗？用 QVeris 复盘“巴威”冲击'
-description: '7 月 11 日晚上 11 点 20 分，超强台风"巴威"在浙江玉环登陆，最大风力 14 级。'
+title: 台风会影响股市吗？用 QVeris 复盘“巴威”冲击
+description: 7 月 11 日晚上 11 点 20 分，超强台风"巴威"在浙江玉环登陆，最大风力 14 级。
 pubDate: Jul 13 2026
-heroImage: ../../../assets/blog-typhoon-bavi-stock-market-qveris-1.png
+heroImage: ../../../assets/blog-typhoon-bavi-stock-market-qveris-cover-cn.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- Data Tools
+- Finance
+- Finance Agent
+- QVeris
 translationKey: typhoon-bavi-stock-market-qveris
 ---
 # 台风会影响股市吗？用 QVeris 复盘"巴威"冲击

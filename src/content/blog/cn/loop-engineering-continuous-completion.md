@@ -1,13 +1,15 @@
 ---
-title: 'Loop Engineering：从“完成一次”到“持续把事情做完”'
+title: Loop Engineering：从“完成一次”到“持续把事情做完”
 description: '> 当 Agent 不再依赖人逐轮提醒，真正需要设计的就不只是 Prompt，而是任务如何启动、验证、记忆和停止。'
 pubDate: Jul 12 2026
-heroImage: ../../../assets/blog-loop-engineering-continuous-completion-1.png
+heroImage: ../../../assets/blog-loop-engineering-continuous-completion-cover-cn.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- QVeris
+- agent
+- tools
 translationKey: loop-engineering-continuous-completion
 ---
 <title>Loop Engineering：从“完成一次”到“持续把事情做完”</title>

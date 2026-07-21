@@ -1,13 +1,15 @@
 ---
-title: 'Market Sentiment API: Teaching Trading Agents to Read Fear, Greed, and News Tone'
-description: 'A trading agent focused solely on price often only realizes what has happened after market movements have occurred.'
+title: 'Market Sentiment API: Teaching Trading Agents to Read Fear, Greed, and News
+  Tone'
+description: A trading agent focused solely on price often only realizes what has
+  happened after market movements have occurred.
 pubDate: Jul 19 2026
-heroImage: ../../../assets/blog-market-sentiment-api-trading-agents-1.png
+heroImage: ../../../assets/blog-market-sentiment-api-trading-agents-cover-en.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- QVeris
+- Agent
 translationKey: market-sentiment-api-trading-agents
 draft: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: '用 QVeris 数据做回测：先看懂数据，再相信曲线'
-description: '很多人做因子或策略回测，最想先看到的是收益曲线。但真正有价值的回测，不是把曲线画出来就结束，而是先把曲线背后的数据说清楚。'
+title: 用 QVeris 数据做回测：先看懂数据，再相信曲线
+description: 很多人做因子或策略回测，最想先看到的是收益曲线。但真正有价值的回测，不是把曲线画出来就结束，而是先把曲线背后的数据说清楚。
 pubDate: Jul 10 2026
-heroImage: ../../../assets/blog-qveris-backtesting-data-first-1.png
+heroImage: ../../../assets/blog-qveris-backtesting-data-first-cover-cn.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- QVeris
+- Agent
 translationKey: qveris-backtesting-data-first
 ---
 <title>用 QVeris 数据做回测：先看懂数据，再相信曲线</title>

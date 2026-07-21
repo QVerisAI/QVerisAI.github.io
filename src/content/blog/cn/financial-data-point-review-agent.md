@@ -1,13 +1,14 @@
 ---
-title: '当AI能把24个财务数据点逐项复核，智能投研才真正有了“基本功”'
-description: '智能投研产品正在从“会写分析”走向“能做研究”。'
+title: 当AI能把24个财务数据点逐项复核，智能投研才真正有了“基本功”
+description: 智能投研产品正在从“会写分析”走向“能做研究”。
 pubDate: Jul 19 2026
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- QVeris
+- Agent
 translationKey: financial-data-point-review-agent
+heroImage: ../../../assets/blog-financial-data-point-review-agent-cover-cn.png
 ---
 # 当AI能把24个财务数据点逐项复核，智能投研才真正有了“基本功”
 

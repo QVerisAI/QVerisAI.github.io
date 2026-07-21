@@ -776,9 +776,119 @@
       "english_image_check_reason": "Manually set in admin.",
       "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
       "updated_at": "2026-07-21T04:55:40.280207+00:00"
+    },
+    "ai-compute-horror-radar": {
+      "tags": [],
+      "requires_english": true,
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-21T08:32:53.742120+00:00"
+    },
+    "short-drama-summer-market-qveris": {
+      "tags": [],
+      "requires_english": false,
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-21T08:36:08.602017+00:00"
+    },
+    "ai-comic-video-qveris": {
+      "tags": [],
+      "requires_english": false,
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-21T08:44:06.272654+00:00"
+    },
+    "codex-qveris-a-share-mainline": {
+      "tags": [],
+      "requires_english": false,
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-21T08:47:15.683708+00:00"
+    },
+    "a-share-realtime-quotes-agent": {
+      "tags": [],
+      "requires_english": false,
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-21T08:47:48.814376+00:00"
+    },
+    "financial-skill-qveris-agent": {
+      "tags": [],
+      "requires_english": true,
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-21T09:22:47.458915+00:00"
+    },
+    "film-box-office-stock-qveris": {
+      "tags": [],
+      "requires_english": true,
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-21T09:25:12.568490+00:00"
+    },
+    "typhoon-bavi-stock-market-qveris": {
+      "tags": [],
+      "requires_english": true,
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-21T09:27:02.734567+00:00"
+    },
+    "loop-engineering-continuous-completion": {
+      "tags": [],
+      "requires_english": true,
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-21T09:28:31.686784+00:00"
+    },
+    "codex-sites-qveris-demo": {
+      "tags": [],
+      "requires_english": true,
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-21T09:29:27.905862+00:00"
     }
   },
-  "updated_at": "2026-07-21T04:55:40.280289+00:00",
+  "updated_at": "2026-07-21T09:29:27.905939+00:00",
   "tag_catalogs": {
     "content": [],
     "operational": []

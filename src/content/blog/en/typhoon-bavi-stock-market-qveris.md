@@ -1,13 +1,17 @@
 ---
-title: 'Do Typhoons Affect the Stock Market? Using QVeris to Revisit Typhoon Bavi'
-description: 'At 11:20 PM on July 11, the super typhoon "Bawee" made landfall in Yuhuan, Zhejiang, with maximum wind force of 14 '
+title: Do Typhoons Affect the Stock Market? Using QVeris to Revisit Typhoon Bavi
+description: 'At 11:20 PM on July 11, the super typhoon "Bawee" made landfall in Yuhuan,
+  Zhejiang, with maximum wind force of 14 '
 pubDate: Jul 13 2026
-heroImage: ../../../assets/blog-typhoon-bavi-stock-market-qveris-1.png
+heroImage: ../../../assets/blog-typhoon-bavi-stock-market-qveris-cover-en.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- Data Tools
+- Finance
+- Finance Agent
+- QVeris
 translationKey: typhoon-bavi-stock-market-qveris
 draft: false
 ---

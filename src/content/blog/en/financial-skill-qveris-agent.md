@@ -1,13 +1,15 @@
 ---
-title: 'After Financial Skills Connect to QVeris, AI Finally Does More Than Write Reports'
-description: 'Over the past period, I focused on refactoring and testing a batch of Financial Skills.'
+title: After Financial Skills Connect to QVeris, AI Finally Does More Than Write Reports
+description: Over the past period, I focused on refactoring and testing a batch of
+  Financial Skills.
 pubDate: Jul 15 2026
-heroImage: ../../../assets/blog-financial-skill-qveris-agent-1.png
+heroImage: ../../../assets/blog-financial-skill-qveris-agent-cover-en.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- QVeris
+- skill
 translationKey: financial-skill-qveris-agent
 draft: false
 ---

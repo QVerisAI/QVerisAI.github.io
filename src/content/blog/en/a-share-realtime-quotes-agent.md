@@ -1,15 +1,16 @@
 ---
 title: 'Connecting AI Agents to Real-Time A-Share Quotes: Where to Start'
-description: 'Many have grown accustomed to asking AI: "What’s the outlook for Moutai?" "Can we still chase Cambrian?" "What unus'
+description: 'Many have grown accustomed to asking AI: "What’s the outlook for Moutai?"
+  "Can we still chase Cambrian?" "What unus'
 pubDate: Jul 7 2026
 heroImage: ../../../assets/blog-a-share-realtime-quotes-agent-1.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- QVeris
 translationKey: a-share-realtime-quotes-agent
-draft: false
+draft: true
 ---
 # How to Connect AI Agents to Real-Time A-Share Market Data: The First Step
 

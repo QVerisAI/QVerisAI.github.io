@@ -1,13 +1,13 @@
 ---
-title: '给 AI Agent 接上 A 股实时行情，第一步该怎么做？'
-description: '很多人已经习惯问 AI：茅台怎么看？寒武纪还能不能追？今天 A 股有什么异动？'
+title: 给 AI Agent 接上 A 股实时行情，第一步该怎么做？
+description: 很多人已经习惯问 AI：茅台怎么看？寒武纪还能不能追？今天 A 股有什么异动？
 pubDate: Jul 7 2026
-heroImage: ../../../assets/blog-a-share-realtime-quotes-agent-1.png
+heroImage: ../../../assets/blog-a-share-realtime-quotes-agent-cover-cn.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- QVeris
 translationKey: a-share-realtime-quotes-agent
 ---
 # 给 AI Agent 接上 A 股实时行情，第一步该怎么做？

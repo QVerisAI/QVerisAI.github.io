@@ -1,13 +1,14 @@
 ---
-title: '我们做了一个 AI 算力“鬼故事”雷达'
-description: '一条新闻，为什么会让 GPU、HBM、数据中心、电力和 ETF 一起变脸？'
+title: 我们做了一个 AI 算力“鬼故事”雷达
+description: 一条新闻，为什么会让 GPU、HBM、数据中心、电力和 ETF 一起变脸？
 pubDate: Jul 20 2026
-heroImage: ../../../assets/blog-ai-compute-horror-radar-1.png
+heroImage: ../../../assets/blog-ai-compute-horror-radar-cover-cn.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- Finance
+- QVeris
 translationKey: ai-compute-horror-radar
 ---
 # 我们做了一个 AI 算力“鬼故事”雷达

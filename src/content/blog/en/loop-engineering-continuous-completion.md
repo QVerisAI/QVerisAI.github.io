@@ -1,13 +1,16 @@
 ---
 title: 'Loop Engineering: From "Completing Once" to "Continuously Getting Things Done"'
-description: '> When Agents no longer rely on human prompts for each iteration, the focus shifts from designing just a Prompt to '
+description: '> When Agents no longer rely on human prompts for each iteration, the
+  focus shifts from designing just a Prompt to '
 pubDate: Jul 12 2026
-heroImage: ../../../assets/blog-loop-engineering-continuous-completion-1.png
+heroImage: ../../../assets/blog-loop-engineering-continuous-completion-cover-en.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- QVeris
+- agent
+- tools
 translationKey: loop-engineering-continuous-completion
 draft: false
 ---

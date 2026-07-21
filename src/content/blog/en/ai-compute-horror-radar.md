@@ -1,13 +1,15 @@
 ---
-title: 'We Built an AI Compute "Ghost Story" Radar'
-description: 'Why does one news headline make GPUs, HBM, data centers, power, and ETFs all react simultaneously?'
+title: We Built an AI Compute "Ghost Story" Radar
+description: Why does one news headline make GPUs, HBM, data centers, power, and ETFs
+  all react simultaneously?
 pubDate: Jul 20 2026
-heroImage: ../../../assets/blog-ai-compute-horror-radar-1.png
+heroImage: ../../../assets/blog-ai-compute-horror-radar-cover-en.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- Finance
+- QVeris
 translationKey: ai-compute-horror-radar
 draft: false
 ---

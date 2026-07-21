@@ -1,15 +1,16 @@
 ---
-title: 'Short Drama Summer Season Begins: Who Is Making My Binge-Watching So Addictive? I Asked QVeris'
+title: 'Short Drama Summer Season Begins: Who Is Making My Binge-Watching So Addictive?
+  I Asked QVeris'
 description: 'I’ve noticed something clearly lately:'
 pubDate: Jul 17 2026
-heroImage: ../../../assets/blog-short-drama-summer-market-qveris-1.png
+heroImage: ../../../assets/blog-short-drama-summer-market-qveris-cover-en.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- QVeris
 translationKey: short-drama-summer-market-qveris
-draft: false
+draft: true
 ---
 # Short Drama Summer Blockbuster Season Begins: Who’s Creating My Addictive Viewing Habits? I Asked QVeris to Investigate
 

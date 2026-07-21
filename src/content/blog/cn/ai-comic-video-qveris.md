@@ -1,13 +1,13 @@
 ---
-title: 'AI 漫剧怎么突然占领了我的短视频？我让 QVeris 查了查'
-description: '最近刷短视频时，我遇到了一种越来越难分类的内容。'
+title: AI 漫剧怎么突然占领了我的短视频？我让 QVeris 查了查
+description: 最近刷短视频时，我遇到了一种越来越难分类的内容。
 pubDate: Jul 16 2026
-heroImage: ../../../assets/blog-ai-comic-video-qveris-1.png
+heroImage: ../../../assets/blog-ai-comic-video-qveris-cover-cn.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- Agent
+- QVeris
 translationKey: ai-comic-video-qveris
 ---
 <title>AI 漫剧怎么突然占领了我的短视频？我让 QVeris 查了查</title>

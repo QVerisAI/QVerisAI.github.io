@@ -1,13 +1,13 @@
 ---
-title: '最新大模型，不止能聊：在 QVeris.ai Playground 一次体验 Kimi K3、Claude Fable 5 与 GPT-5.6-Sol'
-description: '当新模型发布的速度越来越快，真正影响使用体验的，已经不只是“模型名单里有没有它”，而是能不能马上用真实问题去验证：它会不会找数据、能不能调用工具、结果是否可追溯，以及一次任务究竟花了多少时间和成本。'
+title: 最新大模型，不止能聊：在 QVeris.ai Playground 一次体验 Kimi K3、Claude Fable 5 与 GPT-5.6-Sol
+description: 当新模型发布的速度越来越快，真正影响使用体验的，已经不只是“模型名单里有没有它”，而是能不能马上用真实问题去验证：它会不会找数据、能不能调用工具、结果是否可追溯，以及一次任务究竟花了多少时间和成本。
 pubDate: Jul 18 2026
-heroImage: ../../../assets/blog-qveris-playground-new-models-1.png
+heroImage: ../../../assets/blog-qveris-playground-new-models-cover-cn.png
 category: Product
 author: QVeris Team
 tags:
-  - QVeris
-  - Agent
+- QVeris
+- Agent
 translationKey: qveris-playground-new-models
 ---
 # 最新大模型，不止能聊：在 QVeris.ai Playground 一次体验 Kimi K3、Claude Fable 5 与 GPT-5.6-Sol
