@@ -2,7 +2,7 @@
 title: 油价一跳，A股哪些行业先疼？我用 QVeris 跑了一遍跨市场传导链
 description: 用 QVeris 拆解油价波动如何通过成本、价差、资本开支传导到 A股行业和个股证据。
 pubDate: Jul 21 2026
-heroImage: ../../../assets/blog-oil-price-a-share-transmission-1.png
+heroImage: ../../../assets/blog-oil-price-a-share-transmission-cover-cn.png
 category: Research
 author: QVeris Team
 tags:

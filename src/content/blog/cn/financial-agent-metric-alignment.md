@@ -2,13 +2,15 @@
 title: 金融 Agent 不能只会取数，还要能对齐口径
 description: 金融 Agent 不只是接入更多数据，还要把数据变成可解释、可计算、可验证的口径契约。
 pubDate: Jul 21 2026
-heroImage: ../../../assets/blog-financial-agent-metric-alignment-1.png
+heroImage: ../../../assets/blog-financial-agent-metric-alignment-cover-cn.png
 category: Engineering
 author: QVeris Team
-tags: [QVeris, Agent, Finance]
+tags:
+- QVeris
+- Agent
+- Finance
 translationKey: financial-agent-metric-alignment
 ---
-
 # 金融 Agent 不能只会取数，还要能对齐口径
 
 ![图片展示了金融Agent工程链路，强调不能只会取数，还要能对齐口径。从数据入口到因子绑定，再到历史验证，每一步都应能回到来源、参数和证据。数据入口涵盖行情、财务、公告、新闻等；因子绑定涉及真实、代理、缺失、不可用；历史验证关注有效区间、失效边界、假设等。图片与上下文紧密相关，直观呈现了金融Agent在数据处理、证据对象、口径识别等方面的关键环节。](../../../assets/blog-financial-agent-metric-alignment-1.png)
