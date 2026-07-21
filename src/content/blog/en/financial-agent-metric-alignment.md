@@ -2,7 +2,7 @@
 title: Financial Agents Must Do More Than Fetch Data. They Must Align Definitions.
 description: Financial agents need to turn data into definition contracts that are
   explainable, computable, and verifiable.
-pubDate: Jul 21 2026
+pubDate: '2026-06-29'
 heroImage: ../../../assets/blog-financial-agent-metric-alignment-cover-en.png
 category: Engineering
 author: QVeris Team
