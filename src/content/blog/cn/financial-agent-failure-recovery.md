@@ -1,14 +1,16 @@
 ---
 title: 金融 Agent 的下一步：不是更会回答，而是失败之后还能继续
 description: 金融 Agent 真正难的不是生成完整回答，而是让研究流程可追踪、可恢复、可复核。
-pubDate: Jul 21 2026
+pubDate: '2026-06-26'
 heroImage: ../../../assets/blog-financial-agent-failure-recovery-1.png
 category: Engineering
 author: QVeris Team
-tags: [QVeris, Agent, Finance]
+tags:
+- QVeris
+- Agent
+- Finance
 translationKey: financial-agent-failure-recovery
 ---
-
 # 金融 Agent 的下一步：不是更会回答，而是失败之后还能继续
 
 ![图片展示了金融Agent的研究路线图，强调从会回答到能继续。用户提出问题后，任务板识别场景并保留上下文，证据篮先收集数据，缺失证据时有缺口检查站提示，恢复回路可补输入后重试或失败可解释，最终输出面向用户且可读的可解释报告。该图与上下文紧密相关，直观呈现了金融Agent从获取问题到生成报告的完整流程，强调其需具备数据、证据、状态、边界、继续等能力。](../../../assets/blog-financial-agent-failure-recovery-1.png)

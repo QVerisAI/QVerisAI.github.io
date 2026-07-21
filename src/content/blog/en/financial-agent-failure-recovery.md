@@ -3,7 +3,7 @@ title: 'The Next Step for Financial Agents: Not Just Better Answers, but Recover
   After Failure'
 description: 'Financial agents need more than polished answers: they need research
   workflows that are traceable, recoverable, and reviewable.'
-pubDate: Jul 21 2026
+pubDate: '2026-06-26'
 heroImage: ../../../assets/blog-financial-agent-failure-recovery-cover-en.png
 category: Engineering
 author: QVeris Team
