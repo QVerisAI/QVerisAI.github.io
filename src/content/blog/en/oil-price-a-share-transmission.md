@@ -1,14 +1,19 @@
 ---
-title: "When Oil Prices Jump, Which A-Share Industries Feel It First? I Used QVeris to Trace the Cross-Market Chain"
-description: "Using QVeris to trace how oil price moves pass through costs, spreads, capital expenditure, A-share sectors, and company-level evidence."
+title: When Oil Prices Jump, Which A-Share Industries Feel It First? I Used QVeris
+  to Trace the Cross-Market Chain
+description: Using QVeris to trace how oil price moves pass through costs, spreads,
+  capital expenditure, A-share sectors, and company-level evidence.
 pubDate: Jul 21 2026
 heroImage: ../../../assets/blog-oil-price-a-share-transmission-1.png
 category: Research
 author: QVeris Team
-tags: [QVeris, Agent, Finance]
+tags:
+- Agent
+- Finance
+- QVeris
 translationKey: oil-price-a-share-transmission
+draft: true
 ---
-
 # When Oil Prices Jump, Which A-Share Industries Feel It First? I Used QVeris to Trace the Cross-Market Chain
 
 ![An illustration of how oil prices affect multiple industries. A black oil barrel emits orange lines that extend toward icons for aircraft, chemical plants, tankers, and the stock market, symbolizing transmission from oil price volatility to aviation, chemicals, shipping, and equities. A screen on the right shows the QVeris interface with charts and network information, set against a world map and industrial background.](../../../assets/blog-oil-price-a-share-transmission-1.png)

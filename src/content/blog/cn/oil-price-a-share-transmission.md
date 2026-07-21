@@ -5,10 +5,12 @@ pubDate: Jul 21 2026
 heroImage: ../../../assets/blog-oil-price-a-share-transmission-1.png
 category: Research
 author: QVeris Team
-tags: [QVeris, Agent, Finance]
+tags:
+- Agent
+- Finance
+- QVeris
 translationKey: oil-price-a-share-transmission
 ---
-
 # 油价一跳，A股哪些行业先疼？我用 QVeris 跑了一遍跨市场传导链
 
 ![图片展示了油价对多个行业的影响。画面中，黑色油桶喷出橙色线条，线条延伸至飞机、化工厂、油轮、股市图标等图标，象征油价波动对航空、化工、航运、股市等行业产生传导。右侧屏幕显示QVeris平台界面，有数据图表、网络图等信息。背景是世界地图和工业场景。该图与上下文紧密相关，直观呈现了油价变动对A股行业和公司可能产生的跨市场传导链。](../../../assets/blog-oil-price-a-share-transmission-1.png)

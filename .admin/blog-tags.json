@@ -765,9 +765,20 @@
       "english_image_has_chinese": false,
       "english_image_check_status": "manual",
       "english_image_check_reason": "Manually set in admin."
+    },
+    "oil-price-a-share-transmission": {
+      "tags": [],
+      "requires_english": false,
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-21T04:55:40.280207+00:00"
     }
   },
-  "updated_at": "2026-07-18T10:15:42.284106+00:00",
+  "updated_at": "2026-07-21T04:55:40.280289+00:00",
   "tag_catalogs": {
     "content": [],
     "operational": []

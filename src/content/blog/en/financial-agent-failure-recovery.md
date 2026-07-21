@@ -1,14 +1,18 @@
 ---
-title: "The Next Step for Financial Agents: Not Just Better Answers, but Recovery After Failure"
-description: "Financial agents need more than polished answers: they need research workflows that are traceable, recoverable, and reviewable."
+title: 'The Next Step for Financial Agents: Not Just Better Answers, but Recovery
+  After Failure'
+description: 'Financial agents need more than polished answers: they need research
+  workflows that are traceable, recoverable, and reviewable.'
 pubDate: Jul 21 2026
-heroImage: ../../../assets/blog-financial-agent-failure-recovery-1.png
+heroImage: ../../../assets/blog-financial-agent-failure-recovery-cover-en.png
 category: Engineering
 author: QVeris Team
-tags: [QVeris, Agent, Finance]
+tags:
+- QVeris
+- Agent
+- Finance
 translationKey: financial-agent-failure-recovery
 ---
-
 # The Next Step for Financial Agents: Not Just Better Answers, but Recovery After Failure
 
 ![A roadmap for financial agent research, showing the shift from answering to continuing. After a user asks a question, a task board identifies the scenario and preserves context; an evidence basket gathers data; a gap checkpoint flags missing evidence; a recovery loop supports retries after additional input or explainable failure; the final output is a user-facing, readable, explainable report.](../../../assets/blog-financial-agent-failure-recovery-1.png)

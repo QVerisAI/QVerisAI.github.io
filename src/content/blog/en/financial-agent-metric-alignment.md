@@ -1,14 +1,17 @@
 ---
-title: "Financial Agents Must Do More Than Fetch Data. They Must Align Definitions."
-description: "Financial agents need to turn data into definition contracts that are explainable, computable, and verifiable."
+title: Financial Agents Must Do More Than Fetch Data. They Must Align Definitions.
+description: Financial agents need to turn data into definition contracts that are
+  explainable, computable, and verifiable.
 pubDate: Jul 21 2026
-heroImage: ../../../assets/blog-financial-agent-metric-alignment-1.png
+heroImage: ../../../assets/blog-financial-agent-metric-alignment-cover-en.png
 category: Engineering
 author: QVeris Team
-tags: [QVeris, Agent, Finance]
+tags:
+- QVeris
+- Agent
+- Finance
 translationKey: financial-agent-metric-alignment
 ---
-
 # Financial Agents Must Do More Than Fetch Data. They Must Align Definitions.
 
 ![An engineering pipeline for financial agents, emphasizing that agents must align definitions rather than only fetch data. From data entry to factor binding and historical validation, every step should trace back to sources, parameters, and evidence. Data entry includes market data, financials, filings, news, and more; factor binding covers real, proxy, missing, and unavailable fields; historical validation focuses on valid intervals, failure boundaries, and assumptions.](../../../assets/blog-financial-agent-metric-alignment-1.png)
