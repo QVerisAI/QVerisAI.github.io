@@ -1,12 +1,15 @@
 ---
-title: 'Agents Need More Than Tool Calls. They Need Execution Ledgers.'
-description: 'Once agents enter business workflows, every execution needs a reviewable, reusable, and transferable ledger.'
-pubDate: 'Jul 03 2026'
-heroImage: '../../../assets/blog-agent-execution-ledger-1.png'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'agent-execution-ledger'
+title: Agents Need More Than Tool Calls. They Need Execution Ledgers.
+description: Once agents enter business workflows, every execution needs a reviewable,
+  reusable, and transferable ledger.
+pubDate: Jul 03 2026
+heroImage: ../../../assets/blog-agent-execution-ledger-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: agent-execution-ledger
 ---
 # Agents Need More Than Tool Calls. They Need Execution Ledgers.
 

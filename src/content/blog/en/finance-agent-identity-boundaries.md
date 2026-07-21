@@ -1,12 +1,15 @@
 ---
-title: 'Why Do Top Global Models Still Score Below 58% on Financial Analysis?'
-description: 'From Vals Finance Agent v2 to two public-question retests: the weakness of financial agents may be object identification, not analysis.'
-pubDate: 'Jul 06 2026'
-heroImage: '../../../assets/blog-finance-agent-identity-boundaries-1.png'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'finance-agent-identity-boundaries'
+title: Why Do Top Global Models Still Score Below 58% on Financial Analysis?
+description: 'From Vals Finance Agent v2 to two public-question retests: the weakness
+  of financial agents may be object identification, not analysis.'
+pubDate: Jul 06 2026
+heroImage: ../../../assets/blog-finance-agent-identity-boundaries-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: finance-agent-identity-boundaries
 ---
 # Why Do Top Global Models Still Score Below 58% on Financial Analysis?
 
