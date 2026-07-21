@@ -3,7 +3,7 @@ title: When Oil Prices Jump, Which A-Share Industries Feel It First? I Used QVer
   to Trace the Cross-Market Chain
 description: Using QVeris to trace how oil price moves pass through costs, spreads,
   capital expenditure, A-share sectors, and company-level evidence.
-pubDate: Jul 21 2026
+pubDate: '2026-06-30'
 heroImage: ../../../assets/blog-oil-price-a-share-transmission-1.png
 category: Research
 author: QVeris Team

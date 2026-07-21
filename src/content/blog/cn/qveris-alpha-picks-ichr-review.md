@@ -1,11 +1,14 @@
 ---
-title: 'QVeris 对 Alpha Picks 的最新推荐有何看法？'
-description: 'Alpha Picks 将 Ichor 标记为买入后，我们用 QVeris 对 ICHR 做了一次带来源、工具调用和审计跟踪的数据检查。'
-pubDate: 'Jul 02 2026'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-alpha-picks-ichr-review'
+title: QVeris 对 Alpha Picks 的最新推荐有何看法？
+description: Alpha Picks 将 Ichor 标记为买入后，我们用 QVeris 对 ICHR 做了一次带来源、工具调用和审计跟踪的数据检查。
+pubDate: Jul 02 2026
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-alpha-picks-ichr-review
+heroImage: ../../../assets/blog-qveris-alpha-picks-ichr-review-cover-cn.png
 ---
 # QVeris对Alpha Picks的最新推荐有何看法？
 

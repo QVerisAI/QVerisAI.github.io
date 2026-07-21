@@ -1,11 +1,14 @@
 ---
-title: '我用 Codex + QVeris 跑通了一套 AI 产业链卡点研究 SOP'
-description: '从安装 Skill、配置 API Key，到生成投研备忘录的一次实操复盘'
-pubDate: 'Jul 01 2026'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'ai-supply-chain-bottleneck-research-sop'
+title: 我用 Codex + QVeris 跑通了一套 AI 产业链卡点研究 SOP
+description: 从安装 Skill、配置 API Key，到生成投研备忘录的一次实操复盘
+pubDate: Jul 01 2026
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: ai-supply-chain-bottleneck-research-sop
+heroImage: ../../../assets/blog-ai-supply-chain-bottleneck-research-sop-cover-cn.png
 ---
 # 我用 Codex + QVeris 跑通了一套 AI 产业链卡点研究 SOP
 

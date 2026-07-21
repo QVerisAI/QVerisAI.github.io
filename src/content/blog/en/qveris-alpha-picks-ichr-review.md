@@ -1,11 +1,15 @@
 ---
-title: 'What Does QVeris Think of Alpha Picks’ Latest Recommendation?'
-description: 'After Alpha Picks marked Ichor as a buy, we used QVeris to review ICHR with sources, tool calls, and an audit trail.'
-pubDate: 'Jul 02 2026'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-alpha-picks-ichr-review'
+title: What Does QVeris Think of Alpha Picks’ Latest Recommendation?
+description: After Alpha Picks marked Ichor as a buy, we used QVeris to review ICHR
+  with sources, tool calls, and an audit trail.
+pubDate: Jul 02 2026
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-alpha-picks-ichr-review
+heroImage: ../../../assets/blog-qveris-alpha-picks-ichr-review-cover-en.png
 ---
 # What does QVeris think of Alpha Picks’ latest recommendations?
 

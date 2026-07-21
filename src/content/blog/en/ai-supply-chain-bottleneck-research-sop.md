@@ -1,11 +1,15 @@
 ---
-title: 'How I Used Codex + QVeris to Build an AI Supply Chain Bottleneck Research SOP'
-description: 'A hands-on review: from installing a Skill and configuring an API key to generating an investment research memo.'
-pubDate: 'Jul 01 2026'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'ai-supply-chain-bottleneck-research-sop'
+title: How I Used Codex + QVeris to Build an AI Supply Chain Bottleneck Research SOP
+description: 'A hands-on review: from installing a Skill and configuring an API key
+  to generating an investment research memo.'
+pubDate: Jul 01 2026
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: ai-supply-chain-bottleneck-research-sop
+heroImage: ../../../assets/blog-ai-supply-chain-bottleneck-research-sop-cover-en.png
 ---
 # How I Used Codex + QVeris to Build an AI Supply Chain Bottleneck Research SOP
 

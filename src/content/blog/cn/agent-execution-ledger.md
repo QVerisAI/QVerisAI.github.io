@@ -1,12 +1,14 @@
 ---
-title: 'Agent 不能只会调工具，还要能留下执行账本'
-description: 'Agent 进入业务流程后，每一次执行都需要可复查、可复用、可交接的执行账本。'
-pubDate: 'Jul 03 2026'
-heroImage: '../../../assets/blog-agent-execution-ledger-1.png'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'agent-execution-ledger'
+title: Agent 不能只会调工具，还要能留下执行账本
+description: Agent 进入业务流程后，每一次执行都需要可复查、可复用、可交接的执行账本。
+pubDate: Jul 03 2026
+heroImage: ../../../assets/blog-agent-execution-ledger-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: agent-execution-ledger
 ---
 # Agent 不能只会调工具，还要能留下执行账本
 
