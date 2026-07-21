@@ -1,19 +1,12 @@
 ---
-title: 给 Coding Agent 接上 10,000+ 种外部能力：QVeris Hosted MCP 实战教程
-description: Codex、Claude Code、Cursor 这类 Coding Agent 已经能读代码、改文件、运行测试，但当任务依赖仓库之外的最新信息时，能力边界仍然很明显：某个依赖今天是否发布了安全修复？一次
-  CI 失败是否来自外部服务故障？准备接入的数据源，真实返回结构和成本是什么？
+title: '给 Coding Agent 接上 10,000+ 种外部能力：QVeris Hosted MCP 实战教程'
+description: 'Codex、Claude Code、Cursor 这类 Coding Agent 已经能读代码、改文件、运行测试，但当任务依赖仓库之外的最新信息时，能力边界仍然很明显。'
 pubDate: Jul 18 2026
 heroImage: ../../../assets/blog-gei-coding-agent-jie-shang-10-000-zhong-fb0bca-1.png
 category: MCP
 author: QVeris Team
-tags:
-- Agent
-- Data Tools
-- MCP
-- tools
-- 数据工具
+tags: ['Agent', 'Data Tools', 'MCP', 'tools', '数据工具']
 translationKey: gei-coding-agent-jie-shang-10-000-zhong-fb0bca
-feishuDocId: BkJCdCpI7oe8PVxWHwHcJs46n9g
 ---
 Codex、Claude Code、Cursor 这类 Coding Agent 已经能读代码、改文件、运行测试，但当任务依赖仓库之外的最新信息时，能力边界仍然很明显：某个依赖今天是否发布了安全修复？一次 CI 失败是否来自外部服务故障？准备接入的数据源，真实返回结构和成本是什么？
 
