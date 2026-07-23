@@ -897,9 +897,20 @@
       "english_image_check_reason": "Manually set in admin.",
       "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
       "updated_at": "2026-07-23T06:08:10.989824+00:00"
+    },
+    "qveris-ai-tech-stock-selloff": {
+      "tags": [],
+      "requires_english": true,
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-23T09:08:05.383190+00:00"
     }
   },
-  "updated_at": "2026-07-23T06:08:10.989913+00:00",
+  "updated_at": "2026-07-23T09:08:05.383267+00:00",
   "tag_catalogs": {
     "content": [],
     "operational": []
