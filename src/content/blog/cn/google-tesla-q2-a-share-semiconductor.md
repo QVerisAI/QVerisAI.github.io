@@ -1,15 +1,17 @@
 ---
-title: '谷歌 Cloud 暴涨 82%，特斯拉 EPS 腰斩：昨夜两份财报对 A 股半导体的真实信号'
-description: '从谷歌与特斯拉 Q2 财报看 AI capex、利润压力与 A 股半导体链条的短中长期信号。'
+title: 谷歌 Cloud 暴涨 82%，特斯拉 EPS 腰斩：昨夜两份财报对 A 股半导体的真实信号
+description: 从谷歌与特斯拉 Q2 财报看 AI capex、利润压力与 A 股半导体链条的短中长期信号。
 pubDate: Jul 23 2026
-heroImage: ../../../assets/blog-google-tesla-q2-a-share-semiconductor-1.png
+heroImage: ../../../assets/blog-google-tesla-q2-a-share-semiconductor-cover-cn.png
 category: Product
 author: QVeris Team
 tags:
-  - qveris
-  - finance
-  - earnings
-  - 半导体
+- a股，Financial Report
+- earnings
+- finance
+- qveris
+- semiconductors
+- 半导体
 translationKey: google-tesla-q2-a-share-semiconductor
 ---
 # 谷歌 Cloud 暴涨 82%，特斯拉 EPS 腰斩：昨夜两份财报对 A 股半导体的真实信号

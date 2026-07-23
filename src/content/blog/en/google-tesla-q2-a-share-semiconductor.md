@@ -1,16 +1,21 @@
 ---
-title: "Google Cloud Jumped 82%, Tesla EPS Was Cut in Half: What Last Night's Earnings Really Signal for A-Share Semiconductors"
-description: "A QVeris Earnings Copilot walkthrough of how Google and Tesla's Q2 results reshape the short- and medium-term signal for China's semiconductor chain."
+title: 'Google Cloud Jumped 82%, Tesla EPS Was Cut in Half: What Last Night''s Earnings
+  Really Signal for A-Share Semiconductors'
+description: A QVeris Earnings Copilot walkthrough of how Google and Tesla's Q2 results
+  reshape the short- and medium-term signal for China's semiconductor chain.
 pubDate: Jul 23 2026
-heroImage: ../../../assets/blog-google-tesla-q2-a-share-semiconductor-1.png
+heroImage: ../../../assets/blog-google-tesla-q2-a-share-semiconductor-cover-en.png
 category: Product
 author: QVeris Team
 tags:
-  - qveris
-  - finance
-  - earnings
-  - semiconductors
+- a股，Financial Report
+- earnings
+- finance
+- qveris
+- semiconductors
+- 半导体
 translationKey: google-tesla-q2-a-share-semiconductor
+draft: false
 ---
 # Google Cloud Jumped 82%, Tesla EPS Was Cut in Half: What Last Night's Earnings Really Signal for A-Share Semiconductors
 
