@@ -1,12 +1,18 @@
 ---
 title: Recently, Tech Stocks Have Sold Off. Is the AI Trade Over?
-description: After the selloff in tech stocks, QVeris separates AI demand, semiconductor valuations, and cash-flow quality to assess what has really changed.
+description: After the selloff in tech stocks, QVeris separates AI demand, semiconductor
+  valuations, and cash-flow quality to assess what has really changed.
 pubDate: Jul 23 2026
 category: Product
 author: QVeris Team
-tags: ['QVeris', 'Agent']
+tags:
+- Agent
+- QVeris
+- Stock
+- Technology stocks
 translationKey: qveris-ai-tech-stock-selloff
-heroImage: ../../../assets/blog-qveris-ai-tech-stock-selloff-1.png
+heroImage: ../../../assets/blog-qveris-ai-tech-stock-selloff-cover-en.png
+draft: false
 ---
 # Recently, Tech Stocks Have Sold Off. Is the AI Trade Over?
 

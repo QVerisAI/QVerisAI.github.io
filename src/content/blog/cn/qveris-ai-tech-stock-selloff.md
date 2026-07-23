@@ -4,9 +4,13 @@ description: 科技股急跌后，QVeris 从台积电增长斜率、芯片基金
 pubDate: Jul 23 2026
 category: Product
 author: QVeris Team
-tags: ['QVeris', 'Agent']
+tags:
+- Agent
+- QVeris
+- Stock
+- Technology stocks
 translationKey: qveris-ai-tech-stock-selloff
-heroImage: ../../../assets/blog-qveris-ai-tech-stock-selloff-1.png
+heroImage: ../../../assets/blog-qveris-ai-tech-stock-selloff-cover-cn.png
 ---
 # 最近科技股大跌，AI 行情结束了吗？
 
