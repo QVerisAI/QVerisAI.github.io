@@ -8,10 +8,11 @@ heroImage: ../../../assets/blog-qveris-agent-tool-discover-inspect-call-cost-cov
 category: Product
 author: QVeris Team
 tags:
-- QVeris
 - Agent
+- CLI
+- QVeris
 translationKey: qveris-agent-tool-discover-inspect-call-cost
-draft: true
+draft: false
 ---
 As AI agents move from answering questions to completing tasks, the hard part is often no longer whether a model can generate a paragraph of text. The real challenge is whether it can choose the right capability from thousands of external tools, construct the right parameters, and make an explainable decision before any cost is incurred.
 

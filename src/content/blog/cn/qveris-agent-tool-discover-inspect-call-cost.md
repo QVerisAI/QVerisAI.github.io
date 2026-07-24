@@ -6,8 +6,9 @@ heroImage: ../../../assets/blog-qveris-agent-tool-discover-inspect-call-cost-cov
 category: Product
 author: QVeris Team
 tags:
-- QVeris
 - Agent
+- CLI
+- QVeris
 translationKey: qveris-agent-tool-discover-inspect-call-cost
 draft: true
 ---
