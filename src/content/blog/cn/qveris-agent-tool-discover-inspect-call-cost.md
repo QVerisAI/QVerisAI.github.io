@@ -1,15 +1,16 @@
 ---
-title: 'Agent 调用工具前，应该先知道三件事：能不能用、怎么调用、要花多少钱'
-description: 'QVeris 将工具调用拆成 Discover、Inspect 和 Call 三个阶段，让 Agent 在真实执行和产生费用前先完成可检查、可确认、可追溯的决策。'
-pubDate: 'Jul 24 2026'
-heroImage: '../../../assets/blog-qveris-agent-tool-discover-inspect-call-cost-1.png'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-agent-tool-discover-inspect-call-cost'
+title: Agent 调用工具前，应该先知道三件事：能不能用、怎么调用、要花多少钱
+description: QVeris 将工具调用拆成 Discover、Inspect 和 Call 三个阶段，让 Agent 在真实执行和产生费用前先完成可检查、可确认、可追溯的决策。
+pubDate: Jul 24 2026
+heroImage: ../../../assets/blog-qveris-agent-tool-discover-inspect-call-cost-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-agent-tool-discover-inspect-call-cost
 draft: true
 ---
-
 当 AI Agent 从“回答问题”走向“完成任务”，真正困难的往往不再是模型能不能生成一段文本，而是它能否在成千上万种外部能力中选对工具、构造正确参数，并在产生费用前做出可解释的决策。
 
 如果把搜索工具和执行工具混成一步，Agent 很容易出现三类问题：发现了名字相似但能力不匹配的接口；沿用旧参数或另一个 Provider 的 schema；还没确认计费规则，就直接发起了真实调用。

@@ -1,15 +1,18 @@
 ---
-title: 'Before an Agent Calls a Tool, It Should Know Three Things: Can It Be Used, How Should It Be Called, and What Will It Cost?'
-description: 'QVeris separates tool use into Discover, Inspect, and Call so agents can make checkable, confirmable, and traceable decisions before execution and billing.'
-pubDate: 'Jul 24 2026'
-heroImage: '../../../assets/blog-qveris-agent-tool-discover-inspect-call-cost-1.png'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'qveris-agent-tool-discover-inspect-call-cost'
+title: 'Before an Agent Calls a Tool, It Should Know Three Things: Can It Be Used,
+  How Should It Be Called, and What Will It Cost?'
+description: QVeris separates tool use into Discover, Inspect, and Call so agents
+  can make checkable, confirmable, and traceable decisions before execution and billing.
+pubDate: Jul 24 2026
+heroImage: ../../../assets/blog-qveris-agent-tool-discover-inspect-call-cost-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- QVeris
+- Agent
+translationKey: qveris-agent-tool-discover-inspect-call-cost
 draft: true
 ---
-
 As AI agents move from answering questions to completing tasks, the hard part is often no longer whether a model can generate a paragraph of text. The real challenge is whether it can choose the right capability from thousands of external tools, construct the right parameters, and make an explainable decision before any cost is incurred.
 
 If tool search and tool execution are collapsed into a single step, agents can easily run into three classes of problems: finding an interface with a similar name but the wrong capability, reusing stale parameters or another provider's schema, or launching a real paid call before the billing rules have been checked.
