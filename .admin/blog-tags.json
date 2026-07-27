@@ -930,9 +930,20 @@
       "english_image_check_reason": "Manually set in admin.",
       "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
       "updated_at": "2026-07-27T08:15:16.020222+00:00"
+    },
+    "agent-tool-use-quality": {
+      "tags": [],
+      "requires_english": true,
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-27T08:53:05.201029+00:00"
     }
   },
-  "updated_at": "2026-07-27T08:15:16.020309+00:00",
+  "updated_at": "2026-07-27T08:53:05.201110+00:00",
   "tag_catalogs": {
     "content": [],
     "operational": []

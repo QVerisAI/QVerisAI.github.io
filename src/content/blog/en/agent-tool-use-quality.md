@@ -1,14 +1,19 @@
 ---
 title: Why an Agent Can Find a Tool but Still Fail to Use It Well
-description: A practical framework for evaluating Agent tool use across relevance, contracts, operating quality, and execution semantics.
+description: A practical framework for evaluating Agent tool use across relevance,
+  contracts, operating quality, and execution semantics.
 pubDate: Jul 27 2026
-heroImage: ../../../assets/blog-agent-tool-use-quality-1.png
+heroImage: ../../../assets/blog-agent-tool-use-quality-cover-en.png
 category: Engineering
 author: QVeris Team
-tags: ['QVeris', 'Agent']
+tags:
+- Agent
+- Data Tools
+- QVeris
+- tools
 translationKey: agent-tool-use-quality
+draft: false
 ---
-
 ![](../../../assets/blog-agent-tool-use-quality-1.png)
 
 After connecting tools to an Agent, it is easy to fall into a misleading assumption: as long as the model can produce a Function Call once, the tool capability is already in place. In practice, the opposite is true. When a model selects a tool with a similar-sounding name, it has only completed the first step. The call can still lose its value at any layer: data coverage, parameter semantics, runtime state, or the meaning of the returned result.

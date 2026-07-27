@@ -2,13 +2,16 @@
 title: Agent 为什么找得到工具，却不一定用得好
 description: 从相关性、契约、运行质量和执行语义四个层面拆解 Agent 工具调用质量。
 pubDate: Jul 27 2026
-heroImage: ../../../assets/blog-agent-tool-use-quality-1.png
+heroImage: ../../../assets/blog-agent-tool-use-quality-cover-cn.png
 category: Engineering
 author: QVeris Team
-tags: ['QVeris', 'Agent']
+tags:
+- Agent
+- Data Tools
+- QVeris
+- tools
 translationKey: agent-tool-use-quality
 ---
-
 ![](../../../assets/blog-agent-tool-use-quality-1.png)
 
 给 Agent 接入工具之后，最容易产生的错觉是：只要模型能生成一次 Function Call，工具能力就已经具备。真实情况恰好相反。模型选中了一个名字相似的工具，只能说明它完成了第一步；数据范围、参数语义、运行状态和返回结果中的任何一层，都可能让这次调用失去价值。
