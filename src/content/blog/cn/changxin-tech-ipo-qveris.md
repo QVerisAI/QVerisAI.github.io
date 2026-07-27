@@ -2,10 +2,13 @@
 title: 长鑫科技上市倒计时：我用QVeris拆解508亿营收的增长逻辑
 description: 508 亿元季度营收、约 5792 亿元初始市值，国产 DRAM 的新坐标意味着什么？
 pubDate: Jul 25 2026
-heroImage: ../../../assets/blog-changxin-tech-ipo-qveris-1.png
+heroImage: ../../../assets/blog-changxin-tech-ipo-qveris-cover-cn.png
 category: Product
 author: QVeris Team
-tags: [QVeris, Agent, Finance]
+tags:
+- QVeris
+- Agent
+- Finance
 translationKey: changxin-tech-ipo-qveris
 ---
 **508 亿元季度营收、约 5792 亿元初始市值，国产 DRAM 的新坐标意味着什么？**  

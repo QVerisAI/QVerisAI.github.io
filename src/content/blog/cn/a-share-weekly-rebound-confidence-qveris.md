@@ -2,10 +2,13 @@
 title: 一周涨回来，信心却没完全回来
 description: 用 QVeris 复盘 2026 年 7 月 20–24 日 A 股的高波动修复。
 pubDate: Jul 26 2026
-heroImage: ../../../assets/blog-a-share-weekly-rebound-confidence-qveris-1.png
+heroImage: ../../../assets/blog-a-share-weekly-rebound-confidence-qveris-cover-cn.png
 category: Product
 author: QVeris Team
-tags: [QVeris, Agent, Finance]
+tags:
+- QVeris
+- Agent
+- Finance
 translationKey: a-share-weekly-rebound-confidence-qveris
 ---
 **2026.07.20—07.24  ·  数据截止 07-24 收盘  ·  非投资建议**
