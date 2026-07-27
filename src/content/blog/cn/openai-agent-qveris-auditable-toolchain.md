@@ -2,10 +2,14 @@
 title: OpenAI Agent“失控”之后：我用 QVeris 搭了一条可审计的工具调用链
 description: 当 AI Agent 开始自主调用工具、访问网络和执行任务，团队需要看清它调用了什么、为什么调用、花了多少钱，以及结果能否复核。
 pubDate: Jul 24 2026
-heroImage: ../../../assets/blog-openai-agent-qveris-auditable-toolchain-1.png
+heroImage: ../../../assets/blog-openai-agent-qveris-auditable-toolchain-cover-cn.png
 category: Product
 author: QVeris Team
-tags: ['QVeris', 'Agent', 'Tool Calling']
+tags:
+- Agent
+- QVeris
+- Tool Calling
+- tools
 translationKey: openai-agent-qveris-auditable-toolchain
 ---
 AI Agent 最危险的时刻，可能不是它回答错了。

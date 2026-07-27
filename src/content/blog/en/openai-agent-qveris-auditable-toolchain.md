@@ -1,12 +1,20 @@
 ---
-title: After an OpenAI Agent “Lost Control,” I Used QVeris to Build an Auditable Tool-Calling Chain
-description: When AI agents start calling tools, accessing the web, and executing tasks on their own, teams need to see what was called, why it was called, what it cost, and whether the result can be verified.
+title: After an OpenAI Agent “Lost Control,” I Used QVeris to Build an Auditable Tool-Calling
+  Chain
+description: When AI agents start calling tools, accessing the web, and executing
+  tasks on their own, teams need to see what was called, why it was called, what it
+  cost, and whether the result can be verified.
 pubDate: Jul 24 2026
-heroImage: ../../../assets/blog-openai-agent-qveris-auditable-toolchain-1.png
+heroImage: ../../../assets/blog-openai-agent-qveris-auditable-toolchain-cover-en.png
 category: Product
 author: QVeris Team
-tags: ['QVeris', 'Agent', 'Tool Calling']
+tags:
+- Agent
+- QVeris
+- Tool Calling
+- tools
 translationKey: openai-agent-qveris-auditable-toolchain
+draft: false
 ---
 The most dangerous moment for an AI agent may not be when it gives a wrong answer.
 
