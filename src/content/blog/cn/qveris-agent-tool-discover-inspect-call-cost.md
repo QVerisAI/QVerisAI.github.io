@@ -5,12 +5,9 @@ pubDate: Jul 24 2026
 heroImage: ../../../assets/blog-qveris-agent-tool-discover-inspect-call-cost-cover-cn.png
 category: Product
 author: QVeris Team
-tags:
-- Agent
-- CLI
-- QVeris
+tags: ['Agent', 'CLI', 'QVeris']
 translationKey: qveris-agent-tool-discover-inspect-call-cost
-draft: true
+draft: false
 ---
 当 AI Agent 从“回答问题”走向“完成任务”，真正困难的往往不再是模型能不能生成一段文本，而是它能否在成千上万种外部能力中选对工具、构造正确参数，并在产生费用前做出可解释的决策。
 

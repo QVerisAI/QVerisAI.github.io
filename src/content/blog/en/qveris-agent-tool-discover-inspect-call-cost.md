@@ -1,16 +1,11 @@
 ---
-title: 'Before an Agent Calls a Tool, It Should Know Three Things: Can It Be Used,
-  How Should It Be Called, and What Will It Cost?'
-description: QVeris separates tool use into Discover, Inspect, and Call so agents
-  can make checkable, confirmable, and traceable decisions before execution and billing.
+title: 'Before an Agent Calls a Tool, It Should Know Three Things: Can It Be Used, How Should It Be Called, and What Will It Cost?'
+description: 'QVeris separates tool use into Discover, Inspect, and Call so agents can make checkable, confirmable, and traceable decisions before execution and billing.'
 pubDate: Jul 24 2026
 heroImage: ../../../assets/blog-qveris-agent-tool-discover-inspect-call-cost-cover-en.png
 category: Product
 author: QVeris Team
-tags:
-- Agent
-- CLI
-- QVeris
+tags: ['Agent', 'CLI', 'QVeris']
 translationKey: qveris-agent-tool-discover-inspect-call-cost
 draft: false
 ---
