@@ -941,9 +941,20 @@
       "english_image_check_reason": "Manually set in admin.",
       "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
       "updated_at": "2026-07-27T08:53:05.201029+00:00"
+    },
+    "harness-engineering-financial-agent-identity": {
+      "tags": [],
+      "requires_english": true,
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-28T09:07:03.396215+00:00"
     }
   },
-  "updated_at": "2026-07-27T08:53:05.201110+00:00",
+  "updated_at": "2026-07-28T09:07:03.396303+00:00",
   "tag_catalogs": {
     "content": [],
     "operational": []
