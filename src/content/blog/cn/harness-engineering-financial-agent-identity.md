@@ -1,14 +1,20 @@
 ---
-title: 'Harrrrrr……啊对，我一开始就是想着 Harness'
-description: '用 10 个 token 的冗余，把金融 Agent 的公司名和股票代码归因错误挡在工具层。'
-pubDate: 'Jul 28 2026'
-heroImage: '../../../assets/blog-harness-engineering-financial-agent-identity-1.png'
-category: 'Engineering'
-author: 'QVeris Team'
-tags: ['qveris', 'agent', 'harness', '金融数据']
-translationKey: 'harness-engineering-financial-agent-identity'
+title: Harrrrrr……啊对，我一开始就是想着 Harness
+description: 用 10 个 token 的冗余，把金融 Agent 的公司名和股票代码归因错误挡在工具层。
+pubDate: Jul 28 2026
+heroImage: ../../../assets/blog-harness-engineering-financial-agent-identity-cover-cn.png
+category: Engineering
+author: QVeris Team
+tags:
+- Tool Calling
+- agent
+- agent tools
+- financial data
+- harness
+- qveris
+- 金融数据
+translationKey: harness-engineering-financial-agent-identity
 ---
-
 > 用 10 个 token 的冗余，保护上万元的报告
 
 ![](../../../assets/blog-harness-engineering-financial-agent-identity-1.png)

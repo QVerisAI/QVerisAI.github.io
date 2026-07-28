@@ -1,14 +1,22 @@
 ---
-title: 'Harrrrrr... Right, I Was Thinking Harness from the Start'
-description: 'How 10 extra tokens moved company identity checks into the tool layer and protected high-value financial agent reports.'
-pubDate: 'Jul 28 2026'
-heroImage: '../../../assets/blog-harness-engineering-financial-agent-identity-1.png'
-category: 'Engineering'
-author: 'QVeris Team'
-tags: ['qveris', 'agent', 'harness', 'financial data']
-translationKey: 'harness-engineering-financial-agent-identity'
+title: Harrrrrr... Right, I Was Thinking Harness from the Start
+description: How 10 extra tokens moved company identity checks into the tool layer
+  and protected high-value financial agent reports.
+pubDate: Jul 28 2026
+heroImage: ../../../assets/blog-harness-engineering-financial-agent-identity-cover-en.png
+category: Engineering
+author: QVeris Team
+tags:
+- Tool Calling
+- agent
+- agent tools
+- financial data
+- harness
+- qveris
+- 金融数据
+translationKey: harness-engineering-financial-agent-identity
+draft: false
 ---
-
 > Protecting reports worth tens of thousands of yuan with about 10 tokens of redundancy
 
 ![](../../../assets/blog-harness-engineering-financial-agent-identity-1.png)
