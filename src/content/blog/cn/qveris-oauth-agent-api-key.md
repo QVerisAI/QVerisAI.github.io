@@ -1,11 +1,14 @@
 ---
-title: '不要再让用户把 API Key 粘贴给 AI Agent：用 OAuth 安全接入 QVeris'
-description: '用 QVeris OAuth 替代长期 API Key，让 Agent 产品获得可授权、可撤销、可审计的工具访问边界。'
+title: 不要再让用户把 API Key 粘贴给 AI Agent：用 OAuth 安全接入 QVeris
+description: 用 QVeris OAuth 替代长期 API Key，让 Agent 产品获得可授权、可撤销、可审计的工具访问边界。
 pubDate: Jul 29 2026
-heroImage: ../../../assets/blog-qveris-oauth-agent-api-key-1.png
+heroImage: ../../../assets/blog-qveris-oauth-agent-api-key-cover-cn.png
 category: Engineering
 author: QVeris Team
-tags: ['Agent', 'OAuth', 'QVeris']
+tags:
+- Agent
+- OAuth
+- QVeris
 translationKey: qveris-oauth-agent-api-key
 draft: false
 ---

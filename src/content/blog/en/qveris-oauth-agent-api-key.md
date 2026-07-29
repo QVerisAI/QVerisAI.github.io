@@ -1,11 +1,16 @@
 ---
-title: 'Stop Asking Users to Paste API Keys into AI Agents: Connect to QVeris Securely with OAuth'
-description: 'Replace long-lived API keys with QVeris OAuth so agent products get explicit, revocable, and auditable access boundaries.'
+title: 'Stop Asking Users to Paste API Keys into AI Agents: Connect to QVeris Securely
+  with OAuth'
+description: Replace long-lived API keys with QVeris OAuth so agent products get explicit,
+  revocable, and auditable access boundaries.
 pubDate: Jul 29 2026
-heroImage: ../../../assets/blog-qveris-oauth-agent-api-key-1.png
+heroImage: ../../../assets/blog-qveris-oauth-agent-api-key-cover-en.png
 category: Engineering
 author: QVeris Team
-tags: ['Agent', 'OAuth', 'QVeris']
+tags:
+- Agent
+- OAuth
+- QVeris
 translationKey: qveris-oauth-agent-api-key
 draft: false
 ---
