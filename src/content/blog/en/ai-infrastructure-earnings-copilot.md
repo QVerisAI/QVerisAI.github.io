@@ -1,14 +1,17 @@
 ---
-title: 'The AI Infrastructure Earnings Chain Is Printing High Gross Margins'
-description: 'From communication towers to fuel cells, hard drives, and fiber optics, AI infrastructure profits are showing up across the supply chain.'
-pubDate: 'Jul 29 2026'
-heroImage: '../../../assets/blog-ai-infrastructure-earnings-copilot-1.png'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'ai-infrastructure-earnings-copilot'
+title: The AI Infrastructure Earnings Chain Is Printing High Gross Margins
+description: From communication towers to fuel cells, hard drives, and fiber optics,
+  AI infrastructure profits are showing up across the supply chain.
+pubDate: Jul 29 2026
+heroImage: ../../../assets/blog-ai-infrastructure-earnings-copilot-cover-en.png
+category: Product
+author: QVeris Team
+tags:
+- Agent
+- QVeris，Financial Report
+translationKey: ai-infrastructure-earnings-copilot
+draft: false
 ---
-
 # The AI Infrastructure Earnings Chain Is Printing High Gross Margins: A QVeris Earnings Copilot Scan
 
 > From communication towers to fuel cells, hard drives, and fiber optics, AI infrastructure profits are now materializing across the supply chain.

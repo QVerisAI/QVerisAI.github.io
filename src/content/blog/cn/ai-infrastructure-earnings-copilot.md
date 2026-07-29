@@ -1,14 +1,15 @@
 ---
-title: '昨夜出财报的AI基建链，毛利率一个比一个高'
-description: '从通信塔到燃料电池，从硬盘到光纤，AI基建的利润正在全面兑现。'
-pubDate: 'Jul 29 2026'
-heroImage: '../../../assets/blog-ai-infrastructure-earnings-copilot-1.png'
-category: 'Product'
-author: 'QVeris Team'
-tags: ['QVeris', 'Agent']
-translationKey: 'ai-infrastructure-earnings-copilot'
+title: 昨夜出财报的AI基建链，毛利率一个比一个高
+description: 从通信塔到燃料电池，从硬盘到光纤，AI基建的利润正在全面兑现。
+pubDate: Jul 29 2026
+heroImage: ../../../assets/blog-ai-infrastructure-earnings-copilot-cover-cn.png
+category: Product
+author: QVeris Team
+tags:
+- Agent
+- QVeris，Financial Report
+translationKey: ai-infrastructure-earnings-copilot
 ---
-
 # 昨夜出财报的AI基建链，毛利率一个比一个高——用QVeris Earnings Copilot扫了一遍
 
 > 从通信塔到燃料电池，从硬盘到光纤，AI基建的利润正在全面兑现。
