@@ -1,14 +1,17 @@
 ---
-title: '给 Coding Agent 接上 10,000+ 种外部能力：QVeris Hosted MCP 实战教程'
-description: '面向 Codex、Claude Code 和 Cursor 的 QVeris Hosted MCP 接入指南，覆盖配置、安全边界、成本控制和典型工程场景。'
-pubDate: 'Jul 30 2026'
-heroImage: '../../../assets/blog-qveris-hosted-mcp-coding-agent-guide-1.png'
-category: 'Engineering'
-author: 'QVeris Team'
-tags: ['qveris', 'mcp', 'coding-agent']
-translationKey: 'qveris-hosted-mcp-coding-agent-guide'
+title: 给 Coding Agent 接上 10,000+ 种外部能力：QVeris Hosted MCP 实战教程
+description: 面向 Codex、Claude Code 和 Cursor 的 QVeris Hosted MCP 接入指南，覆盖配置、安全边界、成本控制和典型工程场景。
+pubDate: Jul 30 2026
+heroImage: ../../../assets/blog-qveris-hosted-mcp-coding-agent-guide-cover-cn.png
+category: Engineering
+author: QVeris Team
+tags:
+- QVeris Hosted MCP
+- coding-agent
+- mcp
+- qveris
+translationKey: qveris-hosted-mcp-coding-agent-guide
 ---
-
 Codex、Claude Code、Cursor 这类 Coding Agent 已经能读代码、改文件、运行测试，但当任务依赖仓库之外的最新信息时，能力边界仍然很明显：某个依赖今天是否发布了安全修复？一次 CI 失败是否来自外部服务故障？准备接入的数据源，真实返回结构和成本是什么？
 
 [QVeris Hosted MCP](https://qveris.ai/hosted-mcp) 为这些场景提供一个远程能力入口。任何支持 Streamable HTTP MCP 的 Agent，只需连接一条 URL 和一枚 QVeris API Key，就能通过统一的工具闭环发现、检查并调用外部数据与服务。

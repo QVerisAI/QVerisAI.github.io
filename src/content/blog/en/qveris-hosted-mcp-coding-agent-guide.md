@@ -1,14 +1,19 @@
 ---
-title: 'Connect Coding Agents to 10,000+ External Capabilities with QVeris Hosted MCP'
-description: 'A practical guide to connecting QVeris Hosted MCP to Codex, Claude Code, and Cursor, with configuration, security, cost control, and engineering use cases.'
-pubDate: 'Jul 30 2026'
-heroImage: '../../../assets/blog-qveris-hosted-mcp-coding-agent-guide-1.png'
-category: 'Engineering'
-author: 'QVeris Team'
-tags: ['qveris', 'mcp', 'coding-agent']
-translationKey: 'qveris-hosted-mcp-coding-agent-guide'
+title: Connect Coding Agents to 10,000+ External Capabilities with QVeris Hosted MCP
+description: A practical guide to connecting QVeris Hosted MCP to Codex, Claude Code,
+  and Cursor, with configuration, security, cost control, and engineering use cases.
+pubDate: Jul 30 2026
+heroImage: ../../../assets/blog-qveris-hosted-mcp-coding-agent-guide-cover-en.png
+category: Engineering
+author: QVeris Team
+tags:
+- QVeris Hosted MCP
+- coding-agent
+- mcp
+- qveris
+translationKey: qveris-hosted-mcp-coding-agent-guide
+draft: false
 ---
-
 Coding agents such as Codex, Claude Code, and Cursor can already read code, edit files, and run tests. Their limits become much more visible when a task depends on current information outside the repository. Did a dependency ship a security fix today? Did a failed CI run come from an outage in an external service? What does a data source actually return, and what will it cost to call it?
 
 [QVeris Hosted MCP](https://qveris.ai/hosted-mcp) gives agents a remote entry point for these situations. Any agent that supports Streamable HTTP MCP can connect with a single URL and a QVeris API key, then discover, inspect, and call external data sources and services through one consistent tool loop.

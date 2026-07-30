@@ -963,9 +963,20 @@
       "english_image_check_reason": "Manually set in admin.",
       "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
       "updated_at": "2026-07-29T08:18:54.392547+00:00"
+    },
+    "qveris-hosted-mcp-coding-agent-guide": {
+      "tags": [],
+      "requires_english": true,
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-07-30T03:49:57.612202+00:00"
     }
   },
-  "updated_at": "2026-07-29T08:18:54.392625+00:00",
+  "updated_at": "2026-07-30T03:49:57.612284+00:00",
   "tag_catalogs": {
     "content": [],
     "operational": []
