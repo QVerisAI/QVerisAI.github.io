@@ -9,9 +9,11 @@ tags: ['QVeris', 'Agent', 'Harness']
 translationKey: model-harness-financial-research-agent
 ---
 
-> What often determines whether an Agent can enter production is not what the model can do at its smartest moment. It is what the system can still hold onto when data is incomplete, tools fail, state is lost, costs are incurred, and the model makes the wrong judgment.
+> **For a 100-step task, even if each step has a 99% success rate, the probability of completing the whole task is only 36.6%.**
+>
+> In a simplified independent-event model, 20 steps gives 81.8%, and 50 steps gives 60.5%. Once an Agent turns from a single answer into a long chain of actions, "every step is pretty good" no longer means "the final result can be trusted."
 
-Over the past few weeks, we have been refining the Agent Harness for the launch of QVeris Lab. The deeper we go, the more convinced I am of one thing: in the Agent era, the most underestimated technology is not the model, and it is not the number of tools. It is the Harness between the model and the real world.
+This is not a paper exercise. A single financial research task may require entity resolution, time-point parsing, data authorization, tool selection, field mapping, quality checks, formula calculation, evidence binding, and report generation in sequence. If any one step fails, the final result may still be fluent, the numbers may still be real, and the conclusion may still be wrong. Over the past few weeks, we have been refining the Agent Harness for the launch of QVeris Lab. The deeper we go, the more convinced I am: in the Agent era, the most underestimated technology is not the model, and it is not the number of tools. It is the Harness between the model and the real world.
 
 The word "Harness" can easily sound like a thin engineering shell, as if it merely glues prompts, tool calls, and interfaces together. In a real production system, however, it is closer to an operating institution. It decides what the model can see, what it is allowed to do, which results can be trusted, how the system recovers after errors, and whether the system can be accountable for a decision.
 
@@ -21,7 +23,7 @@ This article is not about a specific framework, nor is it an attempt to introduc
 
 # 1. From Demo to Production: Where the Real Gap Lies
 
-An Agent demo can be impressive very quickly: the model understands the question, calls a few tools, and produces a clearly structured answer. But once it enters a real business setting, the evaluation criteria change abruptly.
+An Agent demo shows the smartest and smoothest five minutes of a system: the input is clear, the data is available, the network is stable, and the tools return as expected. A product faces the full distribution: data latency, expired authorization, ambiguous names, third-party timeouts, process restarts, and user interruptions all become normal inputs. A demo proves that a capability exists. A product must prove that failure is controllable.
 
 Andrej Karpathy put this gap between demo and product very plainly: **"Demo is easy, a product takes a decade."** Using autonomous driving as the example, he described the long, difficult work as the "march of nines": moving from 90% to 99%, then 99.9%, with each additional nine requiring another round of hard engineering.
 
@@ -43,7 +45,7 @@ Tool names are not semantics. A tool whose name contains "market data" or "finan
 
 Financial research makes this problem especially visible. A number can be real and still lead to a completely wrong judgment because its time, definition, or context is wrong.
 
-For example, the same "margin" may refer to a single quarter, year-to-date, or trailing twelve months. The same "price" may be real-time, delayed, previous close, or adjusted historical price. The same valuation multiple may use different denominator periods. The model sees a value; the research conclusion depends on "value plus context."
+Consider a simplified example. A system compares a company's second-quarter gross margin of 44.1% with its first-half cumulative gross margin of 43.6%, then generates the conclusion that "gross margin improved by 0.5 percentage points." Both numbers may be real, and the subtraction is arithmetically correct. But a single-quarter metric and a cumulative first-half metric are not directly comparable; the apparent trend has been manufactured by a mismatch in definitions.
 
 A trustworthy Agent therefore cannot store only values. It must also store the entity, time, period, currency, unit, data scope, source, and processing method. When this information is missing, the system should reduce the strength of the conclusion, and when necessary refuse to generate a definitive judgment.
 
@@ -51,7 +53,7 @@ A trustworthy Agent therefore cannot store only values. It must also store the e
 
 Many Agent architectures draw tool calls as a simple arrow: send a request, receive a result. The real world is not that clean.
 
-A call may time out after the remote side has already executed it. Local cancellation does not mean the other side stopped. A retry may trigger duplicate billing. A success response does not necessarily mean the bill has settled. After a process crash, a new worker may not know how far the previous request got.
+A common production scene looks like this: a tool request times out at the 30-second mark, and the local system receives no result, but the remote side actually completed execution at the 29-second mark. If the Harness treats "no response received" as "not executed" and automatically retries twice, one research action may become three billable calls. If the action were a trade, an email, or a file write, the duplicate side effects would be more serious.
 
 If the system equates "no result received" with "nothing executed," it may perform duplicate actions. If it displays an unknown cost as zero, it creates false certainty.
 
@@ -61,7 +63,7 @@ Production Agents therefore need to maintain execution truth independently of th
 
 When an Agent evolves from one-off Q&A into a long-running research partner, another problem appears quickly: the user needs complete history, but the model should not reread the entire history on every turn.
 
-If conversation records, the current task, verified facts, raw tool outputs, and temporary reasoning are all mixed together, the context becomes slower, more expensive, and more vulnerable to interference from old questions. Caching can reduce part of the cost, but it cannot remove the attention burden the model still has to process.
+Suppose a long-running research session has reached 200 turns, and each turn deposits an average of 2,000 tokens. The raw history alone is already about 400,000 tokens, before system instructions, tool definitions, and current materials. Even if a model window can hold it, rereading everything each turn continuously increases latency, cost, and attention dilution. Caching can reduce repeated computation, but it cannot make old information newly relevant.
 
 A better approach separates "the complete history visible to the user" from "the working set the model currently needs." The system continuously maintains the current task, key entities, user constraints, confirmed facts, unresolved items, and historical references; it retrieves earlier material only when needed.
 
@@ -71,13 +73,15 @@ Anthropic's [Effective context engineering for AI agents](https://www.anthropic.
 
 ## 5. Observability Can Also Create Hallucinations
 
-Agent teams are easily encouraged by polished P95 charts, token reductions, and cost curves. But if the sample is too small, the control group uses a different version, task difficulty is inconsistent, or cached input is mixed with genuinely new input, even precise numbers may have no explanatory power.
+Agent teams are easily encouraged by polished P95 charts, token reductions, and cost curves. But with only 20 samples, P95 is almost just "the second slowest run." Replace one task, change one cache hit, or mix in a harder question, and the number can move sharply. If the old and new approaches use different model versions, task difficulty, or input definitions, even numbers with many decimal places have little explanatory power.
 
 The principle we have gradually settled on is this: structural correctness, research quality, latency, and cost must be measured separately; when sample size is insufficient, the system should explicitly state that there is not enough evidence; old and new approaches must be compared pairwise using the same model, configuration, and tasks; and evaluation artifacts themselves must make version and completeness verifiable.
 
 A trustworthy system must first refuse to prove its trustworthiness with the wrong measurement.
 
 This risk is not theoretical. In [Separating signal from noise in coding evaluations](https://openai.com/index/separating-signal-from-noise-coding-evaluations/), OpenAI audited a major coding benchmark and estimated that roughly 30% of tasks contained disruptive issues, explicitly pointing out that flawed evaluations can create a mistaken understanding of model capability. For Agent teams, evaluation sets, graders, and statistical definitions are also product components that need to be audited.
+
+> **Engineering implication:** retrieving the wrong data requires capability contracts; true numbers with wrong conclusions require evidence context; duplicate execution requires state machines and idempotency; slow long conversations require context assembly; misleading metrics require auditable evaluation. Prompts can improve behavior, but they cannot replace these system capabilities.
 
 # 2. Why Financial Research Is an Ideal Testbed for Agents
 
@@ -178,6 +182,8 @@ When an error occurs, the cheapest fix is often to add one more sentence to the 
 
 When production failures continuously become contracts, validators, evaluation sets, and product feedback, the Harness grows alongside the model. The model expands the boundary of what is possible; the Harness turns what has been learned into stable foundation.
 
+> **Minimum viable foundation:** make five things real first: capability contracts, evidence objects, execution state machines, deterministic calculation, and paired evaluation. Complex orchestration can come later; fact, action, and evaluation boundaries cannot be bolted on after the fact.
+
 # 6. QVeris Lab: What We Are Building
 
 QVeris Lab will soon launch on web and desktop. We want it to be neither a financial skin on a generic chat product nor a natural-language entry point for a traditional financial terminal.
@@ -214,7 +220,9 @@ I think both underestimate the real change.
 
 As models improve, the parts of the Harness that exist only to compensate for model weakness will continue to shrink. At the same time, the parts that exist to carry greater model autonomy will continue to strengthen. Future Harnesses will tell models less about how to think step by step, but they will be much clearer about which facts may be used, which actions may occur, which state can be recovered, and which conclusions may be published.
 
-In the end, the difference between excellent Agents will not be only a few points on a model leaderboard, nor simply the number of connectors in a tool marketplace. The real difference will be this: when a model enters the real world, can the system turn its intelligence into a reliable, accumulative, governable form of productivity?
+If I had to compress this judgment into one formula, I would write: **trusted output ≈ model capability × evidence completeness × execution reliability × recoverability.** This is not a scoring model. It is a design reminder: in a multiplicative system, if any factor approaches zero, the value of the whole system quickly approaches zero as well.
+
+Therefore, the difference between excellent Agents will not be only a few points on a model leaderboard, nor simply the number of connectors in a tool marketplace. The real difference will be this: when a model enters the real world, can the system turn its intelligence into a reliable, accumulative, governable form of productivity?
 
 That is the starting point for building QVeris, and it is the long-term question I believe every Agent and Agent Harness developer will face.
 
