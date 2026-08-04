@@ -1,14 +1,18 @@
 ---
-title: 'The Stronger the Model, the More Important the Harness: What Financial Research Agents Reveal About the Engineering Boundary of Next-Generation AI Systems'
-description: Why production-grade AI agents need a harness that governs facts, actions, state, and publication, especially in financial research.
+title: 'The Stronger the Model, the More Important the Harness: What Financial Research
+  Agents Reveal About the Engineering Boundary of Next-Generation AI Systems'
+description: Why production-grade AI agents need a harness that governs facts, actions,
+  state, and publication, especially in financial research.
 pubDate: Aug 03 2026
-heroImage: ../../../assets/blog-model-harness-financial-research-agent-1.png
+heroImage: ../../../assets/blog-model-harness-financial-research-agent-cover-en.png
 category: Engineering
 author: QVeris Team
-tags: ['QVeris', 'Agent', 'Harness']
+tags:
+- QVeris
+- Agent
+- Harness
 translationKey: model-harness-financial-research-agent
 ---
-
 > **For a 100-step task, even if each step has a 99% success rate, the probability of completing the whole task is only 36.6%.**
 >
 > In a simplified independent-event model, 20 steps gives 81.8%, and 50 steps gives 60.5%. Once an Agent turns from a single answer into a long chain of actions, "every step is pretty good" no longer means "the final result can be trusted."

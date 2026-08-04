@@ -2,13 +2,15 @@
 title: 模型越强，Harness 越重要：从金融研究 Agent 看下一代智能系统的工程边界
 description: 从金融研究 Agent 的生产实践出发，讨论为什么 Harness 是智能系统进入真实世界的事实、行动、状态和发布控制面。
 pubDate: Aug 03 2026
-heroImage: ../../../assets/blog-model-harness-financial-research-agent-1.png
+heroImage: ../../../assets/blog-model-harness-financial-research-agent-cover-cn.png
 category: Engineering
 author: QVeris Team
-tags: ['QVeris', 'Agent', 'Harness']
+tags:
+- QVeris
+- Agent
+- Harness
 translationKey: model-harness-financial-research-agent
 ---
-
 > **一个 100 步任务，即使每一步都有 99% 的成功率，完整跑通的概率也只有 36.6%。**
 >
 > 在一个简化的独立事件模型里，20 步是 81.8%，50 步是 60.5%。Agent 一旦从一次回答变成一条长链路，“每一步都不错”并不等于“最终结果可以依赖”。
