@@ -1,14 +1,17 @@
 ---
-title: 'AI Agent 该怎么选金融新闻 API？7 家供应商 360 次实测'
-description: 'QVeris 对 7 家金融新闻 API 完成 360 次实时观测，拆解不同 Agent 任务该如何选择数据源。'
-pubDate: 'Aug 04 2026'
-heroImage: '../../../assets/blog-financial-news-api-agent-benchmark-1.png'
-category: 'Research'
-author: 'QVeris Team'
-tags: ['qveris', 'financial-data', 'ai-agent', 'benchmark']
-translationKey: 'financial-news-api-agent-benchmark'
+title: AI Agent 该怎么选金融新闻 API？7 家供应商 360 次实测
+description: QVeris 对 7 家金融新闻 API 完成 360 次实时观测，拆解不同 Agent 任务该如何选择数据源。
+pubDate: Aug 04 2026
+heroImage: ../../../assets/blog-financial-news-api-agent-benchmark-cover-cn.png
+category: Research
+author: QVeris Team
+tags:
+- qveris
+- financial-data
+- ai-agent
+- benchmark
+translationKey: financial-news-api-agent-benchmark
 ---
-
 > 360 次实时观测之后，我们不做总榜，只回答不同 Agent 任务该怎么选数据源。
 
 一个金融 Agent 收到“查一下腾讯最近的新闻”，真正困难的并不是生成一段摘要。

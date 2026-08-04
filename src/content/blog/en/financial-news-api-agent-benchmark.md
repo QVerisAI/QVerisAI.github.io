@@ -1,14 +1,18 @@
 ---
-title: 'How Should AI Agents Choose a Financial News API? 360 Live Tests Across 7 Providers'
-description: 'QVeris ran 360 live observations across 7 financial news API providers to clarify which data source fits each agent task.'
-pubDate: 'Aug 04 2026'
-heroImage: '../../../assets/blog-financial-news-api-agent-benchmark-1.png'
-category: 'Research'
-author: 'QVeris Team'
-tags: ['qveris', 'financial-data', 'ai-agent', 'benchmark']
-translationKey: 'financial-news-api-agent-benchmark'
+title: How Should AI Agents Choose a Financial News API? 360 Live Tests Across 7 Providers
+description: QVeris ran 360 live observations across 7 financial news API providers
+  to clarify which data source fits each agent task.
+pubDate: Aug 04 2026
+heroImage: ../../../assets/blog-financial-news-api-agent-benchmark-cover-en.png
+category: Research
+author: QVeris Team
+tags:
+- qveris
+- financial-data
+- ai-agent
+- benchmark
+translationKey: financial-news-api-agent-benchmark
 ---
-
 > After 360 live observations, we are not publishing a single leaderboard. We are answering a more useful question: which data source should an agent use for a specific task?
 
 When a financial agent receives a request such as "look up recent news about Tencent," the hard part is not writing a summary.
