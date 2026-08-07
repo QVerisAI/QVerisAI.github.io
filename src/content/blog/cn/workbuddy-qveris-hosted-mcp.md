@@ -1,14 +1,18 @@
 ---
-title: '一个 URL，把 WorkBuddy 变成能查实时数据、做分析、交付报告的执行型 Agent'
-description: '只需一个 URL 和 API Key，无需部署服务器，也不用写代码，即可让 WorkBuddy 调用 10,000+ 外部能力，查实时数据、做分析、交付报告。'
-pubDate: 'Aug 6 2026'
-heroImage: '../../../assets/blog-workbuddy-qveris-hosted-mcp-1.png'
-category: 'Engineering'
-author: 'QVeris Team'
-tags: ['workbuddy', 'mcp', 'qveris', '教程', 'agent']
-translationKey: 'workbuddy-qveris-hosted-mcp'
+title: 一个 URL，把 WorkBuddy 变成能查实时数据、做分析、交付报告的执行型 Agent
+description: 只需一个 URL 和 API Key，无需部署服务器，也不用写代码，即可让 WorkBuddy 调用 10,000+ 外部能力，查实时数据、做分析、交付报告。
+pubDate: Aug 6 2026
+heroImage: ../../../assets/blog-workbuddy-qveris-hosted-mcp-cover-cn.png
+category: Engineering
+author: QVeris Team
+tags:
+- workbuddy
+- mcp
+- qveris
+- 教程
+- agent
+translationKey: workbuddy-qveris-hosted-mcp
 ---
-
 **MCP 接入实战指南**
 
 ### 别再让 WorkBuddy 只会整理文件：一键接入 QVeris，让 AI 直接查数据、做分析、交付报告
