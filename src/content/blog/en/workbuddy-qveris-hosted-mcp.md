@@ -1,20 +1,11 @@
 ---
-title: One URL Turns WorkBuddy into an Execution Agent That Queries Live Data, Runs
-  Analysis, and Delivers Reports
-description: With just a URL and an API key—no server to deploy, no code to write—WorkBuddy
-  can tap into 10,000+ external capabilities to retrieve real-time information, analyze
-  markets and competitors, process PDF/OCR, and automatically produce reports, Excel
-  files, and PPTs.
+title: One URL Turns WorkBuddy into an Execution Agent That Queries Live Data, Runs Analysis, and Delivers Reports
+description: With just a URL and an API key—no server to deploy, no code to write—WorkBuddy can tap into 10,000+ external capabilities to retrieve real-time information, analyze markets and competitors, process PDF/OCR, and automatically produce reports, Excel files, and PPTs.
 pubDate: Aug 6 2026
 heroImage: ../../../assets/blog-workbuddy-qveris-hosted-mcp-cover-en.png
 category: Engineering
 author: QVeris Team
-tags:
-- workbuddy
-- mcp
-- qveris
-- tutorial
-- agent
+tags: ['workbuddy', 'mcp', 'qveris', 'tutorial', 'agent']
 translationKey: workbuddy-qveris-hosted-mcp
 ---
 **A Hands-On Guide to MCP Integration**
@@ -132,7 +123,7 @@ Acceptance criteria:
 
 # 5. Real-World Example: Turning AAPL Financial Data into a Deliverable Analysis
 
-The following is a set of publicly documented real QVeris call examples. The task calls the FMP capability to pull AAPL's income statement, balance sheet, and TTM cash flow for the last 5 fiscal years, then organizes them into easy-to-read tables. Once QVeris is connected to WorkBuddy, you can use similar prompts to have WorkBuddy continue into Excel files, research briefs, or presentation decks.
+The following is a set of publicly documented real QVeris call examples. The task calls the FMP capability to pull AAPL's income statement, balance sheet, and TTM cash flow for the last 5 fiscal years, then organizes them into easy-to-read tables. Once QVeris is connected to WorkBuddy, you can use similar prompts to have WorkBuddy go on to generate Excel files, research briefs, or presentation decks.
 
 > Use QVeris FMP to pull AAPL's income statement, balance sheet, and TTM cash flow for the last 5 fiscal years.  
 > Verify the fiscal year, currency, and units; keep the tool name and query time.  
