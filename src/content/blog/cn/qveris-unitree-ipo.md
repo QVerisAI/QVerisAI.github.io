@@ -2,13 +2,13 @@
 title: 拆解宇树IPO：QVeris发现了什么？
 description: 150.80 元发行价、219.23 倍市盈率背后，QVeris 从招股书、财务附注与上交所公告中拆解宇树 IPO：增长来自哪里，高估值又在提前定价什么。
 pubDate: Aug 08 2026
-heroImage: ../../../assets/blog-qveris-unitree-ipo-1.png
+heroImage: ../../../assets/blog-qveris-unitree-ipo-cover-cn.png
 category: Research
 author: QVeris Team
 tags:
-  - Agent
-  - Finance
-  - QVeris
+- Agent
+- Finance
+- QVeris
 translationKey: qveris-unitree-ipo
 ---
 # 拆解宇树IPO：QVeris发现了什么？
