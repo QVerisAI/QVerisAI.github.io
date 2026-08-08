@@ -5,7 +5,12 @@ pubDate: Aug 6 2026
 heroImage: ../../../assets/blog-workbuddy-qveris-hosted-mcp-cover-cn.png
 category: Engineering
 author: QVeris Team
-tags: ['workbuddy', 'mcp', 'qveris', '教程', 'agent']
+tags:
+- workbuddy
+- mcp
+- qveris
+- 教程
+- agent
 translationKey: workbuddy-qveris-hosted-mcp
 ---
 **MCP 接入实战指南**
