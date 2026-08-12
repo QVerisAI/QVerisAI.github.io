@@ -1,15 +1,15 @@
 ---
-title: 'Agent 如何在一万多个金融工具里找对接口？'
-description: '金融 Agent 背后不是单个接口，而是一张接口网络。QVeris 把“找接口”拆成一条可验证的检索链：把一句人话翻译成正确的调用，找不到时也诚实说明为什么。'
-pubDate: 'Aug 11 2026'
-heroImage: '../../../assets/blog-agent-financial-tools-retrieval-1.png'
-category: 'Engineering'
-author: 'QVeris Team'
+title: Agent 如何在一万多个金融工具里找对接口？
+description: 金融 Agent 背后不是单个接口，而是一张接口网络。QVeris 把“找接口”拆成一条可验证的检索链：把一句人话翻译成正确的调用，找不到时也诚实说明为什么。
+pubDate: Aug 11 2026
+heroImage: ../../../assets/blog-agent-financial-tools-retrieval-cover-cn.png
+category: Engineering
+author: QVeris Team
 tags:
-  - Agent
-  - Finance
-  - QVeris
-  - tool-retrieval
+- Agent
+- Finance
+- QVeris
+- tool-retrieval，api
 translationKey: agent-financial-tools-retrieval
 ---
 # Agent 如何在一万多个金融工具里找对接口？

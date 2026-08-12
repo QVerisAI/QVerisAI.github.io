@@ -1,16 +1,20 @@
 ---
-title: 'How Does an Agent Find the Right Interface Among 10,000+ Financial Tools?'
-description: 'A financial agent sits behind an interface network, not a single API. QVeris turns finding the right interface into a verifiable retrieval chain that translates plain language into correct calls — and honestly explains why something is not found.'
-pubDate: 'Aug 11 2026'
-heroImage: '../../../assets/blog-agent-financial-tools-retrieval-1.png'
-category: 'Engineering'
-author: 'QVeris Team'
+title: How Does an Agent Find the Right Interface Among 10,000+ Financial Tools?
+description: A financial agent sits behind an interface network, not a single API.
+  QVeris turns finding the right interface into a verifiable retrieval chain that
+  translates plain language into correct calls — and honestly explains why something
+  is not found.
+pubDate: Aug 11 2026
+heroImage: ../../../assets/blog-agent-financial-tools-retrieval-cover-en.png
+category: Engineering
+author: QVeris Team
 tags:
-  - Agent
-  - Finance
-  - QVeris
-  - tool-retrieval
+- Agent
+- Finance
+- QVeris
+- tool-retrieval，api
 translationKey: agent-financial-tools-retrieval
+draft: false
 ---
 # How Does an Agent Find the Right Interface Among 10,000+ Financial Tools?
 

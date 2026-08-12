@@ -1,15 +1,17 @@
 ---
 title: 'Agent Plugins 1.0 Is Here: Write Once, Distribute Everywhere'
-description: 'On August 5, 2026, Agent Plugins 1.0.0 shipped: a portable directory format that packages Agent Skills and MCP servers, so the same extension can be discovered and loaded across different clients.'
-pubDate: 'Aug 9 2026'
-heroImage: '../../../assets/blog-agent-plugins-1-0-release-1.png'
-category: 'Engineering'
-author: 'QVeris Team'
+description: 'On August 5, 2026, Agent Plugins 1.0.0 shipped: a portable directory
+  format that packages Agent Skills and MCP servers, so the same extension can be
+  discovered and loaded across different clients.'
+pubDate: Aug 9 2026
+heroImage: ../../../assets/blog-agent-plugins-1-0-release-cover-en.png
+category: Engineering
+author: QVeris Team
 tags:
-  - Agent Plugins
-  - MCP
-  - Agent Skills
-  - QVeris
+- Agent Plugins
+- MCP
+- Agent Skills
+- QVeris
 translationKey: agent-plugins-1-0-release
 ---
 # Agent Plugins 1.0 Is Here: Write Once, Distribute Everywhere

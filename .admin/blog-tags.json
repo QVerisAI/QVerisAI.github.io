@@ -974,9 +974,20 @@
       "english_image_check_reason": "Manually set in admin.",
       "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
       "updated_at": "2026-07-30T03:49:57.612202+00:00"
+    },
+    "agent-financial-tools-retrieval": {
+      "tags": [],
+      "requires_english": true,
+      "wechat_url": "",
+      "notes": "",
+      "english_image_has_chinese": false,
+      "english_image_check_status": "manual",
+      "english_image_check_reason": "Manually set in admin.",
+      "updated_by": "feishu_on_5ed36136714013ed3162e9044c2c0596",
+      "updated_at": "2026-08-12T07:49:19.632692+00:00"
     }
   },
-  "updated_at": "2026-07-30T03:49:57.612284+00:00",
+  "updated_at": "2026-08-12T07:49:19.632854+00:00",
   "tag_catalogs": {
     "content": [],
     "operational": []

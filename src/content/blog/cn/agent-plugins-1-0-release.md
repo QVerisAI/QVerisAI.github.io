@@ -1,15 +1,15 @@
 ---
-title: 'Agent Plugins 1.0 发布，一次编写，多处分发'
-description: '2026 年 8 月 5 日，Agent Plugins 1.0.0 正式发布：把 Agent Skills 和 MCP 服务器打包成一种可移植的目录格式，让同一个扩展能在不同客户端里被发现和加载。'
-pubDate: 'Aug 9 2026'
-heroImage: '../../../assets/blog-agent-plugins-1-0-release-1.png'
-category: 'Engineering'
-author: 'QVeris Team'
+title: Agent Plugins 1.0 发布，一次编写，多处分发
+description: 2026 年 8 月 5 日，Agent Plugins 1.0.0 正式发布：把 Agent Skills 和 MCP 服务器打包成一种可移植的目录格式，让同一个扩展能在不同客户端里被发现和加载。
+pubDate: Aug 9 2026
+heroImage: ../../../assets/blog-agent-plugins-1-0-release-cover-cn.png
+category: Engineering
+author: QVeris Team
 tags:
-  - Agent Plugins
-  - MCP
-  - Agent Skills
-  - QVeris
+- Agent Plugins
+- MCP
+- Agent Skills
+- QVeris
 translationKey: agent-plugins-1-0-release
 ---
 # Agent Plugins 1.0 发布，一次编写，多处分发
