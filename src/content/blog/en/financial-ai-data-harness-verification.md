@@ -1,20 +1,21 @@
 ---
-title: 'From 2.34% to 23.4%: The Most Dangerous Hallucination in Financial AI Is Often Not Invented'
-description: 'The tool was right, and the data source was right. The real danger is a correct data point quietly changing by one digit when the model writes the report.'
-pubDate: Jul 9 2026
-heroImage: ../../../assets/blog-feishu-e5rid02e6oaxx4xhcczclbkuncg-1.png
-category: 金融
+title: 'From 2.34% to 23.4%: How Data Harness Prevents Financial AI Errors'
+description: How QVeris Data Harness uses evidence packets, claim checking, and explicit verification states to stop correct financial data from becoming incorrect reports.
+pubDate: '2026-07-09'
+heroImage: ../../../assets/blog-financial-ai-data-harness-verification-cover.png
+category: Engineering
 author: QVeris Team
 tags:
+  - QVeris
   - Agent
-  - 量化
-  - 金融 Agent
-translationKey: feishu-e5rid02e6oaxx4xhcczclbkuncg
+  - Finance
+  - Data Harness
+translationKey: financial-ai-data-harness-verification
 draft: false
 ---
 The tool was right, and the data source was right. The real danger is a correct data point quietly changing by one digit when the model writes the report.
 
-![The image shows a fintech work scene: a formally dressed man looks at virtual screens displaying a financial data processing flow. The left screen shows original percentage data, while the same type of percentage on the right screen changes after passing through an intermediate process. The scene reflects the financial AI data error described in the article and visually presents the risk of distortion during financial tool output.](../../../assets/blog-feishu-e5rid02e6oaxx4xhcczclbkuncg-1.png)
+![The image shows a fintech work scene: a formally dressed man looks at virtual screens displaying a financial data processing flow. The left screen shows original percentage data, while the same type of percentage on the right screen changes after passing through an intermediate process. The scene reflects the financial AI data error described in the article and visually presents the risk of distortion during financial tool output.](../../../assets/blog-financial-ai-data-harness-verification-cover.png)
 
 A small-looking numerical error can travel all the way into morning meetings, client briefings, and public account drafts.
 
@@ -54,7 +55,7 @@ The LLM can then write a draft. But the draft cannot be delivered directly. Data
 
 In the example above, the draft wrote "up 23.4%," while the evidence packet said "change_pct = 2.34." Claim Checker does not need to guess. It only needs to check whether the number matches the evidence. It does not match, but it can be corrected, so the status becomes corrected and the corrected text is "up 2.34%."
 
-![The image shows how QVeris Data Harness stops an incorrect number. Tool outputs such as market data, announcements, and financial reports first return structured data. The data is then frozen into an evidence packet that records source, field, unit, timestamp, and call cost. The LLM writes the draft, but does not self-certify correctness. Claims are verified one by one by extracting numbers, dates, and conclusions, then comparing them against evidence and formulas. The final trusted report marks content as verified, corrected, uncertain, or blocked.](../../../assets/blog-feishu-e5rid02e6oaxx4xhcczclbkuncg-2.png)
+![The image shows how QVeris Data Harness stops an incorrect number. Tool outputs such as market data, announcements, and financial reports first return structured data. The data is then frozen into an evidence packet that records source, field, unit, timestamp, and call cost. The LLM writes the draft, but does not self-certify correctness. Claims are verified one by one by extracting numbers, dates, and conclusions, then comparing them against evidence and formulas. The final trusted report marks content as verified, corrected, uncertain, or blocked.](../../../assets/blog-financial-ai-data-harness-verification-workflow.png)
 
 The core idea of QVeris Data Harness is to freeze evidence first, let the model write second, and verify each claim last.
 
@@ -66,7 +67,7 @@ verified means the evidence matches and the output can proceed normally. correct
 
 These four words sound technical, but the plain meaning is simple: confirm what can be confirmed, fix what can be fixed, state what cannot be confirmed, and do not force an answer when the risk is too high.
 
-![The image explains the four verification states in financial reporting. "verified" means data, formulas, and definitions match and the output can proceed. "corrected" means an error was found and fixed, such as changing 23.4% back to 2.34%, with the correction recorded in the trace. "uncertain" means evidence is insufficient, sources conflict, or definitions are unclear, so the user should confirm. "blocked" means output is stopped because key data is missing or risk is too high.](../../../assets/blog-feishu-e5rid02e6oaxx4xhcczclbkuncg-3.png)
+![The image explains the four verification states in financial reporting. "verified" means data, formulas, and definitions match and the output can proceed. "corrected" means an error was found and fixed, such as changing 23.4% back to 2.34%, with the correction recorded in the trace. "uncertain" means evidence is insufficient, sources conflict, or definitions are unclear, so the user should confirm. "blocked" means output is stopped because key data is missing or risk is too high.](../../../assets/blog-financial-ai-data-harness-verification-states.png)
 
 The four verification states tell users what is trustworthy, what has been corrected, and what still needs confirmation.
 
@@ -78,7 +79,7 @@ For developers, this means they do not need to repeatedly write fragile validati
 
 So QVeris is not trying to make AI "more confident." It is trying to make AI confidence evidence-backed.
 
-![The image shows a QVeris verification example, illustrating how tool JSON, an LLM draft, and Claim Checker output form a closed verification loop. First, tool JSON returns structured data such as change_pct = 2.34%. Next, the LLM draft contains the wrong number, such as "the current gain is 23.4%." Finally, Claim Checker returns a corrected status, changes the text back to "the current gain is 2.34%," and explains that the draft number does not match the Evidence Packet.](../../../assets/blog-feishu-e5rid02e6oaxx4xhcczclbkuncg-4.png)
+![The image shows a QVeris verification example, illustrating how tool JSON, an LLM draft, and Claim Checker output form a closed verification loop. First, tool JSON returns structured data such as change_pct = 2.34%. Next, the LLM draft contains the wrong number, such as "the current gain is 23.4%." Finally, Claim Checker returns a corrected status, changes the text back to "the current gain is 2.34%," and explains that the draft number does not match the Evidence Packet.](../../../assets/blog-financial-ai-data-harness-verification-claim-checker.png)
 
 Code illustration: how tool JSON, an LLM draft, and Claim Checker output form a closed verification loop.
 
@@ -94,6 +95,6 @@ That is the value of QVeris Data Harness: it connects AI Agents to real-world da
 
 **If you are building financial Agents, investment research assistants, data tool-calling systems, or enterprise AI workflows, QVeris Data Harness can serve as the foundation: it helps Agents find real capabilities, call real tools, and leave evidence behind in the final output.**
 
-![The image shows the four things QVeris Data Harness adds to financial Agents: connecting real capabilities through APIs and other data access methods, freezing evidence packets that record key data sources, verifying key outputs through reconciliation and automatic correction, and supporting governance and review through a Trace Ledger. The core message is that every output should have an evidence chain, moving from "can answer" to "trustworthy, inspectable, and reviewable."](../../../assets/blog-feishu-e5rid02e6oaxx4xhcczclbkuncg-5.png)
+![The image shows the four things QVeris Data Harness adds to financial Agents: connecting real capabilities through APIs and other data access methods, freezing evidence packets that record key data sources, verifying key outputs through reconciliation and automatic correction, and supporting governance and review through a Trace Ledger. The core message is that every output should have an evidence chain, moving from "can answer" to "trustworthy, inspectable, and reviewable."](../../../assets/blog-financial-ai-data-harness-verification-evidence-chain.png)
 
 QVeris Data Harness: giving every financial Agent output an evidence chain.
