@@ -1,19 +1,20 @@
 ---
-title: 2.34% 写成 23.4%：金融 AI 最危险的幻觉，往往不是编出来的
-description: 工具没错，数据源也没错。真正危险的，是一个正确数据在写进报告时，被模型悄悄写错了一位。
-pubDate: Jul 9 2026
-heroImage: ../../../assets/blog-feishu-e5rid02e6oaxx4xhcczclbkuncg-1.png
-category: 金融
+title: 2.34% 写成 23.4%：金融 AI 最危险的幻觉，往往不是编造
+description: 当正确数据在生成报告时被模型写错，QVeris Data Harness 如何通过证据包、Claim Checker 和四级核验状态阻止错误传播。
+pubDate: '2026-07-09'
+heroImage: ../../../assets/blog-financial-ai-data-harness-verification-cover.png
+category: Engineering
 author: QVeris Team
 tags:
+  - QVeris
   - Agent
-  - 量化
-  - 金融 Agent
-translationKey: feishu-e5rid02e6oaxx4xhcczclbkuncg
+  - Finance
+  - Data Harness
+translationKey: financial-ai-data-harness-verification
 ---
 工具没错，数据源也没错。真正危险的，是一个正确数据在写进报告时，被模型悄悄写错了一位。
 
-![这张图展现了金融科技相关的工作场景，一位身着正装的男士正注视着面前的虚拟屏幕，屏幕上呈现着金融数据处理的流程，左侧屏幕展示带有百分号的原始数据（百分比数据），数据经中间环节流转后，右侧屏幕上的同类型百分比数据出现了变化，该场景对应文档中提及的金融AI出现数据错误的情况，形象地呈现了金融工具在输出数据时可能产生的偏差，直观反映了金融AI数据处理环节存在风险的主题，和上下文里金融AI写错数据的内容相呼应。](../../../assets/blog-feishu-e5rid02e6oaxx4xhcczclbkuncg-1.png)
+![这张图展现了金融科技相关的工作场景，一位身着正装的男士正注视着面前的虚拟屏幕，屏幕上呈现着金融数据处理的流程，左侧屏幕展示带有百分号的原始数据（百分比数据），数据经中间环节流转后，右侧屏幕上的同类型百分比数据出现了变化，该场景对应文档中提及的金融AI出现数据错误的情况，形象地呈现了金融工具在输出数据时可能产生的偏差，直观反映了金融AI数据处理环节存在风险的主题，和上下文里金融AI写错数据的内容相呼应。](../../../assets/blog-financial-ai-data-harness-verification-cover.png)
 
 一个看起来很小的数字错误，可能会一路进入晨会、客户简报和公众号草稿。
 
@@ -53,7 +54,7 @@ QVeris Data Harness 的思路很简单：别让模型一个人背锅，也别让
 
 刚才那个例子里，草稿写“涨幅 23.4%”，证据包里是“change_pct = 2.34”。Claim Checker 不需要猜，它只要核对：这个数字和证据是否一致？不一致，但可以修正，于是状态就是 corrected，修正文本是“涨幅 2.34%”。
 
-![图片展示了QVeris Data Harness如何拦住一个错误数字的流程。首先，工具返回数据，如行情、公告、财报等工具先返回结构化数据；接着冻结成证据包，记录来源、字段、单位、时间戳和调用成本；然后LLM写草稿，模型负责组织语言，但不直接“自证正确”；再逐条核验Claim，抽取数字、日期、结论，对照证据和公式；最后输出可信报告，给出已核对、已修正、待确认或阻断。关键变化在于工具返回2.34%，草稿写成23.4%，Claim Checker不靠猜，而是把草稿里的数字和证据包里的字段逐项对账，能修就修，不能证实就标记，风险过高就阻断。](../../../assets/blog-feishu-e5rid02e6oaxx4xhcczclbkuncg-2.png)
+![图片展示了QVeris Data Harness如何拦住一个错误数字的流程。首先，工具返回数据，如行情、公告、财报等工具先返回结构化数据；接着冻结成证据包，记录来源、字段、单位、时间戳和调用成本；然后LLM写草稿，模型负责组织语言，但不直接“自证正确”；再逐条核验Claim，抽取数字、日期、结论，对照证据和公式；最后输出可信报告，给出已核对、已修正、待确认或阻断。关键变化在于工具返回2.34%，草稿写成23.4%，Claim Checker不靠猜，而是把草稿里的数字和证据包里的字段逐项对账，能修就修，不能证实就标记，风险过高就阻断。](../../../assets/blog-financial-ai-data-harness-verification-workflow.png)
 
 QVeris Data Harness 的核心思路：先固化证据，再让模型写作，最后逐条核验。
 
@@ -65,7 +66,7 @@ verified 表示证据一致，可以正常输出；corrected 表示发现抄写�
 
 这四个词看起来很技术，但本质上就是一句人话：能确认的确认，能修的修，不能确定的说清楚，风险太高的别硬写。
 
-![图片展示了金融报告中四种核验状态的含义。其中，“verified”表示核对一致，数据、公式、口径都能对上，正常输出；“corrected”表示发现错误并修正，如23.4%被改回2.34%，Trace里留下修正记录；“uncertain”表示证据不足，来源冲突、口径不清或数据不够，提醒用户待确认；“blocked”表示阻断输出，关键数据缺失或风险太高，宁愿不写，也不装确定。这些状态让用户了解各部分数据的可信度，对应上下文对金融AI核验状态的解释。](../../../assets/blog-feishu-e5rid02e6oaxx4xhcczclbkuncg-3.png)
+![图片展示了金融报告中四种核验状态的含义。其中，“verified”表示核对一致，数据、公式、口径都能对上，正常输出；“corrected”表示发现错误并修正，如23.4%被改回2.34%，Trace里留下修正记录；“uncertain”表示证据不足，来源冲突、口径不清或数据不够，提醒用户待确认；“blocked”表示阻断输出，关键数据缺失或风险太高，宁愿不写，也不装确定。这些状态让用户了解各部分数据的可信度，对应上下文对金融AI核验状态的解释。](../../../assets/blog-financial-ai-data-harness-verification-states.png)
 
 四类核验状态让用户知道：哪里可信，哪里被修正，哪里还需要确认。
 
@@ -77,7 +78,7 @@ Data Harness 的价值不只是“纠错”。它让金融 AI 的输出变得可
 
 所以，QVeris 想解决的不是“让 AI 更自信”，而是“让 AI 的自信有证据”。
 
-![图片展示了QVeris核验样例，说明工具JSON、LLM草稿、Claim Checker输出如何形成核验闭环。首先，工具JSON返回结构化数据，如change_pct为2.34%等；接着，LLM草稿出现错误数字，如当前涨幅为23.4%；最后，Claim Checker给出修正结果，status为“corrected”，纠正文本为“当前涨幅为2.34%”，并指出草稿数字与Evidence Packet不一致。图片与上下文紧密相关，直观呈现核验流程，强调不是让LLM心算，而是让系统对账。](../../../assets/blog-feishu-e5rid02e6oaxx4xhcczclbkuncg-4.png)
+![图片展示了QVeris核验样例，说明工具JSON、LLM草稿、Claim Checker输出如何形成核验闭环。首先，工具JSON返回结构化数据，如change_pct为2.34%等；接着，LLM草稿出现错误数字，如当前涨幅为23.4%；最后，Claim Checker给出修正结果，status为“corrected”，纠正文本为“当前涨幅为2.34%”，并指出草稿数字与Evidence Packet不一致。图片与上下文紧密相关，直观呈现核验流程，强调不是让LLM心算，而是让系统对账。](../../../assets/blog-financial-ai-data-harness-verification-claim-checker.png)
 
 代码示意：工具 JSON、LLM 草稿和 Claim Checker 输出如何形成一个核验闭环。
 
@@ -93,6 +94,6 @@ Data Harness 做的，就是在这些关键缝隙里加一道门：工具给数�
 
 **如果你正在做金融 Agent、投研助手、数据工具调用或企业级 AI 工作流，QVeris Data Harness 可以作为底座：让 Agent 找得到真实能力、调得动真实工具，也让最终输出留下证据。**
 
-![图片展示了QVeris Data Harness给金融Agent补上的四件事。1. 接入真实能力，通过API等接入数据；2. 固化证据包，记录关键数据来源等；3. 核验关键输出，对账、修正自动完成；4. 治理与复盘，留下Trace Ledger，支持审计和人工确认。核心是让每一次输出都有证据链，从“能回答”走向“可信、可查、可复盘”。该图与上下文紧密相关，直观呈现了QVeris Data Harness在金融Agent方面的功能优势。](../../../assets/blog-feishu-e5rid02e6oaxx4xhcczclbkuncg-5.png)
+![图片展示了QVeris Data Harness给金融Agent补上的四件事。1. 接入真实能力，通过API等接入数据；2. 固化证据包，记录关键数据来源等；3. 核验关键输出，对账、修正自动完成；4. 治理与复盘，留下Trace Ledger，支持审计和人工确认。核心是让每一次输出都有证据链，从“能回答”走向“可信、可查、可复盘”。该图与上下文紧密相关，直观呈现了QVeris Data Harness在金融Agent方面的功能优势。](../../../assets/blog-financial-ai-data-harness-verification-evidence-chain.png)
 
 QVeris Data Harness：让金融 Agent 的每一次输出都有证据链。
