@@ -1,0 +1,2042 @@
+{
+  "posts": [
+    {
+      "slug": "agent-financial-tools-retrieval",
+      "sourceFile": "agent-financial-tools-retrieval.md",
+      "title": "Agent 如何在一万多个金融工具里找对接口？",
+      "description": "金融 Agent 背后不是单个接口，而是一张接口网络。QVeris 把“找接口”拆成一条可验证的检索链：把一句人话翻译成正确的调用，找不到时也诚实说明为什么。",
+      "pubDate": "2026-08-10",
+      "heroImage": "../../../assets/blog-agent-financial-tools-retrieval-cover-cn.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "Finance",
+        "QVeris",
+        "tool-retrieval，api"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "agent-plugins-1-0-release",
+      "sourceFile": "agent-plugins-1-0-release.md",
+      "title": "Agent Plugins 1.0 发布，一次编写，多处分发",
+      "description": "2026 年 8 月 5 日，Agent Plugins 1.0.0 正式发布：把 Agent Skills 和 MCP 服务器打包成一种可移植的目录格式，让同一个扩展能在不同客户端里被发现和加载。",
+      "pubDate": "2026-08-08",
+      "heroImage": "../../../assets/blog-agent-plugins-1-0-release-cover-cn.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent Plugins",
+        "MCP",
+        "Agent Skills",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-unitree-ipo",
+      "sourceFile": "qveris-unitree-ipo.md",
+      "title": "拆解宇树IPO：QVeris发现了什么？",
+      "description": "150.80 元发行价、219.23 倍市盈率背后，QVeris 从招股书、财务附注与上交所公告中拆解宇树 IPO：增长来自哪里，高估值又在提前定价什么。",
+      "pubDate": "2026-08-07",
+      "heroImage": "../../../assets/blog-qveris-unitree-ipo-cover-cn.png",
+      "category": "Research",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "Finance",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "workbuddy-qveris-hosted-mcp",
+      "sourceFile": "workbuddy-qveris-hosted-mcp.md",
+      "title": "一个 URL，把 WorkBuddy 变成能查实时数据、做分析、交付报告的执行型 Agent",
+      "description": "只需一个 URL 和 API Key，无需部署服务器，也不用写代码，即可让 WorkBuddy 调用 10,000+ 外部能力，查实时数据、做分析、交付报告。",
+      "pubDate": "2026-08-05",
+      "heroImage": "../../../assets/blog-workbuddy-qveris-hosted-mcp-cover-cn.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "workbuddy",
+        "mcp",
+        "qveris",
+        "教程",
+        "agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "model-harness-financial-research-agent",
+      "sourceFile": "model-harness-financial-research-agent.md",
+      "title": "模型越强，Harness 越重要：从金融研究 Agent 看下一代智能系统的工程边界",
+      "description": "从金融研究 Agent 的生产实践出发，讨论为什么 Harness 是智能系统进入真实世界的事实、行动、状态和发布控制面。",
+      "pubDate": "2026-08-02",
+      "heroImage": "../../../assets/blog-model-harness-financial-research-agent-cover-cn.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent",
+        "Harness"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-hosted-mcp-coding-agent-guide",
+      "sourceFile": "qveris-hosted-mcp-coding-agent-guide.md",
+      "title": "给 Coding Agent 接上 10,000+ 种外部能力：QVeris Hosted MCP 实战教程",
+      "description": "面向 Codex、Claude Code 和 Cursor 的 QVeris Hosted MCP 接入指南，覆盖配置、安全边界、成本控制和典型工程场景。",
+      "pubDate": "2026-07-29",
+      "heroImage": "../../../assets/blog-qveris-hosted-mcp-coding-agent-guide-cover-cn.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris Hosted MCP",
+        "coding-agent",
+        "mcp",
+        "qveris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "ai-infrastructure-earnings-copilot",
+      "sourceFile": "ai-infrastructure-earnings-copilot.md",
+      "title": "昨夜出财报的AI基建链，毛利率一个比一个高",
+      "description": "从通信塔到燃料电池，从硬盘到光纤，AI基建的利润正在全面兑现。",
+      "pubDate": "2026-07-28",
+      "heroImage": "../../../assets/blog-ai-infrastructure-earnings-copilot-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris，Financial Report"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-oauth-agent-api-key",
+      "sourceFile": "qveris-oauth-agent-api-key.md",
+      "title": "不要再让用户把 API Key 粘贴给 AI Agent：用 OAuth 安全接入 QVeris",
+      "description": "用 QVeris OAuth 替代长期 API Key，让 Agent 产品获得可授权、可撤销、可审计的工具访问边界。",
+      "pubDate": "2026-07-28",
+      "heroImage": "../../../assets/blog-qveris-oauth-agent-api-key-cover-cn.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "OAuth",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "harness-engineering-financial-agent-identity",
+      "sourceFile": "harness-engineering-financial-agent-identity.md",
+      "title": "Harrrrrr……啊对，我一开始就是想着 Harness",
+      "description": "用 10 个 token 的冗余，把金融 Agent 的公司名和股票代码归因错误挡在工具层。",
+      "pubDate": "2026-07-27",
+      "heroImage": "../../../assets/blog-harness-engineering-financial-agent-identity-cover-cn.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "Tool Calling",
+        "agent",
+        "agent tools",
+        "financial data",
+        "harness",
+        "qveris",
+        "金融数据"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "agent-tool-use-quality",
+      "sourceFile": "agent-tool-use-quality.md",
+      "title": "Agent 为什么找得到工具，却不一定用得好",
+      "description": "从相关性、契约、运行质量和执行语义四个层面拆解 Agent 工具调用质量。",
+      "pubDate": "2026-07-26",
+      "heroImage": "../../../assets/blog-agent-tool-use-quality-cover-cn.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "Data Tools",
+        "QVeris",
+        "tools"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "a-share-weekly-rebound-confidence-qveris",
+      "sourceFile": "a-share-weekly-rebound-confidence-qveris.md",
+      "title": "一周涨回来，信心却没完全回来",
+      "description": "用 QVeris 复盘 2026 年 7 月 20–24 日 A 股的高波动修复。",
+      "pubDate": "2026-07-25",
+      "heroImage": "../../../assets/blog-a-share-weekly-rebound-confidence-qveris-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent",
+        "Finance"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "changxin-tech-ipo-qveris",
+      "sourceFile": "changxin-tech-ipo-qveris.md",
+      "title": "长鑫科技上市倒计时：我用QVeris拆解508亿营收的增长逻辑",
+      "description": "508 亿元季度营收、约 5792 亿元初始市值，国产 DRAM 的新坐标意味着什么？",
+      "pubDate": "2026-07-24",
+      "heroImage": "../../../assets/blog-changxin-tech-ipo-qveris-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent",
+        "Finance"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "openai-agent-qveris-auditable-toolchain",
+      "sourceFile": "openai-agent-qveris-auditable-toolchain.md",
+      "title": "OpenAI Agent“失控”之后：我用 QVeris 搭了一条可审计的工具调用链",
+      "description": "当 AI Agent 开始自主调用工具、访问网络和执行任务，团队需要看清它调用了什么、为什么调用、花了多少钱，以及结果能否复核。",
+      "pubDate": "2026-07-23",
+      "heroImage": "../../../assets/blog-openai-agent-qveris-auditable-toolchain-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris",
+        "Tool Calling",
+        "tools"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-agent-tool-discover-inspect-call-cost",
+      "sourceFile": "qveris-agent-tool-discover-inspect-call-cost.md",
+      "title": "Agent 调用工具前，应该先知道三件事：能不能用、怎么调用、要花多少钱",
+      "description": "QVeris 将工具调用拆成 Discover、Inspect 和 Call 三个阶段，让 Agent 在真实执行和产生费用前先完成可检查、可确认、可追溯的决策。",
+      "pubDate": "2026-07-23",
+      "heroImage": "../../../assets/blog-qveris-agent-tool-discover-inspect-call-cost-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "CLI",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "google-tesla-q2-a-share-semiconductor",
+      "sourceFile": "google-tesla-q2-a-share-semiconductor.md",
+      "title": "谷歌 Cloud 暴涨 82%，特斯拉 EPS 腰斩：昨夜两份财报对 A 股半导体的真实信号",
+      "description": "从谷歌与特斯拉 Q2 财报看 AI capex、利润压力与 A 股半导体链条的短中长期信号。",
+      "pubDate": "2026-07-22",
+      "heroImage": "../../../assets/blog-google-tesla-q2-a-share-semiconductor-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "a股，Financial Report",
+        "earnings",
+        "finance",
+        "qveris",
+        "semiconductors",
+        "半导体"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-ai-tech-stock-selloff",
+      "sourceFile": "qveris-ai-tech-stock-selloff.md",
+      "title": "最近科技股大跌，AI 行情结束了吗？",
+      "description": "科技股急跌后，QVeris 从台积电增长斜率、芯片基金估值压缩和现金流质量拆解 AI 行情是否真的转向。",
+      "pubDate": "2026-07-22",
+      "heroImage": "../../../assets/blog-qveris-ai-tech-stock-selloff-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris",
+        "Stock",
+        "Technology stocks"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "ai-compute-horror-radar",
+      "sourceFile": "ai-compute-horror-radar.md",
+      "title": "我们做了一个 AI 算力“鬼故事”雷达",
+      "description": "一条新闻，为什么会让 GPU、HBM、数据中心、电力和 ETF 一起变脸？",
+      "pubDate": "2026-07-19",
+      "heroImage": "../../../assets/blog-ai-compute-horror-radar-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "Finance",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "financial-data-point-review-agent",
+      "sourceFile": "financial-data-point-review-agent.md",
+      "title": "当AI能把24个财务数据点逐项复核，智能投研才真正有了“基本功”",
+      "description": "智能投研产品正在从“会写分析”走向“能做研究”。",
+      "pubDate": "2026-07-18",
+      "heroImage": "../../../assets/blog-financial-data-point-review-agent-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "market-sentiment-api-trading-agents",
+      "sourceFile": "market-sentiment-api-trading-agents.md",
+      "title": "市场情绪 API：让交易智能体读懂恐惧、贪婪与新闻风向",
+      "description": "一个只关注价格的交易智能体，往往只能在行情变化之后才意识到发生了什么。",
+      "pubDate": "2026-07-18",
+      "heroImage": "../../../assets/blog-market-sentiment-api-trading-agents-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "gei-coding-agent-jie-shang-10-000-zhong-fb0bca",
+      "sourceFile": "gei-coding-agent-jie-shang-10-000-zhong-fb0bca.md",
+      "title": "给 Coding Agent 接上 10,000+ 种外部能力：QVeris Hosted MCP 实战教程",
+      "description": "Codex、Claude Code、Cursor 这类 Coding Agent 已经能读代码、改文件、运行测试，但当任务依赖仓库之外的最新信息时，能力边界仍然很明显。",
+      "pubDate": "2026-07-17",
+      "heroImage": "../../../assets/blog-gei-coding-agent-jie-shang-10-000-zhong-fb0bca-cover-cn.png",
+      "category": "MCP",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "Data Tools",
+        "MCP",
+        "tools",
+        "数据工具"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-playground-new-models",
+      "sourceFile": "qveris-playground-new-models.md",
+      "title": "最新大模型，不止能聊：在 QVeris.ai Playground 一次体验 Kimi K3、Claude Fable 5 与 GPT-5.6-Sol",
+      "description": "当新模型发布的速度越来越快，真正影响使用体验的，已经不只是“模型名单里有没有它”，而是能不能马上用真实问题去验证：它会不会找数据、能不能调用工具、结果是否可追溯，以及一次任务究竟花了多少时间和成本。",
+      "pubDate": "2026-07-17",
+      "heroImage": "../../../assets/blog-qveris-playground-new-models-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "short-drama-summer-market-qveris",
+      "sourceFile": "short-drama-summer-market-qveris.md",
+      "title": "短剧暑期档开打，谁在制造我的追剧上头？我让 QVeris 查了查",
+      "description": "我最近有一个很明显的感觉：",
+      "pubDate": "2026-07-16",
+      "heroImage": "../../../assets/blog-short-drama-summer-market-qveris-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "ai-comic-video-qveris",
+      "sourceFile": "ai-comic-video-qveris.md",
+      "title": "AI 漫剧怎么突然占领了我的短视频？我让 QVeris 查了查",
+      "description": "最近刷短视频时，我遇到了一种越来越难分类的内容。",
+      "pubDate": "2026-07-15",
+      "heroImage": "../../../assets/blog-ai-comic-video-qveris-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "financial-skill-qveris-agent",
+      "sourceFile": "financial-skill-qveris-agent.md",
+      "title": "金融 Skill 接入 QVeris 后，AI 终于不再只会写报告（配图版）",
+      "description": "过去一段时间，我集中改造和测试了一批金融 Skill。",
+      "pubDate": "2026-07-14",
+      "heroImage": "../../../assets/blog-financial-skill-qveris-agent-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris",
+        "skill"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "film-box-office-stock-qveris",
+      "sourceFile": "film-box-office-stock-qveris.md",
+      "title": "票房热了，影视股为什么没一起涨？我用 QVeris 重跑了四家公司",
+      "description": "**三周前公开留下的问题，今天回来对答案。**",
+      "pubDate": "2026-07-13",
+      "heroImage": "../../../assets/blog-film-box-office-stock-qveris-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris",
+        "数据工具"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "typhoon-bavi-stock-market-qveris",
+      "sourceFile": "typhoon-bavi-stock-market-qveris.md",
+      "title": "台风会影响股市吗？用 QVeris 复盘“巴威”冲击",
+      "description": "7 月 11 日晚上 11 点 20 分，超强台风\"巴威\"在浙江玉环登陆，最大风力 14 级。",
+      "pubDate": "2026-07-12",
+      "heroImage": "../../../assets/blog-typhoon-bavi-stock-market-qveris-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "Data Tools",
+        "Finance",
+        "Finance Agent",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "loop-engineering-continuous-completion",
+      "sourceFile": "loop-engineering-continuous-completion.md",
+      "title": "Loop Engineering：从“完成一次”到“持续把事情做完”",
+      "description": "> 当 Agent 不再依赖人逐轮提醒，真正需要设计的就不只是 Prompt，而是任务如何启动、验证、记忆和停止。",
+      "pubDate": "2026-07-11",
+      "heroImage": "../../../assets/blog-loop-engineering-continuous-completion-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris",
+        "agent",
+        "tools"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "codex-sites-qveris-demo",
+      "sourceFile": "codex-sites-qveris-demo.md",
+      "title": "用 Codex Sites 做一个真正调用 QVeris 的演示网站",
+      "description": "很多工具演示站的问题，不是页面不够漂亮，而是只能看，不能真正使用。用户看到一张精致的仪表盘，却不知道数据从哪里来、工具如何选择、失败时又会发生什么。",
+      "pubDate": "2026-07-10",
+      "heroImage": "../../../assets/blog-codex-sites-qveris-demo-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris",
+        "案例"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "financial-ai-data-harness-verification",
+      "sourceFile": "financial-ai-data-harness-verification.md",
+      "title": "2.34% 写成 23.4%：金融 AI 最危险的幻觉，往往不是编造",
+      "description": "当正确数据在生成报告时被模型写错，QVeris Data Harness 如何通过证据包、Claim Checker 和四级核验状态阻止错误传播。",
+      "pubDate": "2026-07-09",
+      "heroImage": "../../../assets/blog-financial-ai-data-harness-verification-cover.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent",
+        "Finance",
+        "Data Harness"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-backtesting-data-first",
+      "sourceFile": "qveris-backtesting-data-first.md",
+      "title": "用 QVeris 数据做回测：先看懂数据，再相信曲线",
+      "description": "很多人做因子或策略回测，最想先看到的是收益曲线。但真正有价值的回测，不是把曲线画出来就结束，而是先把曲线背后的数据说清楚。",
+      "pubDate": "2026-07-09",
+      "heroImage": "../../../assets/blog-qveris-backtesting-data-first-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "codex-qveris-a-share-mainline",
+      "sourceFile": "codex-qveris-a-share-mainline.md",
+      "title": "别让 AI 盲猜股票了，小白用 Codex + QVeris 拆出 A 股主线",
+      "description": "很多小白股民用 AI 看股票，第一句话就问错了。",
+      "pubDate": "2026-07-07",
+      "heroImage": "../../../assets/blog-codex-qveris-a-share-mainline-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "a-share-realtime-quotes-agent",
+      "sourceFile": "a-share-realtime-quotes-agent.md",
+      "title": "给 AI Agent 接上 A 股实时行情，第一步该怎么做？",
+      "description": "很多人已经习惯问 AI：茅台怎么看？寒武纪还能不能追？今天 A 股有什么异动？",
+      "pubDate": "2026-07-06",
+      "heroImage": "../../../assets/blog-a-share-realtime-quotes-agent-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "finance-agent-identity-boundaries",
+      "sourceFile": "finance-agent-identity-boundaries.md",
+      "title": "全球顶尖模型做金融分析，最高分为什么还不到 58%？",
+      "description": "从 Vals Finance Agent v2 到公开题复测，金融 Agent 的短板可能不在分析，而在识别对象。",
+      "pubDate": "2026-07-05",
+      "heroImage": "../../../assets/blog-finance-agent-identity-boundaries-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-ai-options-assistant",
+      "sourceFile": "qveris-ai-options-assistant.md",
+      "title": "我们用 QVeris 做了一个 AI 期权助手",
+      "description": "一次 AI 金融产品实验：把一句市场观点拆成数据、策略、模拟和风险边界。",
+      "pubDate": "2026-07-03",
+      "heroImage": "../../../assets/blog-qveris-ai-options-assistant-1.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "agent-execution-ledger",
+      "sourceFile": "agent-execution-ledger.md",
+      "title": "Agent 不能只会调工具，还要能留下执行账本",
+      "description": "Agent 进入业务流程后，每一次执行都需要可复查、可复用、可交接的执行账本。",
+      "pubDate": "2026-07-02",
+      "heroImage": "../../../assets/blog-agent-execution-ledger-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-alpha-picks-ichr-review",
+      "sourceFile": "qveris-alpha-picks-ichr-review.md",
+      "title": "QVeris 对 Alpha Picks 的最新推荐有何看法？",
+      "description": "Alpha Picks 将 Ichor 标记为买入后，我们用 QVeris 对 ICHR 做了一次带来源、工具调用和审计跟踪的数据检查。",
+      "pubDate": "2026-07-01",
+      "heroImage": "../../../assets/blog-qveris-alpha-picks-ichr-review-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "ai-supply-chain-bottleneck-research-sop",
+      "sourceFile": "ai-supply-chain-bottleneck-research-sop.md",
+      "title": "我用 Codex + QVeris 跑通了一套 AI 产业链卡点研究 SOP",
+      "description": "从安装 Skill、配置 API Key，到生成投研备忘录的一次实操复盘",
+      "pubDate": "2026-06-30",
+      "heroImage": "../../../assets/blog-ai-supply-chain-bottleneck-research-sop-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "oil-price-a-share-transmission",
+      "sourceFile": "oil-price-a-share-transmission.md",
+      "title": "油价一跳，A股哪些行业先疼？我用 QVeris 跑了一遍跨市场传导链",
+      "description": "用 QVeris 拆解油价波动如何通过成本、价差、资本开支传导到 A股行业和个股证据。",
+      "pubDate": "2026-06-30",
+      "heroImage": "../../../assets/blog-oil-price-a-share-transmission-cover-cn.png",
+      "category": "Research",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "Finance",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "financial-agent-metric-alignment",
+      "sourceFile": "financial-agent-metric-alignment.md",
+      "title": "金融 Agent 不能只会取数，还要能对齐口径",
+      "description": "金融 Agent 不只是接入更多数据，还要把数据变成可解释、可计算、可验证的口径契约。",
+      "pubDate": "2026-06-29",
+      "heroImage": "../../../assets/blog-financial-agent-metric-alignment-cover-cn.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent",
+        "Finance"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "financial-agent-failure-recovery",
+      "sourceFile": "financial-agent-failure-recovery.md",
+      "title": "金融 Agent 的下一步：不是更会回答，而是失败之后还能继续",
+      "description": "金融 Agent 真正难的不是生成完整回答，而是让研究流程可追踪、可恢复、可复核。",
+      "pubDate": "2026-06-26",
+      "heroImage": "../../../assets/blog-financial-agent-failure-recovery-1.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent",
+        "Finance"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-mosheng-pharma-agent",
+      "sourceFile": "qveris-mosheng-pharma-agent.md",
+      "title": "QVeris 接入摩熵数科：下一个爆款药，到底卡在发现、临床还是注册？",
+      "description": "QVeris 接入摩熵数科 Provider，让 Agent 能沿药品研发、临床试验、注册审评、监管政策、合理用药和分子实体链路追踪医药问题。",
+      "pubDate": "2026-06-25",
+      "heroImage": "../../../assets/blog-qveris-mosheng-pharma-agent-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent",
+        "医药",
+        "摩熵数科"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "cong-yi-ci-xing-prompt-dao-lian-xu-gong-7933db",
+      "sourceFile": "cong-yi-ci-xing-prompt-dao-lian-xu-gong-7933db.md",
+      "title": "从一次性 Prompt 到连续工作流：投研 Agent 为什么需要长期可用的数据入口？",
+      "description": "结论先说：",
+      "pubDate": "2026-06-24",
+      "heroImage": "../../../assets/blog-cong-yi-ci-xing-prompt-dao-lian-xu-gong-7933db-cover-cn.png",
+      "category": "Agent",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "量化",
+        "金融"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "prompt-layering-for-tool-calling",
+      "sourceFile": "prompt-layering-for-tool-calling.md",
+      "title": "当工具越来越多，Prompt 需要分层管理",
+      "description": "当工具越来越多，Prompt 需要分层管理",
+      "pubDate": "2026-06-23",
+      "heroImage": "../../../assets/blog-prompt-layering-for-tool-calling-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247485418",
+      "sourceFile": "qveris-wechat-2247485418.md",
+      "title": "QVeris实测：暑期档开场了，影视传媒板块有没有交易机会？",
+      "description": "QVeris实测：暑期档开场了，影视传媒板块有没有交易机会？",
+      "pubDate": "2026-06-22",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247485418-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-ai-stock-research-assistant",
+      "sourceFile": "qveris-ai-stock-research-assistant.md",
+      "title": "我让QVeris做了一次AI选股研究助理：先看行业估值，再用Screener过滤公司",
+      "description": "我让QVeris做了一次AI选股研究助理：先看行业估值，再用Screener过滤公司",
+      "pubDate": "2026-06-21",
+      "heroImage": "../../../assets/blog-qveris-ai-stock-research-assistant-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247485409",
+      "sourceFile": "qveris-wechat-2247485409.md",
+      "title": "金融 Agent 的关键不是答案，而是多源质证",
+      "description": "金融 Agent 的关键不是答案，而是多源质证",
+      "pubDate": "2026-06-21",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247485409-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-sports-tool-workflow",
+      "sourceFile": "qveris-sports-tool-workflow.md",
+      "title": "QVeris的体育工具能做什么：从比分查询到赛前情报工作流",
+      "description": "QVeris的体育工具能做什么：从比分查询到赛前情报工作流",
+      "pubDate": "2026-06-20",
+      "heroImage": "../../../assets/blog-qveris-sports-tool-workflow-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-explainable-research-workflow",
+      "sourceFile": "qveris-explainable-research-workflow.md",
+      "title": "QVeris：从信息过载到可解释的研究流程",
+      "description": "QVeris：从信息过载到可解释的研究流程",
+      "pubDate": "2026-06-19",
+      "heroImage": "../../../assets/blog-qveris-explainable-research-workflow-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "enterprise-trustworthy-agent-evidence",
+      "sourceFile": "enterprise-trustworthy-agent-evidence.md",
+      "title": "企业可信Agent，缺的不是回答，而是证据",
+      "description": "企业可信Agent，缺的不是回答，而是证据",
+      "pubDate": "2026-06-18",
+      "heroImage": "../../../assets/blog-enterprise-trustworthy-agent-evidence-cover-cn.jpeg",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-world-cup-signal-workflow",
+      "sourceFile": "qveris-world-cup-signal-workflow.md",
+      "title": "我让 QVeris 猜了一次世界杯冠军：不是玄学押注，而是让 Agent 学会调用真实世界信号",
+      "description": "我让 QVeris 猜了一次世界杯冠军：不是玄学押注，而是让 Agent 学会调用真实世界信号",
+      "pubDate": "2026-06-17",
+      "heroImage": "../../../assets/blog-qveris-world-cup-signal-workflow-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "anthropic-finance-agent-third-layer",
+      "sourceFile": "anthropic-finance-agent-third-layer.md",
+      "title": "Anthropic 公开金融 Agent 样板间，我们一直在做最值钱的第三层",
+      "description": "Anthropic 公开金融 Agent 样板间，我们一直在做最值钱的第三层",
+      "pubDate": "2026-06-16",
+      "heroImage": "../../../assets/blog-anthropic-finance-agent-third-layer-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent",
+        "Finance"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-microsoft-1995",
+      "sourceFile": "qveris-microsoft-1995.md",
+      "title": "我让 QVeris 把 Microsoft 历史数据拉回 1995 年：做长周期投研，第一步不是写策略",
+      "description": "我让 QVeris 把 Microsoft 历史数据拉回 1995 年：做长周期投研，第一步不是写策略",
+      "pubDate": "2026-06-15",
+      "heroImage": "../../../assets/blog-qveris-microsoft-1995-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-apple-fundamentals-workflow",
+      "sourceFile": "qveris-apple-fundamentals-workflow.md",
+      "title": "我让 QVeris 读了一遍 Apple 基本面：三大表、As Reported、TTM 指标都接上了",
+      "description": "我让 QVeris 读了一遍 Apple 基本面：三大表、As Reported、TTM 指标都接上了",
+      "pubDate": "2026-06-14",
+      "heroImage": "../../../assets/blog-qveris-apple-fundamentals-workflow-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "45-serenity-qveris",
+      "sourceFile": "45-serenity-qveris.md",
+      "title": "45倍白毛股神 Serenity 爆火，她押中冷门票的方法，我们用 QVeris 跑了一遍",
+      "description": "45倍白毛股神 Serenity 爆火，她押中冷门票的方法，我们用 QVeris 跑了一遍",
+      "pubDate": "2026-06-13",
+      "heroImage": "../../../assets/blog-45-serenity-qveris-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "provider-translation-review-skill",
+      "sourceFile": "provider-translation-review-skill.md",
+      "title": "Provider 翻译审核：从一次表格修订到可复用 Skill",
+      "description": "Provider 翻译审核：从一次表格修订到可复用 Skill",
+      "pubDate": "2026-06-13",
+      "heroImage": "../../../assets/blog-provider-translation-review-skill-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-bainiu-enterprise-due-diligence",
+      "sourceFile": "qveris-bainiu-enterprise-due-diligence.md",
+      "title": "QVeris 接入白牛：让 Agent 像企业尽调雷达一样读懂一家公司",
+      "description": "QVeris 接入白牛：让 Agent 像企业尽调雷达一样读懂一家公司",
+      "pubDate": "2026-06-12",
+      "heroImage": "../../../assets/blog-qveris-bainiu-enterprise-due-diligence-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-tikhub-content-platform-signals",
+      "sourceFile": "qveris-tikhub-content-platform-signals.md",
+      "title": "QVeris 接入 TikHub：Agent 终于能读懂内容平台的真实热度了",
+      "description": "QVeris 接入 TikHub，让 Agent 能读取短视频、种草社区、电商、本地生活和海外社媒等公开平台信号，形成更接近真实用户行为的分析工作流。",
+      "pubDate": "2026-06-11",
+      "heroImage": "../../../assets/blog-qveris-tikhub-content-platform-signals-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "TikHub",
+        "Agent",
+        "内容平台"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247485216",
+      "sourceFile": "qveris-wechat-2247485216.md",
+      "title": "为什么金融 Agent 没那么容易做出来：我们最近踩到的几个坑",
+      "description": "为什么金融 Agent 没那么容易做出来：我们最近踩到的几个坑",
+      "pubDate": "2026-06-11",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247485216-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-financial-capability-network",
+      "sourceFile": "qveris-financial-capability-network.md",
+      "title": "QVeris 如何把分散 API，变成 Agent 能用的金融能力网络",
+      "description": "QVeris 如何把分散 API，变成 Agent 能用的金融能力网络",
+      "pubDate": "2026-06-10",
+      "heroImage": "../../../assets/blog-qveris-financial-capability-network-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247485152",
+      "sourceFile": "qveris-wechat-2247485152.md",
+      "title": "设计参数修复 Pipeline 需要注意什么",
+      "description": "设计参数修复 Pipeline 需要注意什么",
+      "pubDate": "2026-06-09",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247485152-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "ai-qveris",
+      "sourceFile": "ai-qveris.md",
+      "title": "苹果的 AI 牌摊开了，市场为什么不买账？我用 QVeris 跑了六组数据",
+      "description": "苹果的 AI 牌摊开了，市场为什么不买账？我用 QVeris 跑了六组数据",
+      "pubDate": "2026-06-08",
+      "heroImage": "../../../assets/blog-ai-qveris-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "codex-token",
+      "sourceFile": "codex-token.md",
+      "title": "Codex 用得越久，越要学会省 Token",
+      "description": "Codex 用得越久，越要学会省 Token",
+      "pubDate": "2026-06-07",
+      "heroImage": "../../../assets/blog-codex-token-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247485112",
+      "sourceFile": "qveris-wechat-2247485112.md",
+      "title": "别再让 AI 瞎分析了：我做了个先找数据源的金融小助手",
+      "description": "别再让 AI 瞎分析了：我做了个先找数据源的金融小助手",
+      "pubDate": "2026-06-07",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247485112-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247485067",
+      "sourceFile": "qveris-wechat-2247485067.md",
+      "title": "用AI做股票研究，先把数据准备这一步做扎实",
+      "description": "用AI做股票研究，先把数据准备这一步做扎实",
+      "pubDate": "2026-06-06",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247485067-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "codex-openclaw-qveris-bot",
+      "sourceFile": "codex-openclaw-qveris-bot.md",
+      "title": "零代码小白股民实战：靠 Codex+OpenClaw+QVeris 自建炒股 Bot，不猜涨跌，只做自己的专属投研工作台",
+      "description": "零代码小白股民实战：靠 Codex+OpenClaw+QVeris 自建炒股 Bot，不猜涨跌，只做自己的专属投研工作台",
+      "pubDate": "2026-06-04",
+      "heroImage": "../../../assets/blog-codex-openclaw-qveris-bot-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "ai-agent",
+      "sourceFile": "ai-agent.md",
+      "title": "AI Agent 很火，但它到底能调用什么？",
+      "description": "AI Agent 很火，但它到底能调用什么？",
+      "pubDate": "2026-06-03",
+      "heroImage": "../../../assets/blog-ai-agent-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-fmp-60",
+      "sourceFile": "qveris-fmp-60.md",
+      "title": "跨境投研还在手动切数据源？QVeris × FMP 把 60+ 交易所接成一个入口",
+      "description": "跨境投研还在手动切数据源？QVeris × FMP 把 60+ 交易所接成一个入口",
+      "pubDate": "2026-06-03",
+      "heroImage": "../../../assets/blog-qveris-fmp-60-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "3-3-ai",
+      "sourceFile": "3-3-ai.md",
+      "title": "同一只茅台3家数据源3种成交量——你的AI正在算错仓位",
+      "description": "同一只茅台3家数据源3种成交量——你的AI正在算错仓位",
+      "pubDate": "2026-06-02",
+      "heroImage": "../../../assets/blog-3-3-ai-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "ai-finance-agent-cost-audit",
+      "sourceFile": "ai-finance-agent-cost-audit.md",
+      "title": "你的 AI 金融 Agent 一天烧 200 块，130 块是浪费——一份账单审计",
+      "description": "一次基于 QVeris 的金融数据调用账单审计，拆解 AI 金融 Agent 在多供应商 API、重复查询和空返回中的隐性成本。",
+      "pubDate": "2026-06-02",
+      "heroImage": "../../../assets/blog-ai-finance-agent-cost-audit-hero.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "金融 Agent",
+        "数据工具",
+        "成本优化",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "7-ai-agent",
+      "sourceFile": "7-ai-agent.md",
+      "title": "同一只腾讯7种写法，AI Agent该信谁？",
+      "description": "同一只腾讯7种写法，AI Agent该信谁？",
+      "pubDate": "2026-06-01",
+      "heroImage": "../../../assets/blog-7-ai-agent-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484977",
+      "sourceFile": "qveris-wechat-2247484977.md",
+      "title": "让AI少一点幻觉，多一点真实世界的能力",
+      "description": "让AI少一点幻觉，多一点真实世界的能力",
+      "pubDate": "2026-05-31",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484977-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "agent-qveris",
+      "sourceFile": "agent-qveris.md",
+      "title": "让 Agent 的工具调用更稳：我在 QVeris 最近在做的事",
+      "description": "让 Agent 的工具调用更稳：我在 QVeris 最近在做的事",
+      "pubDate": "2026-05-30",
+      "heroImage": "../../../assets/blog-agent-qveris-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484958",
+      "sourceFile": "qveris-wechat-2247484958.md",
+      "title": "金融 AI 不只要会回答，更要可验证",
+      "description": "金融 AI 不只要会回答，更要可验证",
+      "pubDate": "2026-05-28",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484958-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484949",
+      "sourceFile": "qveris-wechat-2247484949.md",
+      "title": "一个金融Agent真正难的地方：不是调用工具，而是选对工具。",
+      "description": "一个金融Agent真正难的地方：不是调用工具，而是选对工具。",
+      "pubDate": "2026-05-27",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484949-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484942",
+      "sourceFile": "qveris-wechat-2247484942.md",
+      "title": "从一次失败的工具调用开始：让 Agent 学会自动修复参数",
+      "description": "从一次失败的工具调用开始：让 Agent 学会自动修复参数",
+      "pubDate": "2026-05-26",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484942-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484934",
+      "sourceFile": "qveris-wechat-2247484934.md",
+      "title": "A 股盯盘小助手：用 QVeris 串起行情、资金、题材",
+      "description": "A 股盯盘小助手：用 QVeris 串起行情、资金、题材",
+      "pubDate": "2026-05-25",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484934-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "mcp-qveris",
+      "sourceFile": "mcp-qveris.md",
+      "title": "别再自己接 MCP 工具了，用 QVeris 吧！",
+      "description": "别再自己接 MCP 工具了，用 QVeris 吧！",
+      "pubDate": "2026-05-24",
+      "heroImage": "../../../assets/blog-mcp-qveris-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484902",
+      "sourceFile": "qveris-wechat-2247484902.md",
+      "title": "用 QVeris 把财报电话会逐字稿变成可追溯的投研线索",
+      "description": "用 QVeris 把财报电话会逐字稿变成可追溯的投研线索",
+      "pubDate": "2026-05-23",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484902-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-openclaw-ai-agent",
+      "sourceFile": "qveris-openclaw-ai-agent.md",
+      "title": "QVeris + OpenClaw：把个人 AI 助手变成生产级 Agent",
+      "description": "QVeris + OpenClaw：把个人 AI 助手变成生产级 Agent",
+      "pubDate": "2026-05-22",
+      "heroImage": "../../../assets/blog-qveris-openclaw-ai-agent-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "0-1-agent",
+      "sourceFile": "0-1-agent.md",
+      "title": "从 0 到 1 搭一个金融研究 Agent：我踩过的那些坑",
+      "description": "从 0 到 1 搭一个金融研究 Agent：我踩过的那些坑",
+      "pubDate": "2026-05-21",
+      "heroImage": "../../../assets/blog-0-1-agent-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484869",
+      "sourceFile": "qveris-wechat-2247484869.md",
+      "title": "炒不了美股了，咋办？",
+      "description": "炒不了美股了，咋办？",
+      "pubDate": "2026-05-21",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484869-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-qveris-cn",
+      "sourceFile": "qveris-qveris-cn.md",
+      "title": "全新QVeris国内版(qveris.cn)震撼来袭！",
+      "description": "全新QVeris国内版(qveris.cn)震撼来袭！",
+      "pubDate": "2026-05-20",
+      "heroImage": "../../../assets/blog-qveris-qveris-cn-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "3-30-qveris-codex",
+      "sourceFile": "3-30-qveris-codex.md",
+      "title": "3小时变30秒：接入QVeris后，Codex秒变金融数据分析师",
+      "description": "3小时变30秒：接入QVeris后，Codex秒变金融数据分析师",
+      "pubDate": "2026-05-19",
+      "heroImage": "../../../assets/blog-3-30-qveris-codex-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "agent-qveris-2",
+      "sourceFile": "agent-qveris-2.md",
+      "title": "做投研 Agent 缺财报电话会议这块数据吗？QVeris 已经全接好了",
+      "description": "做投研 Agent 缺财报电话会议这块数据吗？QVeris 已经全接好了",
+      "pubDate": "2026-05-18",
+      "heroImage": "../../../assets/blog-agent-qveris-2-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484762",
+      "sourceFile": "qveris-wechat-2247484762.md",
+      "title": "你查一次股票数据，到底花了多少钱？",
+      "description": "你查一次股票数据，到底花了多少钱？",
+      "pubDate": "2026-05-12",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484762-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "hermes-24",
+      "sourceFile": "hermes-24.md",
+      "title": "如何用 Hermes 实现 A 股数据自由：24 小时智能分析实战指南",
+      "description": "如何用 Hermes 实现 A 股数据自由：24 小时智能分析实战指南",
+      "pubDate": "2026-05-08",
+      "heroImage": "../../../assets/blog-hermes-24-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "openclaw-vs-hermes",
+      "sourceFile": "openclaw-vs-hermes.md",
+      "title": "OpenClaw vs Hermes：金融分析谁更强？",
+      "description": "OpenClaw vs Hermes：金融分析谁更强？",
+      "pubDate": "2026-05-05",
+      "heroImage": "../../../assets/blog-openclaw-vs-hermes-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-agent",
+      "sourceFile": "qveris-agent.md",
+      "title": "QVeris 计费升级：让你清楚Agent的每一次付费",
+      "description": "QVeris 计费升级：让你清楚Agent的每一次付费",
+      "pubDate": "2026-04-30",
+      "heroImage": "../../../assets/blog-qveris-agent-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-ai-agent",
+      "sourceFile": "qveris-ai-agent.md",
+      "title": "QVeris AI 与网宿科技达成战略合作：共建 Agent 时代的行动基础设施",
+      "description": "QVeris AI 与网宿科技达成战略合作：共建 Agent 时代的行动基础设施",
+      "pubDate": "2026-04-27",
+      "heroImage": "../../../assets/blog-qveris-ai-agent-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484581",
+      "sourceFile": "qveris-wechat-2247484581.md",
+      "title": "QVeris —— 让量化平权",
+      "description": "QVeris —— 让量化平权",
+      "pubDate": "2026-04-23",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484581-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "10-cci-305",
+      "sourceFile": "10-cci-305.md",
+      "title": "开盘10分钟CCI飙到305，是追还是撤？",
+      "description": "开盘10分钟CCI飙到305，是追还是撤？",
+      "pubDate": "2026-04-22",
+      "heroImage": "../../../assets/blog-10-cci-305-hero.jpg",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484519",
+      "sourceFile": "qveris-wechat-2247484519.md",
+      "title": "散户看不到的盘口真相：分钟级行情里藏着什么信号？",
+      "description": "散户看不到的盘口真相：分钟级行情里藏着什么信号？",
+      "pubDate": "2026-04-21",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484519-hero.jpg",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "ai-deepseek",
+      "sourceFile": "ai-deepseek.md",
+      "title": "问AI\"今天股价多少\"，为什么DeepSeek、豆包给不出答案？",
+      "description": "问AI\"今天股价多少\"，为什么DeepSeek、豆包给不出答案？",
+      "pubDate": "2026-04-20",
+      "heroImage": "../../../assets/blog-ai-deepseek-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484477",
+      "sourceFile": "qveris-wechat-2247484477.md",
+      "title": "茅台股价临近1400，现在能抄底吗？一份数据实测报告",
+      "description": "茅台股价临近1400，现在能抄底吗？一份数据实测报告",
+      "pubDate": "2026-04-19",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484477-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-greeks",
+      "sourceFile": "qveris-greeks.md",
+      "title": "QVeris上新 | 一键解锁期权交易的核心密码：Greeks与隐含波动率工具上线",
+      "description": "QVeris上新 | 一键解锁期权交易的核心密码：Greeks与隐含波动率工具上线",
+      "pubDate": "2026-04-16",
+      "heroImage": "../../../assets/blog-qveris-greeks-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-t",
+      "sourceFile": "qveris-t.md",
+      "title": "QVeris重磅上线！期权链(T型报价)数据查询工具全解析",
+      "description": "QVeris重磅上线！期权链(T型报价)数据查询工具全解析",
+      "pubDate": "2026-04-15",
+      "heroImage": "../../../assets/blog-qveris-t-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "5-hermes-qveris-cli-prompt",
+      "sourceFile": "5-hermes-qveris-cli-prompt.md",
+      "title": "5分钟让Hermes自己装QVeris CLI：一句prompt就够了",
+      "description": "5分钟让Hermes自己装QVeris CLI：一句prompt就够了",
+      "pubDate": "2026-04-14",
+      "heroImage": "../../../assets/blog-5-hermes-qveris-cli-prompt-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484379",
+      "sourceFile": "qveris-wechat-2247484379.md",
+      "title": "QVeris上新｜A股新增数据工具集 -- 用户使用指南",
+      "description": "QVeris上新｜A股新增数据工具集 -- 用户使用指南",
+      "pubDate": "2026-04-14",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484379-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "capability-explorer",
+      "sourceFile": "capability-explorer.md",
+      "title": "Capability Explorer：让你的智能体看见每一个可用的能力",
+      "description": "Capability Explorer 是一张可浏览、可检索、可一键测试的能力全景地图，让智能体看得见 QVeris 网络中每一个真实且已验证的能力。",
+      "pubDate": "2026-04-12",
+      "heroImage": "../../../assets/blog-capability-explorer-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "capability-explorer",
+        "agent",
+        "qveris",
+        "api"
+      ],
+      "featured": true,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484280",
+      "sourceFile": "qveris-wechat-2247484280.md",
+      "title": "QVeris发布智能体能力地图",
+      "description": "QVeris发布智能体能力地图",
+      "pubDate": "2026-04-12",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484280-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-cli",
+      "sourceFile": "qveris-cli.md",
+      "title": "QVeris CLI：让终端成为你的万能 API 入口",
+      "description": "QVeris CLI 让命令行成为你的万能 API 入口 —— 一条命令，即可调用上万种工具与服务。",
+      "pubDate": "2026-04-07",
+      "heroImage": "../../../assets/blog-qveris-cli-cover-cn.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "cli",
+        "qveris",
+        "终端",
+        "开发者工具"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "openclaw-qveris-finance-guide",
+      "sourceFile": "openclaw-qveris-finance-guide.md",
+      "title": "OpenClaw 配置 QVeris 全能力指南【金融分析篇】",
+      "description": "OpenClaw 接入 QVeris 全能力的金融分析配置指南，覆盖关键插件、典型工作流与实操示例。",
+      "pubDate": "2026-04-01",
+      "heroImage": "../../../assets/blog-openclaw-qveris-finance-guide-cover-cn.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "openclaw",
+        "qveris",
+        "金融",
+        "教程"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-hsjy-wind-alternative",
+      "sourceFile": "qveris-hsjy-wind-alternative.md",
+      "title": "想做 A 股量化但不想花几万买 Wind，怎么办？恒生聚源实测",
+      "description": "想做 A 股量化但又不想花几万买 Wind？我们用恒生聚源做了一次完整的实测对比。",
+      "pubDate": "2026-04-01",
+      "heroImage": "../../../assets/blog-qveris-hsjy-wind-alternative-cover-cn.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "a股",
+        "量化",
+        "qveris",
+        "金融"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-twelve-data",
+      "sourceFile": "qveris-twelve-data.md",
+      "title": "QVeris 接入 Twelve Data：一个接口查完美股、外汇、黄金和比特币",
+      "description": "QVeris 接入 Twelve Data：一个接口查完美股、外汇、黄金与比特币的完整行情。",
+      "pubDate": "2026-04-01",
+      "heroImage": "../../../assets/blog-qveris-twelve-data-cover-cn.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "twelve-data",
+        "qveris",
+        "金融"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "former-liblib-cto-agent-infra",
+      "sourceFile": "former-liblib-cto-agent-infra.md",
+      "title": "前 Liblib CTO 创业，打造 Agent 时代的基础设施，可秒级调用上万种工具",
+      "description": "前 Liblib CTO 重新出发，创立 QVeris，打造 Agent 时代的行动基础设施 —— 让智能体在毫秒间调用上万种工具。",
+      "pubDate": "2026-03-24",
+      "heroImage": "../../../assets/blog-former-liblib-cto-agent-infra-1.png",
+      "category": "Announcement",
+      "author": "QVeris Team",
+      "tags": [
+        "qveris",
+        "创始团队",
+        "智能体基础设施"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-in-cursor",
+      "sourceFile": "qveris-in-cursor.md",
+      "title": "如何在 Cursor 中使用 QVeris",
+      "description": "在 Cursor 中接入 QVeris 的完整教程：安装插件、获取 API Key、调用真实工具一气呵成。",
+      "pubDate": "2026-03-24",
+      "heroImage": "../../../assets/blog-qveris-in-cursor-1.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "cursor",
+        "qveris",
+        "教程"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "why-not-another-langchain",
+      "sourceFile": "why-not-another-langchain.md",
+      "title": "为什么我们不做 LangChain：一个关于智能体自主运行的底层判断",
+      "description": "我们对智能体自主运行的底层判断：为什么我们刻意没有去做又一个 LangChain。",
+      "pubDate": "2026-03-24",
+      "heroImage": "../../../assets/blog-why-not-another-langchain-cover-cn.png",
+      "category": "Research",
+      "author": "QVeris Team",
+      "tags": [
+        "langchain",
+        "智能体",
+        "架构"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "agent-action-long-term",
+      "sourceFile": "agent-action-long-term.md",
+      "title": "Agent, Action！我们想把 AI Agent 的行动这件事做成长期的",
+      "description": "Agent, Action！我们决定把 AI Agent 的『行动』这件事做成一件长期、根本的事。",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-agent-action-long-term-1.jpg",
+      "category": "Announcement",
+      "author": "QVeris Team",
+      "tags": [
+        "qveris",
+        "愿景",
+        "智能体"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "agents-become-species",
+      "sourceFile": "agents-become-species.md",
+      "title": "当 Agent 成为一个物种",
+      "description": "深入剖析正在崛起的 AI Agent 生态：智能体不仅需要更聪明的大脑，更需要一整套基础设施。",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-agents-become-species-hero.png",
+      "category": "Research",
+      "author": "QVeris Team",
+      "tags": [
+        "智能体",
+        "生态",
+        "基础设施"
+      ],
+      "featured": true,
+      "preview": false
+    },
+    {
+      "slug": "clawdbot-qveris-anything",
+      "sourceFile": "clawdbot-qveris-anything.md",
+      "title": "Clawdbot ＋ QVeris，让你的 AI 无所不能",
+      "description": "把 Clawdbot 接上 QVeris，让你的 AI 助手真正具备调用上万种工具的能力。",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-clawdbot-qveris-anything-1.jpg",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "clawdbot",
+        "qveris",
+        "教程"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "openclaw-a-shares-data",
+      "sourceFile": "openclaw-a-shares-data.md",
+      "title": "让你的 OpenClaw 一句话接入 A 股数据，实现 24 小时股票分析自由",
+      "description": "一句话让你的 OpenClaw 接入 A 股实时数据，实现 24 小时不间断的股票分析自由。",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-openclaw-a-shares-data-1.jpg",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "openclaw",
+        "金融",
+        "a股",
+        "教程"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "openclaw-a-shares-finance-assistant",
+      "sourceFile": "openclaw-a-shares-finance-assistant.md",
+      "title": "OpenClaw + A 股：零门槛打造 24h 智能金融助手",
+      "description": "用 OpenClaw + QVeris 零门槛打造一个 24 小时在线的智能 A 股金融助手。",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-openclaw-a-shares-finance-assistant-1.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "openclaw",
+        "金融",
+        "a股",
+        "教程"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-cocreation-camp",
+      "sourceFile": "qveris-cocreation-camp.md",
+      "title": "QVeris AI 共创营招募｜一起让你的 AI Agent 行动起来",
+      "description": "QVeris AI 共创营招募｜一起把你的 AI Agent 真正『行动』起来。",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-qveris-cocreation-camp-1.jpg",
+      "category": "Announcement",
+      "author": "QVeris Team",
+      "tags": [
+        "共创营",
+        "qveris",
+        "招募"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-fmp-finance",
+      "sourceFile": "qveris-fmp-finance.md",
+      "title": "从 FMP 开始，让 Agent 真正看见金融世界",
+      "description": "用 QVeris 接入 FMP，让你的 Agent 真正看见全球金融世界的每一个数据节点。",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-qveris-fmp-finance-1.jpg",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "fmp",
+        "qveris",
+        "金融"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-friends-hackathon",
+      "sourceFile": "qveris-friends-hackathon.md",
+      "title": "QVeris Friends 黑客松：Agent, Action！",
+      "description": "QVeris Friends 黑客松正式启动 —— Agent, Action！欢迎加入这场关于『行动』的创造之旅。",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-qveris-friends-hackathon-1.png",
+      "category": "Announcement",
+      "author": "QVeris Team",
+      "tags": [
+        "黑客松",
+        "qveris",
+        "活动"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-hackathon-projects",
+      "sourceFile": "qveris-hackathon-projects.md",
+      "title": "4 小时，10 个 Agent 项目 —— 获奖项目详解",
+      "description": "QVeris 黑客松全记录：4 小时内诞生的 10 个 Agent 项目，逐一解读获奖作品。",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-qveris-hackathon-projects-1.jpg",
+      "category": "Announcement",
+      "author": "QVeris Team",
+      "tags": [
+        "黑客松",
+        "qveris",
+        "案例"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-mapstory-history",
+      "sourceFile": "qveris-mapstory-history.md",
+      "title": "从纸上谈兵到时空漫游：QVeris 如何赋能 MapStory 重塑历史叙事",
+      "description": "QVeris 如何赋能 MapStory：从纸上谈兵到时空漫游，用 Agent 重塑历史叙事的全新方式。",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-qveris-mapstory-history-1.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "mapstory",
+        "qveris",
+        "案例"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-skill-for-openclaw",
+      "sourceFile": "qveris-skill-for-openclaw.md",
+      "title": "QVeris 官方 Skill 正式发布",
+      "description": "QVeris 官方 Skill 正式上线 OpenClaw：一行命令，让你的智能体拥有上万种工具的调用能力。",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-qveris-skill-for-openclaw-hero.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "openclaw",
+        "skill",
+        "qveris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-tripadvisor-travel",
+      "sourceFile": "qveris-tripadvisor-travel.md",
+      "title": "现在可以免费用 Tripadvisor，让你的 Agent 立即接入旅行世界",
+      "description": "Tripadvisor 现已免费接入 QVeris，让你的智能体立刻拥有完整的旅行世界视野。",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-qveris-tripadvisor-travel-1.jpg",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "tripadvisor",
+        "qveris",
+        "旅行"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qverisbot-10000-tools",
+      "sourceFile": "qverisbot-10000-tools.md",
+      "title": "QVerisBot 深度介绍：给 AI 装上万能工具箱的个人助手",
+      "description": "QVerisBot 深度介绍：一款开箱即用、可调用上万种工具与 API 的个人 AI 助手。",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-qverisbot-10000-tools-1.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "qverisbot",
+        "ai-助手",
+        "工具"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qverisbot-feishu-deploy",
+      "sourceFile": "qverisbot-feishu-deploy.md",
+      "title": "QVerisBot（Clawdbot 增强版）从 0 到 1 飞书部署指南",
+      "description": "QVerisBot（Clawdbot 增强版）从 0 到 1 在飞书完成部署的完整实操指南。",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-qverisbot-feishu-deploy-1.jpg",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "qverisbot",
+        "clawdbot",
+        "飞书",
+        "部署",
+        "教程"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "trillion-agents-software-industry",
+      "sourceFile": "trillion-agents-software-industry.md",
+      "title": "万亿级 AI Agent 正在到来：软件行业即将彻底改变",
+      "description": "万亿级 AI Agent 正在到来：软件行业即将被彻底重塑，本文剖析这场变革的底层逻辑。",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-trillion-agents-software-industry-1.jpg",
+      "category": "Research",
+      "author": "QVeris Team",
+      "tags": [
+        "智能体",
+        "软件行业",
+        "趋势"
+      ],
+      "featured": false,
+      "preview": false
+    }
+  ]
+}
