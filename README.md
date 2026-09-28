@@ -83,6 +83,7 @@ src/
 | `pnpm dev`     | Local dev server (default port 4321) |
 | `pnpm build`   | Production build to `./dist/`        |
 | `pnpm preview` | Preview the production build locally |
+| `pnpm blog:manifest` | Regenerate the committed blog metadata manifests |
 
 ### Adding a Blog Post
 
@@ -103,7 +104,13 @@ src/
    ---
    ```
 3. Write content in Markdown/MDX
-4. Run `pnpm build` to verify
+4. Run `pnpm blog:manifest` and commit both locale manifests
+5. Run `pnpm build` to verify
+
+The committed `src/content/blog/en/posts.json` and
+`src/content/blog/cn/posts.json` files are the metadata indexes consumed by the
+QVeris website. The production build fails when either file is missing or stale,
+so every content change must include the regenerated manifests.
 
 ## Deployment
 

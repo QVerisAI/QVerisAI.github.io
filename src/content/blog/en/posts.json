@@ -1,0 +1,1529 @@
+{
+  "posts": [
+    {
+      "slug": "agent-financial-tools-retrieval",
+      "sourceFile": "agent-financial-tools-retrieval.md",
+      "title": "How Does an Agent Find the Right Interface Among 10,000+ Financial Tools?",
+      "description": "A financial agent sits behind an interface network, not a single API. QVeris turns finding the right interface into a verifiable retrieval chain that translates plain language into correct calls — and honestly explains why something is not found.",
+      "pubDate": "2026-08-10",
+      "heroImage": "../../../assets/blog-agent-financial-tools-retrieval-cover-en.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "Finance",
+        "QVeris",
+        "tool-retrieval，api"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "agent-plugins-1-0-release",
+      "sourceFile": "agent-plugins-1-0-release.md",
+      "title": "Agent Plugins 1.0 Is Here: Write Once, Distribute Everywhere",
+      "description": "On August 5, 2026, Agent Plugins 1.0.0 shipped: a portable directory format that packages Agent Skills and MCP servers, so the same extension can be discovered and loaded across different clients.",
+      "pubDate": "2026-08-08",
+      "heroImage": "../../../assets/blog-agent-plugins-1-0-release-cover-en.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent Plugins",
+        "MCP",
+        "Agent Skills",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "workbuddy-qveris-hosted-mcp",
+      "sourceFile": "workbuddy-qveris-hosted-mcp.md",
+      "title": "One URL Turns WorkBuddy into an Execution Agent That Queries Live Data, Runs Analysis, and Delivers Reports",
+      "description": "With just a URL and an API key—no server to deploy, no code to write—WorkBuddy can tap into 10,000+ external capabilities to retrieve real-time information, analyze markets and competitors, process PDF/OCR, and automatically produce reports, Excel files, and PPTs.",
+      "pubDate": "2026-08-05",
+      "heroImage": "../../../assets/blog-workbuddy-qveris-hosted-mcp-cover-en.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "workbuddy",
+        "mcp",
+        "qveris",
+        "tutorial",
+        "agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "model-harness-financial-research-agent",
+      "sourceFile": "model-harness-financial-research-agent.md",
+      "title": "The Stronger the Model, the More Important the Harness: What Financial Research Agents Reveal About the Engineering Boundary of Next-Generation AI Systems",
+      "description": "Why production-grade AI agents need a harness that governs facts, actions, state, and publication, especially in financial research.",
+      "pubDate": "2026-08-02",
+      "heroImage": "../../../assets/blog-model-harness-financial-research-agent-cover-en.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent",
+        "Harness"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-hosted-mcp-coding-agent-guide",
+      "sourceFile": "qveris-hosted-mcp-coding-agent-guide.md",
+      "title": "Connect Coding Agents to 10,000+ External Capabilities with QVeris Hosted MCP",
+      "description": "A practical guide to connecting QVeris Hosted MCP to Codex, Claude Code, and Cursor, with configuration, security, cost control, and engineering use cases.",
+      "pubDate": "2026-07-29",
+      "heroImage": "../../../assets/blog-qveris-hosted-mcp-coding-agent-guide-cover-en.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris Hosted MCP",
+        "coding-agent",
+        "mcp",
+        "qveris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "ai-infrastructure-earnings-copilot",
+      "sourceFile": "ai-infrastructure-earnings-copilot.md",
+      "title": "The AI Infrastructure Earnings Chain Is Printing High Gross Margins",
+      "description": "From communication towers to fuel cells, hard drives, and fiber optics, AI infrastructure profits are showing up across the supply chain.",
+      "pubDate": "2026-07-28",
+      "heroImage": "../../../assets/blog-ai-infrastructure-earnings-copilot-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris，Financial Report"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-oauth-agent-api-key",
+      "sourceFile": "qveris-oauth-agent-api-key.md",
+      "title": "Stop Asking Users to Paste API Keys into AI Agents: Connect to QVeris Securely with OAuth",
+      "description": "Replace long-lived API keys with QVeris OAuth so agent products get explicit, revocable, and auditable access boundaries.",
+      "pubDate": "2026-07-28",
+      "heroImage": "../../../assets/blog-qveris-oauth-agent-api-key-cover-en.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "OAuth",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "harness-engineering-financial-agent-identity",
+      "sourceFile": "harness-engineering-financial-agent-identity.md",
+      "title": "Harrrrrr... Right, I Was Thinking Harness from the Start",
+      "description": "How 10 extra tokens moved company identity checks into the tool layer and protected high-value financial agent reports.",
+      "pubDate": "2026-07-27",
+      "heroImage": "../../../assets/blog-harness-engineering-financial-agent-identity-cover-en.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "Tool Calling",
+        "agent",
+        "agent tools",
+        "financial data",
+        "harness",
+        "qveris",
+        "金融数据"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "agent-tool-use-quality",
+      "sourceFile": "agent-tool-use-quality.md",
+      "title": "Why an Agent Can Find a Tool but Still Fail to Use It Well",
+      "description": "A practical framework for evaluating Agent tool use across relevance, contracts, operating quality, and execution semantics.",
+      "pubDate": "2026-07-26",
+      "heroImage": "../../../assets/blog-agent-tool-use-quality-cover-en.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "Data Tools",
+        "QVeris",
+        "tools"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "openai-agent-qveris-auditable-toolchain",
+      "sourceFile": "openai-agent-qveris-auditable-toolchain.md",
+      "title": "After an OpenAI Agent “Lost Control,” I Used QVeris to Build an Auditable Tool-Calling Chain",
+      "description": "When AI agents start calling tools, accessing the web, and executing tasks on their own, teams need to see what was called, why it was called, what it cost, and whether the result can be verified.",
+      "pubDate": "2026-07-23",
+      "heroImage": "../../../assets/blog-openai-agent-qveris-auditable-toolchain-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris",
+        "Tool Calling",
+        "tools"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-agent-tool-discover-inspect-call-cost",
+      "sourceFile": "qveris-agent-tool-discover-inspect-call-cost.md",
+      "title": "Before an Agent Calls a Tool, It Should Know Three Things: Can It Be Used, How Should It Be Called, and What Will It Cost?",
+      "description": "QVeris separates tool use into Discover, Inspect, and Call so agents can make checkable, confirmable, and traceable decisions before execution and billing.",
+      "pubDate": "2026-07-23",
+      "heroImage": "../../../assets/blog-qveris-agent-tool-discover-inspect-call-cost-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "CLI",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "google-tesla-q2-a-share-semiconductor",
+      "sourceFile": "google-tesla-q2-a-share-semiconductor.md",
+      "title": "Google Cloud Jumped 82%, Tesla EPS Was Cut in Half: What Last Night's Earnings Really Signal for A-Share Semiconductors",
+      "description": "A QVeris Earnings Copilot walkthrough of how Google and Tesla's Q2 results reshape the short- and medium-term signal for China's semiconductor chain.",
+      "pubDate": "2026-07-22",
+      "heroImage": "../../../assets/blog-google-tesla-q2-a-share-semiconductor-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "a股，Financial Report",
+        "earnings",
+        "finance",
+        "qveris",
+        "semiconductors",
+        "半导体"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-ai-tech-stock-selloff",
+      "sourceFile": "qveris-ai-tech-stock-selloff.md",
+      "title": "Recently, Tech Stocks Have Sold Off. Is the AI Trade Over?",
+      "description": "After the selloff in tech stocks, QVeris separates AI demand, semiconductor valuations, and cash-flow quality to assess what has really changed.",
+      "pubDate": "2026-07-22",
+      "heroImage": "../../../assets/blog-qveris-ai-tech-stock-selloff-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris",
+        "Stock",
+        "Technology stocks"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "ai-compute-horror-radar",
+      "sourceFile": "ai-compute-horror-radar.md",
+      "title": "We Built an AI Compute \"Ghost Story\" Radar",
+      "description": "Why does one news headline make GPUs, HBM, data centers, power, and ETFs all react simultaneously?",
+      "pubDate": "2026-07-19",
+      "heroImage": "../../../assets/blog-ai-compute-horror-radar-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "Finance",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "financial-data-point-review-agent",
+      "sourceFile": "financial-data-point-review-agent.md",
+      "title": "When AI Can Check 24 Financial Data Points One by One, Intelligent Investment Research Gains Real Fundamentals",
+      "description": "Intelligent investment research products are evolving from \"writing analysis\" to \"conducting research.\"",
+      "pubDate": "2026-07-18",
+      "heroImage": "../../../assets/blog-financial-data-point-review-agent-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "market-sentiment-api-trading-agents",
+      "sourceFile": "market-sentiment-api-trading-agents.md",
+      "title": "Market Sentiment API: Teaching Trading Agents to Read Fear, Greed, and News Tone",
+      "description": "A trading agent focused solely on price often only realizes what has happened after market movements have occurred.",
+      "pubDate": "2026-07-18",
+      "heroImage": "../../../assets/blog-market-sentiment-api-trading-agents-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "gei-coding-agent-jie-shang-10-000-zhong-fb0bca",
+      "sourceFile": "gei-coding-agent-jie-shang-10-000-zhong-fb0bca.md",
+      "title": "Connect Coding Agents to 10,000+ External Capabilities: A Practical QVeris Hosted MCP Tutorial",
+      "description": "Codex, Claude Code, and Cursor can read code, edit files, and run tests, but tasks that depend on external information still expose clear capability boundaries.",
+      "pubDate": "2026-07-17",
+      "heroImage": "../../../assets/blog-gei-coding-agent-jie-shang-10-000-zhong-fb0bca-1.png",
+      "category": "MCP",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "Data Tools",
+        "MCP",
+        "tools",
+        "数据工具"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-playground-new-models",
+      "sourceFile": "qveris-playground-new-models.md",
+      "title": "New Large Models Do More Than Chat: Try Kimi K3, Claude Fable 5, and GPT-5.6-Sol in QVeris.ai Playground",
+      "description": "As new model releases accelerate, what truly impacts user experience is no longer just \"whether the model appears i",
+      "pubDate": "2026-07-17",
+      "heroImage": "../../../assets/blog-qveris-playground-new-models-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "financial-skill-qveris-agent",
+      "sourceFile": "financial-skill-qveris-agent.md",
+      "title": "After Financial Skills Connect to QVeris, AI Finally Does More Than Write Reports",
+      "description": "Over the past period, I focused on refactoring and testing a batch of Financial Skills.",
+      "pubDate": "2026-07-14",
+      "heroImage": "../../../assets/blog-financial-skill-qveris-agent-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris",
+        "skill"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "film-box-office-stock-qveris",
+      "sourceFile": "film-box-office-stock-qveris.md",
+      "title": "Box Office Is Heating Up. Why Are Film Stocks Not Rising Too? I Re-ran Four Companies with QVeris",
+      "description": "**The question I left open three weeks ago, now answered.**",
+      "pubDate": "2026-07-13",
+      "heroImage": "../../../assets/blog-film-box-office-stock-qveris-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris",
+        "数据工具"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "typhoon-bavi-stock-market-qveris",
+      "sourceFile": "typhoon-bavi-stock-market-qveris.md",
+      "title": "Do Typhoons Affect the Stock Market? Using QVeris to Revisit Typhoon Bavi",
+      "description": "At 11:20 PM on July 11, the super typhoon \"Bawee\" made landfall in Yuhuan, Zhejiang, with maximum wind force of 14",
+      "pubDate": "2026-07-12",
+      "heroImage": "../../../assets/blog-typhoon-bavi-stock-market-qveris-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "Data Tools",
+        "Finance",
+        "Finance Agent",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "loop-engineering-continuous-completion",
+      "sourceFile": "loop-engineering-continuous-completion.md",
+      "title": "Loop Engineering: From \"Completing Once\" to \"Continuously Getting Things Done\"",
+      "description": "> When Agents no longer rely on human prompts for each iteration, the focus shifts from designing just a Prompt to",
+      "pubDate": "2026-07-11",
+      "heroImage": "../../../assets/blog-loop-engineering-continuous-completion-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris",
+        "agent",
+        "tools"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "codex-sites-qveris-demo",
+      "sourceFile": "codex-sites-qveris-demo.md",
+      "title": "Building a QVeris-Powered Demo Site with Codex Sites",
+      "description": "Many demo sites suffer not from poor aesthetics, but from being purely visual—users see a polished dashboard but ca",
+      "pubDate": "2026-07-10",
+      "heroImage": "../../../assets/blog-codex-sites-qveris-demo-1.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris",
+        "案例"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "financial-ai-data-harness-verification",
+      "sourceFile": "financial-ai-data-harness-verification.md",
+      "title": "From 2.34% to 23.4%: How Data Harness Prevents Financial AI Errors",
+      "description": "How QVeris Data Harness uses evidence packets, claim checking, and explicit verification states to stop correct financial data from becoming incorrect reports.",
+      "pubDate": "2026-07-09",
+      "heroImage": "../../../assets/blog-financial-ai-data-harness-verification-cover.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent",
+        "Finance",
+        "Data Harness"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-backtesting-data-first",
+      "sourceFile": "qveris-backtesting-data-first.md",
+      "title": "Backtesting with QVeris Data: Understand the Data Before Trusting the Curve",
+      "description": "Many people conducting factor or strategy backtests want to see the profit curve first. However, a truly valuable b",
+      "pubDate": "2026-07-09",
+      "heroImage": "../../../assets/blog-qveris-backtesting-data-first-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "finance-agent-identity-boundaries",
+      "sourceFile": "finance-agent-identity-boundaries.md",
+      "title": "Why Do Top Global Models Still Score Below 58% on Financial Analysis?",
+      "description": "From Vals Finance Agent v2 to two public-question retests: the weakness of financial agents may be object identification, not analysis.",
+      "pubDate": "2026-07-05",
+      "heroImage": "../../../assets/blog-finance-agent-identity-boundaries-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-ai-options-assistant",
+      "sourceFile": "qveris-ai-options-assistant.md",
+      "title": "We Built an AI Options Assistant with QVeris",
+      "description": "A financial AI product experiment that turns one market view into data, strategies, simulations, and risk boundaries.",
+      "pubDate": "2026-07-03",
+      "heroImage": "../../../assets/blog-qveris-ai-options-assistant-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "agent-execution-ledger",
+      "sourceFile": "agent-execution-ledger.md",
+      "title": "Agents Need More Than Tool Calls. They Need Execution Ledgers.",
+      "description": "Once agents enter business workflows, every execution needs a reviewable, reusable, and transferable ledger.",
+      "pubDate": "2026-07-02",
+      "heroImage": "../../../assets/blog-agent-execution-ledger-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-alpha-picks-ichr-review",
+      "sourceFile": "qveris-alpha-picks-ichr-review.md",
+      "title": "What Does QVeris Think of Alpha Picks’ Latest Recommendation?",
+      "description": "After Alpha Picks marked Ichor as a buy, we used QVeris to review ICHR with sources, tool calls, and an audit trail.",
+      "pubDate": "2026-07-01",
+      "heroImage": "../../../assets/blog-qveris-alpha-picks-ichr-review-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "ai-supply-chain-bottleneck-research-sop",
+      "sourceFile": "ai-supply-chain-bottleneck-research-sop.md",
+      "title": "How I Used Codex + QVeris to Build an AI Supply Chain Bottleneck Research SOP",
+      "description": "A hands-on review: from installing a Skill and configuring an API key to generating an investment research memo.",
+      "pubDate": "2026-06-30",
+      "heroImage": "../../../assets/blog-ai-supply-chain-bottleneck-research-sop-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "financial-agent-metric-alignment",
+      "sourceFile": "financial-agent-metric-alignment.md",
+      "title": "Financial Agents Must Do More Than Fetch Data. They Must Align Definitions.",
+      "description": "Financial agents need to turn data into definition contracts that are explainable, computable, and verifiable.",
+      "pubDate": "2026-06-29",
+      "heroImage": "../../../assets/blog-financial-agent-metric-alignment-cover-en.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent",
+        "Finance"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "financial-agent-failure-recovery",
+      "sourceFile": "financial-agent-failure-recovery.md",
+      "title": "The Next Step for Financial Agents: Not Just Better Answers, but Recovery After Failure",
+      "description": "Financial agents need more than polished answers: they need research workflows that are traceable, recoverable, and reviewable.",
+      "pubDate": "2026-06-26",
+      "heroImage": "../../../assets/blog-financial-agent-failure-recovery-cover-en.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent",
+        "Finance"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "cong-yi-ci-xing-prompt-dao-lian-xu-gong-7933db",
+      "sourceFile": "cong-yi-ci-xing-prompt-dao-lian-xu-gong-7933db.md",
+      "title": "From One-Off Prompts to Continuous Workflows: Why Investment Research Agents Need a Durable Data Entry Point",
+      "description": "Investment research agents need trusted, traceable, reusable data more than polished one-off analysis.",
+      "pubDate": "2026-06-24",
+      "heroImage": "../../../assets/blog-cong-yi-ci-xing-prompt-dao-lian-xu-gong-7933db-cover-en.png",
+      "category": "Agent",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "Quant",
+        "Finance"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "prompt-layering-for-tool-calling",
+      "sourceFile": "prompt-layering-for-tool-calling.md",
+      "title": "As Tool Counts Grow, Prompts Need Layered Management",
+      "description": "As tool counts grow, prompts need layered management",
+      "pubDate": "2026-06-23",
+      "heroImage": "../../../assets/blog-prompt-layering-for-tool-calling-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-ai-stock-research-assistant",
+      "sourceFile": "qveris-ai-stock-research-assistant.md",
+      "title": "I Used QVeris as an AI Stock Research Assistant: Start with Industry Valuation, Then Filter Companies with a Screener",
+      "description": "A stock research assistant workflow that starts with industry valuation and then narrows candidates with QVeris screening tools.",
+      "pubDate": "2026-06-21",
+      "heroImage": "../../../assets/blog-qveris-ai-stock-research-assistant-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-sports-tool-workflow",
+      "sourceFile": "qveris-sports-tool-workflow.md",
+      "title": "What QVeris Sports Tools Can Do: From Score Lookup to Pre-Match Intelligence Workflows",
+      "description": "An overview of QVeris sports tools, from score lookup to pre-match intelligence workflows and multi-sport data retrieval.",
+      "pubDate": "2026-06-20",
+      "heroImage": "../../../assets/blog-qveris-sports-tool-workflow-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-explainable-research-workflow",
+      "sourceFile": "qveris-explainable-research-workflow.md",
+      "title": "QVeris: From Information Overload to an Explainable Research Workflow",
+      "description": "How QVeris turns messy financial information into an explainable research workflow with sources, calls, and evidence.",
+      "pubDate": "2026-06-19",
+      "heroImage": "../../../assets/blog-qveris-explainable-research-workflow-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "enterprise-trustworthy-agent-evidence",
+      "sourceFile": "enterprise-trustworthy-agent-evidence.md",
+      "title": "What Enterprise-Grade Trustworthy Agents Lack Is Not Answers, but Evidence",
+      "description": "What enterprise-grade trustworthy Agents lack is not answers, but evidence",
+      "pubDate": "2026-06-18",
+      "heroImage": "../../../assets/blog-enterprise-trustworthy-agent-evidence-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-world-cup-signal-workflow",
+      "sourceFile": "qveris-world-cup-signal-workflow.md",
+      "title": "I Asked QVeris to Predict the World Cup Champion: Not a Superstitious Bet, but an Agent Learning to Use Real-World Signals",
+      "description": "A QVeris case study on turning World Cup champion prediction into a real-world, multi-signal workflow for agents.",
+      "pubDate": "2026-06-17",
+      "heroImage": "../../../assets/blog-qveris-world-cup-signal-workflow-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "anthropic-finance-agent-third-layer",
+      "sourceFile": "anthropic-finance-agent-third-layer.md",
+      "title": "Anthropic Just Open-Sourced a Finance Agent Showroom. We Have Been Building the Most Valuable Third Layer All Along",
+      "description": "Anthropic just open-sourced a finance Agent showroom. We have been building the most valuable third layer all along",
+      "pubDate": "2026-06-16",
+      "heroImage": "../../../assets/blog-anthropic-finance-agent-third-layer-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent",
+        "Finance"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-microsoft-1995",
+      "sourceFile": "qveris-microsoft-1995.md",
+      "title": "I Asked QVeris to Pull Microsoft Historical Data Back to 1995: In Long-Horizon Investment Research, the First Step Is Not Writing a Strategy",
+      "description": "A long-horizon Microsoft data example showing why historical coverage matters before writing an investment strategy.",
+      "pubDate": "2026-06-15",
+      "heroImage": "../../../assets/blog-qveris-microsoft-1995-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-apple-fundamentals-workflow",
+      "sourceFile": "qveris-apple-fundamentals-workflow.md",
+      "title": "I Had QVeris Read Apple’s Fundamentals: The Three Statements, As Reported Data, and TTM Metrics Are All Connected",
+      "description": "A walkthrough of using QVeris to connect Apple’s financial statements, reported data, and TTM metrics in one research flow.",
+      "pubDate": "2026-06-14",
+      "heroImage": "../../../assets/blog-qveris-apple-fundamentals-workflow-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "provider-translation-review-skill",
+      "sourceFile": "provider-translation-review-skill.md",
+      "title": "Provider Translation Review: From One Spreadsheet Revision to a Reusable Skill",
+      "description": "How a one-off provider translation review became a reusable skill for checking terminology, copy quality, and multilingual metadata.",
+      "pubDate": "2026-06-13",
+      "heroImage": "../../../assets/blog-provider-translation-review-skill-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-tikhub-content-platform-signals",
+      "sourceFile": "qveris-tikhub-content-platform-signals.md",
+      "title": "QVeris Integrates TikHub: Agents Can Finally Read the Real Momentum of Content Platforms",
+      "description": "How QVeris integrates TikHub so agents can read public content-platform signals across short video, social, local service, and e-commerce workflows.",
+      "pubDate": "2026-06-11",
+      "heroImage": "../../../assets/blog-qveris-tikhub-content-platform-signals-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "TikHub",
+        "Agent",
+        "内容平台"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247485216",
+      "sourceFile": "qveris-wechat-2247485216.md",
+      "title": "Why Financial Agents Are So Hard to Build: A Few Pitfalls We Recently Hit",
+      "description": "A practical discussion of recent pitfalls in financial agents, from tool choice to parameter quality and source verification.",
+      "pubDate": "2026-06-11",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247485216-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-financial-capability-network",
+      "sourceFile": "qveris-financial-capability-network.md",
+      "title": "How QVeris Turns Fragmented APIs into a Financial Capability Network for Agents",
+      "description": "How QVeris turns fragmented APIs into a financial capability network that agents can understand, choose from, call, and verify",
+      "pubDate": "2026-06-10",
+      "heroImage": "../../../assets/blog-qveris-financial-capability-network-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247485152",
+      "sourceFile": "qveris-wechat-2247485152.md",
+      "title": "What to Watch For When Designing a Parameter Repair Pipeline",
+      "description": "Design notes for parameter repair pipelines, including what to log, when to retry, and how to keep failures inspectable.",
+      "pubDate": "2026-06-09",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247485152-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "ai-qveris",
+      "sourceFile": "ai-qveris.md",
+      "title": "Apple Has Laid Out Its AI Hand. Why Isn’t the Market Buying It? I Ran Six Data Checks with QVeris",
+      "description": "A six-check QVeris workflow for examining Apple’s AI narrative through market data, fundamentals, and investor signals.",
+      "pubDate": "2026-06-08",
+      "heroImage": "../../../assets/blog-ai-qveris-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "codex-token",
+      "sourceFile": "codex-token.md",
+      "title": "The Longer You Use Codex, the More You Need to Save Tokens",
+      "description": "The longer you use Codex, the more you need to save tokens",
+      "pubDate": "2026-06-07",
+      "heroImage": "../../../assets/blog-codex-token-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247485112",
+      "sourceFile": "qveris-wechat-2247485112.md",
+      "title": "Stop Letting AI Make Up Financial Analysis: I Built a Small Assistant That Finds Data Sources First",
+      "description": "A small assistant design that forces financial analysis to find data sources before generating conclusions.",
+      "pubDate": "2026-06-07",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247485112-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247485067",
+      "sourceFile": "qveris-wechat-2247485067.md",
+      "title": "For AI Stock Research, Start by Getting Data Preparation Right",
+      "description": "For AI stock research, start by getting data preparation right",
+      "pubDate": "2026-06-06",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247485067-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "codex-openclaw-qveris-bot",
+      "sourceFile": "codex-openclaw-qveris-bot.md",
+      "title": "A Zero-Code Retail Investor’s Field Test: Building a Stock Research Bot with Codex, OpenClaw, and QVeris. No Price Predictions, Just a Personal Investment Research Workbench",
+      "description": "A zero-code retail investor’s field test: building a stock research Bot with Codex, OpenClaw, and QVeris. No price predictions, just a personal investment research workbench.",
+      "pubDate": "2026-06-04",
+      "heroImage": "../../../assets/blog-codex-openclaw-qveris-bot-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "ai-agent",
+      "sourceFile": "ai-agent.md",
+      "title": "AI Agents Are Everywhere, But What Can They Actually Call?",
+      "description": "AI Agents are everywhere, but what can they actually call?",
+      "pubDate": "2026-06-03",
+      "heroImage": "../../../assets/blog-ai-agent-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-fmp-60",
+      "sourceFile": "qveris-fmp-60.md",
+      "title": "Still Switching Data Sources by Hand for Cross-Border Research? QVeris × FMP Connects 60+ Exchanges Through One Entry Point",
+      "description": "Still switching data sources by hand for cross-border research? QVeris × FMP connects 60+ exchanges through one entry point",
+      "pubDate": "2026-06-03",
+      "heroImage": "../../../assets/blog-qveris-fmp-60-hero.jpg",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "ai-finance-agent-cost-audit",
+      "sourceFile": "ai-finance-agent-cost-audit.md",
+      "title": "Your AI Finance Agent Burns $200 a Day, and $130 Is Waste: A Billing Audit",
+      "description": "A QVeris-based audit of financial data call costs, breaking down the hidden expenses AI finance agents incur across multi-vendor APIs, duplicate queries, and empty returns.",
+      "pubDate": "2026-06-02",
+      "heroImage": "../../../assets/blog-ai-finance-agent-cost-audit-hero.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Finance Agent",
+        "Data Tools",
+        "Cost Optimization",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484977",
+      "sourceFile": "qveris-wechat-2247484977.md",
+      "title": "Less Hallucination, More Real-World Capability for AI",
+      "description": "Less hallucination, more real-world capability for AI",
+      "pubDate": "2026-05-31",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484977-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "agent-qveris",
+      "sourceFile": "agent-qveris.md",
+      "title": "Making Agent Tool Calls More Reliable: What I Have Been Working on at QVeris",
+      "description": "A behind-the-scenes note on making agent tool calls more reliable through better search, parameter handling, and execution traces.",
+      "pubDate": "2026-05-30",
+      "heroImage": "../../../assets/blog-agent-qveris-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484958",
+      "sourceFile": "qveris-wechat-2247484958.md",
+      "title": "Financial AI Must Do More Than Answer. It Must Be Verifiable.",
+      "description": "A QVeris product note on why financial AI must produce verifiable evidence instead of just fluent answers.",
+      "pubDate": "2026-05-28",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484958-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484949",
+      "sourceFile": "qveris-wechat-2247484949.md",
+      "title": "The Hard Part of Building a Financial Agent Is Not Calling Tools. It Is Choosing the Right Ones.",
+      "description": "Why the hard part of building a financial agent is choosing the right tool, not just calling one successfully.",
+      "pubDate": "2026-05-27",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484949-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484942",
+      "sourceFile": "qveris-wechat-2247484942.md",
+      "title": "Starting with a Failed Tool Call: Teaching Agents to Auto-Repair Parameters",
+      "description": "A failed tool-call case study on parameter repair and how agents can recover from malformed financial inputs.",
+      "pubDate": "2026-05-26",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484942-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "mcp-qveris",
+      "sourceFile": "mcp-qveris.md",
+      "title": "Stop Wiring Up MCP Tools Yourself. Use QVeris.",
+      "description": "Why agents often need a unified QVeris data layer instead of manually wiring many separate MCP tools.",
+      "pubDate": "2026-05-24",
+      "heroImage": "../../../assets/blog-mcp-qveris-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484902",
+      "sourceFile": "qveris-wechat-2247484902.md",
+      "title": "Using QVeris to Turn Earnings Call Transcripts into Traceable Investment Research Signals",
+      "description": "Using QVeris to turn earnings call transcripts into traceable investment research signals",
+      "pubDate": "2026-05-23",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484902-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-openclaw-ai-agent",
+      "sourceFile": "qveris-openclaw-ai-agent.md",
+      "title": "QVeris + OpenClaw: Turning a Personal AI Assistant into a Production-Grade Agent",
+      "description": "How QVeris and OpenClaw can turn a personal assistant into a production-grade agent with live external tools.",
+      "pubDate": "2026-05-22",
+      "heroImage": "../../../assets/blog-qveris-openclaw-ai-agent-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "0-1-agent",
+      "sourceFile": "0-1-agent.md",
+      "title": "From 0 to 1: Building a Financial Research Agent and the Pitfalls I Hit",
+      "description": "A practical walkthrough of building a financial research agent from scratch, including data access, tool selection, and workflow pitfalls.",
+      "pubDate": "2026-05-21",
+      "heroImage": "../../../assets/blog-0-1-agent-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "3-30-qveris-codex",
+      "sourceFile": "3-30-qveris-codex.md",
+      "title": "From 3 Hours to 30 Seconds: With QVeris, Codex Becomes a Financial Data Analyst",
+      "description": "How QVeris gives Codex live financial data access and turns a slow manual research task into a short, auditable workflow.",
+      "pubDate": "2026-05-19",
+      "heroImage": "../../../assets/blog-3-30-qveris-codex-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "agent-qveris-2",
+      "sourceFile": "agent-qveris-2.md",
+      "title": "Building an Investment Research Agent and Missing Earnings Call Data? QVeris Has It Covered",
+      "description": "How QVeris helps investment research agents fill gaps such as earnings call data, source discovery, and traceable tool calls.",
+      "pubDate": "2026-05-18",
+      "heroImage": "../../../assets/blog-agent-qveris-2-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484762",
+      "sourceFile": "qveris-wechat-2247484762.md",
+      "title": "How Much Does a Single Stock Data Query Actually Cost?",
+      "description": "A practical cost breakdown of a single stock data query and what agent builders should understand about usage pricing.",
+      "pubDate": "2026-05-12",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484762-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-agent",
+      "sourceFile": "qveris-agent.md",
+      "title": "QVeris Billing Upgrade: Clear Visibility Into Every Agent Charge",
+      "description": "An overview of QVeris billing improvements that make agent usage, charges, and execution records easier to inspect.",
+      "pubDate": "2026-04-30",
+      "heroImage": "../../../assets/blog-qveris-agent-hero.jpg",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "ai-deepseek",
+      "sourceFile": "ai-deepseek.md",
+      "title": "Why Can’t DeepSeek or Doubao Answer “What’s the Stock Price Today?”",
+      "description": "Why general-purpose LLMs struggle with live stock prices, and how QVeris connects agents to fresh market data.",
+      "pubDate": "2026-04-20",
+      "heroImage": "../../../assets/blog-ai-deepseek-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-t",
+      "sourceFile": "qveris-t.md",
+      "title": "QVeris Launches the Option Chain (T-Quote) Data Query Tool: A Complete Guide",
+      "description": "A guide to QVeris option chain data tools and how agents can use T-quote signals in options workflows.",
+      "pubDate": "2026-04-15",
+      "heroImage": "../../../assets/blog-qveris-t-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "Agent",
+        "QVeris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "5-hermes-qveris-cli-prompt",
+      "sourceFile": "5-hermes-qveris-cli-prompt.md",
+      "title": "Install QVeris CLI in Hermes in 5 Minutes: One Prompt Is Enough",
+      "description": "A short setup guide for installing QVeris CLI in Hermes and giving an agent access to live financial data through one prompt.",
+      "pubDate": "2026-04-14",
+      "heroImage": "../../../assets/blog-5-hermes-qveris-cli-prompt-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-wechat-2247484280",
+      "sourceFile": "qveris-wechat-2247484280.md",
+      "title": "QVeris Launches the Agent Capability Map",
+      "description": "QVeris launches the Agent Capability Map",
+      "pubDate": "2026-04-12",
+      "heroImage": "../../../assets/blog-qveris-wechat-2247484280-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "capability-explorer",
+      "sourceFile": "capability-explorer.md",
+      "title": "Capability Explorer: See Everything Your Agent Can Do",
+      "description": "Capability Explorer is an interactive map that lets developers and agents browse, compare, and live-test every real-world verified capability in the QVeris network.",
+      "pubDate": "2026-04-10",
+      "heroImage": "../../../assets/blog-capability-explorer-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "capability-explorer",
+        "agent",
+        "qveris",
+        "api"
+      ],
+      "featured": true,
+      "preview": false
+    },
+    {
+      "slug": "qveris-cli",
+      "sourceFile": "qveris-cli.md",
+      "title": "QVeris CLI: Your Universal API Gateway from the Terminal",
+      "description": "QVeris CLI turns your terminal into a universal API gateway — call any of 10,000+ tools from a single command line.",
+      "pubDate": "2026-04-07",
+      "heroImage": "../../../assets/blog-qveris-cli-cover-en.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "cli",
+        "qveris",
+        "terminal",
+        "developer-tools"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-cli-api",
+      "sourceFile": "qveris-cli-api.md",
+      "title": "QVeris CLI Launch: Turn Your Terminal into a Universal API Gateway",
+      "description": "An introduction to QVeris CLI as a terminal-based universal API gateway for discovering, inspecting, and calling tools.",
+      "pubDate": "2026-04-07",
+      "heroImage": "../../../assets/blog-qveris-cli-api-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "QVeris",
+        "Agent"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-twelve-data",
+      "sourceFile": "qveris-twelve-data.md",
+      "title": "QVeris Integrates Twelve Data: One API for U.S. Stocks, FX, Gold, and Bitcoin",
+      "description": "QVeris integrates Twelve Data: one API for complete market data across U.S. stocks, FX, gold, and Bitcoin.",
+      "pubDate": "2026-04-01",
+      "heroImage": "../../../assets/blog-qveris-twelve-data-cover-en.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "twelve-data",
+        "qveris",
+        "Finance"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "agents-become-species",
+      "sourceFile": "agents-become-species.md",
+      "title": "When Agents Become a Species",
+      "description": "A deep dive into the emerging agentic AI ecosystem and why agents need infrastructure, not just intelligence.",
+      "pubDate": "2026-03-24",
+      "heroImage": "../../../assets/blog-agents-become-species-1.png",
+      "category": "Research",
+      "author": "QVeris Team",
+      "tags": [
+        "agents",
+        "ecosystem",
+        "infrastructure"
+      ],
+      "featured": true,
+      "preview": false
+    },
+    {
+      "slug": "former-liblib-cto-agent-infra",
+      "sourceFile": "former-liblib-cto-agent-infra.md",
+      "title": "Former Liblib CTO Starts a New Venture: Building Infrastructure for the Agent Era",
+      "description": "Former Liblib CTO launches QVeris — building the action infrastructure for the agent era, with sub-second access to tens of thousands of tools.",
+      "pubDate": "2026-03-24",
+      "heroImage": "../../../assets/blog-former-liblib-cto-agent-infra-1.png",
+      "category": "Announcement",
+      "author": "QVeris Team",
+      "tags": [
+        "qveris",
+        "founders",
+        "agent-infrastructure"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "openclaw-qveris-real-world-data",
+      "sourceFile": "openclaw-qveris-real-world-data.md",
+      "title": "OpenClaw + QVeris: Building AI Agents That Actually Access Real-World Data",
+      "description": "Combine OpenClaw with QVeris and ship AI agents that pull live data from the real world — not the model's training set.",
+      "pubDate": "2026-03-24",
+      "heroImage": "../../../assets/blog-openclaw-qveris-real-world-data-1.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "openclaw",
+        "qveris",
+        "tutorial"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-in-cursor",
+      "sourceFile": "qveris-in-cursor.md",
+      "title": "How to Use QVeris in Cursor",
+      "description": "Step-by-step guide: install the QVeris extension in Cursor and let your AI call thousands of real tools.",
+      "pubDate": "2026-03-24",
+      "heroImage": "../../../assets/blog-qveris-in-cursor-1.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "cursor",
+        "qveris",
+        "tutorial"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-skill-for-openclaw",
+      "sourceFile": "qveris-skill-for-openclaw.md",
+      "title": "Introducing the Official QVeris Skill for OpenClaw",
+      "description": "Drop the official QVeris Skill into OpenClaw and give your agent instant access to 10,000+ tools.",
+      "pubDate": "2026-03-24",
+      "heroImage": "../../../assets/blog-qveris-skill-for-openclaw-1.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "openclaw",
+        "skill",
+        "qveris"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qverisbot-2026-3-8-release",
+      "sourceFile": "qverisbot-2026-3-8-release.md",
+      "title": "QVerisBot 2026.3.8 Release Notes",
+      "description": "QVerisBot 2026.3.8 release notes — memory upgrades, model switching, Qveris routing improvements, and a 60+ bugfix merge from OpenClaw upstream.",
+      "pubDate": "2026-03-24",
+      "heroImage": "../../../assets/blog-qverisbot-2026-3-8-release-1.png",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "release-notes",
+        "qverisbot",
+        "changelog"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "why-not-another-langchain",
+      "sourceFile": "why-not-another-langchain.md",
+      "title": "Why We Didn't Build Another LangChain",
+      "description": "Our underlying judgment about how agents should run autonomously — and why we deliberately did not build another LangChain.",
+      "pubDate": "2026-03-24",
+      "heroImage": "../../../assets/blog-why-not-another-langchain-cover-en.png",
+      "category": "Research",
+      "author": "QVeris Team",
+      "tags": [
+        "langchain",
+        "agents",
+        "architecture"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "agent-action-long-term",
+      "sourceFile": "agent-action-long-term.md",
+      "title": "Agent, Action! We Want to Make AI Agent Action a Long-Term Commitment",
+      "description": "Agent, Action! We have decided to make AI Agent “action” a long-term, fundamental focus.",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-agent-action-long-term-1.jpg",
+      "category": "Announcement",
+      "author": "QVeris Team",
+      "tags": [
+        "qveris",
+        "愿景",
+        "智能体"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "clawdbot-qveris-anything",
+      "sourceFile": "clawdbot-qveris-anything.md",
+      "title": "Clawdbot + QVeris: Make Your AI Capable of Almost Anything",
+      "description": "Connect Clawdbot to QVeris and give your AI assistant real access to tens of thousands of tools.",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-clawdbot-qveris-anything-1.jpg",
+      "category": "Engineering",
+      "author": "QVeris Team",
+      "tags": [
+        "clawdbot",
+        "qveris",
+        "Guide"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-cocreation-camp",
+      "sourceFile": "qveris-cocreation-camp.md",
+      "title": "QVeris AI Co-Creation Camp Recruitment | Let’s Get Your AI Agent Taking Action",
+      "description": "QVeris AI Co-Creation Camp recruitment | Let’s help your AI Agent truly take action.",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-qveris-cocreation-camp-1.jpg",
+      "category": "Announcement",
+      "author": "QVeris Team",
+      "tags": [
+        "共创营",
+        "qveris",
+        "招募"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-fmp-finance",
+      "sourceFile": "qveris-fmp-finance.md",
+      "title": "Starting with FMP: Helping Agents Truly See the Financial World",
+      "description": "Connect FMP through QVeris so agents can access live company financials, valuation metrics, market data, and macro indicators from one workflow.",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-qveris-fmp-finance-1.jpg",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "fmp",
+        "qveris",
+        "Finance"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-mapstory-history",
+      "sourceFile": "qveris-mapstory-history.md",
+      "title": "From Armchair Strategy to Spatiotemporal Exploration: How QVeris Empowers MapStory to Reinvent Historical Storytelling",
+      "description": "How QVeris empowers MapStory: moving from armchair strategy to spatiotemporal exploration, using agents to reshape historical storytelling.",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-qveris-mapstory-history-1.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "mapstory",
+        "qveris",
+        "案例"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qveris-tripadvisor-travel",
+      "sourceFile": "qveris-tripadvisor-travel.md",
+      "title": "Tripadvisor Is Now Free to Use, Giving Your Agent Instant Access to the World of Travel",
+      "description": "Tripadvisor is now available for free through QVeris, giving your agent an immediate, comprehensive view of the travel world.",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-qveris-tripadvisor-travel-1.jpg",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "tripadvisor",
+        "qveris",
+        "旅行"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "qverisbot-10000-tools",
+      "sourceFile": "qverisbot-10000-tools.md",
+      "title": "QVerisBot: The AI Assistant with 10,000+ Tools at Its Fingertips",
+      "description": "Meet QVerisBot — an AI assistant that connects to 10,000+ tools and APIs out of the box.",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-qverisbot-10000-tools-1.png",
+      "category": "Product",
+      "author": "QVeris Team",
+      "tags": [
+        "qverisbot",
+        "ai-assistant",
+        "tools"
+      ],
+      "featured": false,
+      "preview": false
+    },
+    {
+      "slug": "trillion-agents-software-industry",
+      "sourceFile": "trillion-agents-software-industry.md",
+      "title": "Trillion-Scale AI Agents Are Coming: The Software Industry Is About to Change Completely",
+      "description": "Trillion-scale AI agents are coming. The software industry is about to be fundamentally reshaped, and this article examines the underlying logic behind that transformation.",
+      "pubDate": "2026-03-12",
+      "heroImage": "../../../assets/blog-trillion-agents-software-industry-1.jpg",
+      "category": "Research",
+      "author": "QVeris Team",
+      "tags": [
+        "智能体",
+        "软件行业",
+        "趋势"
+      ],
+      "featured": false,
+      "preview": false
+    }
+  ]
+}
