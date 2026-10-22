@@ -55,7 +55,13 @@ function canonicalDate(value, field, sourceFile) {
   if (typeof value !== 'string' && !(value instanceof Date)) {
     throw new Error(`${sourceFile}: frontmatter field ${field} must be a date string`);
   }
-  const date = value instanceof Date ? value : new Date(value);
+  // English calendar dates have no timezone. Parse them in UTC so a manifest
+  // generated locally is identical to one checked by the deployment runner.
+  const dateInput = typeof value === 'string'
+    && /^[a-z]{3,9}\s+\d{1,2},?\s+\d{4}$/i.test(value.trim())
+    ? `${value.trim()} UTC`
+    : value;
+  const date = value instanceof Date ? value : new Date(dateInput);
   if (Number.isNaN(date.getTime())) {
     throw new Error(`${sourceFile}: frontmatter field ${field} is not a valid date`);
   }
