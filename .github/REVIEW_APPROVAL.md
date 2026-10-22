@@ -83,5 +83,20 @@ a thread, dispatch the workflow without a PR number:
 gh workflow run review-auto-approve.yml --repo QVerisAI/QVerisAI.github.io --ref main
 ```
 
-One PR verification failure is reported and does not skip the remaining PRs.
+Each sweep PR shares its concurrency group with normal event reconciliation.
+The paginated sweep uses independent matrix jobs with fail-fast disabled, so one
+PR verification failure does not skip the remaining PRs.
 Normal review receipts still reconcile immediately through their event handlers.
+
+## Verify approval eligibility
+
+This repository currently requires zero approving reviews. A successful rollout
+therefore means a successful approval workflow plus an `APPROVED` review by the
+configured App on the current commit; an empty aggregate review decision alone
+is not an approval failure. This workflow does not change the repository rule.
+
+Inspect a review target with:
+
+```bash
+gh pr view "$PR_NUMBER" --repo QVerisAI/QVerisAI.github.io --json headRefOid,latestReviews,reviewDecision
+```
